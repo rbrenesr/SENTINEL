@@ -41,7 +41,7 @@ SPANISH_SOURCES = [
 SOURCES.extend(SPANISH_SOURCES)
 SOURCE_LANGUAGES.update({name: 'es' for name, _, _ in SPANISH_SOURCES})
 RULES = {
-    'Ciberseguridad': r'\b(ransomware|malware|cyberattack|cybersecurity|cyber attack|data breach|vulnerability|vulnerabilities|cve-\d+|phishing|hacker|hackers|ciberataques?|ciberseguridad|vulnerabilidades?|filtracion(?:es)? de datos)\b',
+    'Ciberseguridad': r'\b(ransomware|malware|cyberattack|cybersecurity|cyber attack|data breach|vulnerability|vulnerabilities|cve-\d+|phishing|hacker|hackers|ciberataques?|ciberseguridad|vulnerabilidad(?:es)?|filtracion(?:es)? de datos)\b',
     'Internet': r'\b(internet|outage|outages|connectivity|telecom|telecommunications|submarine cable|subsea cable|bgp|dns|cdn|conectividad|apagon digital|cortes? de internet|telecomunicaciones|cables? submarinos?|fibra optica)\b',
     'IA': r'\b(artificial intelligence|generative ai|ai|ia|llm|llms|machine learning|neural network|language model|chatgpt|openai|deepmind|inteligencia artificial|modelos? de lenguaje|aprendizaje automatico|redes? neuronales?)\b',
     'Conflictos': r'\b(war|wars|military|missile|missiles|airstrike|airstrikes|ceasefire|troops|sanctions|diplomatic|diplomacy|armed conflict|invasion|guerras?|militar(?:es)?|misil(?:es)?|bombardeos?|sanciones|diplomacia|humanitarian|humanitari[oa]s?|occupation|hostage|hostages|fighting|clashes|armed forces|elections|political|government|geopolitical|ataques militares|alto el fuego|tropas|conflictos? armados?|rehenes|geopolitica|elecciones|gobierno)\b',

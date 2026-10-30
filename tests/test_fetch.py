@@ -72,6 +72,7 @@ class CollectorTests(unittest.TestCase):
     def test_spanish_categories(self):
         for title, category in [
             ('Múltiples vulnerabilidades en un producto', 'Ciberseguridad'),
+            ('Una vulnerabilidad crítica en un producto', 'Ciberseguridad'),
             ('Una red neuronal impulsa nuevos modelos de IA', 'IA'),
             ('Nuevos cables submarinos y fibra óptica', 'Internet'),
             ('Las tropas alcanzan un alto el fuego', 'Conflictos')]:

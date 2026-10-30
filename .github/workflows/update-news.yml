@@ -23,7 +23,7 @@ jobs:
           python-version: "3.12"
 
       - name: Collect news
-        run: python scripts/update_news.py
+        run: python scripts/fetch.py
 
       - name: Commit updated data
         run: |

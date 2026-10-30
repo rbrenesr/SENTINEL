@@ -1,71 +1,310 @@
 #!/usr/bin/env python3
-"""Fetch public RSS/Atom feeds into static JSON. Standard library only."""
-import datetime as dt, email.utils, json, pathlib, re, urllib.request, xml.etree.ElementTree as ET, html
+"""Traceable RSS/Atom collection; bounded static history, standard library only."""
+import argparse
+from concurrent.futures import ThreadPoolExecutor
+import datetime as dt
+import email.utils
+import hashlib
+import html
+import json
+import math
+import pathlib
+import re
+import unicodedata
+import urllib.parse
+import urllib.request
+import xml.etree.ElementTree as ET
+
 ROOT = pathlib.Path(__file__).resolve().parents[1]
+UTC = dt.timezone.utc
+MAX_FEED_BYTES = 8_000_000
 SOURCES = [
- ('BBC World','Conflictos','https://feeds.bbci.co.uk/news/world/rss.xml'),
- ('Al Jazeera','Conflictos','https://www.aljazeera.com/xml/rss/all.xml'),
- ('The Guardian World','Conflictos','https://www.theguardian.com/world/rss'),
- ('CISA Alerts','Ciberseguridad','https://www.cisa.gov/cybersecurity-advisories/all.xml'),
- ('BleepingComputer','Ciberseguridad','https://www.bleepingcomputer.com/feed/'),
- ('Cloudflare Blog','Internet','https://blog.cloudflare.com/rss/'),
- ('Internet Society','Internet','https://www.internetsociety.org/feed/'),
- ('Google Research','IA','https://research.google/blog/rss/'),
- ('OpenAI News','IA','https://openai.com/news/rss.xml'),
- ('MIT Technology Review','IA','https://www.technologyreview.com/feed/'),
+    ('BBC World', 'Conflictos', 'https://feeds.bbci.co.uk/news/world/rss.xml'),
+    ('Al Jazeera', 'Conflictos', 'https://www.aljazeera.com/xml/rss/all.xml'),
+    ('The Guardian World', 'Conflictos', 'https://www.theguardian.com/world/rss'),
+    ('CISA Alerts', 'Ciberseguridad', 'https://www.cisa.gov/cybersecurity-advisories/all.xml'),
+    ('BleepingComputer', 'Ciberseguridad', 'https://www.bleepingcomputer.com/feed/'),
+    ('Cloudflare Blog', 'Internet', 'https://blog.cloudflare.com/rss/'),
+    ('Internet Society', 'Internet', 'https://www.internetsociety.org/feed/'),
+    ('Google Research', 'IA', 'https://research.google/blog/rss/'),
+    ('OpenAI News', 'IA', 'https://openai.com/news/rss.xml'),
+    ('MIT Technology Review', 'IA', 'https://www.technologyreview.com/feed/'),
 ]
-def clean(s):
- return re.sub(r'\s+',' ',html.unescape(re.sub(r'<[^>]+>',' ',s or ''))).strip()[:650]
-def parse_date(s):
- try: return email.utils.parsedate_to_datetime(s).astimezone(dt.timezone.utc).isoformat()
- except Exception:
-  try: return dt.datetime.fromisoformat(s.replace('Z','+00:00')).astimezone(dt.timezone.utc).isoformat()
-  except Exception: return None
-def tag(el): return el.tag.split('}')[-1]
-def child(el, name):
- for x in el:
-  if tag(x)==name: return x
- return None
-def txt(el,name):
- x=child(el,name)
- return ''.join(x.itertext()).strip() if x is not None else ''
-def parse(content,source,category):
- root=ET.fromstring(content)
- items=[]
- for item in root.iter():
-  if tag(item) not in ('item','entry'): continue
-  title=clean(txt(item,'title'))
-  link=txt(item,'link')
-  if not link:
-   x=child(item,'link')
-   if x is not None: link=x.attrib.get('href','')
-  if not link.startswith('https://') and not link.startswith('http://'): continue
-  date=parse_date(txt(item,'pubDate') or txt(item,'published') or txt(item,'updated') or txt(item,'date'))
-  summary=clean(txt(item,'description') or txt(item,'summary') or txt(item,'content'))
-  if title: items.append(dict(title=title,url=link,source=source,category=category,published=date,summary=summary))
- return items[:35]
+RULES = {
+    'Ciberseguridad': r'\b(ransomware|malware|cyberattack|cybersecurity|cyber attack|data breach|vulnerability|vulnerabilities|cve-\d+|phishing|hacker|hackers|ciberataque|ciberseguridad|vulnerabilidad|filtracion de datos)\b',
+    'Internet': r'\b(internet|outage|outages|connectivity|telecom|telecommunications|submarine cable|subsea cable|bgp|dns|cdn|conectividad|apagon digital|corte de internet)\b',
+    'IA': r'\b(artificial intelligence|generative ai|ai|llm|llms|machine learning|neural network|language model|chatgpt|openai|deepmind|inteligencia artificial|modelo de lenguaje)\b',
+    'Conflictos': r'\b(war|wars|military|missile|missiles|airstrike|airstrikes|ceasefire|troops|sanctions|diplomatic|diplomacy|armed conflict|invasion|guerra|militar|misil|bombardeo|sanciones|diplomacia|humanitarian|humanitario|occupation|hostage|hostages|fighting|clashes|armed forces|elections|political|government|geopolitical|ataques militares)\b',
+}
+
+
+def clean(value):
+    return re.sub(r'\s+', ' ', html.unescape(re.sub(r'<[^>]+>', ' ', value or ''))).strip()[:650]
+
+
+def normalized(value):
+    return ''.join(c for c in unicodedata.normalize('NFKD', value.lower()) if not unicodedata.combining(c))
+
+
+def parse_date(value):
+    if not value:
+        return None
+    try:
+        date = email.utils.parsedate_to_datetime(value)
+    except (ValueError, TypeError, IndexError):
+        try:
+            date = dt.datetime.fromisoformat(value.replace('Z', '+00:00'))
+        except (ValueError, TypeError):
+            return None
+    return date.replace(tzinfo=date.tzinfo or UTC).astimezone(UTC).isoformat()
+
+
+def canonical_url(value):
+    try:
+        url = urllib.parse.urlsplit(value)
+        if url.scheme not in ('https', 'http') or not url.hostname or url.username or url.password:
+            return None
+        query = [(k, v) for k, v in urllib.parse.parse_qsl(url.query, keep_blank_values=True)
+                 if not k.lower().startswith('utm_') and k.lower() not in
+                 ('fbclid', 'gclid', 'traffic_source', 'mc_cid', 'mc_eid')]
+        return urllib.parse.urlunsplit((url.scheme, url.netloc.lower(), url.path or '/',
+                                       urllib.parse.urlencode(query), ''))
+    except (ValueError, TypeError):
+        return None
+
+
+def stable_id(value):
+    return hashlib.sha256(value.encode()).hexdigest()[:20]
+
+
+def classify(title, summary):
+    text = normalized(title + ' ' + summary)
+    scores = {category: len(set(re.findall(rule, text))) for category, rule in RULES.items()}
+    best = max(scores, key=scores.get)
+    return best if scores[best] else 'Sin clasificar'
+
+
+def tag(element):
+    return element.tag.split('}')[-1]
+
+
+def txt(element, name):
+    for child in element:
+        if tag(child) == name:
+            return ''.join(child.itertext()).strip()
+    return ''
+
+
+def parse(content, source, category=None):
+    root = ET.fromstring(content)
+    items = []
+    for entry in root.iter():
+        if tag(entry) not in ('item', 'entry'):
+            continue
+        title = clean(txt(entry, 'title'))
+        links = [x for x in entry if tag(x) == 'link']
+        link = next((x.attrib['href'] for x in links if x.attrib.get('href') and
+                     x.attrib.get('rel', 'alternate') == 'alternate' and
+                     x.attrib.get('type', 'text/html') in ('text/html', 'application/xhtml+xml')), '')
+        link = link or next((''.join(x.itertext()).strip() for x in links if not x.attrib.get('href')), '')
+        canonical = canonical_url(link)
+        if not title or not canonical:
+            continue
+        summary = clean(txt(entry, 'description') or txt(entry, 'summary') or txt(entry, 'content'))
+        item = dict(title=title, url=link, canonicalUrl=canonical, source=source,
+                    category=classify(title, summary), published=parse_date(txt(entry, 'pubDate') or
+                    txt(entry, 'published') or txt(entry, 'updated') or txt(entry, 'date')), summary=summary)
+        # Publisher coordinates are approximate and not independently verified.
+        point = entry.find('{http://www.georss.org/georss}point')
+        if point is not None and point.text:
+            try:
+                lat, lon = map(float, point.text.split())
+                if math.isfinite(lat) and math.isfinite(lon) and -90 <= lat <= 90 and -180 <= lon <= 180:
+                    item['feedLocation'] = dict(label='Ubicación indicada por la fuente',
+                        relation='occurrence', precision='approximate', countryCode=None,
+                        geometry={'type': 'Point', 'coordinates': [lon, lat]},
+                        evidence={'url': link, 'text': 'Coordenadas GeoRSS del editor', 'method': 'georss'},
+                        verification='source_reported')
+            except ValueError:
+                pass
+        items.append(item)
+    return items[:35]
+
+
+def load_countries():
+    return json.loads((ROOT / 'assets/data/countries.json').read_text(encoding='utf8'))
+
+
+def mentions(item, countries):
+    text = normalized(item['title'] + ' ' + item.get('summary', ''))
+    result, occupied, seen = [], [], set()
+    candidates = []
+    for country in countries:
+        for alias in country['aliases']:
+            for match in re.finditer(r'(?<!\w)' + re.escape(normalized(alias)) + r'(?!\w)', text):
+                candidates.append((match.start(), match.end(), alias, country))
+    # Longest place names win: Papua New Guinea must not also imply Guinea.
+    for start, end, alias, country in sorted(candidates, key=lambda x: x[1] - x[0], reverse=True):
+        if any(start < right and end > left for left, right in occupied):
+            continue
+        occupied.append((start, end))
+        if country['code'] not in seen:
+            seen.add(country['code'])
+            result.append({'countryCode': country['code'], 'label': country['name'],
+                           'relation': 'mentioned', 'matchedAlias': alias,
+                           'method': 'dictionary', 'evidenceUrl': item['url']})
+    return result
+
+
+def validated_locations(annotation, item):
+    locations = []
+    for location in annotation.get('locations', []):
+        if location.get('relation') not in ('occurrence', 'affected', 'related'):
+            raise ValueError('Relación geográfica inválida en ' + item['url'])
+        if location.get('precision') not in ('exact', 'approximate', 'country'):
+            raise ValueError('Precisión geográfica inválida en ' + item['url'])
+        evidence = location.get('evidence', {})
+        if not canonical_url(evidence.get('url', '')) or not evidence.get('text') or not parse_date(evidence.get('reviewedAt')):
+            raise ValueError('Falta evidencia revisada en ' + item['url'])
+        if not location.get('label') or (location['precision'] == 'country' and not location.get('countryCode')):
+            raise ValueError('Falta lugar/país en ' + item['url'])
+        geometry = location.get('geometry')
+        if location['precision'] != 'country':
+            if not geometry or geometry.get('type') != 'Point':
+                raise ValueError('Esta versión requiere un punto documentado en ' + item['url'])
+            coordinates = geometry.get('coordinates', [])
+            if len(coordinates) != 2 or any(isinstance(x, bool) or not isinstance(x, (int, float)) or
+                                          not math.isfinite(x) for x in coordinates):
+                raise ValueError('Coordenadas inválidas en ' + item['url'])
+            if not (-180 <= coordinates[0] <= 180 and -90 <= coordinates[1] <= 90):
+                raise ValueError('Coordenadas fuera de rango en ' + item['url'])
+        elif geometry:
+            raise ValueError('No asignar un punto a una ubicación de país')
+        locations.append({**location, 'verification': 'reviewed_location'})
+    return locations
+
+
+def enrich(item, countries, annotations):
+    item = dict(item)
+    canonical = canonical_url(item['url'])
+    item.update(id=stable_id(canonical), canonicalUrl=canonical,
+                category=classify(item['title'], item.get('summary', '')),
+                categoryMethod='keyword_rules', verification='not_independently_verified')
+    item['contentType'] = ('official_advisory' if item['source'] == 'CISA Alerts' else
+                           'publisher_post' if item['source'] in ('Google Research', 'OpenAI News',
+                           'Cloudflare Blog', 'Internet Society') else 'news')
+    item['countries'] = mentions(item, countries)
+    item['locations'] = validated_locations(annotations.get(canonical, {}), item)
+    if item.get('feedLocation'):
+        item['locations'].append(item['feedLocation'])
+    return item
+
+
+def merge_items(previous, incoming, now, countries, annotations):
+    old_time = previous.get('updatedAt')
+    merged = {}
+    cutoff = dt.datetime.fromisoformat(now) - dt.timedelta(days=30)
+    for item in previous.get('items', []):
+        canonical = canonical_url(item.get('url', ''))
+        if not canonical:
+            continue
+        last_seen = parse_date(item.get('lastSeenAt') or old_time)
+        if not last_seen or dt.datetime.fromisoformat(last_seen) < cutoff:
+            continue
+        merged[canonical] = {**item, 'firstSeenAt': item.get('firstSeenAt') or old_time,
+                             'lastSeenAt': last_seen}
+    for item in incoming:
+        canonical = canonical_url(item['url'])
+        old = merged.get(canonical, {})
+        merged[canonical] = {**item, 'firstSeenAt': old.get('firstSeenAt') or now, 'lastSeenAt': now}
+    output = [enrich(item, countries, annotations) for item in merged.values()]
+    output.sort(key=lambda item: item.get('published') or item.get('firstSeenAt') or '', reverse=True)
+    return output[:1000]
+
+
+def related_groups(items):
+    # Suggestions only: never merge records or transfer geographic evidence.
+    buckets = {}
+    for item in items:
+        title = re.sub(r'\W+', ' ', normalized(item['title'])).strip()
+        if len(title) >= 30 and item.get('published'):
+            buckets.setdefault((item['category'], title), []).append(item)
+    groups = []
+    for candidates in buckets.values():
+        candidates.sort(key=lambda x: x['published'])
+        batch = []
+        for item in candidates:
+            if batch and (dt.datetime.fromisoformat(item['published']) -
+                          dt.datetime.fromisoformat(batch[0]['published'])).total_seconds() > 72 * 3600:
+                if len(batch) > 1:
+                    groups.append({'status': 'suggested', 'method': 'same_title_72h', 'articleIds': [x['id'] for x in batch]})
+                batch = []
+            batch.append(item)
+        if len(batch) > 1:
+            groups.append({'status': 'suggested', 'method': 'same_title_72h', 'articleIds': [x['id'] for x in batch]})
+    return groups
+
+
+def collect(source):
+    name, category, url = source
+    try:
+        request = urllib.request.Request(url, headers={
+            'User-Agent': 'SENTINEL/1.1 (+https://github.com/rbrenesr/SENTINEL)',
+            'Accept': 'application/rss+xml,application/atom+xml,application/xml,text/xml'})
+        with urllib.request.urlopen(request, timeout=18) as response:
+            content = response.read(MAX_FEED_BYTES + 1)
+        if len(content) > MAX_FEED_BYTES:
+            raise ValueError('El feed supera el límite de 8 MB')
+        items = parse(content, name, category)
+        return items, {'name': name, 'category': category, 'url': url,
+                       'status': 'ok' if items else 'empty', 'count': len(items), 'error': None}
+    except Exception as error:
+        print(f'{name}: {error}')
+        return [], {'name': name, 'category': category, 'url': url,
+                    'status': 'error', 'count': 0, 'error': str(error)[:250]}
+
+
+def write_output(path, output):
+    path.parent.mkdir(parents=True, exist_ok=True)
+    temporary = path.with_suffix('.tmp')
+    temporary.write_text(json.dumps(output, ensure_ascii=False, indent=2) + '\n', encoding='utf8')
+    temporary.replace(path)
+
+
 def main():
- items=[]; statuses=[]
- for source,category,url in SOURCES:
-  try:
-   req=urllib.request.Request(url,headers={'User-Agent':'SentinelLite/1.0 (+personal RSS monitor)','Accept':'application/rss+xml,application/atom+xml,application/xml,text/xml,*/*'})
-   with urllib.request.urlopen(req,timeout=18) as res: data=res.read(2_000_000)
-   result=parse(data,source,category)
-   items.extend(result)
-   statuses.append({'name':source,'category':category,'status':'ok' if result else 'empty','count':len(result)})
-  except Exception as exc:
-   print(f'{source}: {exc}')
-   statuses.append({'name':source,'category':category,'status':'error','count':0})
- seen=set(); unique=[]
- for item in sorted(items,key=lambda x:x['published'] or '',reverse=True):
-  key=item['url'].split('?')[0].rstrip('/')
-  if key not in seen: seen.add(key);unique.append(item)
- output={'updatedAt':dt.datetime.now(dt.timezone.utc).isoformat(),'items':unique[:300],'sources':statuses}
- dest=ROOT/'data'/'news.json'
- # Keep previous articles if all feeds temporarily fail.
- if not unique and dest.exists():
-  previous=json.loads(dest.read_text(encoding='utf8'))
-  output['items']=previous.get('items',[])
- dest.write_text(json.dumps(output,ensure_ascii=False,indent=2),encoding='utf8')
- print(f'{len(unique)} articles, {sum(s["status"]=="ok" for s in statuses)} sources OK')
-if __name__=='__main__':main()
+    parser = argparse.ArgumentParser()
+    parser.add_argument('--offline', action='store_true', help='Enrich snapshot without claiming a new collection')
+    args = parser.parse_args()
+    path = ROOT / 'data/news.json'
+    previous = json.loads(path.read_text(encoding='utf8')) if path.exists() else {}
+    countries = load_countries()
+    annotations = json.loads((ROOT / 'data/annotations.json').read_text(encoding='utf8'))['articles']
+    now = dt.datetime.now(UTC).isoformat()
+    if args.offline:
+        items = [enrich(item, countries, annotations) for item in previous.get('items', [])]
+        for item in items:
+            item.setdefault('firstSeenAt', previous.get('updatedAt'))
+            item.setdefault('lastSeenAt', previous.get('updatedAt'))
+        output = {**previous, 'schemaVersion': 2, 'items': items,
+                  'relatedGroups': related_groups(items), 'retentionDays': 30}
+    else:
+        with ThreadPoolExecutor(max_workers=4) as pool:
+            results = list(pool.map(collect, SOURCES))
+        incoming = [item for items, _ in results for item in items]
+        prior_status = {source['name']: source for source in previous.get('sources', [])}
+        statuses = []
+        for _, status in results:
+            old = prior_status.get(status['name'], {})
+            status.update(lastAttemptAt=now, lastSuccessAt=now if status['status'] == 'ok' else
+                          old.get('lastSuccessAt') or (previous.get('updatedAt') if old.get('status') == 'ok' else None))
+            statuses.append(status)
+        items = merge_items(previous, incoming, now, countries, annotations)
+        output = dict(schemaVersion=2, updatedAt=now if incoming else previous.get('updatedAt'),
+                      lastAttemptAt=now, items=items, sources=statuses,
+                      relatedGroups=related_groups(items), retentionDays=30)
+    write_output(path, output)
+    print(f'{len(output["items"])} retained articles; {sum(s["status"] == "ok" for s in output.get("sources", []))} sources OK')
+
+
+if __name__ == '__main__':
+    main()

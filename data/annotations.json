@@ -1,0 +1,65 @@
+{
+  "schemaVersion": 1,
+  "articles": {
+    "https://www.aljazeera.com/news/2026/10/30/flash-floods-kills-five-in-syria": {
+      "locations": [
+        {
+          "label": "Siria",
+          "countryCode": "SY",
+          "relation": "occurrence",
+          "precision": "country",
+          "evidence": {
+            "url": "https://www.aljazeera.com/news/2026/10/30/flash-floods-kills-five-in-syria?traffic_source=rss",
+            "text": "El título sitúa las inundaciones en Siria; el resumen describe las víctimas. Solo respalda una ubicación a nivel de país.",
+            "method": "manual_rss_review",
+            "reviewedAt": "2026-10-30T05:06:22.047860+00:00"
+          }
+        }
+      ]
+    },
+    "https://www.aljazeera.com/video/newsfeed/2026/10/30/ethiopia-border-clashes-leave-families-hungry-and-homeless-in-kenya": {
+      "locations": [
+        {
+          "label": "Etiopía",
+          "countryCode": "ET",
+          "relation": "occurrence",
+          "precision": "country",
+          "evidence": {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/ethiopia-border-clashes-leave-families-hungry-and-homeless-in-kenya?traffic_source=rss",
+            "text": "El resumen sitúa los enfrentamientos en la región fronteriza de Moyale, Etiopía. No aporta coordenadas.",
+            "method": "manual_rss_review",
+            "reviewedAt": "2026-10-30T05:06:22.047860+00:00"
+          }
+        },
+        {
+          "label": "Kenia",
+          "countryCode": "KE",
+          "relation": "affected",
+          "precision": "country",
+          "evidence": {
+            "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/ethiopia-border-clashes-leave-families-hungry-and-homeless-in-kenya?traffic_source=rss",
+            "text": "El título y el resumen describen a familias desplazadas hacia Kenia. Se registra afectación, no el lugar de los enfrentamientos.",
+            "method": "manual_rss_review",
+            "reviewedAt": "2026-10-30T05:06:22.047860+00:00"
+          }
+        }
+      ]
+    },
+    "https://www.aljazeera.com/news/2026/10/30/eu-force-helicopter-crash-kills-four-in-bosnia": {
+      "locations": [
+        {
+          "label": "Bosnia y Herzegovina",
+          "countryCode": "BA",
+          "relation": "occurrence",
+          "precision": "country",
+          "evidence": {
+            "url": "https://www.aljazeera.com/news/2026/10/30/eu-force-helicopter-crash-kills-four-in-bosnia?traffic_source=rss",
+            "text": "El título y el resumen sitúan el accidente del helicóptero de EUFOR en Bosnia. No identifican coordenadas.",
+            "method": "manual_rss_review",
+            "reviewedAt": "2026-10-30T05:06:22.047860+00:00"
+          }
+        }
+      ]
+    }
+  }
+}

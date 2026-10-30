@@ -1,0 +1,1552 @@
+[
+  {
+    "code": "FJ",
+    "name": "Fiyi",
+    "region": "Oceania",
+    "aliases": [
+      "Fiji",
+      "Fiyi"
+    ]
+  },
+  {
+    "code": "TZ",
+    "name": "Tanzania",
+    "region": "Africa",
+    "aliases": [
+      "Tanzania"
+    ]
+  },
+  {
+    "code": "EH",
+    "name": "Sahara Occidental",
+    "region": "Africa",
+    "aliases": [
+      "Sahara Occidental",
+      "Western Sahara"
+    ]
+  },
+  {
+    "code": "CA",
+    "name": "Canadá",
+    "region": "Americas",
+    "aliases": [
+      "Canada",
+      "Canadá"
+    ]
+  },
+  {
+    "code": "US",
+    "name": "Estados Unidos",
+    "region": "Americas",
+    "aliases": [
+      "Estados Unidos",
+      "U.S.",
+      "USA",
+      "United States",
+      "United States of America"
+    ]
+  },
+  {
+    "code": "KZ",
+    "name": "Kazajistán",
+    "region": "Asia",
+    "aliases": [
+      "Kazajistán",
+      "Kazakhstan"
+    ]
+  },
+  {
+    "code": "UZ",
+    "name": "Uzbekistán",
+    "region": "Asia",
+    "aliases": [
+      "Uzbekistan",
+      "Uzbekistán"
+    ]
+  },
+  {
+    "code": "PG",
+    "name": "Papúa Nueva Guinea",
+    "region": "Oceania",
+    "aliases": [
+      "Papua New Guinea",
+      "Papúa Nueva Guinea"
+    ]
+  },
+  {
+    "code": "ID",
+    "name": "Indonesia",
+    "region": "Asia",
+    "aliases": [
+      "Indonesia"
+    ]
+  },
+  {
+    "code": "AR",
+    "name": "Argentina",
+    "region": "Americas",
+    "aliases": [
+      "Argentina"
+    ]
+  },
+  {
+    "code": "CL",
+    "name": "Chile",
+    "region": "Americas",
+    "aliases": [
+      "Chile"
+    ]
+  },
+  {
+    "code": "CD",
+    "name": "República Democrática del Congo",
+    "region": "Africa",
+    "aliases": [
+      "DR Congo",
+      "Democratic Republic of the Congo",
+      "República Democrática del Congo"
+    ]
+  },
+  {
+    "code": "SO",
+    "name": "Somalia",
+    "region": "Africa",
+    "aliases": [
+      "Somalia"
+    ]
+  },
+  {
+    "code": "KE",
+    "name": "Kenia",
+    "region": "Africa",
+    "aliases": [
+      "Kenia",
+      "Kenya"
+    ]
+  },
+  {
+    "code": "SD",
+    "name": "Sudán",
+    "region": "Africa",
+    "aliases": [
+      "Sudan",
+      "Sudán"
+    ]
+  },
+  {
+    "code": "TD",
+    "name": "Chad",
+    "region": "Africa",
+    "aliases": []
+  },
+  {
+    "code": "HT",
+    "name": "Haití",
+    "region": "Americas",
+    "aliases": [
+      "Haiti",
+      "Haití"
+    ]
+  },
+  {
+    "code": "DO",
+    "name": "República Dominicana",
+    "region": "Americas",
+    "aliases": [
+      "Dominican Republic",
+      "República Dominicana"
+    ]
+  },
+  {
+    "code": "RU",
+    "name": "Rusia",
+    "region": "Europe",
+    "aliases": [
+      "Rusia",
+      "Russia",
+      "Russian Federation"
+    ]
+  },
+  {
+    "code": "BS",
+    "name": "Bahamas",
+    "region": "Americas",
+    "aliases": [
+      "Bahamas",
+      "The Bahamas"
+    ]
+  },
+  {
+    "code": "FK",
+    "name": "Islas Malvinas",
+    "region": "Americas",
+    "aliases": [
+      "Falkland Islands",
+      "Falkland Islands / Malvinas",
+      "Islas Malvinas"
+    ]
+  },
+  {
+    "code": "NO",
+    "name": "Noruega",
+    "region": "Europe",
+    "aliases": [
+      "Noruega",
+      "Norway"
+    ]
+  },
+  {
+    "code": "GL",
+    "name": "Groenlandia",
+    "region": "Americas",
+    "aliases": [
+      "Greenland",
+      "Groenlandia"
+    ]
+  },
+  {
+    "code": "TF",
+    "name": "Tierras Australes y Antárticas Francesas",
+    "region": "Africa",
+    "aliases": [
+      "French Southern and Antarctic Lands",
+      "Tierras Australes y Antárticas Francesas"
+    ]
+  },
+  {
+    "code": "TL",
+    "name": "Timor Oriental",
+    "region": "Asia",
+    "aliases": [
+      "East Timor",
+      "Timor Oriental",
+      "Timor-Leste"
+    ]
+  },
+  {
+    "code": "ZA",
+    "name": "Sudáfrica",
+    "region": "Africa",
+    "aliases": [
+      "South Africa",
+      "Sudáfrica"
+    ]
+  },
+  {
+    "code": "LS",
+    "name": "Lesoto",
+    "region": "Africa",
+    "aliases": [
+      "Lesotho",
+      "Lesoto"
+    ]
+  },
+  {
+    "code": "MX",
+    "name": "México",
+    "region": "Americas",
+    "aliases": [
+      "Mexico",
+      "México"
+    ]
+  },
+  {
+    "code": "UY",
+    "name": "Uruguay",
+    "region": "Americas",
+    "aliases": [
+      "Uruguay"
+    ]
+  },
+  {
+    "code": "BR",
+    "name": "Brasil",
+    "region": "Americas",
+    "aliases": [
+      "Brasil",
+      "Brazil"
+    ]
+  },
+  {
+    "code": "BO",
+    "name": "Bolivia",
+    "region": "Americas",
+    "aliases": [
+      "Bolivia"
+    ]
+  },
+  {
+    "code": "PE",
+    "name": "Perú",
+    "region": "Americas",
+    "aliases": [
+      "Peru",
+      "Perú"
+    ]
+  },
+  {
+    "code": "CO",
+    "name": "Colombia",
+    "region": "Americas",
+    "aliases": [
+      "Colombia"
+    ]
+  },
+  {
+    "code": "PA",
+    "name": "Panamá",
+    "region": "Americas",
+    "aliases": [
+      "Panama",
+      "Panamá"
+    ]
+  },
+  {
+    "code": "CR",
+    "name": "Costa Rica",
+    "region": "Americas",
+    "aliases": [
+      "Costa Rica"
+    ]
+  },
+  {
+    "code": "NI",
+    "name": "Nicaragua",
+    "region": "Americas",
+    "aliases": [
+      "Nicaragua"
+    ]
+  },
+  {
+    "code": "HN",
+    "name": "Honduras",
+    "region": "Americas",
+    "aliases": [
+      "Honduras"
+    ]
+  },
+  {
+    "code": "SV",
+    "name": "El Salvador",
+    "region": "Americas",
+    "aliases": [
+      "El Salvador"
+    ]
+  },
+  {
+    "code": "GT",
+    "name": "Guatemala",
+    "region": "Americas",
+    "aliases": [
+      "Guatemala"
+    ]
+  },
+  {
+    "code": "BZ",
+    "name": "Belice",
+    "region": "Americas",
+    "aliases": [
+      "Belice",
+      "Belize"
+    ]
+  },
+  {
+    "code": "VE",
+    "name": "Venezuela",
+    "region": "Americas",
+    "aliases": [
+      "Venezuela"
+    ]
+  },
+  {
+    "code": "GY",
+    "name": "Guyana",
+    "region": "Americas",
+    "aliases": [
+      "Guyana"
+    ]
+  },
+  {
+    "code": "SR",
+    "name": "Surinam",
+    "region": "Americas",
+    "aliases": [
+      "Surinam",
+      "Suriname"
+    ]
+  },
+  {
+    "code": "FR",
+    "name": "Francia",
+    "region": "Europe",
+    "aliases": [
+      "France",
+      "Francia"
+    ]
+  },
+  {
+    "code": "EC",
+    "name": "Ecuador",
+    "region": "Americas",
+    "aliases": [
+      "Ecuador"
+    ]
+  },
+  {
+    "code": "PR",
+    "name": "Puerto Rico",
+    "region": "Americas",
+    "aliases": [
+      "Puerto Rico"
+    ]
+  },
+  {
+    "code": "JM",
+    "name": "Jamaica",
+    "region": "Americas",
+    "aliases": [
+      "Jamaica"
+    ]
+  },
+  {
+    "code": "CU",
+    "name": "Cuba",
+    "region": "Americas",
+    "aliases": [
+      "Cuba"
+    ]
+  },
+  {
+    "code": "ZW",
+    "name": "Zimbabue",
+    "region": "Africa",
+    "aliases": [
+      "Zimbabue",
+      "Zimbabwe"
+    ]
+  },
+  {
+    "code": "BW",
+    "name": "Botsuana",
+    "region": "Africa",
+    "aliases": [
+      "Botsuana",
+      "Botswana"
+    ]
+  },
+  {
+    "code": "NA",
+    "name": "Namibia",
+    "region": "Africa",
+    "aliases": [
+      "Namibia"
+    ]
+  },
+  {
+    "code": "SN",
+    "name": "Senegal",
+    "region": "Africa",
+    "aliases": [
+      "Senegal"
+    ]
+  },
+  {
+    "code": "ML",
+    "name": "Malí",
+    "region": "Africa",
+    "aliases": [
+      "Mali",
+      "Malí"
+    ]
+  },
+  {
+    "code": "MR",
+    "name": "Mauritania",
+    "region": "Africa",
+    "aliases": [
+      "Mauritania"
+    ]
+  },
+  {
+    "code": "BJ",
+    "name": "Benín",
+    "region": "Africa",
+    "aliases": [
+      "Benin",
+      "Benín"
+    ]
+  },
+  {
+    "code": "NE",
+    "name": "Níger",
+    "region": "Africa",
+    "aliases": [
+      "Niger",
+      "Níger"
+    ]
+  },
+  {
+    "code": "NG",
+    "name": "Nigeria",
+    "region": "Africa",
+    "aliases": [
+      "Nigeria"
+    ]
+  },
+  {
+    "code": "CM",
+    "name": "Camerún",
+    "region": "Africa",
+    "aliases": [
+      "Cameroon",
+      "Camerún"
+    ]
+  },
+  {
+    "code": "TG",
+    "name": "Togo",
+    "region": "Africa",
+    "aliases": [
+      "Togo"
+    ]
+  },
+  {
+    "code": "GH",
+    "name": "Ghana",
+    "region": "Africa",
+    "aliases": [
+      "Ghana"
+    ]
+  },
+  {
+    "code": "CI",
+    "name": "Costa de Marfil",
+    "region": "Africa",
+    "aliases": [
+      "Costa de Marfil",
+      "Côte d'Ivoire",
+      "Côte d’Ivoire",
+      "Ivory Coast"
+    ]
+  },
+  {
+    "code": "GN",
+    "name": "Guinea",
+    "region": "Africa",
+    "aliases": [
+      "Guinea"
+    ]
+  },
+  {
+    "code": "GW",
+    "name": "Guinea-Bisáu",
+    "region": "Africa",
+    "aliases": [
+      "Guinea-Bissau",
+      "Guinea-Bisáu"
+    ]
+  },
+  {
+    "code": "LR",
+    "name": "Liberia",
+    "region": "Africa",
+    "aliases": [
+      "Liberia"
+    ]
+  },
+  {
+    "code": "SL",
+    "name": "Sierra Leona",
+    "region": "Africa",
+    "aliases": [
+      "Sierra Leona",
+      "Sierra Leone"
+    ]
+  },
+  {
+    "code": "BF",
+    "name": "Burkina Faso",
+    "region": "Africa",
+    "aliases": [
+      "Burkina Faso"
+    ]
+  },
+  {
+    "code": "CF",
+    "name": "República Centroafricana",
+    "region": "Africa",
+    "aliases": [
+      "Central African Republic",
+      "República Centroafricana"
+    ]
+  },
+  {
+    "code": "CG",
+    "name": "República del Congo",
+    "region": "Africa",
+    "aliases": [
+      "Republic of the Congo",
+      "República del Congo"
+    ]
+  },
+  {
+    "code": "GA",
+    "name": "Gabón",
+    "region": "Africa",
+    "aliases": [
+      "Gabon",
+      "Gabón"
+    ]
+  },
+  {
+    "code": "GQ",
+    "name": "Guinea Ecuatorial",
+    "region": "Africa",
+    "aliases": [
+      "Equatorial Guinea",
+      "Guinea Ecuatorial"
+    ]
+  },
+  {
+    "code": "ZM",
+    "name": "Zambia",
+    "region": "Africa",
+    "aliases": [
+      "Zambia"
+    ]
+  },
+  {
+    "code": "MW",
+    "name": "Malaui",
+    "region": "Africa",
+    "aliases": [
+      "Malaui",
+      "Malawi"
+    ]
+  },
+  {
+    "code": "MZ",
+    "name": "Mozambique",
+    "region": "Africa",
+    "aliases": [
+      "Mozambique"
+    ]
+  },
+  {
+    "code": "SZ",
+    "name": "Suazilandia",
+    "region": "Africa",
+    "aliases": [
+      "Eswatini",
+      "Kingdom of eSwatini",
+      "Suazilandia"
+    ]
+  },
+  {
+    "code": "AO",
+    "name": "Angola",
+    "region": "Africa",
+    "aliases": [
+      "Angola"
+    ]
+  },
+  {
+    "code": "BI",
+    "name": "Burundi",
+    "region": "Africa",
+    "aliases": [
+      "Burundi"
+    ]
+  },
+  {
+    "code": "IL",
+    "name": "Israel",
+    "region": "Asia",
+    "aliases": [
+      "Israel"
+    ]
+  },
+  {
+    "code": "LB",
+    "name": "Líbano",
+    "region": "Asia",
+    "aliases": [
+      "Lebanon",
+      "Líbano"
+    ]
+  },
+  {
+    "code": "MG",
+    "name": "Madagascar",
+    "region": "Africa",
+    "aliases": [
+      "Madagascar"
+    ]
+  },
+  {
+    "code": "PS",
+    "name": "Palestina",
+    "region": "Asia",
+    "aliases": [
+      "Palestina",
+      "Palestine"
+    ]
+  },
+  {
+    "code": "GM",
+    "name": "Gambia",
+    "region": "Africa",
+    "aliases": [
+      "Gambia",
+      "The Gambia"
+    ]
+  },
+  {
+    "code": "TN",
+    "name": "Túnez",
+    "region": "Africa",
+    "aliases": [
+      "Tunisia",
+      "Túnez"
+    ]
+  },
+  {
+    "code": "DZ",
+    "name": "Argelia",
+    "region": "Africa",
+    "aliases": [
+      "Algeria",
+      "Argelia"
+    ]
+  },
+  {
+    "code": "JO",
+    "name": "Jordania",
+    "region": "Asia",
+    "aliases": [
+      "Jordania"
+    ]
+  },
+  {
+    "code": "AE",
+    "name": "Emiratos Árabes Unidos",
+    "region": "Asia",
+    "aliases": [
+      "Emiratos Árabes Unidos",
+      "UAE",
+      "United Arab Emirates"
+    ]
+  },
+  {
+    "code": "QA",
+    "name": "Catar",
+    "region": "Asia",
+    "aliases": [
+      "Catar",
+      "Qatar"
+    ]
+  },
+  {
+    "code": "KW",
+    "name": "Kuwait",
+    "region": "Asia",
+    "aliases": [
+      "Kuwait"
+    ]
+  },
+  {
+    "code": "IQ",
+    "name": "Irak",
+    "region": "Asia",
+    "aliases": [
+      "Irak",
+      "Iraq"
+    ]
+  },
+  {
+    "code": "OM",
+    "name": "Omán",
+    "region": "Asia",
+    "aliases": [
+      "Oman",
+      "Omán"
+    ]
+  },
+  {
+    "code": "VU",
+    "name": "Vanuatu",
+    "region": "Oceania",
+    "aliases": [
+      "Vanuatu"
+    ]
+  },
+  {
+    "code": "KH",
+    "name": "Camboya",
+    "region": "Asia",
+    "aliases": [
+      "Cambodia",
+      "Camboya"
+    ]
+  },
+  {
+    "code": "TH",
+    "name": "Tailandia",
+    "region": "Asia",
+    "aliases": [
+      "Tailandia",
+      "Thailand"
+    ]
+  },
+  {
+    "code": "LA",
+    "name": "Laos",
+    "region": "Asia",
+    "aliases": [
+      "Lao PDR",
+      "Laos"
+    ]
+  },
+  {
+    "code": "MM",
+    "name": "Birmania",
+    "region": "Asia",
+    "aliases": [
+      "Birmania",
+      "Myanmar"
+    ]
+  },
+  {
+    "code": "VN",
+    "name": "Vietnam",
+    "region": "Asia",
+    "aliases": [
+      "Vietnam"
+    ]
+  },
+  {
+    "code": "KP",
+    "name": "Corea del Norte",
+    "region": "Asia",
+    "aliases": [
+      "Corea del Norte",
+      "Dem. Rep. Korea",
+      "North Korea"
+    ]
+  },
+  {
+    "code": "KR",
+    "name": "Corea del Sur",
+    "region": "Asia",
+    "aliases": [
+      "Corea del Sur",
+      "Republic of Korea",
+      "South Korea"
+    ]
+  },
+  {
+    "code": "MN",
+    "name": "Mongolia",
+    "region": "Asia",
+    "aliases": [
+      "Mongolia"
+    ]
+  },
+  {
+    "code": "IN",
+    "name": "India",
+    "region": "Asia",
+    "aliases": [
+      "India"
+    ]
+  },
+  {
+    "code": "BD",
+    "name": "Bangladés",
+    "region": "Asia",
+    "aliases": [
+      "Bangladesh",
+      "Bangladés"
+    ]
+  },
+  {
+    "code": "BT",
+    "name": "Bután",
+    "region": "Asia",
+    "aliases": [
+      "Bhutan",
+      "Bután"
+    ]
+  },
+  {
+    "code": "NP",
+    "name": "Nepal",
+    "region": "Asia",
+    "aliases": [
+      "Nepal"
+    ]
+  },
+  {
+    "code": "PK",
+    "name": "Pakistán",
+    "region": "Asia",
+    "aliases": [
+      "Pakistan",
+      "Pakistán"
+    ]
+  },
+  {
+    "code": "AF",
+    "name": "Afganistán",
+    "region": "Asia",
+    "aliases": [
+      "Afganistán",
+      "Afghanistan"
+    ]
+  },
+  {
+    "code": "TJ",
+    "name": "Tayikistán",
+    "region": "Asia",
+    "aliases": [
+      "Tajikistan",
+      "Tayikistán"
+    ]
+  },
+  {
+    "code": "KG",
+    "name": "Kirguistán",
+    "region": "Asia",
+    "aliases": [
+      "Kirguistán",
+      "Kyrgyzstan"
+    ]
+  },
+  {
+    "code": "TM",
+    "name": "Turkmenistán",
+    "region": "Asia",
+    "aliases": [
+      "Turkmenistan",
+      "Turkmenistán"
+    ]
+  },
+  {
+    "code": "IR",
+    "name": "Irán",
+    "region": "Asia",
+    "aliases": [
+      "Iran",
+      "Irán"
+    ]
+  },
+  {
+    "code": "SY",
+    "name": "Siria",
+    "region": "Asia",
+    "aliases": [
+      "Siria",
+      "Syria"
+    ]
+  },
+  {
+    "code": "AM",
+    "name": "Armenia",
+    "region": "Asia",
+    "aliases": [
+      "Armenia"
+    ]
+  },
+  {
+    "code": "SE",
+    "name": "Suecia",
+    "region": "Europe",
+    "aliases": [
+      "Suecia",
+      "Sweden"
+    ]
+  },
+  {
+    "code": "BY",
+    "name": "Bielorrusia",
+    "region": "Europe",
+    "aliases": [
+      "Belarus",
+      "Bielorrusia"
+    ]
+  },
+  {
+    "code": "UA",
+    "name": "Ucrania",
+    "region": "Europe",
+    "aliases": [
+      "Ucrania",
+      "Ukraine"
+    ]
+  },
+  {
+    "code": "PL",
+    "name": "Polonia",
+    "region": "Europe",
+    "aliases": [
+      "Poland",
+      "Polonia"
+    ]
+  },
+  {
+    "code": "AT",
+    "name": "Austria",
+    "region": "Europe",
+    "aliases": [
+      "Austria"
+    ]
+  },
+  {
+    "code": "HU",
+    "name": "Hungría",
+    "region": "Europe",
+    "aliases": [
+      "Hungary",
+      "Hungría"
+    ]
+  },
+  {
+    "code": "MD",
+    "name": "Moldavia",
+    "region": "Europe",
+    "aliases": [
+      "Moldavia",
+      "Moldova"
+    ]
+  },
+  {
+    "code": "RO",
+    "name": "Rumania",
+    "region": "Europe",
+    "aliases": [
+      "Romania",
+      "Rumania"
+    ]
+  },
+  {
+    "code": "LT",
+    "name": "Lituania",
+    "region": "Europe",
+    "aliases": [
+      "Lithuania",
+      "Lituania"
+    ]
+  },
+  {
+    "code": "LV",
+    "name": "Letonia",
+    "region": "Europe",
+    "aliases": [
+      "Latvia",
+      "Letonia"
+    ]
+  },
+  {
+    "code": "EE",
+    "name": "Estonia",
+    "region": "Europe",
+    "aliases": [
+      "Estonia"
+    ]
+  },
+  {
+    "code": "DE",
+    "name": "Alemania",
+    "region": "Europe",
+    "aliases": [
+      "Alemania",
+      "Germany"
+    ]
+  },
+  {
+    "code": "BG",
+    "name": "Bulgaria",
+    "region": "Europe",
+    "aliases": [
+      "Bulgaria"
+    ]
+  },
+  {
+    "code": "GR",
+    "name": "Grecia",
+    "region": "Europe",
+    "aliases": [
+      "Grecia",
+      "Greece"
+    ]
+  },
+  {
+    "code": "TR",
+    "name": "Turquía",
+    "region": "Asia",
+    "aliases": [
+      "Turquía",
+      "Türkiye"
+    ]
+  },
+  {
+    "code": "AL",
+    "name": "Albania",
+    "region": "Europe",
+    "aliases": [
+      "Albania"
+    ]
+  },
+  {
+    "code": "HR",
+    "name": "Croacia",
+    "region": "Europe",
+    "aliases": [
+      "Croacia",
+      "Croatia"
+    ]
+  },
+  {
+    "code": "CH",
+    "name": "Suiza",
+    "region": "Europe",
+    "aliases": [
+      "Suiza",
+      "Switzerland"
+    ]
+  },
+  {
+    "code": "LU",
+    "name": "Luxemburgo",
+    "region": "Europe",
+    "aliases": [
+      "Luxembourg",
+      "Luxemburgo"
+    ]
+  },
+  {
+    "code": "BE",
+    "name": "Bélgica",
+    "region": "Europe",
+    "aliases": [
+      "Belgium",
+      "Bélgica"
+    ]
+  },
+  {
+    "code": "NL",
+    "name": "Países Bajos",
+    "region": "Europe",
+    "aliases": [
+      "Netherlands",
+      "Países Bajos"
+    ]
+  },
+  {
+    "code": "PT",
+    "name": "Portugal",
+    "region": "Europe",
+    "aliases": [
+      "Portugal"
+    ]
+  },
+  {
+    "code": "ES",
+    "name": "España",
+    "region": "Europe",
+    "aliases": [
+      "España",
+      "Spain"
+    ]
+  },
+  {
+    "code": "IE",
+    "name": "Irlanda",
+    "region": "Europe",
+    "aliases": [
+      "Ireland",
+      "Irlanda"
+    ]
+  },
+  {
+    "code": "NC",
+    "name": "Nueva Caledonia",
+    "region": "Oceania",
+    "aliases": [
+      "New Caledonia",
+      "Nueva Caledonia"
+    ]
+  },
+  {
+    "code": "SB",
+    "name": "Islas Salomón",
+    "region": "Oceania",
+    "aliases": [
+      "Islas Salomón",
+      "Solomon Islands"
+    ]
+  },
+  {
+    "code": "NZ",
+    "name": "Nueva Zelanda",
+    "region": "Oceania",
+    "aliases": [
+      "New Zealand",
+      "Nueva Zelanda"
+    ]
+  },
+  {
+    "code": "AU",
+    "name": "Australia",
+    "region": "Oceania",
+    "aliases": [
+      "Australia"
+    ]
+  },
+  {
+    "code": "LK",
+    "name": "Sri Lanka",
+    "region": "Asia",
+    "aliases": [
+      "Sri Lanka"
+    ]
+  },
+  {
+    "code": "CN",
+    "name": "China",
+    "region": "Asia",
+    "aliases": [
+      "China",
+      "People's Republic of China"
+    ]
+  },
+  {
+    "code": "TW",
+    "name": "República de China",
+    "region": "Asia",
+    "aliases": [
+      "República de China",
+      "Taiwan",
+      "Taiwán"
+    ]
+  },
+  {
+    "code": "IT",
+    "name": "Italia",
+    "region": "Europe",
+    "aliases": [
+      "Italia",
+      "Italy"
+    ]
+  },
+  {
+    "code": "DK",
+    "name": "Dinamarca",
+    "region": "Europe",
+    "aliases": [
+      "Denmark",
+      "Dinamarca"
+    ]
+  },
+  {
+    "code": "GB",
+    "name": "Reino Unido",
+    "region": "Europe",
+    "aliases": [
+      "Britain",
+      "Great Britain",
+      "Reino Unido",
+      "UK",
+      "United Kingdom"
+    ]
+  },
+  {
+    "code": "IS",
+    "name": "Islandia",
+    "region": "Europe",
+    "aliases": [
+      "Iceland",
+      "Islandia"
+    ]
+  },
+  {
+    "code": "AZ",
+    "name": "Azerbaiyán",
+    "region": "Asia",
+    "aliases": [
+      "Azerbaijan",
+      "Azerbaiyán"
+    ]
+  },
+  {
+    "code": "GE",
+    "name": "Georgia",
+    "region": "Asia",
+    "aliases": []
+  },
+  {
+    "code": "PH",
+    "name": "Filipinas",
+    "region": "Asia",
+    "aliases": [
+      "Filipinas",
+      "Philippines"
+    ]
+  },
+  {
+    "code": "MY",
+    "name": "Malasia",
+    "region": "Asia",
+    "aliases": [
+      "Malasia",
+      "Malaysia"
+    ]
+  },
+  {
+    "code": "BN",
+    "name": "Brunéi",
+    "region": "Asia",
+    "aliases": [
+      "Brunei",
+      "Brunei Darussalam",
+      "Brunéi"
+    ]
+  },
+  {
+    "code": "SI",
+    "name": "Eslovenia",
+    "region": "Europe",
+    "aliases": [
+      "Eslovenia",
+      "Slovenia"
+    ]
+  },
+  {
+    "code": "FI",
+    "name": "Finlandia",
+    "region": "Europe",
+    "aliases": [
+      "Finland",
+      "Finlandia"
+    ]
+  },
+  {
+    "code": "SK",
+    "name": "Eslovaquia",
+    "region": "Europe",
+    "aliases": [
+      "Eslovaquia",
+      "Slovakia"
+    ]
+  },
+  {
+    "code": "CZ",
+    "name": "República Checa",
+    "region": "Europe",
+    "aliases": [
+      "Czech Republic",
+      "República Checa"
+    ]
+  },
+  {
+    "code": "ER",
+    "name": "Eritrea",
+    "region": "Africa",
+    "aliases": [
+      "Eritrea"
+    ]
+  },
+  {
+    "code": "JP",
+    "name": "Japón",
+    "region": "Asia",
+    "aliases": [
+      "Japan",
+      "Japón"
+    ]
+  },
+  {
+    "code": "PY",
+    "name": "Paraguay",
+    "region": "Americas",
+    "aliases": [
+      "Paraguay"
+    ]
+  },
+  {
+    "code": "YE",
+    "name": "Yemen",
+    "region": "Asia",
+    "aliases": [
+      "Yemen"
+    ]
+  },
+  {
+    "code": "SA",
+    "name": "Arabia Saudita",
+    "region": "Asia",
+    "aliases": [
+      "Arabia Saudita",
+      "Saudi Arabia"
+    ]
+  },
+  {
+    "code": "AQ",
+    "name": "Antártida",
+    "region": "Antarctica",
+    "aliases": [
+      "Antarctica",
+      "Antártida"
+    ]
+  },
+  {
+    "code": "CYN",
+    "name": "República Turca del Norte de Chipre",
+    "region": "Asia",
+    "aliases": [
+      "Northern Cyprus",
+      "República Turca del Norte de Chipre",
+      "Turkish Republic of Northern Cyprus"
+    ]
+  },
+  {
+    "code": "CY",
+    "name": "Chipre",
+    "region": "Asia",
+    "aliases": [
+      "Chipre",
+      "Cyprus"
+    ]
+  },
+  {
+    "code": "MA",
+    "name": "Marruecos",
+    "region": "Africa",
+    "aliases": [
+      "Marruecos",
+      "Morocco"
+    ]
+  },
+  {
+    "code": "EG",
+    "name": "Egipto",
+    "region": "Africa",
+    "aliases": [
+      "Egipto",
+      "Egypt"
+    ]
+  },
+  {
+    "code": "LY",
+    "name": "Libia",
+    "region": "Africa",
+    "aliases": [
+      "Libia",
+      "Libya"
+    ]
+  },
+  {
+    "code": "ET",
+    "name": "Etiopía",
+    "region": "Africa",
+    "aliases": [
+      "Ethiopia",
+      "Etiopía"
+    ]
+  },
+  {
+    "code": "DJ",
+    "name": "Yibuti",
+    "region": "Africa",
+    "aliases": [
+      "Djibouti",
+      "Yibuti"
+    ]
+  },
+  {
+    "code": "SOL",
+    "name": "Somalilandia",
+    "region": "Africa",
+    "aliases": [
+      "Somaliland",
+      "Somalilandia"
+    ]
+  },
+  {
+    "code": "UG",
+    "name": "Uganda",
+    "region": "Africa",
+    "aliases": [
+      "Uganda"
+    ]
+  },
+  {
+    "code": "RW",
+    "name": "Ruanda",
+    "region": "Africa",
+    "aliases": [
+      "Ruanda",
+      "Rwanda"
+    ]
+  },
+  {
+    "code": "BA",
+    "name": "Bosnia y Herzegovina",
+    "region": "Europe",
+    "aliases": [
+      "Bosnia and Herzegovina",
+      "Bosnia y Herzegovina"
+    ]
+  },
+  {
+    "code": "MK",
+    "name": "Macedonia del Norte",
+    "region": "Europe",
+    "aliases": [
+      "Macedonia del Norte",
+      "North Macedonia"
+    ]
+  },
+  {
+    "code": "RS",
+    "name": "Serbia",
+    "region": "Europe",
+    "aliases": [
+      "Serbia"
+    ]
+  },
+  {
+    "code": "ME",
+    "name": "Montenegro",
+    "region": "Europe",
+    "aliases": [
+      "Montenegro"
+    ]
+  },
+  {
+    "code": "XK",
+    "name": "Kosovo",
+    "region": "Europe",
+    "aliases": [
+      "Kosovo"
+    ]
+  },
+  {
+    "code": "TT",
+    "name": "Trinidad y Tobago",
+    "region": "Americas",
+    "aliases": [
+      "Trinidad and Tobago",
+      "Trinidad y Tobago"
+    ]
+  },
+  {
+    "code": "SS",
+    "name": "Sudán del Sur",
+    "region": "Africa",
+    "aliases": [
+      "South Sudan",
+      "Sudán del Sur"
+    ]
+  }
+]

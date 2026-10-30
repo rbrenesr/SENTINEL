@@ -2,16 +2,28 @@
 name: Update public news feeds
 
 on:
+  push:
+    branches: [main]
+    paths-ignore:
+      - 'data/news.json'
+      - '**.md'
   workflow_dispatch:
   schedule:
-    - cron: "*/30 * * * *"
+    - cron: "7,37 * * * *"
 
 permissions:
   contents: write
+  pages: write
+  id-token: write
+
+concurrency:
+  group: sentinel-publish
+  cancel-in-progress: false
 
 jobs:
   update-news:
     runs-on: ubuntu-latest
+    timeout-minutes: 10
 
     steps:
       - name: Checkout repository
@@ -23,7 +35,18 @@ jobs:
           python-version: "3.12"
 
       - name: Collect news
+        if: github.event_name != 'push'
         run: python scripts/fetch.py
+
+      - name: Enrich existing data after a code change
+        if: github.event_name == 'push'
+        run: python scripts/fetch.py --offline
+
+      - name: Validate collector and data
+        run: python -m unittest discover -s tests -v
+
+      - name: Validate frontend syntax and filtering
+        run: node --test tests/frontend.test.cjs
 
       - name: Commit updated data
         run: |
@@ -34,3 +57,33 @@ jobs:
             git commit -m "Update SENTINEL news data"
             git push
           fi
+
+      - name: Configure GitHub Pages
+        uses: actions/configure-pages@v5
+
+      - name: Prepare public files only
+        run: |
+          mkdir -p _site/data
+          cp index.html _site/
+          cp -r assets _site/
+          cp data/news.json _site/data/
+          touch _site/.nojekyll
+
+      - name: Upload site
+        uses: actions/upload-pages-artifact@v4
+        with:
+          path: _site
+
+  deploy:
+    needs: update-news
+    runs-on: ubuntu-latest
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    steps:
+      - name: Publish GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4

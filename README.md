@@ -24,8 +24,8 @@ confirmación realizada por `GITHUB_TOKEN` dispare una segunda publicación.
 
 - Cada 30 minutos, a los minutos 7 y 37, sujeto a disponibilidad de GitHub Actions.
 - Manualmente con **Actions → Update public news feeds → Run workflow**.
-- Al subir cambios de código a `main`; en este caso enriquece el archivo existente sin
-  atribuirle una nueva recopilación. Cambios únicamente en documentación o en `news.json`
+- Al subir cambios de código a `main`; recopila noticias antes de desplegar.
+  Cambios únicamente en documentación o en `news.json`
   no disparan el flujo de push.
 - Los fallos de las pruebas impiden publicar. Las ejecuciones se serializan.
 - Se publican únicamente `index.html`, `assets/` y `data/news.json`.

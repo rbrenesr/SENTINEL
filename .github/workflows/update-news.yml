@@ -35,12 +35,7 @@ jobs:
           python-version: "3.12"
 
       - name: Collect news
-        if: github.event_name != 'push'
         run: python scripts/fetch.py
-
-      - name: Enrich existing data after a code change
-        if: github.event_name == 'push'
-        run: python scripts/fetch.py --offline
 
       - name: Validate collector and data
         run: python -m unittest discover -s tests -v

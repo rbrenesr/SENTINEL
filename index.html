@@ -9,8 +9,8 @@
   <link rel="stylesheet" href="./assets/vendor/leaflet/leaflet.css">
   <link rel="stylesheet" href="./assets/styles.css?v=1.1-es">
   <script defer src="./assets/vendor/leaflet/leaflet.js"></script>
-  <script defer src="./assets/core.js?v=1.1-es"></script>
-  <script defer src="./assets/app.js?v=1.1-es"></script>
+  <script defer src="./assets/core.js?v=1.1-scope"></script>
+  <script defer src="./assets/app.js?v=1.1-scope"></script>
 </head>
 <body>
 <a class="skip" href="#publications">Ir a las publicaciones</a>
@@ -33,7 +33,7 @@
       <div class="field"><label for="region">Región</label><select id="region"><option value="">Todas las regiones</option><option value="Americas">América</option><option value="Europe">Europa</option><option value="Asia">Asia</option><option value="Africa">África</option><option value="Oceania">Oceanía</option></select></div>
     </div>
     <div class="filter-row">
-      <div class="field"><label for="category">Categoría</label><select id="category"><option value="">Todas las categorías</option><option>Conflictos</option><option>Ciberseguridad</option><option>Internet</option><option>IA</option><option>Sin clasificar</option></select></div>
+      <div class="field"><label for="category">Categoría</label><select id="category"><option value="">Todas las categorías</option><option>Conflictos</option><option>Ciberseguridad</option><option>Internet</option><option>IA</option></select></div>
       <div class="field"><label for="period">Período de publicación</label><select id="period"><option value="">Todas las fechas</option><option value="24">Últimas 24 horas</option><option value="72">Últimas 72 horas</option><option value="168">Últimos 7 días</option></select></div>
       <div class="field date-field"><label for="startDate">Desde</label><input id="startDate" type="date"></div>
       <div class="field date-field"><label for="endDate">Hasta</label><input id="endDate" type="date"></div>
@@ -56,7 +56,7 @@
     <section class="panel"><h2>Lectura del mapa</h2><p class="small">Un país mencionado no confirma dónde ocurrió un acontecimiento. Las menciones se muestran en una vista de contexto separada.</p><p class="small">Los puntos proceden de coordenadas de la fuente o de evidencia revisada. Un país reportado se resalta sin inventar un punto.</p><p class="small" id="coverage"></p></section>
     <section class="panel"><h2>Actualización</h2><p class="small" id="updated">Esperando datos…</p><p class="small" id="lastAttempt"></p><p class="small">Recopilación prevista cada 30 minutos, sujeta a retrasos de GitHub Actions. «Revisar datos» consulta la última publicación disponible.</p><p class="small">Hasta 1.000 publicaciones observadas en los últimos 30 días. Se conservan datos ante fallos parciales.</p></section>
     <section class="panel sources-panel"><h2>Estado de las fuentes</h2><div id="sources" class="sources-list">Esperando recopilación…</div></section>
-    <section class="panel notice"><h2>Alcance de la información</h2><p>SENTINEL no verifica independientemente cada afirmación y no es un sistema oficial de alertas.</p><p>Las agrupaciones son sugerencias de relación. La prioridad de una noticia no demuestra su verificación.</p><p>No se generan predicciones ni implicaciones para Costa Rica sin evidencia.</p></section>
+    <section class="panel notice"><h2>Alcance de la información</h2><p>Se filtran las publicaciones por su relación con geopolítica, ciberseguridad, Internet e IA. Las reglas son orientativas y pueden omitir noticias relevantes o admitir coincidencias imprecisas.</p><p>SENTINEL no verifica independientemente cada afirmación y no es un sistema oficial de alertas.</p><p>Las agrupaciones son sugerencias de relación. La prioridad de una noticia no demuestra su verificación.</p><p>No se generan predicciones ni implicaciones para Costa Rica sin evidencia.</p></section>
   </aside></div>
   <footer class="bottom">SENTINEL v1.1 · Fuentes abiertas y trazables · Favoritos locales · Cartografía orientativa de Natural Earth · <a href="https://github.com/rbrenesr/SENTINEL" target="_blank" rel="noopener noreferrer">Acerca del proyecto ↗</a></footer>
 </main>

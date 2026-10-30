@@ -60,7 +60,30 @@ Se consultan quince fuentes RSS/Atom con un máximo de cuatro conexiones simult�
 timeout de 18 segundos, límite de 8 MB por respuesta y hasta 35 registros por fuente.
 El feed de CISA supera el antiguo límite de 2 MB; se conserva su endpoint oficial.
 Las categorías se proponen por reglas de palabras clave sobre título y resumen;
-son heurísticas auditables y pueden ser incompletas. Se permite «Sin clasificar».
+son heurísticas auditables y pueden ser incompletas.
+
+### Filtro de relevancia temática
+
+Antes de publicar se aplica una admisión independiente de la clasificación antigua.
+Requiere señales explícitas de geopolítica/conflictos, ciberseguridad, infraestructura
+de Internet o IA en el título, o contexto temático suficiente en el resumen. Una fuente,
+un país, una mención al gobierno o la palabra «internet» por sí solos no bastan.
+Las noticias de deportes, celebridades, salud y estilo de vida se descartan cuando
+constituyen el tema principal; incidentes cibernéticos y riesgos de IA relacionados
+con esos ámbitos pueden seguir siendo relevantes.
+
+El filtro también revisa el historial conservado, incluido `--offline`, para que las
+noticias ajenas al alcance no reaparezcan tras un fallo de fuentes. Cada registro
+admitido contiene `relevance`: versión de política, método, categoría, motivo y señales.
+`scopeFilter` identifica la política aplicada al conjunto. No se usa la categoría
+de la fuente como permiso de publicación ni se admite «Sin clasificar» automáticamente.
+El diagnóstico de las consultas distingue publicaciones recibidas, admitidas y
+descartadas (`receivedCount`, `count`, `excludedCount`). Un feed accesible con cero
+publicaciones relevantes sigue siendo operativo.
+
+Estas reglas no equivalen a una revisión editorial ni a verificación de hechos: pueden
+omitir contenido pertinente y aceptar coincidencias imprecisas. Se mantienen pruebas
+con ejemplos fuera de alcance y casos relevantes en español e inglés.
 
 ### Publicaciones originales en español
 

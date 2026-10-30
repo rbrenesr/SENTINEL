@@ -1,6 +1,6 @@
 (function (root) {
   'use strict';
-  const categories = ['Conflictos', 'Ciberseguridad', 'Internet', 'IA', 'Sin clasificar'];
+  const categories = ['Conflictos', 'Ciberseguridad', 'Internet', 'IA'];
   const colors = {Conflictos: '#ffa890', Ciberseguridad: '#c6a1ff', Internet: '#7bc9f5', IA: '#7be1ba', 'Sin clasificar': '#a3b3c2'};
   const normalize = value => String(value || '').normalize('NFD').replace(/[\u0300-\u036f]/g, '').toLowerCase();
   function safeURL(value) {

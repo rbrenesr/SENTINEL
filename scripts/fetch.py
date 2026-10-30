@@ -46,6 +46,60 @@ RULES = {
     'IA': r'\b(artificial intelligence|generative ai|ai|ia|llm|llms|machine learning|neural network|language model|chatgpt|openai|deepmind|inteligencia artificial|modelos? de lenguaje|aprendizaje automatico|redes? neuronales?)\b',
     'Conflictos': r'\b(war|wars|military|missile|missiles|airstrike|airstrikes|ceasefire|troops|sanctions|diplomatic|diplomacy|armed conflict|invasion|guerras?|militar(?:es)?|misil(?:es)?|bombardeos?|sanciones|diplomacia|humanitarian|humanitari[oa]s?|occupation|hostage|hostages|fighting|clashes|armed forces|elections|political|government|geopolitical|ataques militares|alto el fuego|tropas|conflictos? armados?|rehenes|geopolitica|elecciones|gobierno)\b',
 }
+SCOPE_VERSION = 1
+# Scope admission is independent of the older, broad category classifier.
+# A country, publisher, government mention or the word "internet" is not enough.
+SCOPE_RULES = {
+    'Ciberseguridad': r'\b(?:ransomware|malware|ciberataques?|ciberseguridad|cyberattacks?|cybersecurity|cyber attacks?|phishing|data breaches?|filtracion(?:es)? de datos|exposicion de informacion|vulnerabilidad(?:es)?|vulnerabilities|vulnerability|cve-\d+|zero.day|dia cero|cross.site scripting|sql injection|inyeccion sql|escritura fuera de limites|out.of.bounds write|ejecucion (?:remota de codigo|de codigo)|remote code execution|denial.of.service|denegacion de servicio|botnets?|spyware|espionaje digital)\b',
+    'Internet': r'\b(?:bgp|dns|cdn|telecomunicaciones|telecommunications|cables? submarinos?|submarine cables?|subsea cables?|fibra optica|fiber optic|internet (?:outages?|shutdowns?|blackouts?|access|infrastructure|connectivity)|(?:cortes?|apagones?|caidas?|bloqueos?|acceso|infraestructura) (?:de |a |del )?internet|(?:fallos?|fallas?|interrupciones?|caidas?|outages?|disruptions?)\b.{0,80}\b(?:internet|cloud|nube|conectividad|telecom|servicios? digitales?)|infraestructura digital|conectividad|connectivity|centros? de datos|data cent(?:er|re)s?)\b',
+    'IA': r'\b(?:inteligencia artificial|artificial intelligence|ia|ai|llms?|modelos? de lenguaje|language models?|chatgpt|openai|deepmind|machine learning|aprendizaje automatico|redes? neuronales?|neural networks?|reinforcement learning|aprendizaje por refuerzo)\b',
+    'Conflictos': r'\b(?:war|wars|armed conflict|military|missiles?|airstrikes?|ceasefire|troops|sanctions|diplomatic|diplomacy|invasion|guerras?|militar(?:es)?|misil(?:es)?|bombardeos?|sanciones|diplomaci[ao]|diplomatic[oa]s?|canciller|ministros? de exteriores|alto el fuego|tropas|conflictos? armados?|rehenes|hostages?|occupation|ocupacion|geopolitic[as]|geopolitical|otan|nato|g20|g7|nuclear weapons|armas nucleares|despliegue militar|ataques? (?:con drones?|con misiles?|militares?)|enfrentamientos? (?:armados?|fronterizos?)|border clashes|fighting|crisis humanitaria|humanitarian crisis|desplazados|refugees|refugiados|elecciones|elections|legislativas|midterms?|comision electoral|electoral commission|coalicion|coalition|partido comunista|communist party|injerencia|interferencia electoral|apoyo internacional|aliad[oa]s?|alianzas?|relaciones internacionales|socios estrategicos|censura|censorship|represion|repression|medio opositor|opposition newspaper|presos politicos|political prisoners|migracion|inmigracion|immigration|migration|politica exterior|foreign policy|intervencion extranjera)\b',
+}
+SPORTS = r'\b(?:rally|dakar|futbol|football|soccer|bayern|champions league|formula 1|formula one|balon de oro|ballon d.or|tenis|tennis|rugby|cricket|mundial de futbol|olympics|juegos olimpicos|futbolistas?|futbolista|goleador|goles)\b'
+LIFESTYLE = r'\b(?:afeccion|genital|liquen|escleroso|piel|arrugas|adelgazar|skin care|skincare|recetas? de cocina|recipe|horoscopos?|zodiac|celebrity|famos[oa]s?|actriz|actor|actores|actrices|premios? emmy|globos? de oro|star trek|x.men|beauty|belleza|viajes? de lujo|crucero de lujo|test.{0,40}salud)\b'
+TECH_CONTEXT = r'\b(?:software|servidores?|servers?|plataformas?|platforms?|supercl[au]ster|gpu|tarjetas graficas|chips?|modelos?|models?|infraestructura|infrastructure|nube|cloud|redes?|networks?|tecnologia|technology|algoritmos?|algorithms?|sistemas?|systems?)\b'
+SCOPE_RULES['Conflictos'] += r'|\b(?:ataques? con dron(?:es)?|miembro asociado|asociacion sin adhesion|politica comercial|acuerdos? comerciales?|trade agreements?|trade deals?|aranceles?|tariffs?|presidencia|presidenta|presidential election)\b'
+SCOPE_RULES['IA'] += r'|\b(?:grandes modelos|large models)\b'
+
+
+def assess_relevance(item):
+    title = normalized(clean(item.get('title', '')))
+    summary = normalized(clean(item.get('summary', '')))
+    title_matches = {category: sorted(set(re.findall(rule, title))) for category, rule in SCOPE_RULES.items()}
+    summary_matches = {category: sorted(set(re.findall(rule, summary))) for category, rule in SCOPE_RULES.items()}
+    if re.search(r'\b(?:petroleros?|buques?|tankers?|ships?)\b', title) and re.search(r'\b(?:minas|mines|explosivos|explosives|sabotaje|sabotage)\b', title + ' ' + summary):
+        title_matches['Conflictos'].append('maritime_security_context')
+    if re.search(r'\b(?:php|cloudflare|software|web|webs|servidores?|servers?)\b', title) and re.search(r'\b(?:fallos? (?:graves?|criticos?)|brechas?|critical flaws?|security flaws?)\b', title + ' ' + summary):
+        title_matches['Ciberseguridad'].append('software_security_context')
+    cyber_title = bool(title_matches['Ciberseguridad'])
+    # Sports/celebrity/health reports are not admitted for incidental country or
+    # political references. Direct cyber incidents and substantive AI risks remain.
+    if re.search(SPORTS, title) and not (cyber_title or title_matches['Internet']):
+        return {'included': False, 'reason': 'sports_focus'}
+    if re.search(LIFESTYLE, title) and not (cyber_title or title_matches['IA']):
+        return {'included': False, 'reason': 'lifestyle_focus'}
+    candidates = {category: signals for category, signals in title_matches.items() if signals}
+    reason = 'title_topic'
+    if not candidates:
+        # A generic technology headline needs explicit context in its summary;
+        # otherwise require two distinct, topic-specific signals in that summary.
+        candidates = {category: signals for category, signals in summary_matches.items()
+                      if len(signals) >= 2 or (signals and re.search(TECH_CONTEXT, title))}
+        reason = 'summary_context'
+    if not candidates:
+        return {'included': False, 'reason': 'no_scope_evidence'}
+    category = max(candidates, key=lambda name: len(candidates[name]))
+    return {'included': True, 'category': category, 'reason': reason,
+            'signals': candidates[category], 'method': 'topic_rules', 'version': SCOPE_VERSION}
+
+
+def scope_items(items):
+    accepted = []
+    for item in items:
+        decision = assess_relevance(item)
+        if decision['included']:
+            accepted.append({**item, 'category': decision['category'], 'relevance': decision})
+    return accepted
 
 
 def clean(value):
@@ -212,6 +266,9 @@ def enrich(item, countries, annotations):
     item.update(id=stable_id(canonical), canonicalUrl=canonical,
                 category=classify(item['title'], item.get('summary', '')),
                 categoryMethod='keyword_rules', verification='not_independently_verified')
+    if item.get('relevance', {}).get('included'):
+        item['category'] = item['relevance']['category']
+        item['categoryMethod'] = 'scope_topic_rules'
     item['language'] = normalize_language(item.get('language'))
     if item['language'] == 'und':
         item['language'] = SOURCE_LANGUAGES.get(item['source'], 'und')
@@ -243,7 +300,7 @@ def merge_items(previous, incoming, now, countries, annotations):
         canonical = canonical_url(item['url'])
         old = merged.get(canonical, {})
         merged[canonical] = {**item, 'firstSeenAt': old.get('firstSeenAt') or now, 'lastSeenAt': now}
-    output = [enrich(item, countries, annotations) for item in merged.values()]
+    output = [enrich(item, countries, annotations) for item in scope_items(merged.values())]
     output.sort(key=lambda item: item.get('published') or item.get('firstSeenAt') or '', reverse=True)
     return output[:1000]
 
@@ -281,9 +338,11 @@ def collect(source):
             content = response.read(MAX_FEED_BYTES + 1)
         if len(content) > MAX_FEED_BYTES:
             raise ValueError('El feed supera el límite de 8 MB')
-        items = parse(content, name, category)
+        received = parse(content, name, category)
+        items = scope_items(received)
         return items, {'name': name, 'category': category, 'url': url, 'language': SOURCE_LANGUAGES.get(name, 'und'),
-                       'status': 'ok' if items else 'empty', 'count': len(items), 'error': None}
+                       'status': 'ok' if received else 'empty', 'count': len(items), 'receivedCount': len(received),
+                       'excludedCount': len(received) - len(items), 'error': None}
     except Exception as error:
         print(f'{name}: {error}')
         return [], {'name': name, 'category': category, 'url': url, 'language': SOURCE_LANGUAGES.get(name, 'und'),
@@ -307,7 +366,7 @@ def main():
     annotations = json.loads((ROOT / 'data/annotations.json').read_text(encoding='utf8'))['articles']
     now = dt.datetime.now(UTC).isoformat()
     if args.offline:
-        items = [enrich(item, countries, annotations) for item in previous.get('items', [])]
+        items = [enrich(item, countries, annotations) for item in scope_items(previous.get('items', []))]
         for item in items:
             item.setdefault('firstSeenAt', previous.get('updatedAt'))
             item.setdefault('lastSeenAt', previous.get('updatedAt'))
@@ -325,9 +384,11 @@ def main():
                           old.get('lastSuccessAt') or (previous.get('updatedAt') if old.get('status') == 'ok' else None))
             statuses.append(status)
         items = merge_items(previous, incoming, now, countries, annotations)
-        output = dict(schemaVersion=2, updatedAt=now if incoming else previous.get('updatedAt'),
+        output = dict(schemaVersion=2, updatedAt=now if any(status['status'] == 'ok' for status in statuses) else previous.get('updatedAt'),
                       lastAttemptAt=now, items=items, sources=statuses,
                       relatedGroups=related_groups(items), retentionDays=30)
+    output['scopeFilter'] = {'version': SCOPE_VERSION, 'method': 'topic_rules',
+                            'topics': list(SCOPE_RULES), 'appliesTo': 'incoming_and_retained'}
     write_output(path, output)
     print(f'{len(output["items"])} retained articles; {sum(s["status"] == "ok" for s in output.get("sources", []))} sources OK')
 

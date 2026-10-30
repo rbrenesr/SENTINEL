@@ -73,6 +73,7 @@
       const details = make('details'), summary = make('summary', '', 'Detalle de la consulta');
       details.append(summary, make('p', '', `Último éxito: ${fmt(source.lastSuccessAt || (source.status === 'ok' ? data.updatedAt : null))}`));
       details.append(make('p', '', `Idioma: ${languageLabel(source.language)}.`));
+      if (Number.isInteger(source.receivedCount)) details.append(make('p', '', `${source.receivedCount} publicaciones recibidas; ${source.excludedCount || 0} descartadas por relevancia temática.`));
       if (source.lastAttemptAt) details.append(make('p', '', `Intento: ${fmt(source.lastAttemptAt)}`));
       if (source.error) details.append(make('p', '', source.error));
       if (source.url) details.append(link('Consultar feed ↗', source.url));
@@ -102,6 +103,7 @@
     details.append(summary, make('p', '', `Publicación: ${fmt(item.published)} · Primera observación: ${fmt(item.firstSeenAt)} · Última observación: ${fmt(item.lastSeenAt)}`));
     const type = {official_advisory: 'Comunicado oficial', publisher_post: 'Publicación del editor', news: 'Noticia'}[item.contentType] || 'Publicación';
     details.append(make('p', '', `${type} · Categoría sugerida por palabras clave · Afirmaciones sin verificación independiente.`));
+    if (item.relevance?.included) details.append(make('p', '', `Relevancia temática: ${item.relevance.category}. Señales encontradas en ${item.relevance.reason === 'title_topic' ? 'el título' : 'el contexto del resumen'}. Este filtro es orientativo y no verifica la noticia.`));
     details.append(make('p', '', `Idioma original: ${languageLabel(item.language)}. ${['entry_declaration', 'feed_declaration'].includes(item.languageMethod) ? 'Declarado por el editor en el feed.' : item.languageMethod === 'source_configuration' ? 'Identificado por la edición o canal de la fuente.' : 'Sin identificación de idioma.'} El contenido se conserva sin traducción automática.`));
     for (const loc of item.locations || []) {
       details.append(make('p', '', `${loc.label}: ${loc.evidence?.text || 'Sin descripción'} · ${loc.verification === 'reviewed_location' ? 'Ubicación revisada; no implica verificar la noticia' : 'Ubicación indicada por la fuente'}`));

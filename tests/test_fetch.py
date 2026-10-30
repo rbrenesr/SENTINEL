@@ -152,7 +152,7 @@ class CollectorTests(unittest.TestCase):
         self.assertTrue(all(not item['locations'] for item in records))
 
     def test_valid_feed_above_old_two_mb_limit(self):
-        content = ('<rss><channel><!--' + ('x' * 2_100_000) + '--><item><title>Report</title><link>https://example.org/story</link></item></channel></rss>').encode()
+        content = ('<rss><channel><!--' + ('x' * 2_100_000) + '--><item><title>Ransomware report</title><link>https://example.org/story</link></item></channel></rss>').encode()
         class Response:
             def __enter__(self): return self
             def __exit__(self, *args): pass
@@ -161,6 +161,67 @@ class CollectorTests(unittest.TestCase):
             items, status = collector.collect(('Example', 'IA', 'https://example.org/feed'))
         self.assertEqual(status['status'], 'ok')
         self.assertEqual(len(items), 1)
+
+    def test_scope_rejects_general_news_even_from_specialist_sources(self):
+        headlines = [
+            ('Tengo una afección en la zona genital de la que a muchas personas les da vergüenza hablar', 'Mujeres comparten su experiencia con el liquen escleroso.'),
+            ('Rally Dakar se disputará en Portugal y Marruecos tras renunciar a Arabia Saudita por ataques hutíes', 'La competición comenzará en enero.'),
+            ('Un choque de trenes deja decenas de muertos', 'El presidente del gobierno expresó sus condolencias.'),
+            ('Muere un conocido actor de Star Trek', 'El gobierno anunció un homenaje.'),
+            ('Qué comer para que tu piel se vea más joven', 'Consejos de salud y belleza.'),
+            ('Cuatro de cada diez webs usan WordPress', 'Quizá recuerdes lo que ocurrió en OpenAI en 2023.'),
+            ('Nueva receta de cocina', ''),
+        ]
+        for title, summary in headlines:
+            for source in ('BBC Mundo', 'DW Español', 'OpenAI News', 'INCIBE-CERT'):
+                with self.subTest(title=title, source=source):
+                    item = article(); item.update(title=title, summary=summary, source=source)
+                    self.assertFalse(collector.assess_relevance(item)['included'])
+
+    def test_scope_keeps_relevant_news_in_both_languages(self):
+        cases = [
+            ('Ataque con dron ruso causa muertos en Ucrania', '', 'Conflictos'),
+            ('Varios petroleros arden en Ormuz tras chocar con minas', '', 'Conflictos'),
+            ('UE contempla a Canadá como miembro asociado', '', 'Conflictos'),
+            ('Nuevas sanciones y conversaciones diplomáticas', '', 'Conflictos'),
+            ('Ceasefire agreed after armed conflict', '', 'Conflictos'),
+            ('Exposición de información en un editor de comentarios', '', 'Ciberseguridad'),
+            ('Ransomware shuts down a hospital', '', 'Ciberseguridad'),
+            ('Ciberataque afecta a un club de fútbol', '', 'Ciberseguridad'),
+            ('Investigación sobre ChatGPT y una muerte por consejos médicos', '', 'IA'),
+            ('New language model research', '', 'IA'),
+            ('Un corte de Internet afecta a varias regiones', '', 'Internet'),
+            ('Subsea cable disruption affects connectivity', '', 'Internet'),
+            ('PHP sostiene buena parte de internet', 'Dos fallos graves afectan al software.', 'Ciberseguridad'),
+        ]
+        for title, summary, category in cases:
+            with self.subTest(title=title):
+                item = article(); item.update(title=title, summary=summary)
+                result = collector.assess_relevance(item)
+                self.assertTrue(result['included'])
+                self.assertEqual(result['category'], category)
+
+    def test_scope_rechecks_retained_items_and_preserves_relevant_history(self):
+        irrelevant = article('https://example.org/health'); irrelevant.update(title='Consejos para mejorar tu piel', summary='El gobierno comparte consejos.')
+        relevant = article('https://example.org/cyber')
+        previous = {'updatedAt': NOW, 'items': [irrelevant, relevant]}
+        merged = collector.merge_items(previous, [], NOW, [], {})
+        self.assertEqual([x['url'] for x in merged], [relevant['url']])
+        self.assertEqual(merged[0]['lastSeenAt'], NOW)
+        self.assertEqual(merged[0]['relevance']['version'], collector.SCOPE_VERSION)
+
+    def test_filtered_feed_is_operational_even_when_no_article_is_in_scope(self):
+        content = b'<rss><channel><item><title>Sports results</title><link>https://example.org/story</link></item></channel></rss>'
+        class Response:
+            def __enter__(self): return self
+            def __exit__(self, *args): pass
+            def read(self, size): return content
+        with patch.object(collector.urllib.request, 'urlopen', return_value=Response()):
+            items, status = collector.collect(('Example', 'Conflictos', 'https://example.org/feed'))
+        self.assertEqual(items, [])
+        self.assertEqual(status['status'], 'ok')
+        self.assertEqual(status['receivedCount'], 1)
+        self.assertEqual(status['excludedCount'], 1)
 
     def test_atomic_write_and_snapshot_contract(self):
         with tempfile.TemporaryDirectory() as directory:
@@ -176,6 +237,9 @@ class CollectorTests(unittest.TestCase):
             self.assertTrue(item['firstSeenAt'])
             self.assertTrue(item['lastSeenAt'])
             self.assertEqual(item['verification'], 'not_independently_verified')
+            self.assertTrue(collector.assess_relevance(item)['included'])
+            self.assertEqual(item['relevance']['version'], collector.SCOPE_VERSION)
+            self.assertIn(item['category'], collector.SCOPE_RULES)
 
 
 if __name__ == '__main__':

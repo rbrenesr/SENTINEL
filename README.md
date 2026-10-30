@@ -9,6 +9,9 @@ claves API ni instalación para los visitantes.
 - Mapa mundial interactivo, oscuro y responsive, con Leaflet y cartografía local de Natural Earth.
 - Vistas separadas de ubicaciones reportadas y países mencionados. Una mención no crea un marcador.
 - Filtros compartidos por búsqueda, categoría, fuente, país, región y fecha; capas por categoría.
+- Español como vista inicial y selector «Español / Todos los idiomas», aplicado a lista,
+  mapa y cronología. Los totales de publicaciones y últimas 24 horas siguen el idioma;
+  el estado de fuentes y los favoritos conservan sus totales globales.
 - Cronología de publicaciones de los últimos 14 días y selección de un intervalo de fechas.
 - Enlaces originales, favoritos locales compatibles con Lite y detalles de trazabilidad.
 - Historial de hasta 1.000 registros vistos durante los últimos 30 días, con conservación ante fallos parciales.
@@ -53,11 +56,33 @@ http://127.0.0.1:8765/SENTINEL/ . No abrir `index.html` con `file://`.
 `--offline` recalcula clasificación y geografía sin consultar proveedores ni cambiar
 las fechas de observación. No sustituye una recopilación exitosa.
 
-Se consultan diez fuentes RSS/Atom con un máximo de cuatro conexiones simultáneas,
+Se consultan quince fuentes RSS/Atom con un máximo de cuatro conexiones simultáneas,
 timeout de 18 segundos, límite de 8 MB por respuesta y hasta 35 registros por fuente.
 El feed de CISA supera el antiguo límite de 2 MB; se conserva su endpoint oficial.
 Las categorías se proponen por reglas de palabras clave sobre título y resumen;
 son heurísticas auditables y pueden ser incompletas. Se permite «Sin clasificar».
+
+### Publicaciones originales en español
+
+Se conservan las diez fuentes internacionales anteriores y se incorporan:
+
+| Fuente | Feed público |
+| --- | --- |
+| BBC Mundo | https://feeds.bbci.co.uk/mundo/rss.xml |
+| DW Español | https://rss.dw.com/rdf/rss-sp-all |
+| INCIBE-CERT | https://www.incibe.es/incibe-cert/alerta-temprana/avisos/feed |
+| Xataka IA | https://www.xataka.com/tag/inteligencia-artificial/rss2.xml |
+| Xataka Internet | https://www.xataka.com/tag/internet/rss2.xml |
+
+Cada publicación registra `language` y `languageMethod`. Se da prioridad al idioma
+declarado por la entrada, después al del feed y finalmente a la configuración de la
+edición o canal conocido. Los códigos regionales se normalizan (`es-CR` → `es`).
+No se deduce el idioma por la ubicación geográfica de la noticia. Los registros sin
+idioma identificado (`und`) solo aparecen al seleccionar todos los idiomas.
+El catálogo de fuentes de los filtros corresponde al idioma elegido; «Limpiar» vuelve
+a español. El contenido y los enlaces originales se mantienen, sin traducción automática.
+La identificación por edición/canal es orientativa: una declaración de idioma específica
+de la entrada prevalece sobre la del canal.
 
 ## Modelo y reglas geográficas
 

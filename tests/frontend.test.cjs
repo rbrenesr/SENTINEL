@@ -43,3 +43,14 @@ test('unsafe URLs and malformed snapshots are rejected', () => {
   assert.equal(C.validSnapshot({items: [{...news, url: 'data:text/html,hello'}], sources: []}), false);
   assert.equal(C.validSnapshot({items: [{...news, published: 'not a date'}], sources: []}), false);
 });
+test('Spanish view excludes English and unknown language without dropping them from all languages', () => {
+  const items = [{...news, language: 'es'}, {...news, id: '2', language: 'en'}, {...news, id: '3'}, {...news, id: '4', language: 'und'}];
+  assert.deepEqual(C.filterArticles(items, {language: 'es'}, now).map(x => x.id), ['1']);
+  assert.equal(C.filterArticles(items, {language: ''}, now).length, 4);
+});
+test('language combines with favorites, source, country and rolling period', () => {
+  const item = {...news, language: 'es'};
+  const filters = {language: 'es', favoritesOnly: true, saved: new Set([news.url]), source: 'Example',
+    country: 'CR', geoMode: 'mentions', hours: 24};
+  assert.equal(C.filterArticles([item, {...item, language: 'en'}], filters, now).length, 1);
+});

@@ -38,7 +38,8 @@
       const timestamp = item.published ? new Date(item.published).getTime() : NaN;
       const codes = countryCodes(item, filters.geoMode);
       const text = normalize([item.title, item.summary, item.source, ...(item.countries || []).map(x => x.label), ...(item.locations || []).map(x => x.label)].join(' '));
-      return (!q || text.includes(q)) && (!filters.category || item.category === filters.category) &&
+      return (!q || text.includes(q)) && (!filters.language || item.language === filters.language) &&
+        (!filters.category || item.category === filters.category) &&
         (!filters.source || item.source === filters.source) && (!filters.country || codes.includes(filters.country)) &&
         (!filters.regionCodes || codes.some(code => filters.regionCodes.has(code))) &&
         (!filters.favoritesOnly || isSaved(item, filters.saved || new Set())) &&

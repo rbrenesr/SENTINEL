@@ -69,6 +69,50 @@ class CollectorTests(unittest.TestCase):
     def test_source_category_does_not_classify_unrelated_news(self):
         self.assertEqual(collector.classify('Feral deer spread across Australia', ''), 'Sin clasificar')
 
+    def test_spanish_categories(self):
+        for title, category in [
+            ('Múltiples vulnerabilidades en un producto', 'Ciberseguridad'),
+            ('Una red neuronal impulsa nuevos modelos de IA', 'IA'),
+            ('Nuevos cables submarinos y fibra óptica', 'Internet'),
+            ('Las tropas alcanzan un alto el fuego', 'Conflictos')]:
+            with self.subTest(title=title):
+                self.assertEqual(collector.classify(title, ''), category)
+
+    def test_language_declaration_has_priority_over_source_defaults(self):
+        xml = '''<rss><channel><language>es-CR</language><item><title>Noticia</title>
+          <link>https://example.org/es</link></item><item><title>English item</title>
+          <link>https://example.org/en</link><language>en-US</language></item></channel></rss>'''
+        items = collector.parse(xml, 'BBC World')
+        self.assertEqual([(x['language'], x['languageMethod']) for x in items],
+                         [('es', 'feed_declaration'), ('en', 'entry_declaration')])
+
+    def test_atom_xml_language_and_source_fallback(self):
+        xml = '''<feed xmlns="http://www.w3.org/2005/Atom" xml:lang="es"><entry><title>Informe</title>
+          <link href="https://example.org/es"/></entry></feed>'''
+        self.assertEqual(collector.parse(xml, 'Example')[0]['language'], 'es')
+        rss = '<rss><channel><item><title>Informe</title><link>https://example.org/es</link></item></channel></rss>'
+        self.assertEqual(collector.parse(rss, 'Xataka IA')[0]['language'], 'es')
+        self.assertEqual(collector.parse(rss, 'Example')[0]['language'], 'und')
+
+    def test_legacy_articles_get_known_source_language_without_guessing(self):
+        item = article()
+        self.assertEqual(collector.enrich(item, [], {})['language'], 'und')
+        item['source'] = 'BBC World'
+        self.assertEqual(collector.enrich(item, [], {})['language'], 'en')
+        item['source'] = 'BBC Mundo'
+        enriched = collector.enrich(item, [], {})
+        self.assertEqual(enriched['language'], 'es')
+        self.assertEqual(enriched['languageMethod'], 'source_configuration')
+        item['language'] = 'en-US'
+        self.assertEqual(collector.enrich(item, [], {})['language'], 'en')
+
+    def test_language_survives_partial_failure_history(self):
+        old = article(language='es', languageMethod='feed_declaration')
+        previous = {'updatedAt': NOW, 'items': [old]}
+        retained = collector.merge_items(previous, [], NOW, [], {})
+        self.assertEqual(retained[0]['language'], 'es')
+        self.assertEqual(retained[0]['languageMethod'], 'feed_declaration')
+
     def test_longer_country_names_do_not_create_nested_mentions(self):
         item = article()
         item['title'] = 'Internet in Papua New Guinea'

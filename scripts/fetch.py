@@ -30,11 +30,21 @@ SOURCES = [
     ('OpenAI News', 'IA', 'https://openai.com/news/rss.xml'),
     ('MIT Technology Review', 'IA', 'https://www.technologyreview.com/feed/'),
 ]
+SOURCE_LANGUAGES = {name: 'en' for name, _, _ in SOURCES}
+SPANISH_SOURCES = [
+    ('BBC Mundo', 'Conflictos', 'https://feeds.bbci.co.uk/mundo/rss.xml'),
+    ('DW Español', 'Conflictos', 'https://rss.dw.com/rdf/rss-sp-all'),
+    ('INCIBE-CERT', 'Ciberseguridad', 'https://www.incibe.es/incibe-cert/alerta-temprana/avisos/feed'),
+    ('Xataka IA', 'IA', 'https://www.xataka.com/tag/inteligencia-artificial/rss2.xml'),
+    ('Xataka Internet', 'Internet', 'https://www.xataka.com/tag/internet/rss2.xml'),
+]
+SOURCES.extend(SPANISH_SOURCES)
+SOURCE_LANGUAGES.update({name: 'es' for name, _, _ in SPANISH_SOURCES})
 RULES = {
-    'Ciberseguridad': r'\b(ransomware|malware|cyberattack|cybersecurity|cyber attack|data breach|vulnerability|vulnerabilities|cve-\d+|phishing|hacker|hackers|ciberataque|ciberseguridad|vulnerabilidad|filtracion de datos)\b',
-    'Internet': r'\b(internet|outage|outages|connectivity|telecom|telecommunications|submarine cable|subsea cable|bgp|dns|cdn|conectividad|apagon digital|corte de internet)\b',
-    'IA': r'\b(artificial intelligence|generative ai|ai|llm|llms|machine learning|neural network|language model|chatgpt|openai|deepmind|inteligencia artificial|modelo de lenguaje)\b',
-    'Conflictos': r'\b(war|wars|military|missile|missiles|airstrike|airstrikes|ceasefire|troops|sanctions|diplomatic|diplomacy|armed conflict|invasion|guerra|militar|misil|bombardeo|sanciones|diplomacia|humanitarian|humanitario|occupation|hostage|hostages|fighting|clashes|armed forces|elections|political|government|geopolitical|ataques militares)\b',
+    'Ciberseguridad': r'\b(ransomware|malware|cyberattack|cybersecurity|cyber attack|data breach|vulnerability|vulnerabilities|cve-\d+|phishing|hacker|hackers|ciberataques?|ciberseguridad|vulnerabilidades?|filtracion(?:es)? de datos)\b',
+    'Internet': r'\b(internet|outage|outages|connectivity|telecom|telecommunications|submarine cable|subsea cable|bgp|dns|cdn|conectividad|apagon digital|cortes? de internet|telecomunicaciones|cables? submarinos?|fibra optica)\b',
+    'IA': r'\b(artificial intelligence|generative ai|ai|ia|llm|llms|machine learning|neural network|language model|chatgpt|openai|deepmind|inteligencia artificial|modelos? de lenguaje|aprendizaje automatico|redes? neuronales?)\b',
+    'Conflictos': r'\b(war|wars|military|missile|missiles|airstrike|airstrikes|ceasefire|troops|sanctions|diplomatic|diplomacy|armed conflict|invasion|guerras?|militar(?:es)?|misil(?:es)?|bombardeos?|sanciones|diplomacia|humanitarian|humanitari[oa]s?|occupation|hostage|hostages|fighting|clashes|armed forces|elections|political|government|geopolitical|ataques militares|alto el fuego|tropas|conflictos? armados?|rehenes|geopolitica|elecciones|gobierno)\b',
 }
 
 
@@ -95,8 +105,15 @@ def txt(element, name):
     return ''
 
 
+def normalize_language(value):
+    language = re.split('[-_]', str(value or '').strip().lower())[0]
+    return language if re.fullmatch(r'[a-z]{2,3}', language) else 'und'
+
+
 def parse(content, source, category=None):
     root = ET.fromstring(content)
+    channel = next((x for x in root if tag(x) == 'channel'), root)
+    declared = normalize_language(root.get('{http://www.w3.org/XML/1998/namespace}lang') or txt(channel, 'language'))
     items = []
     for entry in root.iter():
         if tag(entry) not in ('item', 'entry'):
@@ -114,6 +131,11 @@ def parse(content, source, category=None):
         item = dict(title=title, url=link, canonicalUrl=canonical, source=source,
                     category=classify(title, summary), published=parse_date(txt(entry, 'pubDate') or
                     txt(entry, 'published') or txt(entry, 'updated') or txt(entry, 'date')), summary=summary)
+        entry_language = normalize_language(entry.get('{http://www.w3.org/XML/1998/namespace}lang') or txt(entry, 'language'))
+        item['language'] = entry_language if entry_language != 'und' else declared if declared != 'und' else SOURCE_LANGUAGES.get(source, 'und')
+        item['languageMethod'] = ('entry_declaration' if entry_language != 'und' else
+                                  'feed_declaration' if declared != 'und' else
+                                  'source_configuration' if source in SOURCE_LANGUAGES else 'unknown')
         # Publisher coordinates are approximate and not independently verified.
         point = entry.find('{http://www.georss.org/georss}point')
         if point is not None and point.text:
@@ -190,7 +212,11 @@ def enrich(item, countries, annotations):
     item.update(id=stable_id(canonical), canonicalUrl=canonical,
                 category=classify(item['title'], item.get('summary', '')),
                 categoryMethod='keyword_rules', verification='not_independently_verified')
-    item['contentType'] = ('official_advisory' if item['source'] == 'CISA Alerts' else
+    item['language'] = normalize_language(item.get('language'))
+    if item['language'] == 'und':
+        item['language'] = SOURCE_LANGUAGES.get(item['source'], 'und')
+        item['languageMethod'] = 'source_configuration' if item['source'] in SOURCE_LANGUAGES else 'unknown'
+    item['contentType'] = ('official_advisory' if item['source'] in ('CISA Alerts', 'INCIBE-CERT') else
                            'publisher_post' if item['source'] in ('Google Research', 'OpenAI News',
                            'Cloudflare Blog', 'Internet Society') else 'news')
     item['countries'] = mentions(item, countries)
@@ -256,11 +282,11 @@ def collect(source):
         if len(content) > MAX_FEED_BYTES:
             raise ValueError('El feed supera el límite de 8 MB')
         items = parse(content, name, category)
-        return items, {'name': name, 'category': category, 'url': url,
+        return items, {'name': name, 'category': category, 'url': url, 'language': SOURCE_LANGUAGES.get(name, 'und'),
                        'status': 'ok' if items else 'empty', 'count': len(items), 'error': None}
     except Exception as error:
         print(f'{name}: {error}')
-        return [], {'name': name, 'category': category, 'url': url,
+        return [], {'name': name, 'category': category, 'url': url, 'language': SOURCE_LANGUAGES.get(name, 'und'),
                     'status': 'error', 'count': 0, 'error': str(error)[:250]}
 
 

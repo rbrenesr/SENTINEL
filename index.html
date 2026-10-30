@@ -7,10 +7,10 @@
   <meta name="description" content="SENTINEL: noticias globales, contexto geográfico y fuentes trazables. Monitor personal de fuentes abiertas.">
   <title>SENTINEL — Global Intelligence Monitor</title>
   <link rel="stylesheet" href="./assets/vendor/leaflet/leaflet.css">
-  <link rel="stylesheet" href="./assets/styles.css">
+  <link rel="stylesheet" href="./assets/styles.css?v=1.1-es">
   <script defer src="./assets/vendor/leaflet/leaflet.js"></script>
-  <script defer src="./assets/core.js"></script>
-  <script defer src="./assets/app.js"></script>
+  <script defer src="./assets/core.js?v=1.1-es"></script>
+  <script defer src="./assets/app.js?v=1.1-es"></script>
 </head>
 <body>
 <a class="skip" href="#publications">Ir a las publicaciones</a>
@@ -18,15 +18,16 @@
 <main class="shell" id="main">
   <section class="hero"><div><p class="eyebrow">OBSERVAR · CONTRASTAR · COMPRENDER</p><h1>El mundo, con contexto.</h1><p>Geopolítica, ciberseguridad, Internet e inteligencia artificial. Explorá publicaciones y ubicaciones reportadas, siempre con acceso a la fuente.</p></div><span class="version">SENTINEL v1.1</span></section>
   <section class="stats" aria-label="Resumen de la recopilación">
-    <div class="stat"><strong id="total">—</strong><small>Publicaciones conservadas</small></div>
-    <div class="stat"><strong id="last24">—</strong><small>Publicadas en 24 horas</small></div>
-    <div class="stat"><strong id="feeds">—</strong><small>Fuentes operativas</small></div>
+    <div class="stat"><strong id="total">—</strong><small id="totalLabel">Publicaciones en español</small></div>
+    <div class="stat"><strong id="last24">—</strong><small id="last24Label">En español · últimas 24 horas</small></div>
+    <div class="stat"><strong id="feeds">—</strong><small>Fuentes operativas · todos los idiomas</small></div>
     <div class="stat"><strong id="savedCount">0</strong><small>Favoritos en este navegador</small></div>
   </section>
   <div id="storageWarning" class="storage-warning" role="status" hidden></div>
   <section class="filter-panel" aria-label="Filtros de publicaciones">
     <div class="filter-row">
       <div class="field search-field"><label for="search">Buscar</label><input id="search" type="search" placeholder="Noticias, países, temas…"></div>
+      <div class="field"><label for="language">Idioma</label><select id="language"><option value="es" selected>Español</option><option value="">Todos los idiomas</option></select></div>
       <div class="field"><label for="source">Fuente</label><select id="source"><option value="">Todas las fuentes</option></select></div>
       <div class="field"><label for="country">País o territorio</label><select id="country"><option value="">Todos los países</option></select></div>
       <div class="field"><label for="region">Región</label><select id="region"><option value="">Todas las regiones</option><option value="Americas">América</option><option value="Europe">Europa</option><option value="Asia">Asia</option><option value="Africa">África</option><option value="Oceania">Oceanía</option></select></div>
@@ -39,6 +40,7 @@
       <div class="filter-actions"><button id="favorites" aria-pressed="false">☆ Favoritos</button><button id="costaRica">Costa Rica</button><button id="reset">Limpiar</button><button id="refresh">↻ Revisar datos</button></div>
     </div>
     <p class="filter-note" id="filterNote">Los filtros se aplican al mapa y a la lista. Las categorías se sugieren por palabras clave; no son una verificación editorial.</p>
+    <p class="filter-note" id="languageNote">Mostrando publicaciones originales en español. Elegí «Todos los idiomas» para ampliar la cobertura internacional.</p>
   </section>
   <div class="view-tabs" aria-label="Vista móvil"><button id="showMap" aria-pressed="true">Mapa</button><button id="showList" aria-pressed="false">Lista</button></div>
   <div class="workspace"><section aria-label="Exploración mundial">

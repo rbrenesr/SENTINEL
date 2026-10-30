@@ -29,7 +29,7 @@
 
   function filters(extra = {}) {
     const region = $('region').value;
-    return {query: $('search').value, category: $('category').value, source: $('source').value,
+    return {query: $('search').value, language: $('language').value, category: $('category').value, source: $('source').value,
       country: $('country').value, geoMode: $('geoMode').value, hours: Number($('period').value) || null,
       start: $('startDate').value, end: $('endDate').value, locatedOnly: $('locatedOnly').checked,
       favoritesOnly, saved, regionCodes: region ? new Set(countries.filter(x => x.region === region).map(x => x.code)) : null, ...extra};
@@ -46,7 +46,8 @@
   function populateOptions() {
     const selectedSource = $('source').value, selectedCountry = $('country').value;
     $('source').replaceChildren(new Option('Todas las fuentes', ''));
-    for (const source of [...new Set(data.items.map(item => item.source))].sort()) $('source').add(new Option(source, source));
+    const languageItems = C.filterArticles(data.items, {language: $('language').value});
+    for (const source of [...new Set(languageItems.map(item => item.source))].sort()) $('source').add(new Option(source, source));
     if ([...$('source').options].some(x => x.value === selectedSource)) $('source').value = selectedSource;
     $('country').replaceChildren(new Option('Todos los países', ''));
     for (const country of [...countries].sort((a, b) => a.name.localeCompare(b.name, 'es'))) $('country').add(new Option(country.name, country.code));
@@ -71,6 +72,7 @@
       row.append(title);
       const details = make('details'), summary = make('summary', '', 'Detalle de la consulta');
       details.append(summary, make('p', '', `Último éxito: ${fmt(source.lastSuccessAt || (source.status === 'ok' ? data.updatedAt : null))}`));
+      details.append(make('p', '', `Idioma: ${languageLabel(source.language)}.`));
       if (source.lastAttemptAt) details.append(make('p', '', `Intento: ${fmt(source.lastAttemptAt)}`));
       if (source.error) details.append(make('p', '', source.error));
       if (source.url) details.append(link('Consultar feed ↗', source.url));
@@ -83,10 +85,11 @@
     const node = make('article', 'article');
     node.style.setProperty('--item-color', C.colors[item.category] || C.colors['Sin clasificar']);
     const meta = make('div', 'meta');
-    meta.append(make('span', 'pill', item.category), make('span', '', item.source), make('span', '', fmt(item.published)));
+    meta.append(make('span', 'pill', item.category), make('span', '', item.source), make('span', '', languageLabel(item.language)), make('span', '', fmt(item.published)));
     const title = make('h3'); title.append(link(item.title, item.url));
+    if (/^[a-z]{2,3}$/.test(item.language || '') && item.language !== 'und') { title.lang = item.language; }
     node.append(meta, title);
-    if (item.summary) node.append(make('p', '', item.summary));
+    if (item.summary) { const summary = make('p', '', item.summary); summary.lang = title.lang; node.append(summary); }
     const locs = C.locations(item);
     if (!locs.length) node.append(make('span', 'geo-tag', 'Sin ubicación de acontecimiento'));
     for (const loc of locs) node.append(make('span', 'geo-tag', `${loc.label} · ${precisionLabel(loc.precision)}`));
@@ -99,6 +102,7 @@
     details.append(summary, make('p', '', `Publicación: ${fmt(item.published)} · Primera observación: ${fmt(item.firstSeenAt)} · Última observación: ${fmt(item.lastSeenAt)}`));
     const type = {official_advisory: 'Comunicado oficial', publisher_post: 'Publicación del editor', news: 'Noticia'}[item.contentType] || 'Publicación';
     details.append(make('p', '', `${type} · Categoría sugerida por palabras clave · Afirmaciones sin verificación independiente.`));
+    details.append(make('p', '', `Idioma original: ${languageLabel(item.language)}. ${['entry_declaration', 'feed_declaration'].includes(item.languageMethod) ? 'Declarado por el editor en el feed.' : item.languageMethod === 'source_configuration' ? 'Identificado por la edición o canal de la fuente.' : 'Sin identificación de idioma.'} El contenido se conserva sin traducción automática.`));
     for (const loc of item.locations || []) {
       details.append(make('p', '', `${loc.label}: ${loc.evidence?.text || 'Sin descripción'} · ${loc.verification === 'reviewed_location' ? 'Ubicación revisada; no implica verificar la noticia' : 'Ubicación indicada por la fuente'}`));
       if (loc.evidence?.url) details.append(link('Ver evidencia geográfica ↗', loc.evidence.url));
@@ -107,13 +111,14 @@
     const group = (data.relatedGroups || []).find(group => group.articleIds.includes(item.id));
     if (group) {
       details.append(make('p', '', 'Posible relación por título coincidente dentro de 72 horas; no confirma un mismo acontecimiento.'));
-      for (const related of data.items.filter(x => group.articleIds.includes(x.id) && x.id !== item.id)) {
+      for (const related of C.filterArticles(data.items, {language: $('language').value}).filter(x => group.articleIds.includes(x.id) && x.id !== item.id)) {
         const p = make('p'); p.append(link(`${related.source}: ${related.title}`, related.url)); details.append(p);
       }
     }
     node.append(details); return node;
   }
   function precisionLabel(value) { return {exact: 'exacta documentada', approximate: 'aproximada', country: 'a nivel de país'}[value] || 'sin precisión'; }
+  function languageLabel(value) { return {es: 'Español', en: 'Inglés', und: 'Idioma no determinado'}[value] || (value ? 'Otro idioma' : 'Idioma no determinado'); }
   function fitWorld() {
     if (!map || !map.getSize().x) return;
     map.fitBounds([[-55, -180], [78, 180]], {padding: [8, 8], maxZoom: 2});
@@ -147,19 +152,28 @@
     $('filterNote').textContent = invalidRange ? 'El inicio del período debe ser anterior o igual al final.' :
       $('geoMode').value === 'mentions' ? 'Vista de contexto: el filtro por país incluye menciones; no confirma ubicación ni afectación.' :
       'El filtro por país usa ubicaciones reportadas. Para buscar menciones, cambiá a la vista de contexto.';
-    $('total').textContent = data.items.length;
-    $('last24').textContent = C.filterArticles(data.items, {hours: 24}).length;
+    const language = $('language').value, languageItems = C.filterArticles(data.items, {language});
+    $('total').textContent = languageItems.length;
+    $('last24').textContent = C.filterArticles(languageItems, {hours: 24}).length;
+    $('totalLabel').textContent = language ? 'Publicaciones en español' : 'Publicaciones conservadas';
+    $('last24Label').textContent = language ? 'En español · últimas 24 horas' : 'Publicadas en 24 horas';
+    $('languageNote').textContent = language ? 'Mostrando publicaciones originales en español. Elegí «Todos los idiomas» para ampliar la cobertura internacional.' : 'Mostrando publicaciones en su idioma original, sin traducción automática.';
     $('savedCount').textContent = saved.size;
     $('feeds').textContent = `${data.sources.filter(x => x.status === 'ok').length}/${data.sources.length}`;
     $('favorites').setAttribute('aria-pressed', String(favoritesOnly));
     $('shown').textContent = `${items.length} resultados · ${items.filter(item => C.locations(item).length).length} con ubicación`;
     $('feed').replaceChildren();
-    if (!items.length) $('feed').append(make('div', 'empty', invalidRange ? 'Revisá el intervalo de fechas seleccionado.' :
-      'No hay publicaciones para estos filtros. Probá otra búsqueda o consultá los datos sin ubicación.'));
+    if (!items.length) {
+      const empty = make('div', 'empty', invalidRange ? 'Revisá el intervalo de fechas seleccionado.' :
+        language ? 'No hay publicaciones en español para estos filtros. Podés limpiar los filtros o ampliar la cobertura a todos los idiomas.' :
+        'No hay publicaciones para estos filtros. Probá otra búsqueda o consultá los datos sin ubicación.');
+      if (language) { const button = make('button', '', 'Ver todos los idiomas'); button.onclick = () => { $('language').value = ''; populateOptions(); render(); }; empty.append(make('p'), button); }
+      $('feed').append(empty);
+    }
     for (const item of items.slice(0, limit)) $('feed').append(card(item));
     $('more').hidden = items.length <= limit;
-    const located = data.items.filter(item => C.locations(item).length).length;
-    $('coverage').textContent = `${located} de ${data.items.length} publicaciones tienen ubicación reportada. ${data.items.length - located} permanecen en la lista sin asignar un lugar.`;
+    const located = languageItems.filter(item => C.locations(item).length).length;
+    $('coverage').textContent = `${located} de ${languageItems.length} publicaciones${language ? ' en español' : ''} tienen ubicación reportada. ${languageItems.length - located} permanecen en la lista sin asignar un lugar.`;
     updateConnection(); renderMap(items); renderTimeline();
   }
   function selectCountry(code) {
@@ -284,12 +298,14 @@
   for (const id of ['category', 'source', 'country', 'region', 'period', 'startDate', 'endDate', 'geoMode', 'locatedOnly']) {
     $(id).onchange = () => { limit = 25; render(); };
   }
+  $('language').onchange = () => { limit = 25; if (data) populateOptions(); render(); };
   let searchTimer;
   $('search').oninput = () => { clearTimeout(searchTimer); searchTimer = setTimeout(() => { limit = 25; render(); }, 120); };
   $('favorites').onclick = () => { favoritesOnly = !favoritesOnly; limit = 25; render(); };
   $('costaRica').onclick = () => { $('country').value = 'CR'; $('region').value = ''; $('geoMode').value = 'mentions'; $('locatedOnly').checked = false; selectCountry('CR'); };
   $('reset').onclick = () => {
     for (const id of ['search', 'category', 'source', 'country', 'region', 'period', 'startDate', 'endDate']) $(id).value = '';
+    $('language').value = 'es'; if (data) populateOptions();
     $('locatedOnly').checked = false; $('geoMode').value = 'occurrences'; favoritesOnly = false; limit = 25;
     enabledLayers.clear(); for (const category of C.categories) enabledLayers.add(category);
     for (const checkbox of $('layers').querySelectorAll('input')) checkbox.checked = true;

@@ -1,8 +1,710 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-11-04T18:50:15.798787+00:00",
-  "lastAttemptAt": "2026-11-04T18:50:15.798787+00:00",
+  "updatedAt": "2026-11-05T00:18:22.753847+00:00",
+  "lastAttemptAt": "2026-11-05T00:18:22.753847+00:00",
   "items": [
+    {
+      "title": "Iran war live: Trump says war caused election wipeout but he ‘had to do it’",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/5/iran-war-live-trump-admits-war-caused-election-loss-but-had-to-do-it?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/news/liveblog/2026/11/5/iran-war-live-trump-admits-war-caused-election-loss-but-had-to-do-it",
+      "source": "Al Jazeera",
+      "category": "Conflictos",
+      "published": "2026-11-05T00:00:00+00:00",
+      "summary": "President Trump admits Iran war 'largely' caused Republicans' US election wipeout, but says he 'had to do it'.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "war"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-05T00:18:22.753847+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
+      "id": "b7f686517023d8239b32",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "IR",
+          "label": "Irán",
+          "relation": "mentioned",
+          "matchedAlias": "Iran",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.aljazeera.com/news/liveblog/2026/11/5/iran-war-live-trump-admits-war-caused-election-loss-but-had-to-do-it?traffic_source=rss"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "La debacle de las elecciones de medio mandato debilita a Trump, pero por ahora aún conserva poder",
+      "url": "https://www.bbc.com/mundo/articles/cre3x0zq9xygo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.com/mundo/articles/cre3x0zq9xygo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Mundo",
+      "category": "Conflictos",
+      "published": "2026-11-04T23:47:36+00:00",
+      "summary": "Trump ha transmitido mensajes contradictorios sobre su posible trato con los demócratas en el Congreso tras la contundente derrota de su partido. Pero no ha dudado en decir que ejercerá todo el poder que tenga.",
+      "language": "es",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "elecciones"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-05T00:18:22.753847+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
+      "id": "ba84d980f48fea1efecc",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "Sudan, Ethiopia order tit-for-tat diplomatic expulsions",
+      "url": "https://www.aljazeera.com/news/2026/11/4/sudan-ethiopia-order-tit-for-tat-diplomatic-expulsions?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/news/2026/11/4/sudan-ethiopia-order-tit-for-tat-diplomatic-expulsions",
+      "source": "Al Jazeera",
+      "category": "Conflictos",
+      "published": "2026-11-04T23:43:26+00:00",
+      "summary": "Sudan accuses Ethiopia of aiding RSF attacks, while Ethiopia claims Sudan backs Tigray rebels.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "diplomatic"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-05T00:18:22.753847+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
+      "id": "cefcc56d05c2fcbd8000",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "ET",
+          "label": "Etiopía",
+          "relation": "mentioned",
+          "matchedAlias": "Ethiopia",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.aljazeera.com/news/2026/11/4/sudan-ethiopia-order-tit-for-tat-diplomatic-expulsions?traffic_source=rss"
+        },
+        {
+          "countryCode": "SD",
+          "label": "Sudán",
+          "relation": "mentioned",
+          "matchedAlias": "Sudan",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.aljazeera.com/news/2026/11/4/sudan-ethiopia-order-tit-for-tat-diplomatic-expulsions?traffic_source=rss"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "Trump blames Iran war for midterms losses",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/trump-blames-iran-war-for-midterms-losses?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/4/trump-blames-iran-war-for-midterms-losses",
+      "source": "Al Jazeera",
+      "category": "Conflictos",
+      "published": "2026-11-04T23:30:01+00:00",
+      "summary": "President Donald Trump said the war in Iran likely contributed to Republican setbacks in the midterm elections",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "midterms",
+          "war"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-05T00:18:22.753847+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
+      "id": "e3c1ab9c5db2635b815c",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "IR",
+          "label": "Irán",
+          "relation": "mentioned",
+          "matchedAlias": "Iran",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/4/trump-blames-iran-war-for-midterms-losses?traffic_source=rss"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "Tencent acaba de lanzar una nueva IA. Lo interesante no es solo lo que sabe hacer, sino lo que ha decidido no enseñarle",
+      "url": "https://www.xataka.com/robotica-e-ia/tencent-acaba-lanzar-nueva-ia-interesante-no-solo-que-sabe-hacer-sino-que-ha-decidido-no-ensenarle",
+      "canonicalUrl": "https://www.xataka.com/robotica-e-ia/tencent-acaba-lanzar-nueva-ia-interesante-no-solo-que-sabe-hacer-sino-que-ha-decidido-no-ensenarle",
+      "source": "Xataka IA",
+      "category": "IA",
+      "published": "2026-11-04T22:55:00+00:00",
+      "summary": "Hay conocimientos que pueden servir tanto para resolver un problema como para provocarlo. Todo depende de quién los utilice, con qué intención y en qué circunstancias. Esta distinción, que podemos reconocer fácilmente en ámbitos como la informática o la investigación científica, adquiere otra dimensión cuando hablamos de inteligencia artificial . Los modelos actuales pueden utilizar herramientas y abordar tareas cada vez más complejas, pero sus capacidades no dependen únicamente de las instrucciones que reciben. También están condicionadas por lo que han aprendido durante su desarrollo, y ahí aparece una decisión que merece atención. Tencent ",
+      "language": "es",
+      "languageMethod": "source_configuration",
+      "relevance": {
+        "included": true,
+        "category": "IA",
+        "reason": "title_topic",
+        "signals": [
+          "ia"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-05T00:18:22.753847+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
+      "id": "6402ba3d0215ff0965da",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "Democratic Socialists of America see record wins in US midterm elections",
+      "url": "https://www.aljazeera.com/news/2026/11/4/democratic-socialists-of-america-see-record-wins-in-us-midterm-elections?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/news/2026/11/4/democratic-socialists-of-america-see-record-wins-in-us-midterm-elections",
+      "source": "Al Jazeera",
+      "category": "Conflictos",
+      "published": "2026-11-04T22:45:24+00:00",
+      "summary": "The left-wing movement has won support for its views on issues like the war in Gaza and universal healthcare.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "elections",
+          "midterm"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-05T00:18:22.753847+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
+      "id": "020e0e54b59a132fe489",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "Vance atribuye la derrota republicana a la guerra contra Irán",
+      "url": "https://www.dw.com/es/vance-atribuye-la-derrota-republicana-a-la-guerra-contra-irán/a-79857934?maca=spa-rss-sp-all-1122-rdf",
+      "canonicalUrl": "https://www.dw.com/es/vance-atribuye-la-derrota-republicana-a-la-guerra-contra-irán/a-79857934?maca=spa-rss-sp-all-1122-rdf",
+      "source": "DW Español",
+      "category": "Conflictos",
+      "published": "2026-11-04T22:43:00+00:00",
+      "summary": "El vicepresidente de Estados Unidos dijo que si alguien cree que perder el Senado es un costo aceptable, debería decirlo. “Todo el mundo sabe por qué perdimos”, agregó.",
+      "language": "es",
+      "languageMethod": "entry_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "guerra"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
+      "id": "1845b37d3e28644aa9df",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "US",
+          "label": "Estados Unidos",
+          "relation": "mentioned",
+          "matchedAlias": "Estados Unidos",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.dw.com/es/vance-atribuye-la-derrota-republicana-a-la-guerra-contra-irán/a-79857934?maca=spa-rss-sp-all-1122-rdf"
+        },
+        {
+          "countryCode": "IR",
+          "label": "Irán",
+          "relation": "mentioned",
+          "matchedAlias": "Iran",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.dw.com/es/vance-atribuye-la-derrota-republicana-a-la-guerra-contra-irán/a-79857934?maca=spa-rss-sp-all-1122-rdf"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "La Casa Blanca recuerda que Trump \"es todavía presidente\" pese a la derrota en las legislativas",
+      "url": "https://www.dw.com/es/la-casa-blanca-recuerda-que-trump-es-todavía-presidente-pese-a-la-derrota-en-las-legislativas/live-79845739?maca=spa-rss-sp-all-1122-rdf",
+      "canonicalUrl": "https://www.dw.com/es/la-casa-blanca-recuerda-que-trump-es-todavía-presidente-pese-a-la-derrota-en-las-legislativas/live-79845739?maca=spa-rss-sp-all-1122-rdf",
+      "source": "DW Español",
+      "category": "Conflictos",
+      "published": "2026-11-04T22:18:00+00:00",
+      "summary": "Las elecciones que definirán la segunda parte del mandato de Donald Trump son también relevantes para el resto del planeta. Acá les contamos todos los detalles de esta jornada.",
+      "language": "es",
+      "languageMethod": "entry_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "legislativas"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
+      "id": "5b0d59809e05ab044d1d",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "Palestinians, Israelis react after Democrats sweep US midterms",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/palestinians-israelis-react-after-democrats-sweep-us-midterms?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/4/palestinians-israelis-react-after-democrats-sweep-us-midterms",
+      "source": "Al Jazeera",
+      "category": "Conflictos",
+      "published": "2026-11-04T22:06:24+00:00",
+      "summary": "Palestinians and Israelis are divided in their opinion following the win by Democrats in the US midterm elections.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "midterms"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-05T00:18:22.753847+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
+      "id": "305a13cfe497b3c4ba39",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "US midterm election results live: Trump blames Iran war after losses",
+      "url": "https://www.aljazeera.com/news/liveblog/2026/11/4/us-midterm-election-results-live-trump-reacts-as-more-results-awaited?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/news/liveblog/2026/11/4/us-midterm-election-results-live-trump-reacts-as-more-results-awaited",
+      "source": "Al Jazeera",
+      "category": "Conflictos",
+      "published": "2026-11-04T21:00:00+00:00",
+      "summary": "A Democratic romp has rocked the US political landscape, but several closely contested races remain too close to call.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "midterm",
+          "war"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-05T00:18:22.753847+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
+      "id": "f117f4fc2996a344939a",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "IR",
+          "label": "Irán",
+          "relation": "mentioned",
+          "matchedAlias": "Iran",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.aljazeera.com/news/liveblog/2026/11/4/us-midterm-election-results-live-trump-reacts-as-more-results-awaited?traffic_source=rss"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "Zyxel fixes zero-day exploited to hack nearly 1,000 network switches",
+      "url": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
+      "canonicalUrl": "https://www.bleepingcomputer.com/news/security/zyxel-fixes-zero-day-exploited-to-hack-nearly-1-000-network-switches/",
+      "source": "BleepingComputer",
+      "category": "Ciberseguridad",
+      "published": "2026-11-04T20:58:19+00:00",
+      "summary": "Zyxel has patched a zero-day vulnerability in its GS1900 series network switches that hackers exploited to compromise nearly 1,000 devices worldwide and steal configuration files and credentials. [...]",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Ciberseguridad",
+        "reason": "title_topic",
+        "signals": [
+          "zero-day"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-05T00:18:22.753847+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
+      "id": "b8bdafeefd7281914ede",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "Democrat leaders hail midterm election success",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/aje-onl-nf_democrat-leaders-hail-midterm-election-success-041126?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/4/aje-onl-nf_democrat-leaders-hail-midterm-election-success-041126",
+      "source": "Al Jazeera",
+      "category": "Conflictos",
+      "published": "2026-11-04T20:50:31+00:00",
+      "summary": "The top Democrats in the two chambers of US Congress have been hailing their party’s resounding victory in the midterms.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "midterm"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-05T00:18:22.753847+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
+      "id": "34a56beebefc574b18b6",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "El impacto de la victoria demócrata en la economía estadounidense",
+      "url": "https://www.dw.com/es/el-impacto-de-la-victoria-demócrata-en-la-economía-estadounidense/a-79858843?maca=spa-rss-sp-all-1122-rdf",
+      "canonicalUrl": "https://www.dw.com/es/el-impacto-de-la-victoria-demócrata-en-la-economía-estadounidense/a-79858843?maca=spa-rss-sp-all-1122-rdf",
+      "source": "DW Español",
+      "category": "Conflictos",
+      "published": "2026-11-04T20:32:00+00:00",
+      "summary": "El encarecimiento del petróleo, los aranceles, la deuda creciente y el auge de los centros de datos han pesado en los resultados de las elecciones intermedias de Estados Unidos.",
+      "language": "es",
+      "languageMethod": "entry_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "summary_context",
+        "signals": [
+          "aranceles",
+          "elecciones"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-05T00:18:22.753847+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
+      "id": "ba9ba3c919be69ef6dad",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "US",
+          "label": "Estados Unidos",
+          "relation": "mentioned",
+          "matchedAlias": "Estados Unidos",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.dw.com/es/el-impacto-de-la-victoria-demócrata-en-la-economía-estadounidense/a-79858843?maca=spa-rss-sp-all-1122-rdf"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "Iranians celebrate Democrat victory in US midterms",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/iranians-celebrate-democrat-victory-in-us-midterms?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/4/iranians-celebrate-democrat-victory-in-us-midterms",
+      "source": "Al Jazeera",
+      "category": "Conflictos",
+      "published": "2026-11-04T19:59:14+00:00",
+      "summary": "US President Donald Trump acknowledged the Republicans’ crushing defeat was partly due to the war on Iran.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "midterms"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-05T00:18:22.753847+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
+      "id": "dcd2f98077ea1c061351",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "IR",
+          "label": "Irán",
+          "relation": "mentioned",
+          "matchedAlias": "Iran",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/4/iranians-celebrate-democrat-victory-in-us-midterms?traffic_source=rss"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "Hakeem Jeffries promises ‘affordability’ focus after Democratic midterm win",
+      "url": "https://www.aljazeera.com/news/2026/11/4/hakeem-jeffries-promises-affordability-focus-after-democratic-midterm-win?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/news/2026/11/4/hakeem-jeffries-promises-affordability-focus-after-democratic-midterm-win",
+      "source": "Al Jazeera",
+      "category": "Conflictos",
+      "published": "2026-11-04T19:30:41+00:00",
+      "summary": "Democratic leader says party expects at least 255 House seats and promises to deliver on affordability.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "midterm"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-05T00:18:22.753847+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
+      "id": "26ab029a88e5a0ac2abe",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "The midterms were a thumping rebuke of the US-Israel relationship",
+      "url": "https://www.theguardian.com/us-news/2026/nov/04/israel-relationship-midterm-elections",
+      "canonicalUrl": "https://www.theguardian.com/us-news/2026/nov/04/israel-relationship-midterm-elections",
+      "source": "The Guardian World",
+      "category": "Conflictos",
+      "published": "2026-11-04T19:22:43+00:00",
+      "summary": "Even Trump seems to recognize that the relationship has become a political liability, and may never be the same Send us your questions about the midterm results Track live results from all 50 states On the eve of a midterm election that ended in an unequivocal rejection of his brand of politics, even Donald Trump seemed to recognize that the US-Israel relationship had become a political liability. Trump’s 11th-hour suggestion, on election morning, that he would cut military aid to Israel at the end of the year because, as he put it, “they don’t need it”, was condemned across the board – with pro-Palestinian advocates dismissing it as “despera",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "midterms"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-05T00:18:22.753847+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
+      "id": "3c604011f3361a3ad947",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "IL",
+          "label": "Israel",
+          "relation": "mentioned",
+          "matchedAlias": "Israel",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.theguardian.com/us-news/2026/nov/04/israel-relationship-midterm-elections"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "US midterms 2026: What key races remain undecided?",
+      "url": "https://www.aljazeera.com/news/2026/11/4/us-midterms-2026-what-key-races-remain-undecided?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/news/2026/11/4/us-midterms-2026-what-key-races-remain-undecided",
+      "source": "Al Jazeera",
+      "category": "Conflictos",
+      "published": "2026-11-04T19:18:47+00:00",
+      "summary": "Ballots continue to be counted in states like Alaska, Mississippi, Kansas and California for toss-up races.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "midterms"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-05T00:18:22.753847+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
+      "id": "d6781637b6932b34fb7e",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "How US midterm results could reshape Trump’s foreign policy",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/4/aje-onl-nf_how-us-midterm-could-reshape-trumps-foreign-policy-041126?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/4/aje-onl-nf_how-us-midterm-could-reshape-trumps-foreign-policy-041126",
+      "source": "Al Jazeera",
+      "category": "Conflictos",
+      "published": "2026-11-04T19:15:50+00:00",
+      "summary": "US midterm results could reshape Trump’s political landscape and increase congressional scrutiny of his foreign policy.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "foreign policy",
+          "midterm"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-05T00:18:22.753847+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
+      "id": "b869940af493d45ffdda",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "The biggest winners and losers of the 2026 US midterms",
+      "url": "https://www.aljazeera.com/news/2026/11/4/the-biggest-winners-and-losers-of-the-2026-us-midterms?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/news/2026/11/4/the-biggest-winners-and-losers-of-the-2026-us-midterms",
+      "source": "Al Jazeera",
+      "category": "Conflictos",
+      "published": "2026-11-04T18:52:25+00:00",
+      "summary": "Historic firsts, surprise victories and expensive defeats as Democrats take control of Congress.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "midterms"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-05T00:18:22.753847+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
+      "id": "b3338c45443445c7a092",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "Texas was the new epicenter of the AI data center buildout. That might be kaput.",
+      "url": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
+      "canonicalUrl": "https://www.technologyreview.com/2026/11/04/1148043/texas-was-the-new-epicenter-of-the-ai-data-center-buildout-that-might-be-kaput/",
+      "source": "MIT Technology Review",
+      "category": "Internet",
+      "published": "2026-11-04T18:50:55+00:00",
+      "summary": "Texas is the fastest-growing data center market in the US and ground zero for Big Tech’s largest AI buildouts. But the blue wave that swept the Lone Star State may jeopardize that position. Democrat James Talarico won the US Senate seat against Ken Paxton. Gina Hinojosa won the race for governor against the Republican incumbent,…",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Internet",
+        "reason": "title_topic",
+        "signals": [
+          "data center"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-05T00:18:22.753847+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
+      "id": "988e33cedf7304f8cc6d",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "Las gráficas que explican los resultados de las elecciones intermedias",
+      "url": "https://www.dw.com/es/las-gráficas-que-explican-los-resultados-de-las-elecciones-intermedias/a-79857790?maca=spa-rss-sp-all-1122-rdf",
+      "canonicalUrl": "https://www.dw.com/es/las-gráficas-que-explican-los-resultados-de-las-elecciones-intermedias/a-79857790?maca=spa-rss-sp-all-1122-rdf",
+      "source": "DW Español",
+      "category": "Conflictos",
+      "published": "2026-11-04T18:49:00+00:00",
+      "summary": "DW analiza quién ha votado por los republicanos, quién lo ha hecho por los demócratas y qué implicaciones tienen los resultados.",
+      "language": "es",
+      "languageMethod": "entry_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "elecciones"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-05T00:18:22.753847+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
+      "id": "2ee2e5adfa716204bc0b",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
     {
       "title": "La estrepitosa derrota de Trump: cinco conclusiones de las elecciones",
       "url": "https://www.dw.com/es/la-estrepitosa-derrota-de-trump-cinco-conclusiones-de-las-elecciones/a-79857969?maca=spa-rss-sp-all-1122-rdf",
@@ -24,7 +726,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "b9b25067d235f3f06f89",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -39,35 +741,6 @@
           "evidenceUrl": "https://www.dw.com/es/la-estrepitosa-derrota-de-trump-cinco-conclusiones-de-las-elecciones/a-79857969?maca=spa-rss-sp-all-1122-rdf"
         }
       ],
-      "locations": []
-    },
-    {
-      "title": "La Casa Blanca recuerda que Trump \"es todavía presidente\" pese a la derrota en las legislativas",
-      "url": "https://www.dw.com/es/la-casa-blanca-recuerda-que-trump-es-todavía-presidente-pese-a-la-derrota-en-las-legislativas/live-79845739?maca=spa-rss-sp-all-1122-rdf",
-      "canonicalUrl": "https://www.dw.com/es/la-casa-blanca-recuerda-que-trump-es-todavía-presidente-pese-a-la-derrota-en-las-legislativas/live-79845739?maca=spa-rss-sp-all-1122-rdf",
-      "source": "DW Español",
-      "category": "Conflictos",
-      "published": "2026-11-04T18:28:00+00:00",
-      "summary": "Las elecciones que definirán la segunda parte del mandato de Donald Trump son también relevantes para el resto del planeta. Acá les contamos todos los detalles de esta jornada.",
-      "language": "es",
-      "languageMethod": "entry_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "title_topic",
-        "signals": [
-          "legislativas"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
-      "id": "5b0d59809e05ab044d1d",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [],
       "locations": []
     },
     {
@@ -91,7 +764,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "2f2fe21333b249749d21",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -120,7 +793,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "09c40cbdb75966e0dccf",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -149,7 +822,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "324db880e2c47ea37c6f",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -188,7 +861,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "5d000570d3259a7547ad",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -212,7 +885,7 @@
       "source": "Al Jazeera",
       "category": "Conflictos",
       "published": "2026-11-04T17:18:50+00:00",
-      "summary": "Vance cited trusted pollster saying Iran war, Israel ties were top of mind for Trump voters swinging to Democrats.",
+      "summary": "US VP Vance cites trusted pollster saying Iran war, Israel ties were top of mind for Trump voters swinging to Democrats.",
       "language": "en",
       "languageMethod": "feed_declaration",
       "relevance": {
@@ -226,7 +899,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "034b56d0b181fae3a621",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -273,58 +946,12 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "5f784a9688e007719af6",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
       "contentType": "news",
       "countries": [],
-      "locations": []
-    },
-    {
-      "title": "Vance atribuye la derrota republicana a la guerra contra Irán",
-      "url": "https://www.dw.com/es/vance-atribuye-la-derrota-republicana-a-la-guerra-contra-irán/a-79857934?maca=spa-rss-sp-all-1122-rdf",
-      "canonicalUrl": "https://www.dw.com/es/vance-atribuye-la-derrota-republicana-a-la-guerra-contra-irán/a-79857934?maca=spa-rss-sp-all-1122-rdf",
-      "source": "DW Español",
-      "category": "Conflictos",
-      "published": "2026-11-04T17:03:00+00:00",
-      "summary": "El vicepresidente de Estados Unidos dijo que si alguien cree que perder el Senado es un costo aceptable, debería decirlo. “Todo el mundo sabe por qué perdimos”, agregó.",
-      "language": "es",
-      "languageMethod": "entry_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "title_topic",
-        "signals": [
-          "guerra"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
-      "id": "1845b37d3e28644aa9df",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [
-        {
-          "countryCode": "US",
-          "label": "Estados Unidos",
-          "relation": "mentioned",
-          "matchedAlias": "Estados Unidos",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.dw.com/es/vance-atribuye-la-derrota-republicana-a-la-guerra-contra-irán/a-79857934?maca=spa-rss-sp-all-1122-rdf"
-        },
-        {
-          "countryCode": "IR",
-          "label": "Irán",
-          "relation": "mentioned",
-          "matchedAlias": "Iran",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.dw.com/es/vance-atribuye-la-derrota-republicana-a-la-guerra-contra-irán/a-79857934?maca=spa-rss-sp-all-1122-rdf"
-        }
-      ],
       "locations": []
     },
     {
@@ -348,7 +975,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T11:29:55.548871+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "686a08ca0b1bb4aea9d6",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -386,7 +1013,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "94833255da64ec919226",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -415,7 +1042,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "2b8c441fd0c398affd9d",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -444,7 +1071,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "0ea57fe42e4a14891ce2",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -474,7 +1101,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T11:29:55.548871+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "a143994be5486339ff99",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -520,7 +1147,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "382182b43b384d4a39a7",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -664,7 +1291,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "646c23c08481b93b79df",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -693,7 +1320,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T11:29:55.548871+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "8c4ec9300281deb557aa",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -731,7 +1358,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "803d0b274cc642505e68",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -760,7 +1387,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "1be4fdd8e6ca80f0ec01",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -790,7 +1417,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "f29697af42ca8eadea91",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -829,7 +1456,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T11:29:55.548871+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "3a0038a1a515bce70b89",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -838,13 +1465,13 @@
       "locations": []
     },
     {
-      "title": "Albanese government warned it’s ‘sleepwalking into another robodebt scenario’ over use of algorithms and AI",
+      "title": "Albanese government warned it is ‘sleepwalking into another robodebt scenario’ over use of algorithms and AI",
       "url": "https://www.theguardian.com/australia-news/2026/nov/05/albanese-government-warned-its-sleepwalking-into-another-robodebt-scenario-over-use-of-algorithms-and-ai",
       "canonicalUrl": "https://www.theguardian.com/australia-news/2026/nov/05/albanese-government-warned-its-sleepwalking-into-another-robodebt-scenario-over-use-of-algorithms-and-ai",
       "source": "The Guardian World",
       "category": "IA",
       "published": "2026-11-04T14:00:37+00:00",
-      "summary": "Centre for Public Integrity report says mandatory audit and public register of all automated decision-making needed Get our breaking news email , free app or daily news podcast The federal government is “sleepwalking its way into another robodebt” scandal amid a lack of transparency and legislation around use of algorithms and artificial intelligence in decisions, the chief executive of independent thinktank the Centre for Public Integrity said. Dr Catherine Williams launched the centre’s “Computer Says No” report on Thursday, which examines the use of automated decision-making (ADM) tools by the government and calls for urgent reform. Contin",
+      "summary": "Centre for Public Integrity report calls for audit and public register of all automated decision-making Get our breaking news email , free app or daily news podcast The federal government is “sleepwalking its way into another robodebt” scandal amid a lack of transparency and legislation around the use of algorithms and AI in decisions, the chief executive of the independent thinktank the Centre for Public Integrity said. Dr Catherine Williams launched the centre’s “Computer Says No” report on Thursday, which examines the use of automated decision-making (ADM) tools by the government and calls for urgent reform. Continue reading...",
       "language": "en",
       "languageMethod": "feed_declaration",
       "relevance": {
@@ -858,7 +1485,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "6c7136f17ee062bb533c",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -955,7 +1582,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "7eb1efdc2101c6265f61",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1023,7 +1650,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "c401bb54ceffe967aab5",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1052,7 +1679,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T11:29:55.548871+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "cc6e34e4745db08d51ca",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1128,7 +1755,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T11:29:55.548871+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "faf2b866811252b85d0f",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1157,7 +1784,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T11:29:55.548871+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "e4e11bd011fdc9a236f4",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1283,7 +1910,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T11:29:55.548871+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "000aeb66dec43c7a829c",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1350,7 +1977,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T11:29:55.548871+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "35ac67ffc40be772c489",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1381,7 +2008,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T11:29:55.548871+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "8aeb2a6eae670d7acec4",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1410,7 +2037,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T11:29:55.548871+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "ae743fbea95c4a186c8d",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1439,7 +2066,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T11:29:55.548871+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "13749000a1d4219a5786",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1468,7 +2095,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T11:29:55.548871+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "96a182411d0b8969fc98",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1497,7 +2124,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "e86fdac192337a272f9e",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1526,7 +2153,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T11:29:55.548871+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "259589d74206ac6b891c",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1593,7 +2220,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T11:29:55.548871+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "d29a496a9b82aaacdf02",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1622,7 +2249,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T03:10:46.427236+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "4db5d676f9725a572884",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2082,7 +2709,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T23:14:04.719071+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "cf2ea752df828dbad211",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2234,7 +2861,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T23:14:04.719071+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "bcfb2e41fbecf9d29cac",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2243,13 +2870,13 @@
       "locations": []
     },
     {
-      "title": "\"Perdimos por la guerra\", dice JD Vance tras los devastadores resultados para el gobierno de Trump en las elecciones de medio término en EE.UU.",
+      "title": "Los demócratas ganan el control del Congreso, Trump es criticado por su propio partido y EE.UU. entra en una nueva era política tras las elecciones de medio término",
       "url": "https://www.bbc.co.uk/mundo/live/cq9vz4g97xy2t?at_medium=RSS&at_campaign=rss",
       "canonicalUrl": "https://www.bbc.co.uk/mundo/live/cq9vz4g97xy2t?at_medium=RSS&at_campaign=rss",
       "source": "BBC Mundo",
       "category": "Conflictos",
       "published": null,
-      "summary": "Los demócratas celebran una aplastante victoria frente a los republicanos, la cual les otorga el control tanto del Senado como de la Cámara de Representantes de EE.UU. por los próximos dos años.",
+      "summary": "Los demócratas consiguen una aplastante victoria frente a los republicanos, la cual les otorga el control tanto del Senado como de la Cámara de Representantes de EE.UU. por los próximos dos años, limitando las ambiciones de Trump.",
       "language": "es",
       "languageMethod": "feed_declaration",
       "relevance": {
@@ -2257,14 +2884,13 @@
         "category": "Conflictos",
         "reason": "title_topic",
         "signals": [
-          "elecciones",
-          "guerra"
+          "elecciones"
         ],
         "method": "topic_rules",
         "version": 1
       },
       "firstSeenAt": "2026-11-03T17:43:25.925049+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "988cbf8bbfc246cc9c7e",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2322,7 +2948,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T17:43:25.925049+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "33d1a53fa02fc4963d64",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2706,7 +3332,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T17:43:25.925049+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "e581154108f523de51d2",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2740,7 +3366,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T10:02:03.608468+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "87efcfd56daab67ae866",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2824,7 +3450,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T17:43:25.925049+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "95be758dada6d32046c0",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3115,7 +3741,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T17:43:25.925049+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "b8d5b59cc333a3c5e804",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3144,7 +3770,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T23:14:04.719071+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "631a1e427dfab6948255",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3202,7 +3828,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T17:43:25.925049+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "e6e258092e928f0d256b",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3356,7 +3982,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T17:43:25.925049+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "fc87a45dcfbf03d41725",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3385,7 +4011,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T23:14:04.719071+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "34e7d62615202d0de65f",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3637,7 +4263,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T10:02:03.608468+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "b7492bd5cea1d25b7540",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3856,7 +4482,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T02:36:31.828730+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "44063326be3c72f60977",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3961,7 +4587,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T23:14:04.719071+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "019edb616369c3322f4c",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -4309,7 +4935,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "5060fee8ece355fc9f30",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -4367,7 +4993,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "84c1598e7abfc770739d",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -4561,7 +5187,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "e3c74ff874965e2c0278",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -4590,7 +5216,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T10:02:03.608468+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "0d297090385ad5a72451",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -4784,7 +5410,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "c07f1801efd628ae25f5",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -4981,7 +5607,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "586d98240857daa85781",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -5010,7 +5636,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T02:36:31.828730+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "277870ffc8d71544c046",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -5135,7 +5761,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "3017d51cc49fa391b080",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -5882,7 +6508,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "4094d4340f9e66f9e2fc",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -5911,7 +6537,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T02:36:31.828730+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "945f879ef3a469b4aebe",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -6536,7 +7162,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-01T14:28:07.130277+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "f063ceae6ff751ba9d7c",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -8174,7 +8800,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T21:40:53.271980+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "a97e27cc34086dfc1fcf",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -8726,7 +9352,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T14:10:37.162341+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "d2dd776fc827913d3db6",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -9073,7 +9699,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T21:40:53.271980+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "84abd1857de5dfd951d9",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -9103,7 +9729,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T17:09:09.171854+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "a86d24c59c826150d16d",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -9821,7 +10447,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-31T01:30:11.973227+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "574dbaf7fc8731e40575",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -10444,7 +11070,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "9349f418e7bc7ab45091",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -11107,7 +11733,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "0f01adb2acab0a67ba71",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -11319,7 +11945,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "d948735545c20cf30721",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -11519,7 +12145,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T17:09:09.171854+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "85f94c0fe8f02a81789b",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -11729,7 +12355,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T23:14:04.719071+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "16681fd606d5f6994d06",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -11796,7 +12422,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "a395c7da350b5086cc15",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -11988,7 +12614,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "709cc8e2bd467b791689",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -12162,7 +12788,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "b49ec3bd8394c6fb4c19",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -12191,7 +12817,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "1e3ebf94e41ebe19793b",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -12388,7 +13014,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "c417f8e3d39d0b893c07",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -12417,7 +13043,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "c44dc9ed271ff418b14a",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -12446,7 +13072,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "e77549dba84aa9c32f2e",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -12611,7 +13237,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "27334100e818b98514ff",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -12698,7 +13324,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:43:59.426409+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "5dcbf942d9a311a79a75",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -12727,7 +13353,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "32ef7801f5802984dfdd",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -12872,7 +13498,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:43:59.426409+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "21c44a150d24631fa8f9",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -12941,7 +13567,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:43:59.426409+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "dc36786d82352110caf5",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -12970,7 +13596,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:43:59.426409+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "8475b78ae3134eeff400",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -13488,7 +14114,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:43:59.426409+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "ad8d074947f8205ebb42",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -13517,7 +14143,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:43:59.426409+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "172853c50f28f34f2b55",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -13643,7 +14269,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "3bfcd79e09f177c0e0d9",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -13672,7 +14298,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:43:59.426409+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "0e17d0674af31b667ccc",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -13701,7 +14327,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "4a59615041b968ae61d1",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -13730,7 +14356,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "1c5f83daf4c5b5dc2db6",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -14020,7 +14646,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "72477d086944244f5e4b",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -14049,7 +14675,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "dd1029b4b030aba3c24c",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -14108,7 +14734,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "4c456e668ef45cba83b5",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -14137,7 +14763,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "c02127d349672db4a213",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -14166,7 +14792,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "5eca910e1a1b5f733468",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -14195,7 +14821,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "5cc8f180d7d24936a059",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -14224,7 +14850,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "0c73b324dd494a6fde7e",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -14253,7 +14879,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "17cb2498c40f7c908d29",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -14291,7 +14917,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "f174ca4a3cbc866f5f12",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -14320,7 +14946,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "d4c4006fefc6f64193fc",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -14349,7 +14975,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "a21cee4b91bda9f5c68b",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -14378,7 +15004,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "4f98c5029119950e7f82",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -14407,7 +15033,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
       "id": "2ba894a78cc5b6e183f6",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -14427,8 +15053,8 @@
       "receivedCount": 23,
       "excludedCount": 14,
       "error": null,
-      "lastAttemptAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSuccessAt": "2026-11-04T18:50:15.798787+00:00"
+      "lastAttemptAt": "2026-11-05T00:18:22.753847+00:00",
+      "lastSuccessAt": "2026-11-05T00:18:22.753847+00:00"
     },
     {
       "name": "Al Jazeera",
@@ -14436,12 +15062,12 @@
       "url": "https://www.aljazeera.com/xml/rss/all.xml",
       "language": "en",
       "status": "ok",
-      "count": 6,
+      "count": 14,
       "receivedCount": 25,
-      "excludedCount": 19,
+      "excludedCount": 11,
       "error": null,
-      "lastAttemptAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSuccessAt": "2026-11-04T18:50:15.798787+00:00"
+      "lastAttemptAt": "2026-11-05T00:18:22.753847+00:00",
+      "lastSuccessAt": "2026-11-05T00:18:22.753847+00:00"
     },
     {
       "name": "The Guardian World",
@@ -14449,12 +15075,12 @@
       "url": "https://www.theguardian.com/world/rss",
       "language": "en",
       "status": "ok",
-      "count": 10,
+      "count": 9,
       "receivedCount": 35,
-      "excludedCount": 25,
+      "excludedCount": 26,
       "error": null,
-      "lastAttemptAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSuccessAt": "2026-11-04T18:50:15.798787+00:00"
+      "lastAttemptAt": "2026-11-05T00:18:22.753847+00:00",
+      "lastSuccessAt": "2026-11-05T00:18:22.753847+00:00"
     },
     {
       "name": "CISA Alerts",
@@ -14464,7 +15090,7 @@
       "status": "error",
       "count": 0,
       "error": "HTTP Error 403: Forbidden",
-      "lastAttemptAt": "2026-11-04T18:50:15.798787+00:00",
+      "lastAttemptAt": "2026-11-05T00:18:22.753847+00:00",
       "lastSuccessAt": "2026-11-04T11:29:55.548871+00:00"
     },
     {
@@ -14473,12 +15099,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "language": "en",
       "status": "ok",
-      "count": 9,
+      "count": 8,
       "receivedCount": 15,
-      "excludedCount": 6,
+      "excludedCount": 7,
       "error": null,
-      "lastAttemptAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSuccessAt": "2026-11-04T18:50:15.798787+00:00"
+      "lastAttemptAt": "2026-11-05T00:18:22.753847+00:00",
+      "lastSuccessAt": "2026-11-05T00:18:22.753847+00:00"
     },
     {
       "name": "Cloudflare Blog",
@@ -14490,8 +15116,8 @@
       "receivedCount": 20,
       "excludedCount": 14,
       "error": null,
-      "lastAttemptAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSuccessAt": "2026-11-04T18:50:15.798787+00:00"
+      "lastAttemptAt": "2026-11-05T00:18:22.753847+00:00",
+      "lastSuccessAt": "2026-11-05T00:18:22.753847+00:00"
     },
     {
       "name": "Internet Society",
@@ -14503,8 +15129,8 @@
       "receivedCount": 20,
       "excludedCount": 17,
       "error": null,
-      "lastAttemptAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSuccessAt": "2026-11-04T18:50:15.798787+00:00"
+      "lastAttemptAt": "2026-11-05T00:18:22.753847+00:00",
+      "lastSuccessAt": "2026-11-05T00:18:22.753847+00:00"
     },
     {
       "name": "Google Research",
@@ -14516,8 +15142,8 @@
       "receivedCount": 35,
       "excludedCount": 22,
       "error": null,
-      "lastAttemptAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSuccessAt": "2026-11-04T18:50:15.798787+00:00"
+      "lastAttemptAt": "2026-11-05T00:18:22.753847+00:00",
+      "lastSuccessAt": "2026-11-05T00:18:22.753847+00:00"
     },
     {
       "name": "OpenAI News",
@@ -14525,12 +15151,12 @@
       "url": "https://openai.com/news/rss.xml",
       "language": "en",
       "status": "ok",
-      "count": 25,
+      "count": 22,
       "receivedCount": 35,
-      "excludedCount": 10,
+      "excludedCount": 13,
       "error": null,
-      "lastAttemptAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSuccessAt": "2026-11-04T18:50:15.798787+00:00"
+      "lastAttemptAt": "2026-11-05T00:18:22.753847+00:00",
+      "lastSuccessAt": "2026-11-05T00:18:22.753847+00:00"
     },
     {
       "name": "MIT Technology Review",
@@ -14538,12 +15164,12 @@
       "url": "https://www.technologyreview.com/feed/",
       "language": "en",
       "status": "ok",
-      "count": 4,
+      "count": 5,
       "receivedCount": 10,
-      "excludedCount": 6,
+      "excludedCount": 5,
       "error": null,
-      "lastAttemptAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSuccessAt": "2026-11-04T18:50:15.798787+00:00"
+      "lastAttemptAt": "2026-11-05T00:18:22.753847+00:00",
+      "lastSuccessAt": "2026-11-05T00:18:22.753847+00:00"
     },
     {
       "name": "BBC Mundo",
@@ -14551,12 +15177,12 @@
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "language": "es",
       "status": "ok",
-      "count": 6,
+      "count": 7,
       "receivedCount": 34,
-      "excludedCount": 28,
+      "excludedCount": 27,
       "error": null,
-      "lastAttemptAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSuccessAt": "2026-11-04T18:50:15.798787+00:00"
+      "lastAttemptAt": "2026-11-05T00:18:22.753847+00:00",
+      "lastSuccessAt": "2026-11-05T00:18:22.753847+00:00"
     },
     {
       "name": "DW Español",
@@ -14564,12 +15190,12 @@
       "url": "https://rss.dw.com/rdf/rss-sp-all",
       "language": "es",
       "status": "ok",
-      "count": 6,
-      "receivedCount": 24,
-      "excludedCount": 18,
+      "count": 5,
+      "receivedCount": 19,
+      "excludedCount": 14,
       "error": null,
-      "lastAttemptAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSuccessAt": "2026-11-04T18:50:15.798787+00:00"
+      "lastAttemptAt": "2026-11-05T00:18:22.753847+00:00",
+      "lastSuccessAt": "2026-11-05T00:18:22.753847+00:00"
     },
     {
       "name": "INCIBE-CERT",
@@ -14581,8 +15207,8 @@
       "receivedCount": 10,
       "excludedCount": 3,
       "error": null,
-      "lastAttemptAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSuccessAt": "2026-11-04T18:50:15.798787+00:00"
+      "lastAttemptAt": "2026-11-05T00:18:22.753847+00:00",
+      "lastSuccessAt": "2026-11-05T00:18:22.753847+00:00"
     },
     {
       "name": "Xataka IA",
@@ -14594,8 +15220,8 @@
       "receivedCount": 10,
       "excludedCount": 2,
       "error": null,
-      "lastAttemptAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSuccessAt": "2026-11-04T18:50:15.798787+00:00"
+      "lastAttemptAt": "2026-11-05T00:18:22.753847+00:00",
+      "lastSuccessAt": "2026-11-05T00:18:22.753847+00:00"
     },
     {
       "name": "Xataka Internet",
@@ -14607,8 +15233,8 @@
       "receivedCount": 10,
       "excludedCount": 2,
       "error": null,
-      "lastAttemptAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSuccessAt": "2026-11-04T18:50:15.798787+00:00"
+      "lastAttemptAt": "2026-11-05T00:18:22.753847+00:00",
+      "lastSuccessAt": "2026-11-05T00:18:22.753847+00:00"
     }
   ],
   "relatedGroups": [

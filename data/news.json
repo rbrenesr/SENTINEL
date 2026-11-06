@@ -1,16 +1,188 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-11-06T09:47:27.461615+00:00",
-  "lastAttemptAt": "2026-11-06T09:47:27.461615+00:00",
+  "updatedAt": "2026-11-06T17:24:20.521365+00:00",
+  "lastAttemptAt": "2026-11-06T17:24:20.521365+00:00",
   "items": [
+    {
+      "title": "AI stocks climb after trillions wiped from market values",
+      "url": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/c35ynnpzdq51o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "IA",
+      "published": "2026-11-06T17:03:02+00:00",
+      "summary": "Investors had been selling off tech shares in part due to concerns the Democrat election victory would mean slower AI development.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "IA",
+        "reason": "title_topic",
+        "signals": [
+          "ai"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-06T17:24:20.521365+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
+      "id": "de0c28c9953fb6e77af4",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "Acciones de IA respiran tras desplome por elecciones en EE. UU",
+      "url": "https://www.dw.com/es/acciones-de-ia-respiran-tras-desplome-por-elecciones-en-ee-uu/a-79879675?maca=spa-rss-sp-all-1122-rdf",
+      "canonicalUrl": "https://www.dw.com/es/acciones-de-ia-respiran-tras-desplome-por-elecciones-en-ee-uu/a-79879675?maca=spa-rss-sp-all-1122-rdf",
+      "source": "DW Español",
+      "category": "IA",
+      "published": "2026-11-06T16:35:00+00:00",
+      "summary": "Temor por posibles regulaciones y freno a infraestructura hicieron caer las acciones este jueves en Wall Street, pero la semana terminó al alza.",
+      "language": "es",
+      "languageMethod": "entry_declaration",
+      "relevance": {
+        "included": true,
+        "category": "IA",
+        "reason": "title_topic",
+        "signals": [
+          "ia"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-06T17:24:20.521365+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
+      "id": "a8068f05a0f828eb1622",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "What did the Republicans lose in the US midterms?",
+      "url": "https://www.aljazeera.com/video/by-the-numbers-3/2026/11/6/what-did-the-republicans-lose-in-the-us-midterms?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/video/by-the-numbers-3/2026/11/6/what-did-the-republicans-lose-in-the-us-midterms",
+      "source": "Al Jazeera",
+      "category": "Conflictos",
+      "published": "2026-11-06T16:11:34+00:00",
+      "summary": "Democrats took the Senate and the House of Representatives from the Republicans. AJLabs maps the wave in US midterms.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "midterms"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-06T17:24:20.521365+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
+      "id": "1604446043ccb69e9e28",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "Millions fleeing Sudan’s war risk losing shelter as funds run low, UN warns",
+      "url": "https://www.aljazeera.com/news/2026/11/6/millions-fleeing-sudans-war-risk-losing-shelter-as-funds-run-low-un-warns?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/news/2026/11/6/millions-fleeing-sudans-war-risk-losing-shelter-as-funds-run-low-un-warns",
+      "source": "Al Jazeera",
+      "category": "Conflictos",
+      "published": "2026-11-06T16:10:51+00:00",
+      "summary": "Fewer than 1 million of the 15.4 million people in need emergency shelter in Sudan have received assistance.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "war"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-06T17:24:20.521365+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
+      "id": "84668f9d60a6657853bd",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "SD",
+          "label": "Sudán",
+          "relation": "mentioned",
+          "matchedAlias": "Sudan",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.aljazeera.com/news/2026/11/6/millions-fleeing-sudans-war-risk-losing-shelter-as-funds-run-low-un-warns?traffic_source=rss"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "European troops prepare for possible post-ceasefire deployment to Ukraine",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/france-ukraine-postwar-military-drills?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/6/france-ukraine-postwar-military-drills",
+      "source": "Al Jazeera",
+      "category": "Conflictos",
+      "published": "2026-11-06T16:04:19+00:00",
+      "summary": "French- and British-led military drills in Poland will testing post-ceasefire deployment in Ukraine.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "ceasefire",
+          "troops"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-06T17:24:20.521365+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
+      "id": "f20f97a42a8a17b62585",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "UA",
+          "label": "Ucrania",
+          "relation": "mentioned",
+          "matchedAlias": "Ukraine",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/6/france-ukraine-postwar-military-drills?traffic_source=rss"
+        },
+        {
+          "countryCode": "PL",
+          "label": "Polonia",
+          "relation": "mentioned",
+          "matchedAlias": "Poland",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/6/france-ukraine-postwar-military-drills?traffic_source=rss"
+        }
+      ],
+      "locations": []
+    },
     {
       "title": "Global stocks plunge amid AI slowdown fears after Democrats’ midterm triumph",
       "url": "https://www.theguardian.com/business/2026/nov/06/global-stocks-plunge-amid-ai-slowdown-fears-after-democrats-midterm-triumph",
       "canonicalUrl": "https://www.theguardian.com/business/2026/nov/06/global-stocks-plunge-amid-ai-slowdown-fears-after-democrats-midterm-triumph",
       "source": "The Guardian World",
       "category": "IA",
-      "published": "2026-11-06T08:58:22+00:00",
-      "summary": "Asian and European markets follow Wall Street with sharp fall as FTSE down 1.5% Business live – latest updates European stock markets have fallen sharply as a rout in US tech stocks spread across the Atlantic, after the Democrats’ midterms victory sparked fears of a slowdown in the AI industry. A sell-off on Wall Street on Thursday was followed by sharp falls in Asian stocks markets on Friday morning. The investor sentiment then reached London, with the FTSE 100 index, which tracks blue-chip shares listed in London, down 1.5%, or 166 points, at the start of trading to 10,615. Continue reading...",
+      "published": "2026-11-06T15:48:36+00:00",
+      "summary": "Asian and European markets follow Wall Street with sharp fall as FTSE is down 1.9% Business live – latest updates European stock markets have fallen sharply as a rout in US tech stocks spread across the Atlantic, after the Democrats’ midterms victory sparked fears of a slowdown in the AI industry. A sell-off on Wall Street on Thursday was followed by sharp falls in Asian stocks markets on Friday. The investor sentiment then reached London, where the market was, at one stage, poised for its worst day since March. Continue reading...",
       "language": "en",
       "languageMethod": "feed_declaration",
       "relevance": {
@@ -24,12 +196,260 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-06T09:47:27.461615+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "20e5ea8a8d5139236251",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
       "contentType": "news",
       "countries": [],
+      "locations": []
+    },
+    {
+      "title": "Protesters break into Microsoft AI data centre site in Amsterdam",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/6/protesters-break-into-microsoft-ai-data-centre-site-in-amsterdam?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/6/protesters-break-into-microsoft-ai-data-centre-site-in-amsterdam",
+      "source": "Al Jazeera",
+      "category": "Internet",
+      "published": "2026-11-06T15:48:10+00:00",
+      "summary": "More than 100 activists broke into a Microsoft data centre construction site in Amsterdam.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Internet",
+        "reason": "title_topic",
+        "signals": [
+          "data centre"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-06T17:24:20.521365+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
+      "id": "85df4722ee729068fecc",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "Claude ya puede decirte en qué se te va el dinero del banco. Lo que no puede es tocar ni un euro",
+      "url": "https://www.xataka.com/robotica-e-ia/claude-puede-decirte-que-se-te-va-dinero-banco-que-no-puede-tocar-euro",
+      "canonicalUrl": "https://www.xataka.com/robotica-e-ia/claude-puede-decirte-que-se-te-va-dinero-banco-que-no-puede-tocar-euro",
+      "source": "Xataka IA",
+      "category": "IA",
+      "published": "2026-11-06T15:01:11+00:00",
+      "summary": "Si la IA sabe de todo, y se supone que da mejores consejos que muchos humanos... ¿por qué no preguntarle cómo sacarle más ventaja a nuestro dinero? No es algo extraño, ya que las dudas monetarias son uno de los tipos de consulta habituales en los chatbots con IA (un 11 % de las consultas). Así que en Anthropic han pensado: ¿por qué no creamos una herramienta específica para Claude? El asistente personal financiero . Anthropic sigue la senda de OpenAI, que ya en mayo presentó una herramienta integrada en ChatGPT para analizar las finanzas personales. La idea es más o menos la misma: conectar las cuentas bancarias con el chatbot y que sea él qu",
+      "language": "es",
+      "languageMethod": "source_configuration",
+      "relevance": {
+        "included": true,
+        "category": "IA",
+        "reason": "summary_context",
+        "signals": [
+          "chatgpt",
+          "ia",
+          "openai"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-06T17:24:20.521365+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
+      "id": "9096576982e6f8852677",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "The Download: a humanoid cleans house and Samsung builds for the AI boom",
+      "url": "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/",
+      "canonicalUrl": "https://www.technologyreview.com/2026/11/06/1148154/the-download-humanoid-robot-cleaner-samsung-ai-chip-boom/",
+      "source": "MIT Technology Review",
+      "category": "IA",
+      "published": "2026-11-06T13:10:00+00:00",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. I watched a humanoid robot clean my apartment. It felt like a taste of the future. —Grace Huckins When I saw an X post about a new humanoid-robot cleaning service in…",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "IA",
+        "reason": "title_topic",
+        "signals": [
+          "ai"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-06T17:24:20.521365+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
+      "id": "4824c98720e7e767d603",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "Russia to UAE, Iran steps up diplomacy amid Trump threats: What we know",
+      "url": "https://www.aljazeera.com/news/2026/11/6/russia-to-uae-iran-steps-up-diplomacy-amid-trump-threats-what-we-know?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/news/2026/11/6/russia-to-uae-iran-steps-up-diplomacy-amid-trump-threats-what-we-know",
+      "source": "Al Jazeera",
+      "category": "Conflictos",
+      "published": "2026-11-06T12:57:33+00:00",
+      "summary": "Iran launches diplomatic offensive as US mulls resumption of war.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "diplomacy"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-06T17:24:20.521365+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
+      "id": "47a8a880d743d4828395",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "RU",
+          "label": "Rusia",
+          "relation": "mentioned",
+          "matchedAlias": "Russia",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.aljazeera.com/news/2026/11/6/russia-to-uae-iran-steps-up-diplomacy-amid-trump-threats-what-we-know?traffic_source=rss"
+        },
+        {
+          "countryCode": "IR",
+          "label": "Irán",
+          "relation": "mentioned",
+          "matchedAlias": "Iran",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.aljazeera.com/news/2026/11/6/russia-to-uae-iran-steps-up-diplomacy-amid-trump-threats-what-we-know?traffic_source=rss"
+        },
+        {
+          "countryCode": "AE",
+          "label": "Emiratos Árabes Unidos",
+          "relation": "mentioned",
+          "matchedAlias": "UAE",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.aljazeera.com/news/2026/11/6/russia-to-uae-iran-steps-up-diplomacy-amid-trump-threats-what-we-know?traffic_source=rss"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "ANC faces bruising defeat in South African local elections with 80% of ballots counted",
+      "url": "https://www.theguardian.com/world/2026/nov/06/anc-faces-defeat-south-african-local-elections",
+      "canonicalUrl": "https://www.theguardian.com/world/2026/nov/06/anc-faces-defeat-south-african-local-elections",
+      "source": "The Guardian World",
+      "category": "Conflictos",
+      "published": "2026-11-06T12:48:37+00:00",
+      "summary": "Former liberation movement’s share of national vote almost 14 percentage points below 2021 result The African National Congress is on course to suffer a bruising defeat in South Africa’s local elections, with the once dominant party of Nelson Mandela falling to under a third of the vote nationally with more than 80% of ballots counted. Wednesday’s fragmented vote marks another stage in the decline of the ANC, which has led national governments since the end of white minority apartheid rule in 1994. High unemployment, crime, corruption and poor local service delivery have all contributed to voters turning away from the party . Continue reading",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "elections"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-06T17:24:20.521365+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
+      "id": "127af6818ff60c965107",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "ZA",
+          "label": "Sudáfrica",
+          "relation": "mentioned",
+          "matchedAlias": "South Africa",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.theguardian.com/world/2026/nov/06/anc-faces-defeat-south-african-local-elections"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "En medio de una crisis de ciberseguridad, OpenAI estrena GPT-6 Cyber, su nuevo modelo \"crítico\"",
+      "url": "https://www.xataka.com/robotica-e-ia/medio-crisis-ciberseguridad-openai-estrena-gpt-6-cyber-su-nuevo-modelo-critico",
+      "canonicalUrl": "https://www.xataka.com/robotica-e-ia/medio-crisis-ciberseguridad-openai-estrena-gpt-6-cyber-su-nuevo-modelo-critico",
+      "source": "Xataka IA",
+      "category": "Ciberseguridad",
+      "published": "2026-11-06T11:01:08+00:00",
+      "summary": "Los modelos de inteligencia artificial son cada vez más capaces y se está viendo que se usan para atacar dispositivos que, hasta ahora, no estaban en el punto de mira bien por pereza o por los motivos que fueran. Esto presiona a las empresas a reforzar sus defensas, y OpenAI ha respondido con una versión especializada de su último modelo. Se llama GPT-6 Cyber y es la nueva herramienta \"crítica\" de la compañía. En corto . Hace nada lo vimos con Hugging Face y PHP. En julio de este año, un modelo de la propia OpenAI \"escapó\" de su entorno aislado en una prueba de ciberseguridad y vulneró la plataforma Hugging Face. A finales de octubre, las ala",
+      "language": "es",
+      "languageMethod": "source_configuration",
+      "relevance": {
+        "included": true,
+        "category": "Ciberseguridad",
+        "reason": "title_topic",
+        "signals": [
+          "ciberseguridad"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-06T17:24:20.521365+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
+      "id": "5af78d55bf91239009bf",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "Quién es Santiago Peña, el economista a quien el poderoso Horacio Cartes encumbró a la presidencia de Paraguay (y al que ahora dejó caer)",
+      "url": "https://www.bbc.com/mundo/articles/cwe9le9yyzrzo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.com/mundo/articles/cwe9le9yyzrzo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Mundo",
+      "category": "Conflictos",
+      "published": "2026-11-06T10:28:39+00:00",
+      "summary": "Tres años después de asumir el poder, Santiago Peña terminó arrastrado por la crisis desatada tras la intervención del Ueno Bank.",
+      "language": "es",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "presidencia"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-06T17:24:20.521365+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
+      "id": "659b68a0f1f395d12aab",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "PY",
+          "label": "Paraguay",
+          "relation": "mentioned",
+          "matchedAlias": "Paraguay",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.bbc.com/mundo/articles/cwe9le9yyzrzo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
       "locations": []
     },
     {
@@ -128,7 +548,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-06T09:47:27.461615+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "dedeb5bbf6b17183e75a",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -157,7 +577,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-06T09:47:27.461615+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "a4fee0499c3a64e86d9b",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -204,7 +624,7 @@
       "locations": []
     },
     {
-      "title": "Did a data centre revolt affect the US mid-term election results?",
+      "title": "Did a data centre revolt affect the US midterm election results?",
       "url": "https://www.bbc.co.uk/news/articles/crvg9yyz5437o?at_medium=RSS&at_campaign=rss",
       "canonicalUrl": "https://www.bbc.co.uk/news/articles/crvg9yyz5437o?at_medium=RSS&at_campaign=rss",
       "source": "BBC World",
@@ -224,7 +644,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-06T09:47:27.461615+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "7b014650a0356d3fdc0a",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -354,7 +774,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-06T02:15:14.658649+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "99bfccb9f8dab75a1815",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -412,7 +832,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-06T02:15:14.658649+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "bdfce63afd4321945049",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -525,7 +945,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-05T21:55:20.572783+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "0af54f3d3198a00432f8",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -563,7 +983,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-06T09:47:27.461615+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "1298ab911e646bae166b",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -621,7 +1041,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-05T21:55:20.572783+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "2ae34dc126e9b6408266",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -803,7 +1223,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-05T21:55:20.572783+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "50030978addcf307846a",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -832,7 +1252,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-05T21:55:20.572783+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "bfe6337543c1c58b463a",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1078,7 +1498,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-06T02:15:14.658649+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "616c68177b707eae60eb",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1145,7 +1565,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-05T21:55:20.572783+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "56bfa02295d43c2b62b1",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1279,7 +1699,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-05T15:45:34.888706+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "86d21b1f4f1ac76fa128",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1305,12 +1725,12 @@
       "locations": []
     },
     {
-      "title": "Apple quiere que Siri IA esté en todas partes. Al mismo tiempo, limita a 200 dólares el gasto de tokens para sus empleados",
+      "title": "En un movimiento cada vez más familiar, Apple ha empezado a reducir el gasto de tokens IA de sus empleados a 200 dólares diarios",
       "url": "https://www.xataka.com/robotica-e-ia/apple-quiere-que-siri-ia-este-todas-partes-al-tiempo-limita-a-200-dolares-gasto-tokens-para-sus-empleados",
       "canonicalUrl": "https://www.xataka.com/robotica-e-ia/apple-quiere-que-siri-ia-este-todas-partes-al-tiempo-limita-a-200-dolares-gasto-tokens-para-sus-empleados",
       "source": "Xataka IA",
       "category": "IA",
-      "published": "2026-11-05T13:46:34+00:00",
+      "published": "2026-11-05T13:45:00+00:00",
       "summary": "Apple quiere que sus usuarios usen todo el rato la nueva Siri AI en sus dispositivos. Apple lo vende como su gran remontada en IA. Pero de puertas para adentro, alguien ha mirado el Excel (o Numbers, en su caso) de gastos en IA de sus empleados y ha empezado a meterle la tijera a los presupuestos diarios de tokens que los equipos de Apple pueden usar para mejorar su trabajo. Este recorte en el presupuesto de tokens para sus empleados no es cosa solo de Apple. Muchas de las empresas que hasta hace solo unos meses invitaban a sus empleados a usar la IA en su trabajo, han recibido ya su primera factura de esos tokens consumido. El susto ha debid",
       "language": "es",
       "languageMethod": "source_configuration",
@@ -1325,7 +1745,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-05T15:45:34.888706+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "08144b537c479f5b74d1",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1438,7 +1858,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-05T15:45:34.888706+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "b2dc36e13c44a6e4145d",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1467,7 +1887,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-05T15:45:34.888706+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "9739c0e820e72d520ce3",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1476,12 +1896,12 @@
       "locations": []
     },
     {
-      "title": "Las escuelas de EEUU quieren un Google sin IA, pero se enfrentan a un dilema: o aceptan sus resúmenes con IA o se quedan sin buscador",
+      "title": "En Estados Unidos, Google está dejando sin su buscador a las escuelas que rechazan utilizar sus herramientas IA",
       "url": "https://www.xataka.com/empresas-y-economia/escuelas-eeuu-quieren-google-ia-se-enfrentan-a-dilema-aceptan-sus-resumenes-ia-se-quedan-buscador",
       "canonicalUrl": "https://www.xataka.com/empresas-y-economia/escuelas-eeuu-quieren-google-ia-se-enfrentan-a-dilema-aceptan-sus-resumenes-ia-se-quedan-buscador",
       "source": "Xataka IA",
       "category": "IA",
-      "published": "2026-11-05T12:46:32+00:00",
+      "published": "2026-11-05T12:45:00+00:00",
       "summary": "Estos días ha habido cierta polémica en Estados Unidos acerca de una serie de cambios que Google quiere introducir en torno al uso de su IA en los centros educativos del país. Y es que tal y como compartía la compañía, desactivará por defecto sus herramientas de IA para las cuentas de estudiantes de educación obligatoria el año que viene. Sin embargo, se ha generado controversia precisamente porque los colegios que no quieran nada de IA también perderían Google Search. El dominio de Google en las escuelas. Sus Chromebooks son los dispositivos para estudiantes que más se ven en las aulas de EEUU, según The New York Times , y son más de 150 mil",
       "language": "es",
       "languageMethod": "source_configuration",
@@ -1496,7 +1916,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-05T15:45:34.888706+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "10360b8faa0278ccf151",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1564,7 +1984,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-06T02:15:14.658649+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "cddef5bb18e3bcbf0141",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1602,7 +2022,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-05T15:45:34.888706+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "38b7a208d644134d9724",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1706,7 +2126,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-05T15:45:34.888706+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "f1a54f83bb7de16f3ba6",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1764,7 +2184,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-05T15:45:34.888706+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "f39511c21758bca1f075",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1793,7 +2213,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-05T15:45:34.888706+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "5a720ed73c25cc4f7950",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1822,7 +2242,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-05T21:55:20.572783+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "14e90e72d3401ddf817f",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1851,7 +2271,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-05T15:45:34.888706+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "6e04de360ccc397666d0",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1880,12 +2300,50 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-06T02:15:14.658649+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "db9792e954d447010915",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
       "contentType": "publisher_post",
       "countries": [],
+      "locations": []
+    },
+    {
+      "title": "Dario Amodei abre la puerta a los precios dinámicos en la IA: \"no todos los tokens que genera el modelo tienen el mismo valor\"",
+      "url": "https://www.xataka.com/empresas-y-economia/no-todos-tokens-que-producen-modelos-valen-dario-amodei-sugiere-modelo-precios-dinamicos-funcion-tarea",
+      "canonicalUrl": "https://www.xataka.com/empresas-y-economia/no-todos-tokens-que-producen-modelos-valen-dario-amodei-sugiere-modelo-precios-dinamicos-funcion-tarea",
+      "source": "Xataka IA",
+      "category": "IA",
+      "published": "2026-11-05T06:00:00+00:00",
+      "summary": "Anthropic presentó hace unos días el formulario que describe su negocio, finanzas y riesgos ante su inminente salida a bolsa , una que promete hacer historia en cuanto a valoración de mercado. La SEC (el regulador bursátil de Estados Unidos), se encuentra en proceso de revisar este documento, y mientras tanto todo lo que dice o ha dicho Dario Amodei, CEO de la compañía, se está mirando con lupa. Una de sus intervenciones durante el podcast de Dwarkesh , que se produjo a comienzos de año, ha tenido cierto recorrido estos días en redes. En la entrevista, Amodei exponía ejemplos de cómo la empresa podría cambiar su modelo de negocio en torno a l",
+      "language": "es",
+      "languageMethod": "source_configuration",
+      "relevance": {
+        "included": true,
+        "category": "IA",
+        "reason": "title_topic",
+        "signals": [
+          "ia"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-06T17:24:20.521365+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
+      "id": "5c7cf002e5f20afcb59e",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "US",
+          "label": "Estados Unidos",
+          "relation": "mentioned",
+          "matchedAlias": "Estados Unidos",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.xataka.com/empresas-y-economia/no-todos-tokens-que-producen-modelos-valen-dario-amodei-sugiere-modelo-precios-dinamicos-funcion-tarea"
+        }
+      ],
       "locations": []
     },
     {
@@ -1909,7 +2367,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-05T07:18:40.922786+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "806fd4811804d7b24b40",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2153,7 +2611,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-05T15:45:34.888706+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "25fa4dd18ec78a48a923",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2318,7 +2776,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-06T02:15:14.658649+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "a8e215d1c3fca63aee0f",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2461,7 +2919,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-05T00:18:22.753847+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "6402ba3d0215ff0965da",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2827,7 +3285,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-05T00:18:22.753847+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "3c604011f3361a3ad947",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2953,7 +3411,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-05T00:18:22.753847+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "988e33cedf7304f8cc6d",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3078,7 +3536,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "09c40cbdb75966e0dccf",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3231,7 +3689,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "5f784a9688e007719af6",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3356,7 +3814,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "0ea57fe42e4a14891ce2",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3605,7 +4063,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T11:29:55.548871+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "8c4ec9300281deb557aa",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3672,7 +4130,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "1be4fdd8e6ca80f0ec01",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3702,7 +4160,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "f29697af42ca8eadea91",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3964,7 +4422,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-06T02:15:14.658649+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "c5bfeedc9f8814604d6b",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -4194,7 +4652,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T11:29:55.548871+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "000aeb66dec43c7a829c",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -4261,7 +4719,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T11:29:55.548871+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "35ac67ffc40be772c489",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -4292,7 +4750,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T11:29:55.548871+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "8aeb2a6eae670d7acec4",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -4321,7 +4779,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T11:29:55.548871+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "ae743fbea95c4a186c8d",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -4350,7 +4808,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T11:29:55.548871+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "13749000a1d4219a5786",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -5616,7 +6074,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T17:43:25.925049+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "e581154108f523de51d2",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -5734,7 +6192,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T17:43:25.925049+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "95be758dada6d32046c0",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -5908,7 +6366,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T17:43:25.925049+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "626b3ee2d010a08da4c8",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -5937,7 +6395,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T23:14:04.719071+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "53ca9309f14b041c6790",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -6266,7 +6724,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T17:43:25.925049+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "fc87a45dcfbf03d41725",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -6295,7 +6753,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T23:14:04.719071+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "34e7d62615202d0de65f",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -6871,7 +7329,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T23:14:04.719071+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "019edb616369c3322f4c",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -7500,7 +7958,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T10:02:03.608468+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "0d297090385ad5a72451",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -7891,7 +8349,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "586d98240857daa85781",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -7920,7 +8378,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T02:36:31.828730+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "277870ffc8d71544c046",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -8045,7 +8503,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "3017d51cc49fa391b080",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -8792,7 +9250,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "4094d4340f9e66f9e2fc",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -8821,7 +9279,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T02:36:31.828730+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "945f879ef3a469b4aebe",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -11636,7 +12094,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T14:10:37.162341+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "d2dd776fc827913d3db6",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -11791,7 +12249,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-01T19:08:24.518261+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "f635e51b46992649ab09",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -11983,7 +12441,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T21:40:53.271980+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "84abd1857de5dfd951d9",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -12013,7 +12471,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T17:09:09.171854+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "a86d24c59c826150d16d",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -12731,7 +13189,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-31T01:30:11.973227+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "574dbaf7fc8731e40575",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -13354,7 +13812,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "9349f418e7bc7ab45091",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -13756,7 +14214,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "d3ed0a84a8f244777bb0",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -13785,7 +14243,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "e24342c52a0b2ee1fe64",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -13816,7 +14274,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "550e95ef6ab5f80bdb7e",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -13846,7 +14304,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "c0138fec61383be41643",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -14017,7 +14475,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "0f01adb2acab0a67ba71",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -14229,7 +14687,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "d948735545c20cf30721",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -14429,7 +14887,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T17:09:09.171854+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "85f94c0fe8f02a81789b",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -14639,7 +15097,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T23:14:04.719071+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "16681fd606d5f6994d06",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -14706,7 +15164,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "a395c7da350b5086cc15",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -14868,7 +15326,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "22d2ccd53543886c59b8",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -14898,7 +15356,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "709cc8e2bd467b791689",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -15072,7 +15530,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "b49ec3bd8394c6fb4c19",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -15101,7 +15559,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "1e3ebf94e41ebe19793b",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -15176,7 +15634,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "f7763a757c0c37e729db",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -15208,7 +15666,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "c67cf62fcc6ed47bcf04",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -15239,7 +15697,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "b933b8867a0cffd57297",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -15356,7 +15814,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "e77549dba84aa9c32f2e",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -15424,7 +15882,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "f6b4dc44bc2f931c0e19",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -15608,7 +16066,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:43:59.426409+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "5dcbf942d9a311a79a75",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -15637,7 +16095,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "32ef7801f5802984dfdd",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -15695,7 +16153,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "87bf34b6e070a9474032",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -15724,7 +16182,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "ce87e3f627c6f42f08a7",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -15782,7 +16240,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:43:59.426409+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "21c44a150d24631fa8f9",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -15851,7 +16309,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:43:59.426409+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "dc36786d82352110caf5",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -15880,7 +16338,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:43:59.426409+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "8475b78ae3134eeff400",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -15944,7 +16402,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "c93040c85b3a8065aa8e",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -15974,7 +16432,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "284eb83ac7e255431864",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -16034,7 +16492,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "04c08a3131a86ce13940",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -16125,7 +16583,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "96a49d1740a18b8a5b49",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -16155,7 +16613,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "c0863d2cd64d70e91fcb",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -16185,7 +16643,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "c78c25936feab8b7ed25",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -16217,7 +16675,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "afec29b000e9df448b89",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -16278,7 +16736,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "d0a00ec0797d3bcb2dfc",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -16308,7 +16766,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "0202aafb6242b802e675",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -16398,7 +16856,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:43:59.426409+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "ad8d074947f8205ebb42",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -16427,7 +16885,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:43:59.426409+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "172853c50f28f34f2b55",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -16553,7 +17011,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "3bfcd79e09f177c0e0d9",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -16582,7 +17040,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:43:59.426409+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "0e17d0674af31b667ccc",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -16611,7 +17069,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "4a59615041b968ae61d1",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -16640,7 +17098,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "1c5f83daf4c5b5dc2db6",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -16959,7 +17417,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "dd1029b4b030aba3c24c",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -17018,7 +17476,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "4c456e668ef45cba83b5",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -17047,7 +17505,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "c02127d349672db4a213",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -17076,7 +17534,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "5eca910e1a1b5f733468",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -17105,7 +17563,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "5cc8f180d7d24936a059",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -17134,7 +17592,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "0c73b324dd494a6fde7e",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -17163,7 +17621,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "17cb2498c40f7c908d29",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -17201,7 +17659,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "f174ca4a3cbc866f5f12",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -17230,7 +17688,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "d4c4006fefc6f64193fc",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -17259,7 +17717,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "a21cee4b91bda9f5c68b",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -17288,7 +17746,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "4f98c5029119950e7f82",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -17317,7 +17775,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
+      "lastSeenAt": "2026-11-06T17:24:20.521365+00:00",
       "id": "2ba894a78cc5b6e183f6",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -17334,11 +17792,11 @@
       "language": "en",
       "status": "ok",
       "count": 4,
-      "receivedCount": 24,
-      "excludedCount": 20,
+      "receivedCount": 29,
+      "excludedCount": 25,
       "error": null,
-      "lastAttemptAt": "2026-11-06T09:47:27.461615+00:00",
-      "lastSuccessAt": "2026-11-06T09:47:27.461615+00:00"
+      "lastAttemptAt": "2026-11-06T17:24:20.521365+00:00",
+      "lastSuccessAt": "2026-11-06T17:24:20.521365+00:00"
     },
     {
       "name": "Al Jazeera",
@@ -17346,12 +17804,12 @@
       "url": "https://www.aljazeera.com/xml/rss/all.xml",
       "language": "en",
       "status": "ok",
-      "count": 4,
+      "count": 5,
       "receivedCount": 25,
-      "excludedCount": 21,
+      "excludedCount": 20,
       "error": null,
-      "lastAttemptAt": "2026-11-06T09:47:27.461615+00:00",
-      "lastSuccessAt": "2026-11-06T09:47:27.461615+00:00"
+      "lastAttemptAt": "2026-11-06T17:24:20.521365+00:00",
+      "lastSuccessAt": "2026-11-06T17:24:20.521365+00:00"
     },
     {
       "name": "The Guardian World",
@@ -17359,12 +17817,12 @@
       "url": "https://www.theguardian.com/world/rss",
       "language": "en",
       "status": "ok",
-      "count": 8,
+      "count": 7,
       "receivedCount": 35,
-      "excludedCount": 27,
+      "excludedCount": 28,
       "error": null,
-      "lastAttemptAt": "2026-11-06T09:47:27.461615+00:00",
-      "lastSuccessAt": "2026-11-06T09:47:27.461615+00:00"
+      "lastAttemptAt": "2026-11-06T17:24:20.521365+00:00",
+      "lastSuccessAt": "2026-11-06T17:24:20.521365+00:00"
     },
     {
       "name": "CISA Alerts",
@@ -17376,8 +17834,8 @@
       "receivedCount": 30,
       "excludedCount": 5,
       "error": null,
-      "lastAttemptAt": "2026-11-06T09:47:27.461615+00:00",
-      "lastSuccessAt": "2026-11-06T09:47:27.461615+00:00"
+      "lastAttemptAt": "2026-11-06T17:24:20.521365+00:00",
+      "lastSuccessAt": "2026-11-06T17:24:20.521365+00:00"
     },
     {
       "name": "BleepingComputer",
@@ -17385,12 +17843,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "language": "en",
       "status": "ok",
-      "count": 7,
+      "count": 4,
       "receivedCount": 15,
-      "excludedCount": 8,
+      "excludedCount": 11,
       "error": null,
-      "lastAttemptAt": "2026-11-06T09:47:27.461615+00:00",
-      "lastSuccessAt": "2026-11-06T09:47:27.461615+00:00"
+      "lastAttemptAt": "2026-11-06T17:24:20.521365+00:00",
+      "lastSuccessAt": "2026-11-06T17:24:20.521365+00:00"
     },
     {
       "name": "Cloudflare Blog",
@@ -17402,8 +17860,8 @@
       "receivedCount": 20,
       "excludedCount": 15,
       "error": null,
-      "lastAttemptAt": "2026-11-06T09:47:27.461615+00:00",
-      "lastSuccessAt": "2026-11-06T09:47:27.461615+00:00"
+      "lastAttemptAt": "2026-11-06T17:24:20.521365+00:00",
+      "lastSuccessAt": "2026-11-06T17:24:20.521365+00:00"
     },
     {
       "name": "Internet Society",
@@ -17415,8 +17873,8 @@
       "receivedCount": 20,
       "excludedCount": 17,
       "error": null,
-      "lastAttemptAt": "2026-11-06T09:47:27.461615+00:00",
-      "lastSuccessAt": "2026-11-06T09:47:27.461615+00:00"
+      "lastAttemptAt": "2026-11-06T17:24:20.521365+00:00",
+      "lastSuccessAt": "2026-11-06T17:24:20.521365+00:00"
     },
     {
       "name": "Google Research",
@@ -17428,8 +17886,8 @@
       "receivedCount": 35,
       "excludedCount": 22,
       "error": null,
-      "lastAttemptAt": "2026-11-06T09:47:27.461615+00:00",
-      "lastSuccessAt": "2026-11-06T09:47:27.461615+00:00"
+      "lastAttemptAt": "2026-11-06T17:24:20.521365+00:00",
+      "lastSuccessAt": "2026-11-06T17:24:20.521365+00:00"
     },
     {
       "name": "OpenAI News",
@@ -17441,8 +17899,8 @@
       "receivedCount": 35,
       "excludedCount": 11,
       "error": null,
-      "lastAttemptAt": "2026-11-06T09:47:27.461615+00:00",
-      "lastSuccessAt": "2026-11-06T09:47:27.461615+00:00"
+      "lastAttemptAt": "2026-11-06T17:24:20.521365+00:00",
+      "lastSuccessAt": "2026-11-06T17:24:20.521365+00:00"
     },
     {
       "name": "MIT Technology Review",
@@ -17450,12 +17908,12 @@
       "url": "https://www.technologyreview.com/feed/",
       "language": "en",
       "status": "ok",
-      "count": 7,
+      "count": 6,
       "receivedCount": 10,
-      "excludedCount": 3,
+      "excludedCount": 4,
       "error": null,
-      "lastAttemptAt": "2026-11-06T09:47:27.461615+00:00",
-      "lastSuccessAt": "2026-11-06T09:47:27.461615+00:00"
+      "lastAttemptAt": "2026-11-06T17:24:20.521365+00:00",
+      "lastSuccessAt": "2026-11-06T17:24:20.521365+00:00"
     },
     {
       "name": "BBC Mundo",
@@ -17463,12 +17921,12 @@
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "language": "es",
       "status": "ok",
-      "count": 7,
+      "count": 6,
       "receivedCount": 34,
-      "excludedCount": 27,
+      "excludedCount": 28,
       "error": null,
-      "lastAttemptAt": "2026-11-06T09:47:27.461615+00:00",
-      "lastSuccessAt": "2026-11-06T09:47:27.461615+00:00"
+      "lastAttemptAt": "2026-11-06T17:24:20.521365+00:00",
+      "lastSuccessAt": "2026-11-06T17:24:20.521365+00:00"
     },
     {
       "name": "DW Español",
@@ -17476,12 +17934,12 @@
       "url": "https://rss.dw.com/rdf/rss-sp-all",
       "language": "es",
       "status": "ok",
-      "count": 3,
-      "receivedCount": 17,
-      "excludedCount": 14,
+      "count": 2,
+      "receivedCount": 22,
+      "excludedCount": 20,
       "error": null,
-      "lastAttemptAt": "2026-11-06T09:47:27.461615+00:00",
-      "lastSuccessAt": "2026-11-06T09:47:27.461615+00:00"
+      "lastAttemptAt": "2026-11-06T17:24:20.521365+00:00",
+      "lastSuccessAt": "2026-11-06T17:24:20.521365+00:00"
     },
     {
       "name": "INCIBE-CERT",
@@ -17493,8 +17951,8 @@
       "receivedCount": 10,
       "excludedCount": 2,
       "error": null,
-      "lastAttemptAt": "2026-11-06T09:47:27.461615+00:00",
-      "lastSuccessAt": "2026-11-06T09:47:27.461615+00:00"
+      "lastAttemptAt": "2026-11-06T17:24:20.521365+00:00",
+      "lastSuccessAt": "2026-11-06T17:24:20.521365+00:00"
     },
     {
       "name": "Xataka IA",
@@ -17502,12 +17960,12 @@
       "url": "https://www.xataka.com/tag/inteligencia-artificial/rss2.xml",
       "language": "es",
       "status": "ok",
-      "count": 7,
+      "count": 8,
       "receivedCount": 10,
-      "excludedCount": 3,
+      "excludedCount": 2,
       "error": null,
-      "lastAttemptAt": "2026-11-06T09:47:27.461615+00:00",
-      "lastSuccessAt": "2026-11-06T09:47:27.461615+00:00"
+      "lastAttemptAt": "2026-11-06T17:24:20.521365+00:00",
+      "lastSuccessAt": "2026-11-06T17:24:20.521365+00:00"
     },
     {
       "name": "Xataka Internet",
@@ -17519,8 +17977,8 @@
       "receivedCount": 10,
       "excludedCount": 2,
       "error": null,
-      "lastAttemptAt": "2026-11-06T09:47:27.461615+00:00",
-      "lastSuccessAt": "2026-11-06T09:47:27.461615+00:00"
+      "lastAttemptAt": "2026-11-06T17:24:20.521365+00:00",
+      "lastSuccessAt": "2026-11-06T17:24:20.521365+00:00"
     }
   ],
   "relatedGroups": [

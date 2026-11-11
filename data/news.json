@@ -1,7 +1,7 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-11-11T15:04:30.072862+00:00",
-  "lastAttemptAt": "2026-11-11T15:04:30.072862+00:00",
+  "updatedAt": "2026-11-11T21:52:50.265517+00:00",
+  "lastAttemptAt": "2026-11-11T21:52:50.265517+00:00",
   "items": [
     {
       "title": "Gilbert + Tobin rethinks the business of law with AI",
@@ -24,11 +24,629 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-11T07:02:34.842355+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "65b96c238445cdedc96b",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
       "contentType": "publisher_post",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "OTAN asegura que Estados Unidos, Europa y Ucrania están \"completamente alineados y unidos\"",
+      "url": "https://www.dw.com/es/otan-asegura-que-estados-unidos-europa-y-ucrania-están-completamente-alineados-y-unidos/a-79924342?maca=spa-rss-sp-all-1122-rdf",
+      "canonicalUrl": "https://www.dw.com/es/otan-asegura-que-estados-unidos-europa-y-ucrania-están-completamente-alineados-y-unidos/a-79924342?maca=spa-rss-sp-all-1122-rdf",
+      "source": "DW Español",
+      "category": "Conflictos",
+      "published": "2026-11-11T21:18:00+00:00",
+      "summary": "Ahora habrá que ver si \"Rusia está dispuesta a participar en el juego\", expresó el jefe de la alianza militar.",
+      "language": "es",
+      "languageMethod": "entry_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "otan"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-11T21:52:50.265517+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
+      "id": "0c0bb1f7d332abe2afd0",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "US",
+          "label": "Estados Unidos",
+          "relation": "mentioned",
+          "matchedAlias": "Estados Unidos",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.dw.com/es/otan-asegura-que-estados-unidos-europa-y-ucrania-están-completamente-alineados-y-unidos/a-79924342?maca=spa-rss-sp-all-1122-rdf"
+        },
+        {
+          "countryCode": "UA",
+          "label": "Ucrania",
+          "relation": "mentioned",
+          "matchedAlias": "Ucrania",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.dw.com/es/otan-asegura-que-estados-unidos-europa-y-ucrania-están-completamente-alineados-y-unidos/a-79924342?maca=spa-rss-sp-all-1122-rdf"
+        },
+        {
+          "countryCode": "RU",
+          "label": "Rusia",
+          "relation": "mentioned",
+          "matchedAlias": "Rusia",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.dw.com/es/otan-asegura-que-estados-unidos-europa-y-ucrania-están-completamente-alineados-y-unidos/a-79924342?maca=spa-rss-sp-all-1122-rdf"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "Hormuz Strait will ‘never return’ to pre-war status, Iran’s Ghalibaf says",
+      "url": "https://www.aljazeera.com/news/2026/11/11/strait-of-hormuz-will-never-return-to-pre-war-status-ghalibaf?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/news/2026/11/11/strait-of-hormuz-will-never-return-to-pre-war-status-ghalibaf",
+      "source": "Al Jazeera",
+      "category": "Conflictos",
+      "published": "2026-11-11T21:03:40+00:00",
+      "summary": "Iran's parliament speaker and top negotiator says Tehran is waiting for an official US response to its seven conditions.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "war"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-11T21:52:50.265517+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
+      "id": "17629c88d5199aab8118",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "IR",
+          "label": "Irán",
+          "relation": "mentioned",
+          "matchedAlias": "Iran",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.aljazeera.com/news/2026/11/11/strait-of-hormuz-will-never-return-to-pre-war-status-ghalibaf?traffic_source=rss"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "Notion says Fireworks breach exposed customer AI chat transcripts",
+      "url": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
+      "canonicalUrl": "https://www.bleepingcomputer.com/news/security/notion-says-fireworks-breach-exposed-customer-ai-chat-transcripts/",
+      "source": "BleepingComputer",
+      "category": "IA",
+      "published": "2026-11-11T20:54:20+00:00",
+      "summary": "Notion, the digital workspace platform, disclosed that a security breach at its AI infrastructure provider, Fireworks AI, exposed Notion AI chat transcripts in a small number of workspaces. [...]",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "IA",
+        "reason": "title_topic",
+        "signals": [
+          "ai"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-11T21:52:50.265517+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
+      "id": "3c445f1213014085411e",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "España vive huelga general y protestas por la vivienda antes de elecciones",
+      "url": "https://www.dw.com/es/españa-vive-huelga-general-y-protestas-por-la-vivienda-antes-de-elecciones/a-79924314?maca=spa-rss-sp-all-1122-rdf",
+      "canonicalUrl": "https://www.dw.com/es/españa-vive-huelga-general-y-protestas-por-la-vivienda-antes-de-elecciones/a-79924314?maca=spa-rss-sp-all-1122-rdf",
+      "source": "DW Español",
+      "category": "Conflictos",
+      "published": "2026-11-11T20:50:00+00:00",
+      "summary": "En Madrid, unas 120.000 personas marcharon y otras miles también salieron a las calles en numerosas ciudades del país.",
+      "language": "es",
+      "languageMethod": "entry_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "elecciones"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-11T21:52:50.265517+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
+      "id": "c9e2b9c0e6b024ed5900",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "ES",
+          "label": "España",
+          "relation": "mentioned",
+          "matchedAlias": "España",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.dw.com/es/españa-vive-huelga-general-y-protestas-por-la-vivienda-antes-de-elecciones/a-79924314?maca=spa-rss-sp-all-1122-rdf"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "Oil production nears pre-Iran war levels, OPEC says",
+      "url": "https://www.aljazeera.com/news/2026/11/11/oil-production-near-pre-iran-war-levels-opec-says?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/news/2026/11/11/oil-production-near-pre-iran-war-levels-opec-says",
+      "source": "Al Jazeera",
+      "category": "Conflictos",
+      "published": "2026-11-11T20:45:30+00:00",
+      "summary": "Saudi Arabia reports oil outputs soared to highest levels in months despite continued shipping disruptions.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "war"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-11T21:52:50.265517+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
+      "id": "7b96fed33cdfe26e96ed",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "SA",
+          "label": "Arabia Saudita",
+          "relation": "mentioned",
+          "matchedAlias": "Saudi Arabia",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.aljazeera.com/news/2026/11/11/oil-production-near-pre-iran-war-levels-opec-says?traffic_source=rss"
+        },
+        {
+          "countryCode": "IR",
+          "label": "Irán",
+          "relation": "mentioned",
+          "matchedAlias": "Iran",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.aljazeera.com/news/2026/11/11/oil-production-near-pre-iran-war-levels-opec-says?traffic_source=rss"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "African writing award probe finds 'no evidence' winning story was AI generated",
+      "url": "https://www.bbc.co.uk/news/articles/cmglr260z7eko?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cmglr260z7eko?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "IA",
+      "published": "2026-11-11T20:00:54+00:00",
+      "summary": "Zimbabwean writer Simbarashe Kundizeza has also vehemently denied the allegation made in a US magazine.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "IA",
+        "reason": "title_topic",
+        "signals": [
+          "ai"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-11T21:52:50.265517+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
+      "id": "b5832023985142399047",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "How much did pro-Israel groups spend against Hasan Piker at midterms?",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/11/how-much-did-pro-israel-groups-spend-against-hasan-piker-at-midterms?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/11/how-much-did-pro-israel-groups-spend-against-hasan-piker-at-midterms",
+      "source": "Al Jazeera",
+      "category": "Conflictos",
+      "published": "2026-11-11T19:51:58+00:00",
+      "summary": "How much did pro-Israel groups spend against Hasan Piker at midterms?",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "midterms"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-11T21:52:50.265517+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
+      "id": "fce999084d5d7882b5da",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "IL",
+          "label": "Israel",
+          "relation": "mentioned",
+          "matchedAlias": "Israel",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/11/how-much-did-pro-israel-groups-spend-against-hasan-piker-at-midterms?traffic_source=rss"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "Which key races remain undecided one week after the US midterms?",
+      "url": "https://www.aljazeera.com/news/2026/11/11/which-key-races-remain-undecided-one-week-after-the-us-midterms?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/news/2026/11/11/which-key-races-remain-undecided-one-week-after-the-us-midterms",
+      "source": "Al Jazeera",
+      "category": "Conflictos",
+      "published": "2026-11-11T19:14:29+00:00",
+      "summary": "Democrats hope several races that are still too close to call will further expand their majorities in the US Congress.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "midterms"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-11T21:52:50.265517+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
+      "id": "efd39beeaf1f8b758101",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "Trump planning new military assault or tighter sanctions, say Iranian officials",
+      "url": "https://www.theguardian.com/world/2026/nov/11/trump-planning-military-assault-or-tighter-sanctions-iranian-officials",
+      "canonicalUrl": "https://www.theguardian.com/world/2026/nov/11/trump-planning-military-assault-or-tighter-sanctions-iranian-officials",
+      "source": "The Guardian World",
+      "category": "Conflictos",
+      "published": "2026-11-11T18:47:57+00:00",
+      "summary": "Regime adviser says Tehran could be forced into pre-emptive strikes if stalemate continues Senior Iranian officials believe the US is planning either further military strikes or an ever-tightening economic stranglehold that will push Tehran into retaliatory action. The assessment comes from Mehdi Mohammadi, an adviser to Iran’s chief negotiator in talks with the US, Mohammad Bagher Ghalibaf. Continue reading...",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "military",
+          "sanctions"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-11T21:52:50.265517+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
+      "id": "e67498a9b2e9e86744f5",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "IR",
+          "label": "Irán",
+          "relation": "mentioned",
+          "matchedAlias": "Iran",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.theguardian.com/world/2026/nov/11/trump-planning-military-assault-or-tighter-sanctions-iranian-officials"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "\"En el Vaticano hay una guerra entre dos bandos en la que los abusos sexuales se han convertido en un arma, y eso es suicida\"",
+      "url": "https://www.bbc.com/mundo/articles/cm75pk2zx53xo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.com/mundo/articles/cm75pk2zx53xo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Mundo",
+      "category": "Conflictos",
+      "published": "2026-11-11T18:19:55+00:00",
+      "summary": "El escritor peruano Santiago Roncagliolo habló con BBC Mundo sobre el año que pasó siguiendo las huellas del actual pontífice en Perú y reconstruyendo el camino que lo llevó hasta el trono de San Pedro.",
+      "language": "es",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "guerra"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-11T21:52:50.265517+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
+      "id": "9812cabdb695e4fb3a09",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "PE",
+          "label": "Perú",
+          "relation": "mentioned",
+          "matchedAlias": "Peru",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.bbc.com/mundo/articles/cm75pk2zx53xo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "Russia-Ukraine talks turn to post-war security but end without breakthrough",
+      "url": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "Conflictos",
+      "published": "2026-11-11T18:04:58+00:00",
+      "summary": "Talks in Abu Dhabi centred around Europe's security framework, with US envoys due to meet Putin and Zelensky on Thursday.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "war"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-11T21:52:50.265517+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
+      "id": "7dfc53730f00e86aeeb4",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "UA",
+          "label": "Ucrania",
+          "relation": "mentioned",
+          "matchedAlias": "Ukraine",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "countryCode": "RU",
+          "label": "Rusia",
+          "relation": "mentioned",
+          "matchedAlias": "Russia",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.bbc.co.uk/news/articles/ck792we7zrz4o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "Guerra en Sudán: cada vez más emergencia y menos ayuda internacional",
+      "url": "https://www.dw.com/es/guerra-en-sudán-cada-vez-más-emergencia-y-menos-ayuda-internacional/a-79922605?maca=spa-rss-sp-all-1122-rdf",
+      "canonicalUrl": "https://www.dw.com/es/guerra-en-sudán-cada-vez-más-emergencia-y-menos-ayuda-internacional/a-79922605?maca=spa-rss-sp-all-1122-rdf",
+      "source": "DW Español",
+      "category": "Conflictos",
+      "published": "2026-11-11T17:57:00+00:00",
+      "summary": "La crisis humanitaria crece en Sudán: 33,7 millones de personas necesitan ayuda, pero la asistencia internacional se redujo en muchas zonas. Además, la guerra y los ataques con drones dificultan cualquier apoyo.",
+      "language": "es",
+      "languageMethod": "entry_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "guerra"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-11T21:52:50.265517+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
+      "id": "3ba11e334386903ce4dd",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "SD",
+          "label": "Sudán",
+          "relation": "mentioned",
+          "matchedAlias": "Sudan",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.dw.com/es/guerra-en-sudán-cada-vez-más-emergencia-y-menos-ayuda-internacional/a-79922605?maca=spa-rss-sp-all-1122-rdf"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "John Thune re-elected as US Senate Republican leader after midterm losses",
+      "url": "https://www.aljazeera.com/news/2026/11/11/thune-re-elected-as-us-senate-republican-leader-after-midterm-losses?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/news/2026/11/11/thune-re-elected-as-us-senate-republican-leader-after-midterm-losses",
+      "source": "Al Jazeera",
+      "category": "Conflictos",
+      "published": "2026-11-11T17:08:12+00:00",
+      "summary": "The Republican ran unopposed, despite some GOP lawmaker demands to evaluate the party's stinging midterm losses to Democ",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "midterm"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-11T21:52:50.265517+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
+      "id": "761abccaa92713d35637",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "Maersk confirms data breach as WhiteArmor ransomware demands $5 million",
+      "url": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
+      "canonicalUrl": "https://www.bleepingcomputer.com/news/security/maersk-confirms-data-breach-as-whitearmor-ransomware-demands-5-million/",
+      "source": "BleepingComputer",
+      "category": "Ciberseguridad",
+      "published": "2026-11-11T16:24:18+00:00",
+      "summary": "Maersk announced that a threat actor gained unauthorized access to a local legacy system inherited through an earlier acquisition and extracted data from it. [...]",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Ciberseguridad",
+        "reason": "title_topic",
+        "signals": [
+          "ransomware"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-11T21:52:50.265517+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
+      "id": "9d0e65808ab58d160439",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "Is the US blue wave a turning point for Europe, too?",
+      "url": "https://www.theguardian.com/world/2026/nov/11/is-the-us-blue-wave-a-turning-point-for-europe-too",
+      "canonicalUrl": "https://www.theguardian.com/world/2026/nov/11/is-the-us-blue-wave-a-turning-point-for-europe-too",
+      "source": "The Guardian World",
+      "category": "Conflictos",
+      "published": "2026-11-11T15:40:52+00:00",
+      "summary": "Far-right populists remain insurgent and pro-EU governments are braced for Trump’s betrayal. But the midterms also showed that democracy can fight back • Don’t get This Is Europe delivered to your inbox? Sign up here “Is Maga dead?” asked Margaret, a Guardian reader in Switzerland, in a live Q&A with our correspondents after the seismic US midterm elections. If Margaret’s query expressed a hope that the Democrats’ blue wave could transform Europe’s fortunes after two years of Maga-induced trauma, she was probably not alone. The resounding defeat for Donald Trump’s Republicans and the installation of a Democratic-controlled US Congress has bee",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "summary_context",
+        "signals": [
+          "elections",
+          "midterm",
+          "midterms"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-11T21:52:50.265517+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
+      "id": "149752e198c6bea1cdff",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "CH",
+          "label": "Suiza",
+          "relation": "mentioned",
+          "matchedAlias": "Switzerland",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.theguardian.com/world/2026/nov/11/is-the-us-blue-wave-a-turning-point-for-europe-too"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "Hackers use AntiFox AI agents in AWS credential-theft attacks",
+      "url": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/",
+      "canonicalUrl": "https://www.bleepingcomputer.com/news/security/hackers-use-antifox-ai-agents-in-aws-credential-theft-attacks/",
+      "source": "BleepingComputer",
+      "category": "IA",
+      "published": "2026-11-11T15:12:59+00:00",
+      "summary": "Attackers are using Alibaba Cloud to host self-managed instances of AntiFox, an open-source agentic penetration testing platform, to target web services and AWS environments. [...]",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "IA",
+        "reason": "title_topic",
+        "signals": [
+          "ai"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-11T21:52:50.265517+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
+      "id": "f7bee101ee0275bf0de8",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "El trabajo de moda en ingeniería de software ya no es programar: es reunirse con el cliente para asegurarse de que la IA funcione",
+      "url": "https://www.xataka.com/empresas-y-economia/trabajo-moda-ingenieria-software-no-programar-reunirse-cliente-para-asegurarse-que-ia-funcione",
+      "canonicalUrl": "https://www.xataka.com/empresas-y-economia/trabajo-moda-ingenieria-software-no-programar-reunirse-cliente-para-asegurarse-que-ia-funcione",
+      "source": "Xataka IA",
+      "category": "IA",
+      "published": "2026-11-11T15:01:51+00:00",
+      "summary": "Lo que conocíamos tradicionalmente como ingeniero de software ahora es una etiqueta que abarca muchos más espacios que antes. Y es que ante el vertiginoso ritmo de la IA, es una posición que ya mira hacia direcciones muy diferentes. Una prueba muy interesante de ello la muestra la última newsletter de Lenny Rachitsky sobre mercado laboral tecnológico. Su informe destaca que los puestos más cercanos al cliente están en pleno auge, mientras que las especialidades vinculadas a una sola plataforma se están contrayendo rápidamente. Por qué importa. Según Rachitsky, las ofertas de empleo en ingeniería móvil y front-end se han reducido casi a la mit",
+      "language": "es",
+      "languageMethod": "source_configuration",
+      "relevance": {
+        "included": true,
+        "category": "IA",
+        "reason": "title_topic",
+        "signals": [
+          "ia"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-11T21:52:50.265517+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
+      "id": "96cbb2ee8e0ca3b886a5",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
       "countries": [],
       "locations": []
     },
@@ -91,7 +709,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-11T15:04:30.072862+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "2b5f528d3b67d19cafdc",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -121,7 +739,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-11T15:04:30.072862+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "fdb07bf27f816d37cdd6",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -151,7 +769,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-11T07:02:34.842355+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "ddbccf94961adfce3711",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -235,7 +853,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-11T15:04:30.072862+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "707d6e7877f552f5f2be",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -332,7 +950,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-11T15:04:30.072862+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "22463fa6921d14b34a5e",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -362,7 +980,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-11T15:04:30.072862+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "4159aa30cc14227e7b82",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -401,7 +1019,7 @@
       "canonicalUrl": "https://www.theguardian.com/us-news/2026/nov/11/us-treasury-chief-scott-bessent-moves-military-base-iran-threats",
       "source": "The Guardian World",
       "category": "Conflictos",
-      "published": "2026-11-11T09:11:31+00:00",
+      "published": "2026-11-11T09:11:30+00:00",
       "summary": "Bessent, driving force behind US push to cripple Iran’s economy, relocates over alleged threat to his life The US Treasury secretary, Scott Bessent, has relocated from his home in the Washington area to a military base after an Iranian threat against his life, the New York Times has reported . Bessent has spearheaded a US push to cripple Iran’s economy since the start of the Middle East war, vowing “economic asphyxiation” of the Islamic republic through a web of sanctions. Continue reading...",
       "language": "en",
       "languageMethod": "feed_declaration",
@@ -416,7 +1034,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-11T15:04:30.072862+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "ef7667392e3daec3230a",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -455,7 +1073,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-11T15:04:30.072862+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "ddd503d30cd4c64e4852",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -484,7 +1102,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-11T15:04:30.072862+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "abc9a2aff9710fcefcce",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -513,7 +1131,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-11T15:04:30.072862+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "8d22ef441b1230c304d3",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -542,7 +1160,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-11T15:04:30.072862+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "e104d83c2fd272911b97",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -571,7 +1189,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-11T07:02:34.842355+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "ac94b61a25ade5edbf71",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -646,7 +1264,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-11T07:02:34.842355+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "4b2ba019d6dfe8b3e967",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -898,6 +1516,35 @@
       "locations": []
     },
     {
+      "title": "JioStar’s chief architect on AI discovery at 500M-user scale",
+      "url": "https://openai.com/index/jiostar-vijay-seshadri",
+      "canonicalUrl": "https://openai.com/index/jiostar-vijay-seshadri",
+      "source": "OpenAI News",
+      "category": "IA",
+      "published": "2026-11-11T00:00:00+00:00",
+      "summary": "JioStar’s Vijay Seshadri explains AI discovery at 500M-user scale. Read his lessons on evals, guardrails, and taking AI into production.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "IA",
+        "reason": "title_topic",
+        "signals": [
+          "ai"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-11T21:52:50.265517+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
+      "id": "55ff14dc4213127df72a",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "publisher_post",
+      "countries": [],
+      "locations": []
+    },
+    {
       "title": "Aliado de Trump es el nuevo líder de los republicanos en la Cámara de Representantes",
       "url": "https://www.dw.com/es/aliado-de-trump-es-el-nuevo-líder-de-los-republicanos-en-la-cámara-de-representantes/a-79913634?maca=spa-rss-sp-all-1122-rdf",
       "canonicalUrl": "https://www.dw.com/es/aliado-de-trump-es-el-nuevo-líder-de-los-republicanos-en-la-cámara-de-representantes/a-79913634?maca=spa-rss-sp-all-1122-rdf",
@@ -985,7 +1632,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-11T00:35:07.383568+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "43b50136d94d33902fc6",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1014,7 +1661,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-11T00:35:07.383568+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "58b5d9de4befd542ea2b",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1233,7 +1880,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-10T19:38:08.701145+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "70a133457da5c93bae15",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1308,7 +1955,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-10T19:38:08.701145+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "30985a27481c3baaed58",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1555,7 +2202,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-10T19:38:08.701145+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "4f5e80285e97a20c1d2b",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1613,7 +2260,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-10T19:38:08.701145+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "5534de51b96caf0491da",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1643,7 +2290,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-10T19:38:08.701145+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "60980c2cce4189709d0e",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1778,7 +2425,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-10T19:38:08.701145+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "f121bfe947f9b7e3d237",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1845,7 +2492,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-10T19:38:08.701145+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "18fb11c8194ddd8407ba",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1874,7 +2521,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-10T19:38:08.701145+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "4c3c56a1a61aaf31d560",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1903,7 +2550,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-10T19:38:08.701145+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "0f0020abcf733229d29f",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1941,7 +2588,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-11T00:35:07.383568+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "f4b34728a6f8e3261976",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2067,7 +2714,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-10T19:38:08.701145+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "991ad48e8559b2fefa9f",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2096,7 +2743,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-10T11:40:37.607606+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "69d4d9d74efa01629a6c",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2208,7 +2855,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-11T07:02:34.842355+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "9092d5eb66f29547408d",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2305,7 +2952,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-10T19:38:08.701145+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "f3fc54cd1d78c100d666",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2800,7 +3447,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-11T07:02:34.842355+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "37e4452e64c861cffe83",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2904,7 +3551,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-09T20:38:42.443344+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "98ad560dfd8ce8a3f240",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3034,7 +3681,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-10T03:26:09.475698+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "0f375a1c6e53b42630df",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3122,7 +3769,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-10T03:26:09.475698+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "0a5a8e57589da41d1fe8",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3214,7 +3861,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-09T20:38:42.443344+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "a0dbf5e9719438029156",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3332,7 +3979,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-09T20:38:42.443344+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "caa9073cefb43725f1a5",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3466,7 +4113,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-09T20:38:42.443344+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "847f70281bec59e822d7",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3541,7 +4188,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-09T20:38:42.443344+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "397ea3f22c21045aa7b2",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3675,7 +4322,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-09T20:38:42.443344+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "cfc012cb0ecfe2e4af1b",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3704,7 +4351,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-09T20:38:42.443344+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "961d06d9878ce8dd1f88",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3762,7 +4409,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-09T20:38:42.443344+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "e181d023f6ee7abfdfb4",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3791,7 +4438,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-09T20:38:42.443344+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "f2fd344bf7be2cb6a6e3",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3820,7 +4467,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-10T03:26:09.475698+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "952d2516af2e905436ad",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3878,7 +4525,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-10T03:26:09.475698+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "b13d0e78edd1a3e70a4e",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3907,7 +4554,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-09T20:38:42.443344+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "af9468b080f4c5750960",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3945,7 +4592,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-09T20:38:42.443344+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "161c4966bba84f86ee36",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -4003,7 +4650,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-09T09:38:15.461032+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "43cf4a898da772867832",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -4032,7 +4679,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-09T09:38:15.461032+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "94ef3f2e173daf735c18",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -4062,7 +4709,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-10T03:26:09.475698+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "02e9abf47eaf3fa01f98",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -5457,7 +6104,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-07T15:53:19.974752+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "3798720f93a025d18fb1",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -6812,7 +7459,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-06T17:24:20.521365+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "4824c98720e7e767d603",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -6895,7 +7542,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-06T17:24:20.521365+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "127af6818ff60c965107",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -6933,7 +7580,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-06T22:19:55.910656+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "2e68c4969154600586c3",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -7095,7 +7742,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-06T22:19:55.910656+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "a0a44ed09dc9a1089b4e",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -7446,7 +8093,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-06T22:19:55.910656+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "5f721228af3682c2417b",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -8045,7 +8692,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-06T02:15:14.658649+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "616c68177b707eae60eb",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -8531,7 +9178,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-06T02:15:14.658649+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "cddef5bb18e3bcbf0141",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -8789,7 +9436,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-05T21:55:20.572783+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "14e90e72d3401ddf817f",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -8847,7 +9494,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-06T02:15:14.658649+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "db9792e954d447010915",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -9158,7 +9805,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-05T15:45:34.888706+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "25fa4dd18ec78a48a923",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -9323,7 +9970,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-06T02:15:14.658649+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "a8e215d1c3fca63aee0f",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -10083,7 +10730,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "09c40cbdb75966e0dccf",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -10677,7 +11324,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "1be4fdd8e6ca80f0ec01",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -10969,7 +11616,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-06T02:15:14.658649+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "c5bfeedc9f8814604d6b",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -12621,7 +13268,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T17:43:25.925049+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "e581154108f523de51d2",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -12913,7 +13560,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T17:43:25.925049+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "626b3ee2d010a08da4c8",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -12942,7 +13589,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T23:14:04.719071+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "53ca9309f14b041c6790",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -13271,7 +13918,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T17:43:25.925049+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "fc87a45dcfbf03d41725",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -13300,7 +13947,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T23:14:04.719071+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "34e7d62615202d0de65f",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -13876,7 +14523,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T23:14:04.719071+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "019edb616369c3322f4c",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -14505,7 +15152,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T10:02:03.608468+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "0d297090385ad5a72451",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -14925,7 +15572,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T02:36:31.828730+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "277870ffc8d71544c046",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -15050,7 +15697,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "3017d51cc49fa391b080",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -18641,7 +19288,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T14:10:37.162341+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "d2dd776fc827913d3db6",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -18796,7 +19443,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-01T19:08:24.518261+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "f635e51b46992649ab09",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -20761,7 +21408,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "d3ed0a84a8f244777bb0",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -20790,7 +21437,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "e24342c52a0b2ee1fe64",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -20821,7 +21468,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "550e95ef6ab5f80bdb7e",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -20851,7 +21498,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "c0138fec61383be41643",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -21873,7 +22520,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "22d2ccd53543886c59b8",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -22077,7 +22724,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "b49ec3bd8394c6fb4c19",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -22181,7 +22828,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "f7763a757c0c37e729db",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -22213,7 +22860,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "c67cf62fcc6ed47bcf04",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -22244,7 +22891,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "b933b8867a0cffd57297",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -22361,7 +23008,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "e77549dba84aa9c32f2e",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -22429,7 +23076,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "f6b4dc44bc2f931c0e19",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -22613,7 +23260,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:43:59.426409+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "5dcbf942d9a311a79a75",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -22642,7 +23289,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "32ef7801f5802984dfdd",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -22700,7 +23347,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "87bf34b6e070a9474032",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -22729,7 +23376,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "ce87e3f627c6f42f08a7",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -22787,7 +23434,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:43:59.426409+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "21c44a150d24631fa8f9",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -22856,7 +23503,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:43:59.426409+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "dc36786d82352110caf5",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -22885,7 +23532,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:43:59.426409+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "8475b78ae3134eeff400",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -22949,7 +23596,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "c93040c85b3a8065aa8e",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -22979,7 +23626,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "284eb83ac7e255431864",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -23039,7 +23686,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "04c08a3131a86ce13940",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -23130,7 +23777,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "96a49d1740a18b8a5b49",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -23222,7 +23869,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "afec29b000e9df448b89",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -23283,7 +23930,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "d0a00ec0797d3bcb2dfc",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -23403,7 +24050,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:43:59.426409+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "ad8d074947f8205ebb42",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -23432,7 +24079,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:43:59.426409+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "172853c50f28f34f2b55",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -23558,7 +24205,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "3bfcd79e09f177c0e0d9",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -23587,7 +24234,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:43:59.426409+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "0e17d0674af31b667ccc",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -23616,7 +24263,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "4a59615041b968ae61d1",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -23645,7 +24292,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "1c5f83daf4c5b5dc2db6",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -23964,7 +24611,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "dd1029b4b030aba3c24c",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -24023,7 +24670,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "4c456e668ef45cba83b5",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -24052,7 +24699,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "c02127d349672db4a213",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -24081,7 +24728,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "5eca910e1a1b5f733468",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -24110,7 +24757,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "5cc8f180d7d24936a059",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -24139,7 +24786,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "0c73b324dd494a6fde7e",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -24168,7 +24815,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "17cb2498c40f7c908d29",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -24206,7 +24853,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "f174ca4a3cbc866f5f12",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -24235,7 +24882,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "d4c4006fefc6f64193fc",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -24264,7 +24911,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "a21cee4b91bda9f5c68b",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -24293,7 +24940,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "4f98c5029119950e7f82",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -24322,7 +24969,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-11T15:04:30.072862+00:00",
+      "lastSeenAt": "2026-11-11T21:52:50.265517+00:00",
       "id": "2ba894a78cc5b6e183f6",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -24338,12 +24985,12 @@
       "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
       "language": "en",
       "status": "ok",
-      "count": 2,
-      "receivedCount": 24,
+      "count": 3,
+      "receivedCount": 25,
       "excludedCount": 22,
       "error": null,
-      "lastAttemptAt": "2026-11-11T15:04:30.072862+00:00",
-      "lastSuccessAt": "2026-11-11T15:04:30.072862+00:00"
+      "lastAttemptAt": "2026-11-11T21:52:50.265517+00:00",
+      "lastSuccessAt": "2026-11-11T21:52:50.265517+00:00"
     },
     {
       "name": "Al Jazeera",
@@ -24351,12 +24998,12 @@
       "url": "https://www.aljazeera.com/xml/rss/all.xml",
       "language": "en",
       "status": "ok",
-      "count": 3,
+      "count": 5,
       "receivedCount": 25,
-      "excludedCount": 22,
+      "excludedCount": 20,
       "error": null,
-      "lastAttemptAt": "2026-11-11T15:04:30.072862+00:00",
-      "lastSuccessAt": "2026-11-11T15:04:30.072862+00:00"
+      "lastAttemptAt": "2026-11-11T21:52:50.265517+00:00",
+      "lastSuccessAt": "2026-11-11T21:52:50.265517+00:00"
     },
     {
       "name": "The Guardian World",
@@ -24368,8 +25015,8 @@
       "receivedCount": 35,
       "excludedCount": 29,
       "error": null,
-      "lastAttemptAt": "2026-11-11T15:04:30.072862+00:00",
-      "lastSuccessAt": "2026-11-11T15:04:30.072862+00:00"
+      "lastAttemptAt": "2026-11-11T21:52:50.265517+00:00",
+      "lastSuccessAt": "2026-11-11T21:52:50.265517+00:00"
     },
     {
       "name": "CISA Alerts",
@@ -24381,8 +25028,8 @@
       "receivedCount": 30,
       "excludedCount": 5,
       "error": null,
-      "lastAttemptAt": "2026-11-11T15:04:30.072862+00:00",
-      "lastSuccessAt": "2026-11-11T15:04:30.072862+00:00"
+      "lastAttemptAt": "2026-11-11T21:52:50.265517+00:00",
+      "lastSuccessAt": "2026-11-11T21:52:50.265517+00:00"
     },
     {
       "name": "BleepingComputer",
@@ -24390,12 +25037,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "language": "en",
       "status": "ok",
-      "count": 6,
+      "count": 7,
       "receivedCount": 15,
-      "excludedCount": 9,
+      "excludedCount": 8,
       "error": null,
-      "lastAttemptAt": "2026-11-11T15:04:30.072862+00:00",
-      "lastSuccessAt": "2026-11-11T15:04:30.072862+00:00"
+      "lastAttemptAt": "2026-11-11T21:52:50.265517+00:00",
+      "lastSuccessAt": "2026-11-11T21:52:50.265517+00:00"
     },
     {
       "name": "Cloudflare Blog",
@@ -24407,8 +25054,8 @@
       "receivedCount": 20,
       "excludedCount": 15,
       "error": null,
-      "lastAttemptAt": "2026-11-11T15:04:30.072862+00:00",
-      "lastSuccessAt": "2026-11-11T15:04:30.072862+00:00"
+      "lastAttemptAt": "2026-11-11T21:52:50.265517+00:00",
+      "lastSuccessAt": "2026-11-11T21:52:50.265517+00:00"
     },
     {
       "name": "Internet Society",
@@ -24420,8 +25067,8 @@
       "receivedCount": 20,
       "excludedCount": 17,
       "error": null,
-      "lastAttemptAt": "2026-11-11T15:04:30.072862+00:00",
-      "lastSuccessAt": "2026-11-11T15:04:30.072862+00:00"
+      "lastAttemptAt": "2026-11-11T21:52:50.265517+00:00",
+      "lastSuccessAt": "2026-11-11T21:52:50.265517+00:00"
     },
     {
       "name": "Google Research",
@@ -24433,8 +25080,8 @@
       "receivedCount": 35,
       "excludedCount": 22,
       "error": null,
-      "lastAttemptAt": "2026-11-11T15:04:30.072862+00:00",
-      "lastSuccessAt": "2026-11-11T15:04:30.072862+00:00"
+      "lastAttemptAt": "2026-11-11T21:52:50.265517+00:00",
+      "lastSuccessAt": "2026-11-11T21:52:50.265517+00:00"
     },
     {
       "name": "OpenAI News",
@@ -24442,12 +25089,12 @@
       "url": "https://openai.com/news/rss.xml",
       "language": "en",
       "status": "ok",
-      "count": 24,
+      "count": 25,
       "receivedCount": 35,
-      "excludedCount": 11,
+      "excludedCount": 10,
       "error": null,
-      "lastAttemptAt": "2026-11-11T15:04:30.072862+00:00",
-      "lastSuccessAt": "2026-11-11T15:04:30.072862+00:00"
+      "lastAttemptAt": "2026-11-11T21:52:50.265517+00:00",
+      "lastSuccessAt": "2026-11-11T21:52:50.265517+00:00"
     },
     {
       "name": "MIT Technology Review",
@@ -24459,8 +25106,8 @@
       "receivedCount": 10,
       "excludedCount": 2,
       "error": null,
-      "lastAttemptAt": "2026-11-11T15:04:30.072862+00:00",
-      "lastSuccessAt": "2026-11-11T15:04:30.072862+00:00"
+      "lastAttemptAt": "2026-11-11T21:52:50.265517+00:00",
+      "lastSuccessAt": "2026-11-11T21:52:50.265517+00:00"
     },
     {
       "name": "BBC Mundo",
@@ -24469,11 +25116,11 @@
       "language": "es",
       "status": "ok",
       "count": 4,
-      "receivedCount": 34,
-      "excludedCount": 30,
+      "receivedCount": 33,
+      "excludedCount": 29,
       "error": null,
-      "lastAttemptAt": "2026-11-11T15:04:30.072862+00:00",
-      "lastSuccessAt": "2026-11-11T15:04:30.072862+00:00"
+      "lastAttemptAt": "2026-11-11T21:52:50.265517+00:00",
+      "lastSuccessAt": "2026-11-11T21:52:50.265517+00:00"
     },
     {
       "name": "DW Español",
@@ -24481,12 +25128,12 @@
       "url": "https://rss.dw.com/rdf/rss-sp-all",
       "language": "es",
       "status": "ok",
-      "count": 6,
-      "receivedCount": 27,
-      "excludedCount": 21,
+      "count": 7,
+      "receivedCount": 32,
+      "excludedCount": 25,
       "error": null,
-      "lastAttemptAt": "2026-11-11T15:04:30.072862+00:00",
-      "lastSuccessAt": "2026-11-11T15:04:30.072862+00:00"
+      "lastAttemptAt": "2026-11-11T21:52:50.265517+00:00",
+      "lastSuccessAt": "2026-11-11T21:52:50.265517+00:00"
     },
     {
       "name": "INCIBE-CERT",
@@ -24498,8 +25145,8 @@
       "receivedCount": 10,
       "excludedCount": 3,
       "error": null,
-      "lastAttemptAt": "2026-11-11T15:04:30.072862+00:00",
-      "lastSuccessAt": "2026-11-11T15:04:30.072862+00:00"
+      "lastAttemptAt": "2026-11-11T21:52:50.265517+00:00",
+      "lastSuccessAt": "2026-11-11T21:52:50.265517+00:00"
     },
     {
       "name": "Xataka IA",
@@ -24511,8 +25158,8 @@
       "receivedCount": 10,
       "excludedCount": 1,
       "error": null,
-      "lastAttemptAt": "2026-11-11T15:04:30.072862+00:00",
-      "lastSuccessAt": "2026-11-11T15:04:30.072862+00:00"
+      "lastAttemptAt": "2026-11-11T21:52:50.265517+00:00",
+      "lastSuccessAt": "2026-11-11T21:52:50.265517+00:00"
     },
     {
       "name": "Xataka Internet",
@@ -24524,8 +25171,8 @@
       "receivedCount": 10,
       "excludedCount": 2,
       "error": null,
-      "lastAttemptAt": "2026-11-11T15:04:30.072862+00:00",
-      "lastSuccessAt": "2026-11-11T15:04:30.072862+00:00"
+      "lastAttemptAt": "2026-11-11T21:52:50.265517+00:00",
+      "lastSuccessAt": "2026-11-11T21:52:50.265517+00:00"
     }
   ],
   "relatedGroups": [

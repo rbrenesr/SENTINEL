@@ -1,8 +1,133 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-11-15T15:35:50.550369+00:00",
-  "lastAttemptAt": "2026-11-15T15:35:50.550369+00:00",
+  "updatedAt": "2026-11-15T20:32:36.886670+00:00",
+  "lastAttemptAt": "2026-11-15T20:32:36.886670+00:00",
   "items": [
+    {
+      "title": "FBI warns ARTEX AI hacking tool is powering global cyberattacks",
+      "url": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
+      "canonicalUrl": "https://www.bleepingcomputer.com/news/security/fbi-warns-artex-ai-hacking-tool-is-powering-global-cyberattacks/",
+      "source": "BleepingComputer",
+      "category": "Ciberseguridad",
+      "published": "2026-11-15T18:29:53+00:00",
+      "summary": "The FBI is warning that hackers are using an AI-powered penetration testing framework called ARTEX to automate cyberattacks against organizations worldwide, including a recent ConnectWise supply-chain breach that compromised Microsoft 365 customer environments. [...]",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Ciberseguridad",
+        "reason": "title_topic",
+        "signals": [
+          "cyberattacks"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-15T20:32:36.886670+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
+      "id": "ddd80cd3bed8cfd4e521",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "Iran launches drone attacks against US military base in Bahrain",
+      "url": "https://www.theguardian.com/world/2026/nov/15/iran-launches-drone-attacks-against-us-military-base-in-bahrain",
+      "canonicalUrl": "https://www.theguardian.com/world/2026/nov/15/iran-launches-drone-attacks-against-us-military-base-in-bahrain",
+      "source": "The Guardian World",
+      "category": "Conflictos",
+      "published": "2026-11-15T18:03:56+00:00",
+      "summary": "Strikes cast further doubt on peace talks between Tehran and Washington with increasing risk of escalation Iran has launched drone attacks against a US military base in Bahrain, casting further doubt on peace talks between Tehran and Washington and raising the spectre of escalation. Blasts sounded over the Gulf nation on Sunday in the second Iranian drone attack in three days in retaliation for US strikes in Iran. Continue reading...",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "military"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-15T20:32:36.886670+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
+      "id": "c019bab26c7ebf0e9ecd",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "IR",
+          "label": "Irán",
+          "relation": "mentioned",
+          "matchedAlias": "Iran",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.theguardian.com/world/2026/nov/15/iran-launches-drone-attacks-against-us-military-base-in-bahrain"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "The hidden costs of the US AI boom",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/15/the-hidden-costs-of-the-us-ai-boom?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/15/the-hidden-costs-of-the-us-ai-boom",
+      "source": "Al Jazeera",
+      "category": "IA",
+      "published": "2026-11-15T17:24:59+00:00",
+      "summary": "The hidden costs of the US AI boom",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "IA",
+        "reason": "title_topic",
+        "signals": [
+          "ai"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-15T20:32:36.886670+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
+      "id": "4e409b12bd6cbece5dd0",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "¿Podría la renta básica universal ser parte de la solución en una economía revolucionada por la IA?",
+      "url": "https://www.dw.com/es/¿podría-la-renta-básica-universal-ser-parte-de-la-solución-en-una-economía-revolucionada-por-la-ia/a-79951515?maca=spa-rss-sp-all-1122-rdf",
+      "canonicalUrl": "https://www.dw.com/es/¿podría-la-renta-básica-universal-ser-parte-de-la-solución-en-una-economía-revolucionada-por-la-ia/a-79951515?maca=spa-rss-sp-all-1122-rdf",
+      "source": "DW Español",
+      "category": "IA",
+      "published": "2026-11-15T15:57:00+00:00",
+      "summary": "El terremoto económico causado por la inteligencia artificial ha llevado hasta a políticos conservadores a hablar de una renta básica universal. Pero los economistas no están convencidos y los activistas planteas dudas.",
+      "language": "es",
+      "languageMethod": "entry_declaration",
+      "relevance": {
+        "included": true,
+        "category": "IA",
+        "reason": "title_topic",
+        "signals": [
+          "ia"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-15T20:32:36.886670+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
+      "id": "9aa5dccb584016d3ee21",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
     {
       "title": "Fascism built the AI bubble. What will burst it?",
       "url": "https://www.aljazeera.com/video/deja-vu-2/2026/11/15/fascism-built-the-ai-bubble-what-will-burst-it?traffic_source=rss",
@@ -24,7 +149,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-15T15:35:50.550369+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "720308079e0fd433af64",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -53,7 +178,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-15T15:35:50.550369+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "aa8e6247d001d1219b1b",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -205,7 +330,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-15T15:35:50.550369+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "c904d4246464e67726bd",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -263,7 +388,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-15T15:35:50.550369+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "32b37ac6f0f1162d352a",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -301,7 +426,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-15T15:35:50.550369+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "a5682f43ab7f56963da8",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -347,7 +472,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-15T15:35:50.550369+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "4afe07205cbbcf40d404",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -401,7 +526,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-15T07:45:49.607419+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "48c060ca9d409921abfa",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -485,7 +610,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-15T07:45:49.607419+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "9b4a6bfe0f1a01c749bf",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -827,7 +952,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-14T20:37:37.384726+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "d7f6733ba66d560bd1a4",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -856,7 +981,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-14T16:02:12.213101+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "bc19cf387a2bdd825b6c",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -902,7 +1027,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-14T16:02:12.213101+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "223741e0d74b40d6f66c",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1600,7 +1725,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-13T21:55:15.798699+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "1e6926a8d8e711b36ea8",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1629,7 +1754,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-13T21:55:15.798699+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "a009bbdbfbe6de47102d",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1734,7 +1859,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-13T21:55:15.798699+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "6ce23a8d3c69416c13e2",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1892,7 +2017,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-13T21:55:15.798699+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "7ab70a6a166445522f05",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1998,7 +2123,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-13T15:39:14.545897+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "b32ccd39bcb9fea1a0b2",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2027,7 +2152,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-13T21:55:15.798699+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "7d4d71d056da02862d0b",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2102,7 +2227,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-13T15:39:14.545897+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "a4db15e2b4ef120fafee",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2178,7 +2303,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-13T15:39:14.545897+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "136644a5b7dab6b2906e",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2236,7 +2361,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-13T21:55:15.798699+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "7b5dacba886b8db54898",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2340,7 +2465,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-13T15:39:14.545897+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "9a4f043b926f872ffede",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2369,7 +2494,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-13T15:39:14.545897+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "02c1dcd61c66dc6cf7fe",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2398,7 +2523,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-13T15:39:14.545897+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "05d831449f156eaad4e1",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2428,7 +2553,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-13T15:39:14.545897+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "532d1b022e0134eb012c",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2532,7 +2657,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-13T15:39:14.545897+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "4ca04f0988aabb37d738",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2561,7 +2686,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-13T15:39:14.545897+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "de4c6c1437c7a8012fe7",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2590,7 +2715,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-13T15:39:14.545897+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "87c0c1aab8f939f35241",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2619,7 +2744,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-13T15:39:14.545897+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "0781f5a09d2313f0ba23",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2648,7 +2773,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-13T15:39:14.545897+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "ba11432055d771da09ab",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2677,7 +2802,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-14T02:14:45.659541+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "a99dfdd20d85acbbb850",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3038,7 +3163,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-13T00:09:01.667204+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "afe79ee14497cedd484f",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3114,7 +3239,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-13T00:09:01.667204+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "ec46d2ca2fd1c7f3543b",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3323,7 +3448,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-13T00:09:01.667204+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "67672a694e389b29af55",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3515,7 +3640,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-12T18:48:55.334168+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "aa786cd646435b74e53e",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3850,7 +3975,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-12T18:48:55.334168+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "eb53c3285d8492d8c822",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3888,7 +4013,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-12T18:48:55.334168+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "758208eaa2780f8645d3",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3948,7 +4073,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-12T18:48:55.334168+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "f45d3069b40c902e6997",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3979,7 +4104,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-12T18:48:55.334168+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "057c02b04cc39ce1e69c",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -4010,7 +4135,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-12T18:48:55.334168+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "652c8f30b0994d6c4046",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -4041,7 +4166,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-12T18:48:55.334168+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "89146ff5418730c287f6",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -4138,7 +4263,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-12T18:48:55.334168+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "139c7635380e7e31690f",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -4167,7 +4292,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-12T18:48:55.334168+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "b90c617baea8b9330882",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -4225,7 +4350,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-12T18:48:55.334168+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "d6c8a8f63022c5fa15ca",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -4406,7 +4531,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-11T07:02:34.842355+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "65b96c238445cdedc96b",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -4435,7 +4560,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-12T10:54:08.069226+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "d7c1da8cb7dc41da688b",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -4804,7 +4929,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-11T21:52:50.265517+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "9812cabdb695e4fb3a09",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -5053,7 +5178,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-11T21:52:50.265517+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "96cbb2ee8e0ca3b886a5",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -5120,7 +5245,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-11T15:04:30.072862+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "2b5f528d3b67d19cafdc",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -5264,7 +5389,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-11T15:04:30.072862+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "707d6e7877f552f5f2be",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -5513,7 +5638,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-11T15:04:30.072862+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "ddd503d30cd4c64e4852",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -5542,7 +5667,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-11T15:04:30.072862+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "abc9a2aff9710fcefcce",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -5629,7 +5754,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-11T07:02:34.842355+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "ac94b61a25ade5edbf71",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -5976,7 +6101,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-11T21:52:50.265517+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "55ff14dc4213127df72a",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -6730,7 +6855,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-10T19:38:08.701145+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "60980c2cce4189709d0e",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -6961,7 +7086,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-10T19:38:08.701145+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "4c3c56a1a61aaf31d560",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -6990,7 +7115,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-10T19:38:08.701145+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "0f0020abcf733229d29f",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -7028,7 +7153,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-11T00:35:07.383568+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "f4b34728a6f8e3261976",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -7154,7 +7279,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-10T19:38:08.701145+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "991ad48e8559b2fefa9f",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -7183,7 +7308,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-10T11:40:37.607606+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "69d4d9d74efa01629a6c",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -7295,7 +7420,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-11T07:02:34.842355+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "9092d5eb66f29547408d",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -7392,7 +7517,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-10T19:38:08.701145+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "f3fc54cd1d78c100d666",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -7887,7 +8012,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-11T07:02:34.842355+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "37e4452e64c861cffe83",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -7991,7 +8116,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-09T20:38:42.443344+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "98ad560dfd8ce8a3f240",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -8301,7 +8426,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-09T20:38:42.443344+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "a0dbf5e9719438029156",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -8419,7 +8544,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-09T20:38:42.443344+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "caa9073cefb43725f1a5",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -8907,7 +9032,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-10T03:26:09.475698+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "952d2516af2e905436ad",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -8965,7 +9090,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-10T03:26:09.475698+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "b13d0e78edd1a3e70a4e",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -9149,7 +9274,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-10T03:26:09.475698+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "02e9abf47eaf3fa01f98",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -12020,7 +12145,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-06T22:19:55.910656+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "2e68c4969154600586c3",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -12182,7 +12307,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-06T22:19:55.910656+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "a0a44ed09dc9a1089b4e",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -12533,7 +12658,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-06T22:19:55.910656+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "5f721228af3682c2417b",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -13132,7 +13257,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-06T02:15:14.658649+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "616c68177b707eae60eb",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -13618,7 +13743,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-06T02:15:14.658649+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "cddef5bb18e3bcbf0141",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -13876,7 +14001,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-05T21:55:20.572783+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "14e90e72d3401ddf817f",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -13934,7 +14059,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-06T02:15:14.658649+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "db9792e954d447010915",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -14245,7 +14370,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-05T15:45:34.888706+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "25fa4dd18ec78a48a923",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -14410,7 +14535,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-06T02:15:14.658649+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "a8e215d1c3fca63aee0f",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -15170,7 +15295,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "09c40cbdb75966e0dccf",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -15764,7 +15889,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "1be4fdd8e6ca80f0ec01",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -16056,7 +16181,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-06T02:15:14.658649+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "c5bfeedc9f8814604d6b",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -17708,7 +17833,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T17:43:25.925049+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "e581154108f523de51d2",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -18000,7 +18125,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T17:43:25.925049+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "626b3ee2d010a08da4c8",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -18029,7 +18154,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T23:14:04.719071+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "53ca9309f14b041c6790",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -18387,7 +18512,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T23:14:04.719071+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "34e7d62615202d0de65f",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -20137,7 +20262,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "3017d51cc49fa391b080",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -23728,7 +23853,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T14:10:37.162341+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "d2dd776fc827913d3db6",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -23883,7 +24008,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-01T19:08:24.518261+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "f635e51b46992649ab09",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -25848,7 +25973,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "d3ed0a84a8f244777bb0",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -25877,7 +26002,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "e24342c52a0b2ee1fe64",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -25908,7 +26033,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "550e95ef6ab5f80bdb7e",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -25938,7 +26063,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "c0138fec61383be41643",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -26960,7 +27085,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "22d2ccd53543886c59b8",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -27164,7 +27289,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "b49ec3bd8394c6fb4c19",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -27268,7 +27393,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "f7763a757c0c37e729db",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -27300,7 +27425,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "c67cf62fcc6ed47bcf04",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -27331,7 +27456,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "b933b8867a0cffd57297",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -27448,7 +27573,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "e77549dba84aa9c32f2e",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -27516,7 +27641,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "f6b4dc44bc2f931c0e19",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -27700,7 +27825,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:43:59.426409+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "5dcbf942d9a311a79a75",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -27729,7 +27854,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "32ef7801f5802984dfdd",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -27787,7 +27912,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "87bf34b6e070a9474032",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -27816,7 +27941,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "ce87e3f627c6f42f08a7",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -27874,7 +27999,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:43:59.426409+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "21c44a150d24631fa8f9",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -27943,7 +28068,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:43:59.426409+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "dc36786d82352110caf5",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -27972,7 +28097,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:43:59.426409+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "8475b78ae3134eeff400",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -28217,7 +28342,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "96a49d1740a18b8a5b49",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -28339,7 +28464,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:02:39.175931+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "ce888c4fa326e0bd8d12",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -28490,7 +28615,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:43:59.426409+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "ad8d074947f8205ebb42",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -28519,7 +28644,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:43:59.426409+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "172853c50f28f34f2b55",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -28645,7 +28770,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "3bfcd79e09f177c0e0d9",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -28674,7 +28799,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T05:43:59.426409+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "0e17d0674af31b667ccc",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -29051,7 +29176,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "dd1029b4b030aba3c24c",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -29110,7 +29235,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "4c456e668ef45cba83b5",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -29139,7 +29264,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "c02127d349672db4a213",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -29168,7 +29293,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "5eca910e1a1b5f733468",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -29197,7 +29322,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "5cc8f180d7d24936a059",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -29226,7 +29351,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "0c73b324dd494a6fde7e",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -29255,7 +29380,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "17cb2498c40f7c908d29",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -29293,7 +29418,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "f174ca4a3cbc866f5f12",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -29322,7 +29447,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "d4c4006fefc6f64193fc",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -29351,7 +29476,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "a21cee4b91bda9f5c68b",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -29380,7 +29505,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-10-30T04:40:37.088169+00:00",
-      "lastSeenAt": "2026-11-15T15:35:50.550369+00:00",
+      "lastSeenAt": "2026-11-15T20:32:36.886670+00:00",
       "id": "4f98c5029119950e7f82",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -29425,12 +29550,12 @@
       "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
       "language": "en",
       "status": "ok",
-      "count": 3,
-      "receivedCount": 25,
-      "excludedCount": 22,
+      "count": 1,
+      "receivedCount": 20,
+      "excludedCount": 19,
       "error": null,
-      "lastAttemptAt": "2026-11-15T15:35:50.550369+00:00",
-      "lastSuccessAt": "2026-11-15T15:35:50.550369+00:00"
+      "lastAttemptAt": "2026-11-15T20:32:36.886670+00:00",
+      "lastSuccessAt": "2026-11-15T20:32:36.886670+00:00"
     },
     {
       "name": "Al Jazeera",
@@ -29438,12 +29563,12 @@
       "url": "https://www.aljazeera.com/xml/rss/all.xml",
       "language": "en",
       "status": "ok",
-      "count": 4,
+      "count": 2,
       "receivedCount": 25,
-      "excludedCount": 21,
+      "excludedCount": 23,
       "error": null,
-      "lastAttemptAt": "2026-11-15T15:35:50.550369+00:00",
-      "lastSuccessAt": "2026-11-15T15:35:50.550369+00:00"
+      "lastAttemptAt": "2026-11-15T20:32:36.886670+00:00",
+      "lastSuccessAt": "2026-11-15T20:32:36.886670+00:00"
     },
     {
       "name": "The Guardian World",
@@ -29451,12 +29576,12 @@
       "url": "https://www.theguardian.com/world/rss",
       "language": "en",
       "status": "ok",
-      "count": 6,
+      "count": 7,
       "receivedCount": 35,
-      "excludedCount": 29,
+      "excludedCount": 28,
       "error": null,
-      "lastAttemptAt": "2026-11-15T15:35:50.550369+00:00",
-      "lastSuccessAt": "2026-11-15T15:35:50.550369+00:00"
+      "lastAttemptAt": "2026-11-15T20:32:36.886670+00:00",
+      "lastSuccessAt": "2026-11-15T20:32:36.886670+00:00"
     },
     {
       "name": "CISA Alerts",
@@ -29468,8 +29593,8 @@
       "receivedCount": 30,
       "excludedCount": 4,
       "error": null,
-      "lastAttemptAt": "2026-11-15T15:35:50.550369+00:00",
-      "lastSuccessAt": "2026-11-15T15:35:50.550369+00:00"
+      "lastAttemptAt": "2026-11-15T20:32:36.886670+00:00",
+      "lastSuccessAt": "2026-11-15T20:32:36.886670+00:00"
     },
     {
       "name": "BleepingComputer",
@@ -29481,8 +29606,8 @@
       "receivedCount": 15,
       "excludedCount": 9,
       "error": null,
-      "lastAttemptAt": "2026-11-15T15:35:50.550369+00:00",
-      "lastSuccessAt": "2026-11-15T15:35:50.550369+00:00"
+      "lastAttemptAt": "2026-11-15T20:32:36.886670+00:00",
+      "lastSuccessAt": "2026-11-15T20:32:36.886670+00:00"
     },
     {
       "name": "Cloudflare Blog",
@@ -29494,8 +29619,8 @@
       "receivedCount": 20,
       "excludedCount": 16,
       "error": null,
-      "lastAttemptAt": "2026-11-15T15:35:50.550369+00:00",
-      "lastSuccessAt": "2026-11-15T15:35:50.550369+00:00"
+      "lastAttemptAt": "2026-11-15T20:32:36.886670+00:00",
+      "lastSuccessAt": "2026-11-15T20:32:36.886670+00:00"
     },
     {
       "name": "Internet Society",
@@ -29507,8 +29632,8 @@
       "receivedCount": 20,
       "excludedCount": 17,
       "error": null,
-      "lastAttemptAt": "2026-11-15T15:35:50.550369+00:00",
-      "lastSuccessAt": "2026-11-15T15:35:50.550369+00:00"
+      "lastAttemptAt": "2026-11-15T20:32:36.886670+00:00",
+      "lastSuccessAt": "2026-11-15T20:32:36.886670+00:00"
     },
     {
       "name": "Google Research",
@@ -29520,8 +29645,8 @@
       "receivedCount": 35,
       "excludedCount": 23,
       "error": null,
-      "lastAttemptAt": "2026-11-15T15:35:50.550369+00:00",
-      "lastSuccessAt": "2026-11-15T15:35:50.550369+00:00"
+      "lastAttemptAt": "2026-11-15T20:32:36.886670+00:00",
+      "lastSuccessAt": "2026-11-15T20:32:36.886670+00:00"
     },
     {
       "name": "OpenAI News",
@@ -29533,8 +29658,8 @@
       "receivedCount": 35,
       "excludedCount": 10,
       "error": null,
-      "lastAttemptAt": "2026-11-15T15:35:50.550369+00:00",
-      "lastSuccessAt": "2026-11-15T15:35:50.550369+00:00"
+      "lastAttemptAt": "2026-11-15T20:32:36.886670+00:00",
+      "lastSuccessAt": "2026-11-15T20:32:36.886670+00:00"
     },
     {
       "name": "MIT Technology Review",
@@ -29546,8 +29671,8 @@
       "receivedCount": 10,
       "excludedCount": 5,
       "error": null,
-      "lastAttemptAt": "2026-11-15T15:35:50.550369+00:00",
-      "lastSuccessAt": "2026-11-15T15:35:50.550369+00:00"
+      "lastAttemptAt": "2026-11-15T20:32:36.886670+00:00",
+      "lastSuccessAt": "2026-11-15T20:32:36.886670+00:00"
     },
     {
       "name": "BBC Mundo",
@@ -29559,8 +29684,8 @@
       "receivedCount": 34,
       "excludedCount": 30,
       "error": null,
-      "lastAttemptAt": "2026-11-15T15:35:50.550369+00:00",
-      "lastSuccessAt": "2026-11-15T15:35:50.550369+00:00"
+      "lastAttemptAt": "2026-11-15T20:32:36.886670+00:00",
+      "lastSuccessAt": "2026-11-15T20:32:36.886670+00:00"
     },
     {
       "name": "DW Español",
@@ -29568,12 +29693,12 @@
       "url": "https://rss.dw.com/rdf/rss-sp-all",
       "language": "es",
       "status": "ok",
-      "count": 7,
-      "receivedCount": 19,
-      "excludedCount": 12,
+      "count": 6,
+      "receivedCount": 20,
+      "excludedCount": 14,
       "error": null,
-      "lastAttemptAt": "2026-11-15T15:35:50.550369+00:00",
-      "lastSuccessAt": "2026-11-15T15:35:50.550369+00:00"
+      "lastAttemptAt": "2026-11-15T20:32:36.886670+00:00",
+      "lastSuccessAt": "2026-11-15T20:32:36.886670+00:00"
     },
     {
       "name": "INCIBE-CERT",
@@ -29585,8 +29710,8 @@
       "receivedCount": 10,
       "excludedCount": 1,
       "error": null,
-      "lastAttemptAt": "2026-11-15T15:35:50.550369+00:00",
-      "lastSuccessAt": "2026-11-15T15:35:50.550369+00:00"
+      "lastAttemptAt": "2026-11-15T20:32:36.886670+00:00",
+      "lastSuccessAt": "2026-11-15T20:32:36.886670+00:00"
     },
     {
       "name": "Xataka IA",
@@ -29598,8 +29723,8 @@
       "receivedCount": 10,
       "excludedCount": 2,
       "error": null,
-      "lastAttemptAt": "2026-11-15T15:35:50.550369+00:00",
-      "lastSuccessAt": "2026-11-15T15:35:50.550369+00:00"
+      "lastAttemptAt": "2026-11-15T20:32:36.886670+00:00",
+      "lastSuccessAt": "2026-11-15T20:32:36.886670+00:00"
     },
     {
       "name": "Xataka Internet",
@@ -29611,8 +29736,8 @@
       "receivedCount": 10,
       "excludedCount": 2,
       "error": null,
-      "lastAttemptAt": "2026-11-15T15:35:50.550369+00:00",
-      "lastSuccessAt": "2026-11-15T15:35:50.550369+00:00"
+      "lastAttemptAt": "2026-11-15T20:32:36.886670+00:00",
+      "lastSuccessAt": "2026-11-15T20:32:36.886670+00:00"
     }
   ],
   "relatedGroups": [

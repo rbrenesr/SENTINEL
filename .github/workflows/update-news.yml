@@ -1,5 +1,6 @@
 
 name: Update public news feeds
+run-name: ${{ github.event_name == 'workflow_dispatch' && format('Recopilación manual · {0}', inputs.request_id || github.run_id) || format('SENTINEL · {0}', github.event_name) }}
 
 on:
   push:
@@ -8,8 +9,13 @@ on:
       - 'data/news.json'
       - '**.md'
   workflow_dispatch:
+    inputs:
+      request_id:
+        description: Identificador opcional de la solicitud desde SENTINEL
+        type: string
+        required: false
   schedule:
-    - cron: "7,37 * * * *"
+    - cron: "11,26,41,56 * * * *"
 
 permissions:
   contents: write
@@ -24,6 +30,8 @@ jobs:
   update-news:
     runs-on: ubuntu-latest
     timeout-minutes: 10
+    outputs:
+      due: ${{ steps.freshness.outputs.due }}
 
     steps:
       - name: Checkout repository
@@ -34,16 +42,38 @@ jobs:
         with:
           python-version: "3.12"
 
+      - name: Check collection freshness
+        id: freshness
+        run: python scripts/check_update.py
+
+      - name: Explain skipped check
+        if: steps.freshness.outputs.due != 'true'
+        run: echo "Datos recientes. La próxima comprobación volverá a evaluar la recopilación." >> "$GITHUB_STEP_SUMMARY"
+
       - name: Collect news
-        run: python scripts/fetch.py
+        if: steps.freshness.outputs.due == 'true'
+        env:
+          SENTINEL_REQUEST_ID: ${{ inputs.request_id }}
+        run: |
+          for attempt in 1 2 3; do
+            if python scripts/fetch.py --require-success; then
+              exit 0
+            fi
+            if [ "$attempt" -lt 3 ]; then sleep 8; fi
+          done
+          echo "No source could be collected after three attempts." >&2
+          exit 1
 
       - name: Validate collector and data
+        if: steps.freshness.outputs.due == 'true'
         run: python -m unittest discover -s tests -v
 
       - name: Validate frontend syntax and filtering
-        run: node --test tests/frontend.test.cjs
+        if: steps.freshness.outputs.due == 'true'
+        run: node --test tests/*.test.cjs
 
       - name: Commit updated data
+        if: steps.freshness.outputs.due == 'true'
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
@@ -54,9 +84,11 @@ jobs:
           fi
 
       - name: Configure GitHub Pages
+        if: steps.freshness.outputs.due == 'true'
         uses: actions/configure-pages@v5
 
       - name: Prepare public files only
+        if: steps.freshness.outputs.due == 'true'
         run: |
           mkdir -p _site/data
           cp index.html _site/
@@ -65,12 +97,14 @@ jobs:
           touch _site/.nojekyll
 
       - name: Upload site
+        if: steps.freshness.outputs.due == 'true'
         uses: actions/upload-pages-artifact@v4
         with:
           path: _site
 
   deploy:
     needs: update-news
+    if: needs.update-news.outputs.due == 'true'
     runs-on: ubuntu-latest
     permissions:
       pages: write

@@ -7,10 +7,12 @@
   <meta name="description" content="SENTINEL: noticias globales, contexto geográfico y fuentes trazables. Monitor personal de fuentes abiertas.">
   <title>SENTINEL — Global Intelligence Monitor</title>
   <link rel="stylesheet" href="./assets/vendor/leaflet/leaflet.css">
-  <link rel="stylesheet" href="./assets/styles.css?v=1.1-es">
+  <link rel="stylesheet" href="./assets/styles.css?v=1.1-updates">
+  <link rel="stylesheet" href="./assets/updates.css?v=1.1-updates">
   <script defer src="./assets/vendor/leaflet/leaflet.js"></script>
   <script defer src="./assets/core.js?v=1.1-scope"></script>
-  <script defer src="./assets/app.js?v=1.1-scope"></script>
+  <script defer src="./assets/updates.js?v=1.1-updates"></script>
+  <script defer src="./assets/app.js?v=1.1-updates"></script>
 </head>
 <body>
 <a class="skip" href="#publications">Ir a las publicaciones</a>
@@ -37,7 +39,7 @@
       <div class="field"><label for="period">Período de publicación</label><select id="period"><option value="">Todas las fechas</option><option value="24">Últimas 24 horas</option><option value="72">Últimas 72 horas</option><option value="168">Últimos 7 días</option></select></div>
       <div class="field date-field"><label for="startDate">Desde</label><input id="startDate" type="date"></div>
       <div class="field date-field"><label for="endDate">Hasta</label><input id="endDate" type="date"></div>
-      <div class="filter-actions"><button id="favorites" aria-pressed="false">☆ Favoritos</button><button id="costaRica">Costa Rica</button><button id="reset">Limpiar</button><button id="refresh">↻ Revisar datos</button></div>
+      <div class="filter-actions"><button id="favorites" aria-pressed="false">☆ Favoritos</button><button id="costaRica">Costa Rica</button><button id="reset">Limpiar</button><button id="refresh">Revisar publicación</button><button id="forceCollect">Forzar recopilación</button></div>
     </div>
     <p class="filter-note" id="filterNote">Los filtros se aplican al mapa y a la lista. Las categorías se sugieren por palabras clave; no son una verificación editorial.</p>
     <p class="filter-note" id="languageNote">Mostrando publicaciones originales en español. Elegí «Todos los idiomas» para ampliar la cobertura internacional.</p>
@@ -54,12 +56,28 @@
     <section class="feed-section" id="publications" tabindex="-1"><div class="section-heading"><h2>Publicaciones y fuentes</h2><span class="small" id="shown" role="status"></span></div><div id="feed" class="feed"><div class="empty">Cargando publicaciones…</div></div><button id="more" class="more" hidden>Mostrar más</button></section>
   </section><aside class="aside-panels">
     <section class="panel"><h2>Lectura del mapa</h2><p class="small">Un país mencionado no confirma dónde ocurrió un acontecimiento. Las menciones se muestran en una vista de contexto separada.</p><p class="small">Los puntos proceden de coordenadas de la fuente o de evidencia revisada. Un país reportado se resalta sin inventar un punto.</p><p class="small" id="coverage"></p></section>
-    <section class="panel"><h2>Actualización</h2><p class="small" id="updated">Esperando datos…</p><p class="small" id="lastAttempt"></p><p class="small">Recopilación prevista cada 30 minutos, sujeta a retrasos de GitHub Actions. «Revisar datos» consulta la última publicación disponible.</p><p class="small">Hasta 1.000 publicaciones observadas en los últimos 30 días. Se conservan datos ante fallos parciales.</p></section>
+    <section class="panel update-panel"><h2>Actualización</h2><p id="collectionAge">Comprobando antigüedad…</p><p class="bad" id="collectionWarning" role="status" hidden></p><p class="small" id="updated">Esperando datos…</p><p class="small" id="lastAttempt"></p><p id="automationStatus" role="status">Comprobando la actualización automática…</p><a id="automationRun" target="_blank" rel="noopener noreferrer" hidden>Ver ejecución en GitHub</a><p id="collectionStatus" role="status" aria-live="polite"></p><button id="cancelCollectionTracking" hidden>Detener seguimiento</button><p class="small" id="reloadStatus" role="status"></p><p class="small">Objetivo: recopilar cada 30 minutos. GitHub comprueba cada 15 minutos si hace falta actualizar, pero puede retrasar u omitir ejecuciones. «Revisar publicación» vuelve a leer los datos; «Forzar recopilación» permite iniciar una nueva con autorización.</p><p class="small">Hasta 1.000 publicaciones observadas en los últimos 30 días. Se conservan datos ante fallos parciales.</p></section>
     <section class="panel sources-panel"><h2>Estado de las fuentes</h2><div id="sources" class="sources-list">Esperando recopilación…</div></section>
     <section class="panel notice"><h2>Alcance de la información</h2><p>Se filtran las publicaciones por su relación con geopolítica, ciberseguridad, Internet e IA. Las reglas son orientativas y pueden omitir noticias relevantes o admitir coincidencias imprecisas.</p><p>SENTINEL no verifica independientemente cada afirmación y no es un sistema oficial de alertas.</p><p>Las agrupaciones son sugerencias de relación. La prioridad de una noticia no demuestra su verificación.</p><p>No se generan predicciones ni implicaciones para Costa Rica sin evidencia.</p></section>
   </aside></div>
   <footer class="bottom">SENTINEL v1.1 · Fuentes abiertas y trazables · Favoritos locales · Cartografía orientativa de Natural Earth · <a href="https://github.com/rbrenesr/SENTINEL" target="_blank" rel="noopener noreferrer">Acerca del proyecto ↗</a></footer>
 </main>
+<dialog id="collectionDialog" aria-labelledby="collectionDialogTitle">
+  <div class="dialog-heading"><h2 id="collectionDialogTitle">Forzar una nueva recopilación</h2><button id="closeCollection" type="button" aria-label="Cerrar">Cerrar</button></div>
+  <p>La recopilación requiere permiso para ejecutar acciones en <strong>rbrenesr/SENTINEL</strong>. GitHub consultará las fuentes, validará los datos y publicará el resultado.</p>
+  <a id="githubCollection" class="primary-action" target="_blank" rel="noopener noreferrer">Autorizar y ejecutar en GitHub</a>
+  <p>En GitHub elegí <strong>Run workflow</strong>, rama <strong>main</strong>, y confirmá la ejecución. Al volver, SENTINEL mostrará su estado.</p>
+  <details><summary>Ejecutar desde esta página con autorización temporal</summary>
+    <p>Usá un token de acceso detallado de GitHub limitado a este repositorio, con permiso <strong>Actions: escritura</strong> y vencimiento corto. Se envía directamente a GitHub para esta solicitud y se borra del formulario. No se guarda en el navegador ni en el sitio.</p>
+    <p><a href="https://github.com/settings/personal-access-tokens/new" target="_blank" rel="noopener noreferrer">Crear un token de acceso detallado en GitHub</a></p>
+    <form id="collectionForm" autocomplete="off">
+      <label for="collectionToken">Token temporal de GitHub</label>
+      <input id="collectionToken" type="password" autocomplete="off" spellcheck="false" autocapitalize="off" required placeholder="github_pat_…" aria-describedby="collectionError">
+      <button id="dispatchCollection" type="submit">Autorizar esta recopilación</button>
+      <p id="collectionError" class="bad" role="alert"></p>
+    </form>
+  </details>
+</dialog>
 <noscript><p>Activá JavaScript para consultar las publicaciones y el mapa de SENTINEL.</p></noscript>
 </body>
 </html>

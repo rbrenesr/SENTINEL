@@ -2,6 +2,7 @@ import copy
 import importlib.util
 import json
 import pathlib
+import sys
 import tempfile
 import unittest
 from unittest.mock import patch
@@ -240,6 +241,27 @@ class CollectorTests(unittest.TestCase):
             self.assertTrue(collector.assess_relevance(item)['included'])
             self.assertEqual(item['relevance']['version'], collector.SCOPE_VERSION)
             self.assertIn(item['category'], collector.SCOPE_RULES)
+
+    def test_all_sources_failed_is_a_visible_failure_without_refreshing_old_data(self):
+        with tempfile.TemporaryDirectory() as directory:
+            root = pathlib.Path(directory)
+            (root / 'data').mkdir()
+            now = collector.dt.datetime.now(collector.UTC).isoformat()
+            previous = {'updatedAt': now, 'items': [article()], 'sources': []}
+            (root / 'data/news.json').write_text(json.dumps(previous), encoding='utf8')
+            (root / 'data/annotations.json').write_text('{"articles":{}}', encoding='utf8')
+            result = ([], {'name':'Example','status':'error','count':0,'error':'offline'})
+            with patch.object(collector, 'ROOT', root), patch.object(collector, 'load_countries', return_value=[]), \
+                 patch.object(collector, 'SOURCES', [('Example','IA','https://example.org/feed')]), \
+                 patch.object(collector, 'collect', return_value=result), \
+                 patch.object(sys, 'argv', ['fetch.py','--require-success']):
+                with self.assertRaises(SystemExit) as failure:
+                    collector.main()
+            self.assertEqual(failure.exception.code, 2)
+            output = json.loads((root / 'data/news.json').read_text(encoding='utf8'))
+            self.assertEqual(output['updatedAt'], previous['updatedAt'])
+            self.assertEqual(output['collection']['outcome'], 'error')
+            self.assertEqual(len(output['items']), 1)
 
 
 if __name__ == '__main__':

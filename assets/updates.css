@@ -1,0 +1,14 @@
+dialog{width:min(620px,calc(100% - 28px));max-height:90vh;overflow:auto;border:1px solid var(--border);border-radius:12px;background:var(--panel);color:var(--fg);padding:24px;font-size:16px;line-height:1.6}
+dialog::backdrop{background:#020810d9}
+.dialog-heading{display:flex;justify-content:space-between;align-items:start;gap:16px;margin-bottom:16px}
+.dialog-heading h2{font-size:21px;margin:0}
+dialog p{margin:14px 0}
+dialog details{border-top:1px solid var(--border);padding-top:16px}
+dialog summary{cursor:pointer}
+dialog form{display:grid;gap:10px;margin-top:16px}
+dialog input{width:100%;min-width:0}
+.primary-action{display:inline-block;text-decoration:none;padding:10px 15px;background:#193c32;border:1px solid #45745d;border-radius:8px;color:var(--accent);font-size:16px}
+.update-panel>p,.update-panel>a,.update-panel>button{font-size:14px}
+.update-panel .small{font-size:12px}
+.update-panel a{display:inline-block}
+#collectionStatus:empty,#reloadStatus:empty{display:none}

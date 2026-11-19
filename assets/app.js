@@ -56,7 +56,7 @@
   function updateConnection() {
     if (!data) return;
     const success = new Date(data.updatedAt).getTime();
-    const stale = !Number.isFinite(success) || Date.now() - success > 90 * 60000;
+    const stale = !Number.isFinite(success) || Date.now() - success > 45 * 60000;
     const degraded = data.sources.some(source => source.status !== 'ok');
     const text = loadError ? 'Error al revisar · mostrando datos anteriores' : stale ? 'Datos antiguos · revisá la recopilación' :
       degraded ? 'Datos disponibles · cobertura parcial' : 'Datos disponibles';
@@ -266,7 +266,7 @@
       $('mapSummary').textContent = 'Mapa no disponible'; console.error(error);
     }
   }
-  async function load() {
+  async function load(userInitiated = false) {
     if (loading) return;
     loading = true; $('refresh').disabled = true;
     try {
@@ -274,7 +274,11 @@
       if (!response.ok) throw Error(`HTTP ${response.status}`);
       const snapshot = await response.json();
       if (!C.validSnapshot(snapshot)) throw Error('Formato de noticias inválido');
+      const previousTimestamp = data?.updatedAt;
       data = snapshot; loadError = false; populateOptions(); sourcePanels(); render();
+      if (userInitiated) $('reloadStatus').textContent = previousTimestamp === snapshot.updatedAt ?
+        'La publicación sigue igual. Usá «Forzar recopilación» para solicitar datos nuevos.' : 'Se cargó la última publicación disponible.';
+      window.dispatchEvent(new CustomEvent('sentinel:data', {detail: {updatedAt: data.updatedAt, lastAttemptAt: data.lastAttemptAt, collection: data.collection}}));
     } catch (error) {
       loadError = true;
       if (data) updateConnection();
@@ -314,7 +318,8 @@
     render();
   };
   $('clearTimeline').onclick = () => { $('startDate').value = $('endDate').value = $('period').value = ''; render(); };
-  $('refresh').onclick = load;
+  $('refresh').onclick = () => load(true);
+  window.addEventListener('sentinel:reload', () => load());
   $('more').onclick = () => { limit += 25; render(); };
   $('showMap').onclick = () => setView('map'); $('showList').onclick = () => setView('list');
   $('worldView').onclick = fitWorld;

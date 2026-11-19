@@ -15,7 +15,8 @@ claves API ni instalación para los visitantes.
 - Cronología de publicaciones de los últimos 14 días y selección de un intervalo de fechas.
 - Enlaces originales, favoritos locales compatibles con Lite y detalles de trazabilidad.
 - Historial de hasta 1.000 registros vistos durante los últimos 30 días, con conservación ante fallos parciales.
-- Estado y diagnóstico de cada fuente; indicador de antigüedad después de 90 minutos sin resultados nuevos.
+- Estado y diagnóstico de cada fuente; indicador de retraso después de 45 minutos sin recopilación exitosa.
+- Estado público de las ejecuciones y solicitud manual de recopilación con autorización de GitHub.
 - Sugerencias de relación por título normalizado coincidente dentro de 72 horas; nunca fusionan evidencia.
 
 ## Publicación y actualización automática
@@ -25,12 +26,17 @@ El flujo `.github/workflows/update-news.yml` recopila, valida, conserva los dato
 repositorio y despliega explícitamente un artefacto a Pages. No depende de que una
 confirmación realizada por `GITHUB_TOKEN` dispare una segunda publicación.
 
-- Cada 30 minutos, a los minutos 7 y 37, sujeto a disponibilidad de GitHub Actions.
+- Comprobaciones a los minutos 11, 26, 41 y 56 de cada hora. El objetivo de recopilación
+  es cada 30 minutos: `scripts/check_update.py` omite una comprobación programada si la
+  última recopilación exitosa tiene menos de 25 minutos. Las solicitudes manuales y los
+  cambios de código siempre recopilan.
 - Manualmente con **Actions → Update public news feeds → Run workflow**.
 - Al subir cambios de código a `main`; recopila noticias antes de desplegar.
   Cambios únicamente en documentación o en `news.json`
   no disparan el flujo de push.
 - Los fallos de las pruebas impiden publicar. Las ejecuciones se serializan.
+- Si fallan todas las fuentes, se reintenta hasta tres veces y se marca la ejecución
+  como fallida si no hay recuperación; no se publica un falso éxito con fechas nuevas.
 - Se publican únicamente `index.html`, `assets/` y `data/news.json`.
 
 El flujo necesita `contents: write`, `pages: write`, `id-token: write` y el entorno
@@ -39,7 +45,53 @@ pueden exigir configuración adicional. Los retrasos y la suspensión por inacti
 GitHub Actions impiden prometer actualización continua.
 
 El navegador vuelve a consultar el JSON cada minuto mientras la página está visible.
-**Revisar datos** consulta el contenido ya publicado; no ejecuta GitHub Actions.
+**Revisar publicación** consulta el contenido ya publicado e informa si cambió.
+**Forzar recopilación** abre las opciones de autorización para iniciar GitHub Actions.
+
+### Diagnóstico y límites de la programación
+
+La revisión del 19 de noviembre de 2026 encontró las últimas 25 ejecuciones programadas
+exitosas, con inicio inmediato y duración breve, pero intervalos de horas entre eventos.
+Esto identifica ausencias o retrasos de los disparos programados; el registro disponible
+no permite atribuirlos a una causa interna específica de GitHub. Se aumentan las
+oportunidades de ejecución, se renueva la programación y se evita duplicar recopilaciones
+recientes. Esto reduce la dependencia de una sola oportunidad cada media hora, pero
+GitHub sigue pudiendo retrasar u omitir eventos. No se promete una frecuencia garantizada.
+Una garantía de puntualidad requeriría un planificador independiente del mismo servicio,
+fuera de la arquitectura estática actual.
+
+El panel consulta la API pública del workflow para distinguir espera, ejecución, error
+y finalización. La antigüedad se calcula a partir del JSON publicado, nunca de la mera
+finalización de una acción. La monitorización consulta aproximadamente cada cinco
+minutos, con seguimiento más frecuente durante una solicitud y pausa ante límites de
+la API. Un bloqueo de la API de estado no impide leer las noticias publicadas.
+
+### Recopilación manual segura
+
+Opción principal: **Forzar recopilación → Autorizar y ejecutar en GitHub**. El usuario
+inicia sesión en GitHub, selecciona **Run workflow**, rama `main`, y confirma. SENTINEL
+consulta el estado al regresar. No es necesario introducir credenciales en el sitio.
+
+Opción avanzada: el diálogo permite ejecutar sin salir de la página con un token
+de acceso detallado (`github_pat_…`), limitado por el propietario al repositorio
+`rbrenesr/SENTINEL`, con permiso **Actions: write** y vencimiento corto. La API exige
+autorización: un visitante anónimo no puede ejecutar la recopilación.
+
+- Solo se envía a `https://api.github.com/repos/rbrenesr/SENTINEL/actions/workflows/update-news.yml/dispatches`.
+- Solo se permite la rama `main`; no se aceptan URLs de destino ni repositorios del formulario.
+- El token viaja en la cabecera HTTPS, nunca en la URL o en el cuerpo de la solicitud.
+- No se usa localStorage, sessionStorage, cookies ni archivos para guardar la credencial.
+  El campo se vacía al enviar, cerrar o cancelar, y las referencias temporales se liberan
+  al terminar la petición. JavaScript no ofrece borrado criptográfico de memoria.
+- No se aceptan tokens clásicos. La aplicación no puede inspeccionar todos los permisos
+  de un token detallado: el propietario debe limitarlo correctamente al crearlo en GitHub.
+- Los errores no muestran el token ni la respuesta original de autorización. Ante una
+  respuesta incierta se recomienda revisar las ejecuciones antes de repetir una solicitud.
+
+Cada solicitud directa lleva un UUID que se refleja en el nombre de ejecución y en
+`collection.requestId`. Se muestra «publicada» solo después de leer datos nuevos que
+correspondan a esa solicitud. Una ejecución exitosa y una publicación confirmada son
+estados distintos. Cerrar o detener el seguimiento no cancela un trabajo en GitHub.
 
 ## Recopilación
 
@@ -48,6 +100,7 @@ Python 3.12 o posterior, solo biblioteca estándar:
 ```sh
 python scripts/fetch.py
 python scripts/fetch.py --offline
+python scripts/fetch.py --require-success
 python scripts/preview.py
 ```
 
@@ -117,6 +170,8 @@ de la entrada prevalece sobre la del canal.
 - `items`: ID estable, URL original y normalizada, fuente, título, resumen, categoría,
   fecha de publicación, primera y última observación, tipo de contenido, verificación y geografía.
 - `relatedGroups`: sugerencias de publicaciones relacionadas, sin considerarlas acontecimientos verificados.
+- `collection`: inicio, fin, resultado, fuentes operativas, evento, ejecución de GitHub
+  e identificador de solicitud manual, cuando esté disponible.
 
 La retención se mide desde `lastSeenAt`, no desde la publicación. Una noticia antigua que
 el proveedor siga incluyendo puede permanecer. El límite total puede recortar registros
@@ -167,7 +222,7 @@ CDN, geocodificación externa, servicios pagos ni claves en el navegador.
 
 ```sh
 python -m unittest discover -s tests -v
-node --test tests/frontend.test.cjs
+node --test tests/*.test.cjs
 ```
 
 Cubren Atom/RSS, fechas, canonicalización, retención ante fallos, límite del feed de CISA,

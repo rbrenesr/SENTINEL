@@ -8,6 +8,7 @@ import hashlib
 import html
 import json
 import math
+import os
 import pathlib
 import re
 import unicodedata
@@ -359,6 +360,7 @@ def write_output(path, output):
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument('--offline', action='store_true', help='Enrich snapshot without claiming a new collection')
+    parser.add_argument('--require-success', action='store_true', help='Fail if every source fails, preserving the last successful snapshot')
     args = parser.parse_args()
     path = ROOT / 'data/news.json'
     previous = json.loads(path.read_text(encoding='utf8')) if path.exists() else {}
@@ -387,10 +389,22 @@ def main():
         output = dict(schemaVersion=2, updatedAt=now if any(status['status'] == 'ok' for status in statuses) else previous.get('updatedAt'),
                       lastAttemptAt=now, items=items, sources=statuses,
                       relatedGroups=related_groups(items), retentionDays=30)
+        successful = sum(status['status'] == 'ok' for status in statuses)
+        run_id = os.environ.get('GITHUB_RUN_ID', '')
+        output['collection'] = {
+            'startedAt': now, 'completedAt': dt.datetime.now(UTC).isoformat(),
+            'outcome': 'ok' if successful == len(statuses) else 'partial' if successful else 'error',
+            'successfulSources': successful, 'totalSources': len(statuses),
+            'trigger': os.environ.get('GITHUB_EVENT_NAME', 'local'),
+            'runId': run_id if run_id.isdigit() else None,
+            'requestId': os.environ.get('SENTINEL_REQUEST_ID', '')[:100] or None,
+        }
     output['scopeFilter'] = {'version': SCOPE_VERSION, 'method': 'topic_rules',
                             'topics': list(SCOPE_RULES), 'appliesTo': 'incoming_and_retained'}
     write_output(path, output)
     print(f'{len(output["items"])} retained articles; {sum(s["status"] == "ok" for s in output.get("sources", []))} sources OK')
+    if args.require_success and not args.offline and output['collection']['outcome'] == 'error':
+        raise SystemExit(2)
 
 
 if __name__ == '__main__':

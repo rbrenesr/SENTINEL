@@ -1,8 +1,894 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-11-23T12:02:10.582986+00:00",
-  "lastAttemptAt": "2026-11-23T12:02:10.582986+00:00",
+  "updatedAt": "2026-11-23T23:49:32.097363+00:00",
+  "lastAttemptAt": "2026-11-23T23:49:32.097363+00:00",
   "items": [
+    {
+      "title": "Australian politics live: Taylor notes ‘tough year’ for Coalition partyroom; King Charles ‘deeply saddened’ by Meldrum’s death",
+      "url": "https://www.theguardian.com/australia-news/live/2026/nov/24/labor-penny-wong-us-china-anthony-albanese-final-sitting-week-ntwnfb",
+      "canonicalUrl": "https://www.theguardian.com/australia-news/live/2026/nov/24/labor-penny-wong-us-china-anthony-albanese-final-sitting-week-ntwnfb",
+      "source": "The Guardian World",
+      "category": "Conflictos",
+      "published": "2026-11-23T23:30:07+00:00",
+      "summary": "Get our breaking news email , free app or daily news podcast The government will save more than it spends, says Jim Chalmers , but it won’t be a “slash and burn” budget update. Unlike the federal budget, where we get plenty of notice of when it will be handed down, the government only gives us a few days notice for the mid-financial year economic and fiscal outlook (or Myefo). There’s still a fair bit of work to do to finalise it all, but we’ve made enough progress to be confident that at this stage there will be a modest net save in the budget. We’re not going to slash and burn in the budget where that would impact the payments that people r",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "coalition"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "id": "1a47195440948f74fc2e",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "US to blacklist Asian AI firm Megaspeed after Nvidia scandal",
+      "url": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "IA",
+      "published": "2026-11-23T23:16:08+00:00",
+      "summary": "Megaspeed has been accused of funneling AI chips to China after a former executive's affair with Jensen Huang became public.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "IA",
+        "reason": "title_topic",
+        "signals": [
+          "ai"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "id": "66403463587777bcb100",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "CN",
+          "label": "China",
+          "relation": "mentioned",
+          "matchedAlias": "China",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.bbc.co.uk/news/articles/cv98xpg5dg5zo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "Encuesta: la mayoría de los alemanes rechaza enviar armas a Ucrania",
+      "url": "https://www.dw.com/es/encuesta-la-mayoría-de-los-alemanes-rechaza-enviar-armas-a-ucrania/a-80026623?maca=spa-rss-sp-all-1122-rdf",
+      "canonicalUrl": "https://www.dw.com/es/encuesta-la-mayoría-de-los-alemanes-rechaza-enviar-armas-a-ucrania/a-80026623?maca=spa-rss-sp-all-1122-rdf",
+      "source": "DW Español",
+      "category": "Conflictos",
+      "published": "2026-11-23T23:01:00+00:00",
+      "summary": "Cada vez más alemanes creen que su país debería mantener un perfil bajo en política exterior. La mayoría rechaza la ayuda militar a Ucrania y apuesta por la neutralidad en el conflicto entre EE. UU. y China.",
+      "language": "es",
+      "languageMethod": "entry_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "summary_context",
+        "signals": [
+          "militar",
+          "politica exterior"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "id": "3f3b5801573ea0f386d2",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "UA",
+          "label": "Ucrania",
+          "relation": "mentioned",
+          "matchedAlias": "Ucrania",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.dw.com/es/encuesta-la-mayoría-de-los-alemanes-rechaza-enviar-armas-a-ucrania/a-80026623?maca=spa-rss-sp-all-1122-rdf"
+        },
+        {
+          "countryCode": "CN",
+          "label": "China",
+          "relation": "mentioned",
+          "matchedAlias": "China",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.dw.com/es/encuesta-la-mayoría-de-los-alemanes-rechaza-enviar-armas-a-ucrania/a-80026623?maca=spa-rss-sp-all-1122-rdf"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "Lo que el ataque contra un buque militar ruso en Libia revela sobre la propagación de la guerra de Ucrania",
+      "url": "https://www.bbc.com/mundo/articles/cry86dl7jjw5o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.com/mundo/articles/cry86dl7jjw5o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Mundo",
+      "category": "Conflictos",
+      "published": "2026-11-23T23:00:49+00:00",
+      "summary": "Si Ucrania es capaz de planificar y ejecutar un ataque tan audaz contra buques rusos en un puerto nominalmente neutral, situado a tanta distancia de su territorio, ¿dónde va a terminar esto?",
+      "language": "es",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "guerra",
+          "militar"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "id": "99769fa41bf95b1a7640",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "UA",
+          "label": "Ucrania",
+          "relation": "mentioned",
+          "matchedAlias": "Ucrania",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.bbc.com/mundo/articles/cry86dl7jjw5o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "countryCode": "LY",
+          "label": "Libia",
+          "relation": "mentioned",
+          "matchedAlias": "Libia",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.bbc.com/mundo/articles/cry86dl7jjw5o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "US escalates sanctions on Iran, targets ‘shadow banking’ networks",
+      "url": "https://www.aljazeera.com/news/2026/11/23/us-escalates-sanctions-on-iran-targets-shadow-banking-networks?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/news/2026/11/23/us-escalates-sanctions-on-iran-targets-shadow-banking-networks",
+      "source": "Al Jazeera",
+      "category": "Conflictos",
+      "published": "2026-11-23T21:30:40+00:00",
+      "summary": "US Treasury sanctions over two dozen Iranian entities, citing efforts to disrupt Tehran's global financial activities.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "sanctions"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "id": "55e38f22e83cfbac7d17",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "IR",
+          "label": "Irán",
+          "relation": "mentioned",
+          "matchedAlias": "Iran",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.aljazeera.com/news/2026/11/23/us-escalates-sanctions-on-iran-targets-shadow-banking-networks?traffic_source=rss"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "OpenAI and Cisco introduce Shirudo",
+      "url": "https://openai.com/index/introducing-shirudo",
+      "canonicalUrl": "https://openai.com/index/introducing-shirudo",
+      "source": "OpenAI News",
+      "category": "IA",
+      "published": "2026-11-23T21:20:00+00:00",
+      "summary": "OpenAI and Cisco introduce Shirudo, an open-source runtime for Linux. It helps teams protect running systems while they roll out patches.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "IA",
+        "reason": "title_topic",
+        "signals": [
+          "openai"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "id": "b0689cf87ab570a441c8",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "publisher_post",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "US states sue SpaceX over Grok AI’s creation of child sexual abuse material",
+      "url": "https://www.aljazeera.com/economy/2026/11/23/us-states-sue-spacex-over-grok-ais-creation-of-child-sexual-abuse-material?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/economy/2026/11/23/us-states-sue-spacex-over-grok-ais-creation-of-child-sexual-abuse-material",
+      "source": "Al Jazeera",
+      "category": "IA",
+      "published": "2026-11-23T21:15:33+00:00",
+      "summary": "Virginia and Oregon filed separate lawsuits on Monday, accusing the company of promoting Grok's 'spicy mode'.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "IA",
+        "reason": "title_topic",
+        "signals": [
+          "ai"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "id": "1b68e482ea792a6568e3",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "What strike on Russian ship in Libya says about spread of Ukraine war",
+      "url": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "Conflictos",
+      "published": "2026-11-23T20:48:35+00:00",
+      "summary": "Ukraine's sinking of a Russian battleship at a port in Libya raises the stakes of the war a notch, writes Frank Gardner.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "war"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "id": "8b0993be5d17e9fa32a2",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "UA",
+          "label": "Ucrania",
+          "relation": "mentioned",
+          "matchedAlias": "Ukraine",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "countryCode": "LY",
+          "label": "Libia",
+          "relation": "mentioned",
+          "matchedAlias": "Libya",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.bbc.co.uk/news/articles/cm894p88jzxpo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "La UE propone vetar a atletas rusos de eventos en nuevo paquete de sanciones",
+      "url": "https://www.dw.com/es/la-ue-propone-vetar-a-atletas-rusos-de-eventos-en-nuevo-paquete-de-sanciones/a-80026822?maca=spa-rss-sp-all-1122-rdf",
+      "canonicalUrl": "https://www.dw.com/es/la-ue-propone-vetar-a-atletas-rusos-de-eventos-en-nuevo-paquete-de-sanciones/a-80026822?maca=spa-rss-sp-all-1122-rdf",
+      "source": "DW Español",
+      "category": "Conflictos",
+      "published": "2026-11-23T20:30:00+00:00",
+      "summary": "El objetivo es impedir que deportistas compitan bajo la bandera de Rusia en eventos deportivos dentro del bloque. También se espera ampliar restricciones contra la flota fantasma.",
+      "language": "es",
+      "languageMethod": "entry_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "sanciones"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "id": "d4e1f1aaab7d56d6654f",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "RU",
+          "label": "Rusia",
+          "relation": "mentioned",
+          "matchedAlias": "Rusia",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.dw.com/es/la-ue-propone-vetar-a-atletas-rusos-de-eventos-en-nuevo-paquete-de-sanciones/a-80026822?maca=spa-rss-sp-all-1122-rdf"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "OpenRouter drops AI providers over leaked prompts and secrets",
+      "url": "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/",
+      "canonicalUrl": "https://www.bleepingcomputer.com/news/security/openrouter-drops-ai-providers-over-leaked-prompts-and-secrets/",
+      "source": "BleepingComputer",
+      "category": "IA",
+      "published": "2026-11-23T20:00:20+00:00",
+      "summary": "OpenRouter removed three AI providers from its platform after discovering that they had violated their stated data-handling policies and exposed sensitive data. [...]",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "IA",
+        "reason": "title_topic",
+        "signals": [
+          "ai"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "id": "7b86d265d0e5ec071e3b",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "Israel seeks to jail Palestinian student activist without trial after dorm arrest",
+      "url": "https://www.theguardian.com/world/2026/nov/23/student-arrest-racist-campaign-israel-palestine-benjamin-netanyahu",
+      "canonicalUrl": "https://www.theguardian.com/world/2026/nov/23/student-arrest-racist-campaign-israel-palestine-benjamin-netanyahu",
+      "source": "The Guardian World",
+      "category": "Conflictos",
+      "published": "2026-11-23T19:48:58+00:00",
+      "summary": "Mahdi Tounsi appeared with visible bruising after being interrogated by police on his association with Israeli-Palestinian organisations Israeli professors, students and rights activists are calling for the immediate release of Mahdi Tounsi, a sociology student at Jerusalem’s Hebrew University who has been held without charge for more than two weeks after he was seized from his dorm room. The detention comes amid a racist campaign of delegitimisation against Palestinian citizens of Israel, whose votes were critical to stripping Benjamin Netanyahu’s coalition of its majority in elections last month. Continue reading...",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "summary_context",
+        "signals": [
+          "coalition",
+          "elections"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "id": "7e4cd8e18199759e344c",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "IL",
+          "label": "Israel",
+          "relation": "mentioned",
+          "matchedAlias": "Israel",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.theguardian.com/world/2026/nov/23/student-arrest-racist-campaign-israel-palestine-benjamin-netanyahu"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "Microsoft Azure flaw exploited to steal customers' API credentials",
+      "url": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
+      "canonicalUrl": "https://www.bleepingcomputer.com/news/security/microsoft-azure-flaw-exploited-to-steal-customers-api-credentials/",
+      "source": "BleepingComputer",
+      "category": "Ciberseguridad",
+      "published": "2026-11-23T19:42:20+00:00",
+      "summary": "Microsoft is warning customers that a security vulnerability in Azure API Management (APIM) Classic tiers was exploited to steal stored API credentials, with Norwegian authorities linking the flaw to cyberattacks against energy companies. [...]",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Ciberseguridad",
+        "reason": "summary_context",
+        "signals": [
+          "cyberattacks",
+          "vulnerability"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "id": "351ef75337d427e12b86",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "Russia threatens ‘hostile’ Estonia with ‘open war’",
+      "url": "https://www.aljazeera.com/news/2026/11/23/russia-threatens-hostile-estonia-with-open-war?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/news/2026/11/23/russia-threatens-hostile-estonia-with-open-war",
+      "source": "Al Jazeera",
+      "category": "Conflictos",
+      "published": "2026-11-23T19:20:30+00:00",
+      "summary": "Moscow accuses Tallinn of 'hostile actions' citing border closure and claiming it is allowing Ukraine to launch attacks.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "war"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "id": "9cac4f4973e966ccb0ca",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "UA",
+          "label": "Ucrania",
+          "relation": "mentioned",
+          "matchedAlias": "Ukraine",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.aljazeera.com/news/2026/11/23/russia-threatens-hostile-estonia-with-open-war?traffic_source=rss"
+        },
+        {
+          "countryCode": "EE",
+          "label": "Estonia",
+          "relation": "mentioned",
+          "matchedAlias": "Estonia",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.aljazeera.com/news/2026/11/23/russia-threatens-hostile-estonia-with-open-war?traffic_source=rss"
+        },
+        {
+          "countryCode": "RU",
+          "label": "Rusia",
+          "relation": "mentioned",
+          "matchedAlias": "Russia",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.aljazeera.com/news/2026/11/23/russia-threatens-hostile-estonia-with-open-war?traffic_source=rss"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "Danish top court’s ‘ghetto law’ ruling supports hardline immigration policy",
+      "url": "https://www.aljazeera.com/news/2026/11/23/danish-top-courts-ghetto-law-ruling-supports-hardline-immigration-policy?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/news/2026/11/23/danish-top-courts-ghetto-law-ruling-supports-hardline-immigration-policy",
+      "source": "Al Jazeera",
+      "category": "Conflictos",
+      "published": "2026-11-23T18:00:23+00:00",
+      "summary": "The country's top court said eviction of 'non-Western' families did not constitute discrimination.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "immigration"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "id": "62a13ec49529b307ebe7",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "Un buque de guerra ruso es atacado y hundido por drones ucranianos en un puerto de Libia, según Zelensky",
+      "url": "https://www.bbc.com/mundo/articles/ckjwjq7z1v0jo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.com/mundo/articles/ckjwjq7z1v0jo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Mundo",
+      "category": "Conflictos",
+      "published": "2026-11-23T17:13:55+00:00",
+      "summary": "El Kremlin advierte de una \"escalada de tensiones en la región\", pero no quiso comentar directamente sobre los ataques en Libia.",
+      "language": "es",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "guerra"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "id": "0e6b244390f7684d0dd1",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "LY",
+          "label": "Libia",
+          "relation": "mentioned",
+          "matchedAlias": "Libia",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.bbc.com/mundo/articles/ckjwjq7z1v0jo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "Rutte: retirada de la OTAN del flanco este es “inaceptable”",
+      "url": "https://www.dw.com/es/rutte-retirada-de-la-otan-del-flanco-este-es-inaceptable/a-80025927?maca=spa-rss-sp-all-1122-rdf",
+      "canonicalUrl": "https://www.dw.com/es/rutte-retirada-de-la-otan-del-flanco-este-es-inaceptable/a-80025927?maca=spa-rss-sp-all-1122-rdf",
+      "source": "DW Español",
+      "category": "Conflictos",
+      "published": "2026-11-23T17:06:00+00:00",
+      "summary": "El secretario general de la alianza militar se refirió a una idea formulada por Moscú, que busca que las fronteras de la alianza vuelvan a ser las de 1997.",
+      "language": "es",
+      "languageMethod": "entry_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "otan"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "id": "36afba6f9f2c9af7bb34",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "EU sanctions package intended to ‘keep pressure’ on Russia and ‘strike harder’ at its ability to fund Ukraine war – as it happened",
+      "url": "https://www.theguardian.com/world/live/2026/nov/23/russia-ukraine-war-zelenskyy-libya-benghazi-drone-attack-ship-merkury-un-nato-europe-latest-news-updates",
+      "canonicalUrl": "https://www.theguardian.com/world/live/2026/nov/23/russia-ukraine-war-zelenskyy-libya-benghazi-drone-attack-ship-merkury-un-nato-europe-latest-news-updates",
+      "source": "The Guardian World",
+      "category": "Conflictos",
+      "published": "2026-11-23T16:42:56+00:00",
+      "summary": "European Commission president Ursula von der Leyen sets out 22nd package of sanctions Turning to Ukraine, Nato’s Rutte stresses the need to secure the flow of “crucial supplies” or air defence weapons and ammunition to Ukraine. “ It helps Ukraine to defend itself today, but it also strengthens Ukraine’s hands in any future negotiations with Russia. … But support needs to be concrete. We have to show Putin that his attempts to weaken our support will fail.” “Our citizens need to know that the lights will stay on, that their homes will stay warm, that hospitals, transport and communications will keep working.” “One day it can be in the form of ",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "sanctions",
+          "war"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "id": "97e5a541e8ca5f6487f3",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "UA",
+          "label": "Ucrania",
+          "relation": "mentioned",
+          "matchedAlias": "Ukraine",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.theguardian.com/world/live/2026/nov/23/russia-ukraine-war-zelenskyy-libya-benghazi-drone-attack-ship-merkury-un-nato-europe-latest-news-updates"
+        },
+        {
+          "countryCode": "RU",
+          "label": "Rusia",
+          "relation": "mentioned",
+          "matchedAlias": "Russia",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.theguardian.com/world/live/2026/nov/23/russia-ukraine-war-zelenskyy-libya-benghazi-drone-attack-ship-merkury-un-nato-europe-latest-news-updates"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "Leaked data shows more than 1,000 Russian military suicides during Ukraine war",
+      "url": "https://www.theguardian.com/world/2026/nov/23/leaked-data-shows-more-than-1000-russian-military-suicides-during-ukraine-war",
+      "canonicalUrl": "https://www.theguardian.com/world/2026/nov/23/leaked-data-shows-more-than-1000-russian-military-suicides-during-ukraine-war",
+      "source": "The Guardian World",
+      "category": "Conflictos",
+      "published": "2026-11-23T16:00:51+00:00",
+      "summary": "Exclusive: Figures from cache of 11m death certificates reveal suicides account for about a regiment of Russia’s war dead Russia’s war dead: the hidden toll of the Ukraine conflict In late October 2024, Alexei Bolgov, a sergeant guarding a military headquarters in the occupied Donetsk region, told his wife, Natalya, over the phone: “It’s horrific, what’s going on here. I’ll tell you when I get back.” He never made it home. Five weeks later, shortly after turning 29, Bolgov walked about 300 metres from his unit’s command post near the village of Stepove into woodland and shot himself, according to a written account by his commander seen by the",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "military",
+          "war"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "id": "7f625056a5ad42628e96",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "UA",
+          "label": "Ucrania",
+          "relation": "mentioned",
+          "matchedAlias": "Ukraine",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.theguardian.com/world/2026/nov/23/leaked-data-shows-more-than-1000-russian-military-suicides-during-ukraine-war"
+        },
+        {
+          "countryCode": "RU",
+          "label": "Rusia",
+          "relation": "mentioned",
+          "matchedAlias": "Russia",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.theguardian.com/world/2026/nov/23/leaked-data-shows-more-than-1000-russian-military-suicides-during-ukraine-war"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "AI Agents Are Creating a Shared Responsibility Gap",
+      "url": "https://www.bleepingcomputer.com/news/security/ai-agents-are-creating-a-shared-responsibility-gap/",
+      "canonicalUrl": "https://www.bleepingcomputer.com/news/security/ai-agents-are-creating-a-shared-responsibility-gap/",
+      "source": "BleepingComputer",
+      "category": "IA",
+      "published": "2026-11-23T15:00:10+00:00",
+      "summary": "AI agents operate across multiple platforms, creating security gaps when no single vendor can see or control their actions. Token Security examines the shared responsibility problem and explains how organizations can better manage agent identities, permissions, and accountability. [...]",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "IA",
+        "reason": "title_topic",
+        "signals": [
+          "ai"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "id": "52eb9c59258a6af3d5f2",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "Probing DNS at Cloudflare",
+      "url": "https://blog.cloudflare.com/probing-dns-at-cloudflare/",
+      "canonicalUrl": "https://blog.cloudflare.com/probing-dns-at-cloudflare/",
+      "source": "Cloudflare Blog",
+      "category": "Internet",
+      "published": "2026-11-23T14:00:00+00:00",
+      "summary": "At Cloudflare we’ve built tools to enable teams to extend our internal testing framework and build test tooling for networking protocols. This is the story of how this was used for DNS.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Internet",
+        "reason": "title_topic",
+        "signals": [
+          "dns"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "id": "6c9e35ea9179d576f37e",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "publisher_post",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "‘Pervert glasses’ named word of the year by Macquarie dictionary, ahead of ‘nudify’ and ‘AI;DR’",
+      "url": "https://www.theguardian.com/science/2026/nov/23/pervert-glasses-meta-word-of-the-year-macquarie-dictionary-nudify-aidr",
+      "canonicalUrl": "https://www.theguardian.com/science/2026/nov/23/pervert-glasses-meta-word-of-the-year-macquarie-dictionary-nudify-aidr",
+      "source": "The Guardian World",
+      "category": "IA",
+      "published": "2026-11-23T13:55:40+00:00",
+      "summary": "Australian dictionary’s committee of word experts says winning term is ‘a succinct reflection of the state of the world in 2026’ Get our breaking news email , free app or daily news podcast The backlash to “pervert glasses” has been swift and severe. Smartglasses such as Meta’s Ray-Bans, which have built-in cameras, microphones, and AI assistants, have been banned at some Australian swimming pools and playgrounds, and condemned as a possible invasion of privacy. Continue reading...",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "IA",
+        "reason": "title_topic",
+        "signals": [
+          "ai"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "id": "a26ca4259452f5a91d78",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "Qué es Artex, la IA principal sospechosa del ciberataque a la Comisión Europea que tiene en alerta al FBI",
+      "url": "https://www.xataka.com/seguridad/que-artex-herramienta-ia-que-busca-fallos-seguridad-sola-que-preocupa-a-empresas-gobiernos",
+      "canonicalUrl": "https://www.xataka.com/seguridad/que-artex-herramienta-ia-que-busca-fallos-seguridad-sola-que-preocupa-a-empresas-gobiernos",
+      "source": "Xataka IA",
+      "category": "Ciberseguridad",
+      "published": "2026-11-23T13:27:00+00:00",
+      "summary": "Con el avance de la IA generativa , son cada vez más los usuarios, empresas e instituciones que utilizan herramientas basadas en esta tecnología en sus procesos cotidianos. Sus virtudes también han destacado especialmente en el sector de la ciberseguridad, pues los modelos de IA más punteros también pueden ser tremendamente eficaces a la hora de detectar vulnerabilidades. Esa es precisamente la necesidad que pretende satisfacer a nivel empresarial e institucional la herramienta de Artex, un programa gratuito y de código abierto que permite que un modelo de IA sondee sistemas informáticos en busca de puntos débiles por su cuenta. Fue diseñado ",
+      "language": "es",
+      "languageMethod": "source_configuration",
+      "relevance": {
+        "included": true,
+        "category": "Ciberseguridad",
+        "reason": "title_topic",
+        "signals": [
+          "ciberataque"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "id": "9f321fe5bdb0e3bba9cf",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "The Download: AI’s judgment problem and carbon removal’s crop threat",
+      "url": "https://www.technologyreview.com/2026/11/23/1149548/the-download-ai-judgment-problem-carbon-removal-crop-threat/",
+      "canonicalUrl": "https://www.technologyreview.com/2026/11/23/1149548/the-download-ai-judgment-problem-carbon-removal-crop-threat/",
+      "source": "MIT Technology Review",
+      "category": "IA",
+      "published": "2026-11-23T13:10:00+00:00",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The most misunderstood graph in AI just got a major update A new report from the AI evaluation nonprofit METR finds that some capabilities are improving exponentially—but models aren’t as good…",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "IA",
+        "reason": "title_topic",
+        "signals": [
+          "ai"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "id": "74abad025fa947f70baf",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "OpenAI le ha puesto un número a la inteligencia de sus modelos. Y quiere que toda la industria pacte dónde parar",
+      "url": "https://www.xataka.com/robotica-e-ia/openai-le-ha-puesto-numero-a-inteligencia-sus-modelos-quiere-que-toda-industria-pacte-donde-parar",
+      "canonicalUrl": "https://www.xataka.com/robotica-e-ia/openai-le-ha-puesto-numero-a-inteligencia-sus-modelos-quiere-que-toda-industria-pacte-donde-parar",
+      "source": "Xataka IA",
+      "category": "IA",
+      "published": "2026-11-23T12:07:19+00:00",
+      "summary": "La competencia por desarrollar nuevos modelos de IA es cada vez más encarnizada, no en vano vemos lanzamientos importantes casi cada semana. Gemini 4 con sus diferentes versiones , Anthropic y su Fable 5.2 ... Y OpenAI no se queda atrás, que sus modelos GPT-6 siguen marcando el ritmo dentro del catálogo. Pero no todo son nuevos modelos: los de Sam Altman han aprovechado para abrir al mundo una de sus cifras mejor guardadas, la perplejidad. El número . Jakub Pachocki, científico jefe de OpenAI , ha explicado cómo funciona la medida de la perplejidad dentro de los modelos GPT. En su texto desgrana el estado de los modelos y publica sus medicion",
+      "language": "es",
+      "languageMethod": "source_configuration",
+      "relevance": {
+        "included": true,
+        "category": "IA",
+        "reason": "title_topic",
+        "signals": [
+          "openai"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "id": "50d9cec92513f99c11f8",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "canonicalUrl": "https://www.cisa.gov/news-events/alerts/2026/11/23/cisa-adds-two-known-exploited-vulnerabilities-catalog",
+      "source": "CISA Alerts",
+      "category": "Ciberseguridad",
+      "published": "2026-11-23T12:00:00+00:00",
+      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-133968 Project MONAI MONAI Label Path Traversal Vulnerability CVE-2026-134624 N-able Mail Assure (SpamExperts) Server-Side Request Forgery (SSRF) Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch (FCEB) agencies. BOD 26-04 re",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Ciberseguridad",
+        "reason": "title_topic",
+        "signals": [
+          "vulnerabilities"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "id": "75ea09ea3e752e0248bf",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "official_advisory",
+      "countries": [],
+      "locations": []
+    },
     {
       "title": "Un empleado de Anthropic dice haber usado la IA para resolver uno de los más grandes problemas matemáticos",
       "url": "https://www.bbc.com/mundo/articles/c6n901zg7rylo?at_medium=RSS&at_campaign=rss",
@@ -24,7 +910,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-23T12:02:10.582986+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "2ccb499c142671a2bcaf",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -313,6 +1199,36 @@
       "locations": []
     },
     {
+      "title": "Connected intelligence for in-house legal",
+      "url": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+      "canonicalUrl": "https://openai.com/business/learn/connected-intelligence-for-in-house-legal",
+      "source": "OpenAI News",
+      "category": "IA",
+      "published": "2026-11-23T08:00:00+00:00",
+      "summary": "Watch OpenAI’s Stacey Wang and Craig Bruney, Mary O’Carroll of LECG, and Cooley’s Richard Segal explore how AI can help in-house legal teams connect business context, build reusable workflows and get more from outside counsel.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "IA",
+        "reason": "summary_context",
+        "signals": [
+          "ai",
+          "openai"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
+      "id": "10878202550bbbf922d1",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "publisher_post",
+      "countries": [],
+      "locations": []
+    },
+    {
       "title": "CISA flags critical Cisco RCE flaw as actively exploited in attacks",
       "url": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
       "canonicalUrl": "https://www.bleepingcomputer.com/news/security/cisa-flags-critical-cisco-expressway-rce-flaw-as-actively-exploited/",
@@ -334,7 +1250,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-23T12:02:10.582986+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "a3400f3457d4e983be38",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -561,7 +1477,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-23T12:02:10.582986+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "6352bd0d59b48f2b0e31",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -712,7 +1628,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-22T22:14:56.471125+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "f7511684402b8adf536b",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -770,7 +1686,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-22T16:48:05.839129+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "daee16a474d467015095",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -869,7 +1785,7 @@
       "source": "The Guardian World",
       "category": "Conflictos",
       "published": "2026-11-22T13:36:01+00:00",
-      "summary": "UN patron Lewis Pugh saw ships ablaze and fighter jets overhead during three-day swim as Iran conflict continues A British endurance swimmer has completed a three-day swim through the strait of Hormuz to highlight the environmental cost of the Iran war. Lewis Pugh, a UN patron of the oceans, swam the 9.3-mile (15km) length of the waterway, which is a key route for oil shipments from the Middle East. Continue reading...",
+      "summary": "UN patron Lewis Pugh saw ships ablaze and fighter jets overhead during three-day swim as Iran conflict continues A British endurance swimmer has completed a three-day swim in the strait of Hormuz to highlight the environmental cost of the Iran war. Lewis Pugh, a UN patron of the oceans, swam a 9.3-mile (15km) section of the waterway, which is a key route for oil shipments from the Middle East. Continue reading...",
       "language": "en",
       "languageMethod": "feed_declaration",
       "relevance": {
@@ -883,7 +1799,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-22T16:48:05.839129+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "d72b3ea8eace295852ec",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -939,12 +1855,12 @@
       "locations": []
     },
     {
-      "title": "Google ha convertido Gemini en una tabla periódica. El problema es que ahora hay dos modelos de programación y ninguna pista de cuál elegir",
+      "title": "Google multiplica sus modelos de Gemini y deja a los programadores sin saber cuál elegir",
       "url": "https://www.xataka.com/robotica-e-ia/google-ha-convertido-gemini-tabla-periodica-problema-que-ahora-hay-dos-modelos-programacion-ninguna-pista-cual-elegir",
       "canonicalUrl": "https://www.xataka.com/robotica-e-ia/google-ha-convertido-gemini-tabla-periodica-problema-que-ahora-hay-dos-modelos-programacion-ninguna-pista-cual-elegir",
       "source": "Xataka IA",
       "category": "IA",
-      "published": "2026-11-22T13:00:29+00:00",
+      "published": "2026-11-22T13:00:00+00:00",
       "summary": "Seguirle la pista a los modelos de IA, sus diferentes versiones y las compañías que están detrás es prácticamente imposible. Salimos a LLM casi semanal. No solo eso, después viene Google y renueva por completo su catálogo con incorporaciones que no se esperaban: cuatro modelos Gemini 4 en siete semanas. Porque ¿para qué necesita Gemini 4 tener cuatro ramas diferentes? La elección de Google . OpenAI optó por nombres de astros (Sol, Terra, Luna y Astra) para sus modelos de IA, Anthropic por formas literarias (Haiku, Sonnet, Fable…). Mientras empresas como xAI o DeepSeek mantienen las versiones con número, algo más liosas, Google ha decidido tir",
       "language": "es",
       "languageMethod": "source_configuration",
@@ -961,7 +1877,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-22T16:48:05.839129+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "9b27a14e9e6b4c21e7ac",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1074,7 +1990,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-22T16:48:05.839129+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "fd48dd34b61546a677b6",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1103,7 +2019,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-22T08:49:18.080859+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "520e56a219a4af173a96",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2598,7 +3514,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-21T00:47:22.607715+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "c851a250df92def96949",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2627,7 +3543,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-21T00:47:22.607715+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "dee94a929dea9fb9f0b9",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2731,7 +3647,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-20T19:05:08.356384+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "001e6b6e613bbaaf52f6",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3148,7 +4064,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-20T19:05:08.356384+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "b22eec5809ce5c9c44d6",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3314,7 +4230,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-20T10:57:34.452274+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "17da1a8abebe38eada19",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3752,7 +4668,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-20T02:54:11.880371+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "17fab3637860c9a7ef34",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3969,7 +4885,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-21T00:47:22.607715+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "c1a2af93db54bfcf7c21",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -4196,7 +5112,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-19T21:55:57.292566+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "4b4814a2002c45d7fe16",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -4667,7 +5583,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-19T21:55:57.292566+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "32c1e05692d04a88fbfb",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -4743,7 +5659,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-19T13:43:49.089262+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "cab673f80ff9839867c7",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -4880,7 +5796,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-19T21:55:57.292566+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "31c4bb63cffd59f4c698",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -4912,7 +5828,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-19T21:55:57.292566+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "bf2611689a6fa7cb9958",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -4952,7 +5868,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-19T21:55:57.292566+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "ad267eaa2b1154828ea1",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -5020,7 +5936,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-19T13:43:49.089262+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "caed03dd56834e9d354e",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -5408,7 +6324,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-19T21:55:57.292566+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "9342dbf934e428aa00c1",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -5930,7 +6846,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-19T00:14:56.641625+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "c9098ac47ad213215e81",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -6463,7 +7379,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-18T17:56:55.183161+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "a0792ea92321f1439be1",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -6492,7 +7408,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-18T17:56:55.183161+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "76a160b2736ec6d054a3",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -6681,7 +7597,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-18T17:56:55.183161+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "34287111874105b85b50",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -6739,7 +7655,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-19T00:14:56.641625+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "2bf6e3b53184cd104c37",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -6856,7 +7772,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-19T00:14:56.641625+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "184d931227f2504de1a3",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -6961,7 +7877,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-19T00:14:56.641625+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "58da586369f33999eb92",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -6990,7 +7906,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-19T00:14:56.641625+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "53d809d7420a3923e8ba",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -7057,7 +7973,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-19T00:14:56.641625+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "99be0c0a7e074380d1a5",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -7364,7 +8280,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-18T17:56:55.183161+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "a1de396d3910fa2e0f79",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -7393,7 +8309,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-18T17:56:55.183161+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "68ddb817fe4001c0fc7b",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -8550,7 +9466,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T18:28:22.767917+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "f61efca8f592b87c7c09",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -8580,7 +9496,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T18:28:22.767917+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "639fac0f8727e01aec6e",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -8610,7 +9526,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T18:28:22.767917+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "fae4ec42780a6b53cc83",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -8640,7 +9556,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T18:28:22.767917+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "1e3a8a0a7e3cd062f91c",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -8670,7 +9586,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T18:28:22.767917+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "b408794a3196e1df425e",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -8700,7 +9616,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T18:28:22.767917+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "986d782997068f3c61b8",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -8731,7 +9647,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T18:28:22.767917+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "91475641f52fb30dbb22",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -8762,7 +9678,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T18:28:22.767917+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "3b573666de1648f8a362",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -8792,7 +9708,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T18:28:22.767917+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "5b5cf4f017dbab0ebb96",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -8822,7 +9738,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T18:28:22.767917+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "4a756643b0596f8c2c40",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -8852,7 +9768,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T18:28:22.767917+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "3989b95c68b62c6d091e",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -8881,7 +9797,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-18T01:14:30.685160+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "2b90ef71fb0880376bf8",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -8910,7 +9826,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-18T01:14:30.685160+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "37902359fb183e156991",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -9215,7 +10131,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-18T01:14:30.685160+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "3047d7657748ea760feb",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -9580,7 +10496,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T09:03:52.182620+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "0e7f690aa4ff229bd2e8",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -9609,7 +10525,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T18:28:22.767917+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "3b3be741a87f5e2153e6",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -10244,7 +11160,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T01:01:37.271227+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "2d7a5d6b20fff3cd431e",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -10654,7 +11570,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T01:01:37.271227+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "d91fd06de7b8771ee8ad",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -10826,7 +11742,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-16T17:22:53.141442+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "ff7833693fa2a06713dc",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -10855,7 +11771,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-16T17:22:53.141442+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "21e886491b30cfff0403",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -10999,7 +11915,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-16T17:22:53.141442+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "60f3c7381bc61eae5e3d",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -12957,7 +13873,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-13T21:55:15.798699+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "a009bbdbfbe6de47102d",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -13564,7 +14480,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-13T21:55:15.798699+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "7b5dacba886b8db54898",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -15276,7 +16192,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-12T18:48:55.334168+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "f45d3069b40c902e6997",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -15307,7 +16223,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-12T18:48:55.334168+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "057c02b04cc39ce1e69c",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -15338,7 +16254,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-12T18:48:55.334168+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "652c8f30b0994d6c4046",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -15369,7 +16285,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-12T18:48:55.334168+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "89146ff5418730c287f6",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -18385,7 +19301,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-11T00:35:07.383568+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "f4b34728a6f8e3261976",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -20322,7 +21238,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-10T03:26:09.475698+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "b13d0e78edd1a3e70a4e",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -23377,7 +24293,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-06T22:19:55.910656+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "2e68c4969154600586c3",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -24975,7 +25891,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-06T02:15:14.658649+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "cddef5bb18e3bcbf0141",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -26527,7 +27443,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "09c40cbdb75966e0dccf",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -29065,7 +29981,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T17:43:25.925049+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "e581154108f523de51d2",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -31494,7 +32410,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
+      "lastSeenAt": "2026-11-23T23:49:32.097363+00:00",
       "id": "3017d51cc49fa391b080",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -34481,906 +35397,6 @@
         }
       ],
       "locations": []
-    },
-    {
-      "title": "What to know about California’s midterm elections",
-      "url": "https://www.aljazeera.com/news/2026/10/30/what-to-know-about-the-midterm-elections-in-california?traffic_source=rss",
-      "canonicalUrl": "https://www.aljazeera.com/news/2026/10/30/what-to-know-about-the-midterm-elections-in-california",
-      "source": "Al Jazeera",
-      "category": "Conflictos",
-      "published": "2026-10-30T19:38:49+00:00",
-      "summary": "Redistricting in California, the most populous US state, could flip control of US House from Republican to Democrat.",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "title_topic",
-        "signals": [
-          "elections",
-          "midterm"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-10-30T21:40:53.271980+00:00",
-      "lastSeenAt": "2026-10-31T01:30:11.973227+00:00",
-      "id": "a8ed2c114db30ecce76e",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [],
-      "locations": []
-    },
-    {
-      "title": "Las claves del ultimátum de Bukele a las poderosas bandas de Haití tras el secuestro de 4 militares salvadoreños",
-      "url": "https://www.bbc.com/mundo/watch/cq9vz31j8xpko?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.com/mundo/watch/cq9vz31j8xpko?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Mundo",
-      "category": "Conflictos",
-      "published": "2026-10-30T18:27:04+00:00",
-      "summary": "El presidente de El Salvador ha enviado 2.000 militares a Haití para tratar de rescatar a los 4 soldados secuestrados por las pandillas.",
-      "language": "es",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "title_topic",
-        "signals": [
-          "militares"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-10-30T21:40:53.271980+00:00",
-      "lastSeenAt": "2026-11-05T15:45:34.888706+00:00",
-      "id": "a97e27cc34086dfc1fcf",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [
-        {
-          "countryCode": "SV",
-          "label": "El Salvador",
-          "relation": "mentioned",
-          "matchedAlias": "El Salvador",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.bbc.com/mundo/watch/cq9vz31j8xpko?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "countryCode": "HT",
-          "label": "Haití",
-          "relation": "mentioned",
-          "matchedAlias": "Haiti",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.bbc.com/mundo/watch/cq9vz31j8xpko?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "locations": []
-    },
-    {
-      "title": "UE y Canadá lanzan nueva \"alianza\" con acuerdos sobre minerales críticos, IA y Ucrania",
-      "url": "https://www.dw.com/es/ue-y-canadá-lanzan-nueva-alianza-con-acuerdos-sobre-minerales-críticos-ia-y-ucrania/a-79812242?maca=spa-rss-sp-all-1122-rdf",
-      "canonicalUrl": "https://www.dw.com/es/ue-y-canadá-lanzan-nueva-alianza-con-acuerdos-sobre-minerales-críticos-ia-y-ucrania/a-79812242?maca=spa-rss-sp-all-1122-rdf",
-      "source": "DW Español",
-      "category": "IA",
-      "published": "2026-10-30T18:02:00+00:00",
-      "summary": "La Comisión Europea ya había asomado que la UE y el país americano exploran la posibilidad de que Canadá se convierta en el primer \"miembro asociado\" del bloque.",
-      "language": "es",
-      "languageMethod": "entry_declaration",
-      "relevance": {
-        "included": true,
-        "category": "IA",
-        "reason": "title_topic",
-        "signals": [
-          "ia"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-10-30T21:40:53.271980+00:00",
-      "lastSeenAt": "2026-10-31T01:30:11.973227+00:00",
-      "id": "3139a24a20b0ab989a14",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [
-        {
-          "countryCode": "UA",
-          "label": "Ucrania",
-          "relation": "mentioned",
-          "matchedAlias": "Ucrania",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.dw.com/es/ue-y-canadá-lanzan-nueva-alianza-con-acuerdos-sobre-minerales-críticos-ia-y-ucrania/a-79812242?maca=spa-rss-sp-all-1122-rdf"
-        },
-        {
-          "countryCode": "CA",
-          "label": "Canadá",
-          "relation": "mentioned",
-          "matchedAlias": "Canada",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.dw.com/es/ue-y-canadá-lanzan-nueva-alianza-con-acuerdos-sobre-minerales-críticos-ia-y-ucrania/a-79812242?maca=spa-rss-sp-all-1122-rdf"
-        }
-      ],
-      "locations": []
-    },
-    {
-      "title": "León XIV se convierte en el primer papa en votar en unas elecciones de Estados Unidos",
-      "url": "https://www.dw.com/es/león-xiv-se-convierte-en-el-primer-papa-en-votar-en-unas-elecciones-de-estados-unidos/a-79811438?maca=spa-rss-sp-all-1122-rdf",
-      "canonicalUrl": "https://www.dw.com/es/león-xiv-se-convierte-en-el-primer-papa-en-votar-en-unas-elecciones-de-estados-unidos/a-79811438?maca=spa-rss-sp-all-1122-rdf",
-      "source": "DW Español",
-      "category": "Conflictos",
-      "published": "2026-10-30T16:44:00+00:00",
-      "summary": "El Vaticano confirmó que el sumo pontífice, nacido en Chicago, había enviado su voto por correo de cara a las elecciones de medio mandato, y destacó su prolongada convicción en la participación ciudadana.",
-      "language": "es",
-      "languageMethod": "entry_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "title_topic",
-        "signals": [
-          "elecciones"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-10-30T17:09:09.171854+00:00",
-      "lastSeenAt": "2026-10-31T01:30:11.973227+00:00",
-      "id": "efb9863c0b7ee827c3d5",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [
-        {
-          "countryCode": "US",
-          "label": "Estados Unidos",
-          "relation": "mentioned",
-          "matchedAlias": "Estados Unidos",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.dw.com/es/león-xiv-se-convierte-en-el-primer-papa-en-votar-en-unas-elecciones-de-estados-unidos/a-79811438?maca=spa-rss-sp-all-1122-rdf"
-        }
-      ],
-      "locations": []
-    },
-    {
-      "title": "Hundreds evacuated from Russian-occupied Oleshky during rare Ukraine ceasefire",
-      "url": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "category": "Conflictos",
-      "published": "2026-10-30T16:26:11+00:00",
-      "summary": "Hundreds of people are also understood to have stayed in the front-line town, despite the dangers.",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "title_topic",
-        "signals": [
-          "ceasefire"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-10-30T17:09:09.171854+00:00",
-      "lastSeenAt": "2026-10-31T07:27:30.780260+00:00",
-      "id": "d739e6ac886f7d18169f",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [
-        {
-          "countryCode": "UA",
-          "label": "Ucrania",
-          "relation": "mentioned",
-          "matchedAlias": "Ukraine",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.bbc.co.uk/news/articles/c60me298k1yeo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "locations": []
-    },
-    {
-      "title": "‘Need a Plan B’: Yemenis in Aden prepare for another war as missiles fall",
-      "url": "https://www.aljazeera.com/news/2026/10/30/need-a-plan-b-yemenis-in-aden-prepare-for-another-war-as-missiles-fall?traffic_source=rss",
-      "canonicalUrl": "https://www.aljazeera.com/news/2026/10/30/need-a-plan-b-yemenis-in-aden-prepare-for-another-war-as-missiles-fall",
-      "source": "Al Jazeera",
-      "category": "Conflictos",
-      "published": "2026-10-30T15:26:00+00:00",
-      "summary": "As Houthi missiles strike Aden, residents stockpile food and prepare escape plans, fearing a return to all-out war.",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "title_topic",
-        "signals": [
-          "missiles",
-          "war"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-10-30T17:09:09.171854+00:00",
-      "lastSeenAt": "2026-10-30T21:40:53.271980+00:00",
-      "id": "d6c9b34255588ce8438b",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [],
-      "locations": []
-    },
-    {
-      "title": "Democratic senator blames Egypt press crackdown on US military aid decision",
-      "url": "https://www.bbc.co.uk/news/articles/c63r529wn2vzo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/news/articles/c63r529wn2vzo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "category": "Conflictos",
-      "published": "2026-10-30T15:17:11+00:00",
-      "summary": "Chris Murphy said waiving a human rights condition on aid paved the way for arrests of journalists.",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "title_topic",
-        "signals": [
-          "military"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-10-30T17:09:09.171854+00:00",
-      "lastSeenAt": "2026-10-31T13:49:35.021292+00:00",
-      "id": "93c1cc8d18144e661050",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [
-        {
-          "countryCode": "EG",
-          "label": "Egipto",
-          "relation": "mentioned",
-          "matchedAlias": "Egypt",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.bbc.co.uk/news/articles/c63r529wn2vzo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "locations": []
-    },
-    {
-      "title": "Elecciones en EE.UU.: cómo influye la dura política migratoria de Trump en el bastión latino republicano del sur de Florida",
-      "url": "https://www.bbc.com/mundo/articles/cm78pl5w7qq9o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.com/mundo/articles/cm78pl5w7qq9o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Mundo",
-      "category": "Conflictos",
-      "published": "2026-10-30T15:02:54+00:00",
-      "summary": "De la mano de Donald Trump, los republicanos han ido ganando mayor representación en el sur de Florida durante los últimos 10 años. Sin embargo, la impopularidad de Trump en 2026 arroja dudas sobre la capacidad de los conservadores de mantener estos apoyos.",
-      "language": "es",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "title_topic",
-        "signals": [
-          "elecciones"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-10-30T17:09:09.171854+00:00",
-      "lastSeenAt": "2026-11-02T09:53:49.912378+00:00",
-      "id": "749a7ec79cf36323fe27",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [],
-      "locations": []
-    },
-    {
-      "title": "Pope Leo XIV becomes first pontiff to vote in a US election",
-      "url": "https://www.bbc.co.uk/news/articles/ckwyq2509p7xo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/news/articles/ckwyq2509p7xo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "category": "Conflictos",
-      "published": "2026-10-30T14:48:22+00:00",
-      "summary": "The Chicago-born pontiff, who has a tense relationship with Trump, mailed in a ballot for the midterm elections that will decide control of the US Congress.",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "summary_context",
-        "signals": [
-          "elections",
-          "midterm"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-10-30T17:09:09.171854+00:00",
-      "lastSeenAt": "2026-10-31T21:50:14.139075+00:00",
-      "id": "4cb0aca3bd91ccfcfbbb",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [],
-      "locations": []
-    },
-    {
-      "title": "Senators briefed on Trump’s ‘insane’ plan to restart war on Iran",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/senators-briefed-on-trumps-insane-plan-to-restart-war-on-iran-2?traffic_source=rss",
-      "canonicalUrl": "https://www.aljazeera.com/video/newsfeed/2026/10/30/senators-briefed-on-trumps-insane-plan-to-restart-war-on-iran-2",
-      "source": "Al Jazeera",
-      "category": "Conflictos",
-      "published": "2026-10-30T14:40:19+00:00",
-      "summary": "Senator Chris Murphy says he’s been briefed on Trump’s plan to restart the war on Iran.",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "title_topic",
-        "signals": [
-          "war"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-10-30T17:09:09.171854+00:00",
-      "lastSeenAt": "2026-10-30T17:09:09.171854+00:00",
-      "id": "ce8e0e2de3ca2a5d11b9",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [
-        {
-          "countryCode": "IR",
-          "label": "Irán",
-          "relation": "mentioned",
-          "matchedAlias": "Iran",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.aljazeera.com/video/newsfeed/2026/10/30/senators-briefed-on-trumps-insane-plan-to-restart-war-on-iran-2?traffic_source=rss"
-        }
-      ],
-      "locations": []
-    },
-    {
-      "title": "6 preguntas para entender qué se elige en las elecciones de medio mandato en EE.UU. y qué significan para Trump",
-      "url": "https://www.bbc.com/mundo/articles/cmly035wdwgdo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.com/mundo/articles/cmly035wdwgdo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Mundo",
-      "category": "Conflictos",
-      "published": "2026-10-30T14:25:44+00:00",
-      "summary": "Los votantes estadounidenses acudirán a las urnas el 3 de noviembre en unas elecciones que podrían tener un gran impacto en la presidencia de Donald Trump.",
-      "language": "es",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "title_topic",
-        "signals": [
-          "elecciones"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-10-30T17:09:09.171854+00:00",
-      "lastSeenAt": "2026-11-04T03:10:46.427236+00:00",
-      "id": "dede9b3f70e81b4cdd57",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [],
-      "locations": []
-    },
-    {
-      "title": "Experts warn AI copyright changes could breach Australian constitution and spark huge compensation rights case",
-      "url": "https://www.theguardian.com/law/2026/oct/31/experts-warn-ai-copyright-changes-could-breach-australian-constitution-and-spark-huge-compensation-rights-case",
-      "canonicalUrl": "https://www.theguardian.com/law/2026/oct/31/experts-warn-ai-copyright-changes-could-breach-australian-constitution-and-spark-huge-compensation-rights-case",
-      "source": "The Guardian World",
-      "category": "IA",
-      "published": "2026-10-30T14:00:18+00:00",
-      "summary": "Scraping copyrighted material from internet could ‘potentially’ amount to acquisition of property by government, Anne Twomey says Get our daily political email , free app or daily news podcast Altering copyright law to allow AI companies to scrape music, books and journalism could trigger a constitutional breach, Coalition senators and the recording industry have warned, as they raise new fears it could open Australia to massive legal action and compensation claims from rights holders worldwide. The attorney general’s department admitted it was “extremely alive” to the issue, and Australia’s leading constitutional expert, Anne Twomey, agreed ",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "IA",
-        "reason": "title_topic",
-        "signals": [
-          "ai"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-10-30T14:10:37.162341+00:00",
-      "lastSeenAt": "2026-10-31T18:27:18.541918+00:00",
-      "id": "6faa1355c3981bf5587d",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [
-        {
-          "countryCode": "AU",
-          "label": "Australia",
-          "relation": "mentioned",
-          "matchedAlias": "Australia",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.theguardian.com/law/2026/oct/31/experts-warn-ai-copyright-changes-could-breach-australian-constitution-and-spark-huge-compensation-rights-case"
-        }
-      ],
-      "locations": []
-    },
-    {
-      "title": "4 escenarios que se abren en Israel luego de que ni Netanyahu ni Eisenkot lograran mayoría absoluta en las elecciones",
-      "url": "https://www.bbc.com/mundo/articles/c9kgje41ezpro?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.com/mundo/articles/c9kgje41ezpro?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Mundo",
-      "category": "Conflictos",
-      "published": "2026-10-30T13:26:30+00:00",
-      "summary": "Con el conteo de votos completo, ningún bloque político logró alcanzar los escaños necesarios para formar un gobierno. Israel se encuentra en un punto muerto y lo más probable es que se celebren nuevas elecciones.",
-      "language": "es",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "title_topic",
-        "signals": [
-          "elecciones"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-10-30T05:43:59.426409+00:00",
-      "lastSeenAt": "2026-10-31T13:49:35.021292+00:00",
-      "id": "b9bb0871ab5b27ffb4bc",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [
-        {
-          "countryCode": "IL",
-          "label": "Israel",
-          "relation": "mentioned",
-          "matchedAlias": "Israel",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.bbc.com/mundo/articles/c9kgje41ezpro?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "locations": []
-    },
-    {
-      "title": "Senators briefed on Trump’s ‘insane’ plan to restart war on Iran",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/10/30/senators-briefed-on-trumps-insane-plan-to-restart-war-on-iran?traffic_source=rss",
-      "canonicalUrl": "https://www.aljazeera.com/video/newsfeed/2026/10/30/senators-briefed-on-trumps-insane-plan-to-restart-war-on-iran",
-      "source": "Al Jazeera",
-      "category": "Conflictos",
-      "published": "2026-10-30T13:01:43+00:00",
-      "summary": "Senator Chris Murphy warns Trump’s reported plan to restart war with Iran could have devastating consequences.",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "title_topic",
-        "signals": [
-          "war"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-10-30T14:10:37.162341+00:00",
-      "lastSeenAt": "2026-10-30T17:09:09.171854+00:00",
-      "id": "2d86ce1b296f7373cf56",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [
-        {
-          "countryCode": "IR",
-          "label": "Irán",
-          "relation": "mentioned",
-          "matchedAlias": "Iran",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.aljazeera.com/video/newsfeed/2026/10/30/senators-briefed-on-trumps-insane-plan-to-restart-war-on-iran?traffic_source=rss"
-        }
-      ],
-      "locations": []
-    },
-    {
-      "title": "CISA says max severity GitLab flaw now exploited in the wild",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
-      "canonicalUrl": "https://www.bleepingcomputer.com/news/security/hackers-now-exploiting-max-severity-gitlab-flaw-in-attacks/",
-      "source": "BleepingComputer",
-      "category": "Ciberseguridad",
-      "published": "2026-10-30T13:00:32+00:00",
-      "summary": "Attackers have started exploiting a maximum-severity GitLab vulnerability patched earlier this month, according to the US Cybersecurity and Infrastructure Security Agency (CISA). [...]",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Ciberseguridad",
-        "reason": "summary_context",
-        "signals": [
-          "cybersecurity",
-          "vulnerability"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-10-30T14:10:37.162341+00:00",
-      "lastSeenAt": "2026-11-02T09:53:49.912378+00:00",
-      "id": "651570ec01bc8df7e06d",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [],
-      "locations": []
-    },
-    {
-      "title": "Gulf states must rethink trillion-dollar defence in light of US-Iran war, says report",
-      "url": "https://www.theguardian.com/world/2026/oct/30/gulf-states-rethink-trillion-dollar-defence-us-iran-war-iiss-report",
-      "canonicalUrl": "https://www.theguardian.com/world/2026/oct/30/gulf-states-rethink-trillion-dollar-defence-us-iran-war-iiss-report",
-      "source": "The Guardian World",
-      "category": "Conflictos",
-      "published": "2026-10-30T12:49:56+00:00",
-      "summary": "IISS study questions overreliance on American support and ‘overdependence on expensive, high-end systems’ Gulf states are going to have to reconfigure their trillion-dollar defences given the damage inflicted on their economies and the questionable continued value of US bases in the face of Iranian attack, according to a study by the International Institute for Strategic Studies. The report says that in the weeks before the 8 April ceasefire, 12 regional states, overwhelmingly in the Gulf, faced 4,670 Iranian one-way attack drones and more than 1,400 ballistic missiles. Nearly half were aimed at the United Arab Emirates. Although the vast maj",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "title_topic",
-        "signals": [
-          "war"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-10-30T14:10:37.162341+00:00",
-      "lastSeenAt": "2026-11-03T02:36:31.828730+00:00",
-      "id": "53d2b9361d26a074ea07",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [
-        {
-          "countryCode": "AE",
-          "label": "Emiratos Árabes Unidos",
-          "relation": "mentioned",
-          "matchedAlias": "United Arab Emirates",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.theguardian.com/world/2026/oct/30/gulf-states-rethink-trillion-dollar-defence-us-iran-war-iiss-report"
-        },
-        {
-          "countryCode": "IR",
-          "label": "Irán",
-          "relation": "mentioned",
-          "matchedAlias": "Iran",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.theguardian.com/world/2026/oct/30/gulf-states-rethink-trillion-dollar-defence-us-iran-war-iiss-report"
-        }
-      ],
-      "locations": []
-    },
-    {
-      "title": "Steve Huffman, CEO de Reddit dice adiós a la web abierta:\"El modo de IA no genera tráfico. Ni para nosotros ni para nadie\"",
-      "url": "https://www.xataka.com/servicios/modo-ia-no-genera-trafico-para-nosotros-para-nadie-ceo-reddit-dice-adios-a-web-abierta",
-      "canonicalUrl": "https://www.xataka.com/servicios/modo-ia-no-genera-trafico-para-nosotros-para-nadie-ceo-reddit-dice-adios-a-web-abierta",
-      "source": "Xataka Internet",
-      "category": "IA",
-      "published": "2026-10-30T12:30:00+00:00",
-      "summary": "Hubo un tiempo en el que escribías una duda en Google, añadías la etiqueta \"reddit\" al final y casi siempre aparecía un hilo con la respuesta a tu problema explicada por alguien que ya había pasado por lo mismo y lo había solucionado. El CEO de Reddit ha anunciado que ese atajo va a estar cerrado a partir de ahora. Si quieres obtener información de Reddit tendrás que entrar e iniciar sesión con tu usuario. El origen del problema es un viejo conocido: los resúmenes con IA de Google. El buscador ya no envía a los usuarios a los hilos como hacía antes, así que Reddit ha decidido poner una puerta a su red social. Su consejero delegado, Steve Huff",
-      "language": "es",
-      "languageMethod": "source_configuration",
-      "relevance": {
-        "included": true,
-        "category": "IA",
-        "reason": "title_topic",
-        "signals": [
-          "ia"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-10-30T14:10:37.162341+00:00",
-      "lastSeenAt": "2026-11-23T12:02:10.582986+00:00",
-      "id": "d2dd776fc827913d3db6",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [],
-      "locations": []
-    },
-    {
-      "title": "Qatari officials in Iran in bid to revive ceasefire deal with US",
-      "url": "https://www.aljazeera.com/news/2026/10/30/qatari-officials-in-iran-in-bid-to-revive-ceasefire-deal-with-us?traffic_source=rss",
-      "canonicalUrl": "https://www.aljazeera.com/news/2026/10/30/qatari-officials-in-iran-in-bid-to-revive-ceasefire-deal-with-us",
-      "source": "Al Jazeera",
-      "category": "Conflictos",
-      "published": "2026-10-30T12:26:56+00:00",
-      "summary": "The mediation mission comes amid speculation about a potential resumption of hostilities.",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "title_topic",
-        "signals": [
-          "ceasefire"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-10-30T14:10:37.162341+00:00",
-      "lastSeenAt": "2026-10-30T17:09:09.171854+00:00",
-      "id": "c7eabce1f5c82156e375",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [
-        {
-          "countryCode": "IR",
-          "label": "Irán",
-          "relation": "mentioned",
-          "matchedAlias": "Iran",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.aljazeera.com/news/2026/10/30/qatari-officials-in-iran-in-bid-to-revive-ceasefire-deal-with-us?traffic_source=rss"
-        }
-      ],
-      "locations": []
-    },
-    {
-      "title": "Georgia midterm elections: Why this is a key US battleground",
-      "url": "https://www.aljazeera.com/news/2026/10/30/georgia-midterm-elections-why-this-is-a-key-us-battleground?traffic_source=rss",
-      "canonicalUrl": "https://www.aljazeera.com/news/2026/10/30/georgia-midterm-elections-why-this-is-a-key-us-battleground",
-      "source": "Al Jazeera",
-      "category": "Conflictos",
-      "published": "2026-10-30T12:09:03+00:00",
-      "summary": "Obama and Trump campaign in key battleground state ahead of next week's midterm elections.",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "title_topic",
-        "signals": [
-          "elections",
-          "midterm"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-10-30T14:10:37.162341+00:00",
-      "lastSeenAt": "2026-10-30T17:09:09.171854+00:00",
-      "id": "1d5a4e732e777ed80410",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [],
-      "locations": []
-    },
-    {
-      "title": "Google value plunges by $500bn as its own AI search hits ad sales",
-      "url": "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cm9qzdqpxy48o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "category": "IA",
-      "published": "2026-10-30T12:04:02+00:00",
-      "summary": "Google spooked investors so badly that its stock hit a six-month low, after it revealed its AI own search summaries were affecting ad revenue.",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "IA",
-        "reason": "title_topic",
-        "signals": [
-          "ai"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-10-30T05:43:59.426409+00:00",
-      "lastSeenAt": "2026-10-31T01:30:11.973227+00:00",
-      "id": "2fa2c9ea33362800af6f",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [],
-      "locations": []
-    },
-    {
-      "title": "\"Estará al fondo del jardín\": compraron una casa a las afueras de París y ahora tendrán un centro de datos que consume cuatro veces lo que Disneyland",
-      "url": "https://www.xataka.com/robotica-e-ia/estara-al-fondo-jardin-compraron-casa-a-afueras-paris-ahora-paris-le-quiere-construir-centro-datos-que-devora-cuatro-veces-energia-disneyland",
-      "canonicalUrl": "https://www.xataka.com/robotica-e-ia/estara-al-fondo-jardin-compraron-casa-a-afueras-paris-ahora-paris-le-quiere-construir-centro-datos-que-devora-cuatro-veces-energia-disneyland",
-      "source": "Xataka IA",
-      "category": "Internet",
-      "published": "2026-10-30T12:00:00+00:00",
-      "summary": "A las afueras de París, una familia lleva 26 años viviendo en una casa con jardín. Ahora, al otro lado de su valla, todo apunta a que va a levantarse un gigantesco centro de datos de 27 metros de altura, con decenas de sistemas de refrigeración y generadores eléctricos. La instalación tendría capacidad para consumir más de cuatro veces la electricidad anual de Disneyland París. Es la cara más cercana de una transformación que está llevando las infraestructuras de la IA hasta las puertas de barrios residenciales franceses. Al fondo del jardín. La historia sucede en Ballainvilliers , una localidad de menos de 5.000 habitantes situada al sur de ",
-      "language": "es",
-      "languageMethod": "source_configuration",
-      "relevance": {
-        "included": true,
-        "category": "Internet",
-        "reason": "title_topic",
-        "signals": [
-          "centro de datos"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-10-30T14:10:37.162341+00:00",
-      "lastSeenAt": "2026-11-02T09:53:49.912378+00:00",
-      "id": "f26e1a7eb9c10a799b7b",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [],
-      "locations": []
-    },
-    {
-      "title": "CISA Adds Two Known Exploited Vulnerabilities to Catalog",
-      "url": "https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "canonicalUrl": "https://www.cisa.gov/news-events/alerts/2026/10/30/cisa-adds-two-known-exploited-vulnerabilities-catalog",
-      "source": "CISA Alerts",
-      "category": "Ciberseguridad",
-      "published": "2026-10-30T12:00:00+00:00",
-      "summary": "CISA has added two new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2026-111357 Ivanti Connect Secure Missing Authentication for Critical Function Vulnerability CVE-2026-118527 Ivanti Connect Secure Generation of Predictable Numbers or Identifiers Vulnerability These types of vulnerabilities are a frequent attack vector for malicious cyber actors and pose significant risks to the federal enterprise. Binding Operational Directive (BOD) 26-04: Prioritizing Security Updates Based on Risk establishes vulnerability management requirements for Federal Civilian Executive Branch ",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Ciberseguridad",
-        "reason": "title_topic",
-        "signals": [
-          "vulnerabilities"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-01T19:08:24.518261+00:00",
-      "lastSeenAt": "2026-11-19T13:43:49.089262+00:00",
-      "id": "f635e51b46992649ab09",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "official_advisory",
-      "countries": [],
-      "locations": []
-    },
-    {
-      "title": "Meta, Google y Amazon podían permitirse derrochar en IA cuando el negocio iba bien. Google acaba de descubrir qué pasa cuando no",
-      "url": "https://www.xataka.com/empresas-y-economia/meta-google-amazon-podian-permitirse-gasto-colosal-ia-negocio-iba-bien-google-acaba-descubrir-que-pasa-cuando-no",
-      "canonicalUrl": "https://www.xataka.com/empresas-y-economia/meta-google-amazon-podian-permitirse-gasto-colosal-ia-negocio-iba-bien-google-acaba-descubrir-que-pasa-cuando-no",
-      "source": "Xataka IA",
-      "category": "IA",
-      "published": "2026-10-30T11:45:00+00:00",
-      "summary": "Tres de las empresas más rentables del mundo acaban de pasar por una temporada de resultados floja, flojísima. Y precisamente los negocios que las hicieron ricas no son el verdadero problema. Alphabet (matriz de Google) lleva perdidos más de 500.000 millones de dólares en valor de mercado en un solo día, y Meta y Amazon también han visto caer sus acciones tras presentar informes. El hilo conductor son las sumas masivas de dinero que están destinando a la inteligencia artificial. Por qué importa. Durante años, las Big Tech fueron la apuesta más segura del mercado porque generaban montañas de efectivo. No me malinterpretes, lo siguen generando.",
-      "language": "es",
-      "languageMethod": "source_configuration",
-      "relevance": {
-        "included": true,
-        "category": "IA",
-        "reason": "title_topic",
-        "signals": [
-          "ia"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-10-30T14:10:37.162341+00:00",
-      "lastSeenAt": "2026-11-02T09:53:49.912378+00:00",
-      "id": "93a83e5e65687c6730ea",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [],
-      "locations": []
-    },
-    {
-      "title": "Plataforma de criptomonedas Binance investiga ciberataque millonario y \"complejo\"",
-      "url": "https://www.dw.com/es/plataforma-de-criptomonedas-binance-investiga-ciberataque-millonario-y-complejo/a-79806005?maca=spa-rss-sp-all-1122-rdf",
-      "canonicalUrl": "https://www.dw.com/es/plataforma-de-criptomonedas-binance-investiga-ciberataque-millonario-y-complejo/a-79806005?maca=spa-rss-sp-all-1122-rdf",
-      "source": "DW Español",
-      "category": "Ciberseguridad",
-      "published": "2026-10-30T11:29:00+00:00",
-      "summary": "Hackers robaron 6.300 millones de dólares de Binance, la mayor plataforma de intercambio de criptomonedas del mundo. El robo récord ha sido vinculado por analistas con Corea del Norte.",
-      "language": "es",
-      "languageMethod": "entry_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Ciberseguridad",
-        "reason": "title_topic",
-        "signals": [
-          "ciberataque"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-10-30T14:10:37.162341+00:00",
-      "lastSeenAt": "2026-11-01T23:00:16.097747+00:00",
-      "id": "458e98169de6edf3c2b9",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [
-        {
-          "countryCode": "KP",
-          "label": "Corea del Norte",
-          "relation": "mentioned",
-          "matchedAlias": "Corea del Norte",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.dw.com/es/plataforma-de-criptomonedas-binance-investiga-ciberataque-millonario-y-complejo/a-79806005?maca=spa-rss-sp-all-1122-rdf"
-        }
-      ],
-      "locations": []
-    },
-    {
-      "title": "US weighs new Iran strikes as Vance reaches out: Is war or a deal closer?",
-      "url": "https://www.aljazeera.com/news/2026/10/30/us-weighs-new-iran-strikes-as-vance-reaches-out-is-war-or-a-deal-closer?traffic_source=rss",
-      "canonicalUrl": "https://www.aljazeera.com/news/2026/10/30/us-weighs-new-iran-strikes-as-vance-reaches-out-is-war-or-a-deal-closer",
-      "source": "Al Jazeera",
-      "category": "Conflictos",
-      "published": "2026-10-30T10:40:52+00:00",
-      "summary": "As Washington and Tehran send mixed signals, analysts say trust remains a key obstacle to any deal.",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "title_topic",
-        "signals": [
-          "war"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-10-30T11:34:18.397363+00:00",
-      "lastSeenAt": "2026-10-30T14:13:12.819355+00:00",
-      "id": "7a2bfea2a16afa280c73",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [
-        {
-          "countryCode": "IR",
-          "label": "Irán",
-          "relation": "mentioned",
-          "matchedAlias": "Iran",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.aljazeera.com/news/2026/10/30/us-weighs-new-iran-strikes-as-vance-reaches-out-is-war-or-a-deal-closer?traffic_source=rss"
-        }
-      ],
-      "locations": []
-    },
-    {
-      "title": "On the US border in Texas, Trump deportation drive galvanises midterm vote",
-      "url": "https://www.aljazeera.com/news/2026/10/30/on-the-us-border-in-texas-trump-deportation-drive-galvanises-midterm-vote?traffic_source=rss",
-      "canonicalUrl": "https://www.aljazeera.com/news/2026/10/30/on-the-us-border-in-texas-trump-deportation-drive-galvanises-midterm-vote",
-      "source": "Al Jazeera",
-      "category": "Conflictos",
-      "published": "2026-10-30T10:22:54+00:00",
-      "summary": "Border issues helped propel Trump in the Rio Grande Valley in 2024. His deportation policies could bury Republicans.",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "title_topic",
-        "signals": [
-          "midterm"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-10-30T11:34:18.397363+00:00",
-      "lastSeenAt": "2026-10-30T14:13:12.819355+00:00",
-      "id": "8f56750b05911d7b150f",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [],
-      "locations": []
     }
   ],
   "sources": [
@@ -35390,12 +35406,12 @@
       "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
       "language": "en",
       "status": "ok",
-      "count": 2,
-      "receivedCount": 35,
-      "excludedCount": 33,
+      "count": 3,
+      "receivedCount": 34,
+      "excludedCount": 31,
       "error": null,
-      "lastAttemptAt": "2026-11-23T12:02:10.582986+00:00",
-      "lastSuccessAt": "2026-11-23T12:02:10.582986+00:00"
+      "lastAttemptAt": "2026-11-23T23:49:32.097363+00:00",
+      "lastSuccessAt": "2026-11-23T23:49:32.097363+00:00"
     },
     {
       "name": "Al Jazeera",
@@ -35403,12 +35419,12 @@
       "url": "https://www.aljazeera.com/xml/rss/all.xml",
       "language": "en",
       "status": "ok",
-      "count": 3,
+      "count": 4,
       "receivedCount": 25,
-      "excludedCount": 22,
+      "excludedCount": 21,
       "error": null,
-      "lastAttemptAt": "2026-11-23T12:02:10.582986+00:00",
-      "lastSuccessAt": "2026-11-23T12:02:10.582986+00:00"
+      "lastAttemptAt": "2026-11-23T23:49:32.097363+00:00",
+      "lastSuccessAt": "2026-11-23T23:49:32.097363+00:00"
     },
     {
       "name": "The Guardian World",
@@ -35416,12 +35432,12 @@
       "url": "https://www.theguardian.com/world/rss",
       "language": "en",
       "status": "ok",
-      "count": 4,
+      "count": 7,
       "receivedCount": 35,
-      "excludedCount": 31,
+      "excludedCount": 28,
       "error": null,
-      "lastAttemptAt": "2026-11-23T12:02:10.582986+00:00",
-      "lastSuccessAt": "2026-11-23T12:02:10.582986+00:00"
+      "lastAttemptAt": "2026-11-23T23:49:32.097363+00:00",
+      "lastSuccessAt": "2026-11-23T23:49:32.097363+00:00"
     },
     {
       "name": "CISA Alerts",
@@ -35433,8 +35449,8 @@
       "receivedCount": 30,
       "excludedCount": 2,
       "error": null,
-      "lastAttemptAt": "2026-11-23T12:02:10.582986+00:00",
-      "lastSuccessAt": "2026-11-23T12:02:10.582986+00:00"
+      "lastAttemptAt": "2026-11-23T23:49:32.097363+00:00",
+      "lastSuccessAt": "2026-11-23T23:49:32.097363+00:00"
     },
     {
       "name": "BleepingComputer",
@@ -35442,12 +35458,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "language": "en",
       "status": "ok",
-      "count": 5,
+      "count": 6,
       "receivedCount": 15,
-      "excludedCount": 10,
+      "excludedCount": 9,
       "error": null,
-      "lastAttemptAt": "2026-11-23T12:02:10.582986+00:00",
-      "lastSuccessAt": "2026-11-23T12:02:10.582986+00:00"
+      "lastAttemptAt": "2026-11-23T23:49:32.097363+00:00",
+      "lastSuccessAt": "2026-11-23T23:49:32.097363+00:00"
     },
     {
       "name": "Cloudflare Blog",
@@ -35455,12 +35471,12 @@
       "url": "https://blog.cloudflare.com/rss/",
       "language": "en",
       "status": "ok",
-      "count": 9,
+      "count": 10,
       "receivedCount": 20,
-      "excludedCount": 11,
+      "excludedCount": 10,
       "error": null,
-      "lastAttemptAt": "2026-11-23T12:02:10.582986+00:00",
-      "lastSuccessAt": "2026-11-23T12:02:10.582986+00:00"
+      "lastAttemptAt": "2026-11-23T23:49:32.097363+00:00",
+      "lastSuccessAt": "2026-11-23T23:49:32.097363+00:00"
     },
     {
       "name": "Internet Society",
@@ -35472,8 +35488,8 @@
       "receivedCount": 20,
       "excludedCount": 16,
       "error": null,
-      "lastAttemptAt": "2026-11-23T12:02:10.582986+00:00",
-      "lastSuccessAt": "2026-11-23T12:02:10.582986+00:00"
+      "lastAttemptAt": "2026-11-23T23:49:32.097363+00:00",
+      "lastSuccessAt": "2026-11-23T23:49:32.097363+00:00"
     },
     {
       "name": "Google Research",
@@ -35485,8 +35501,8 @@
       "receivedCount": 35,
       "excludedCount": 23,
       "error": null,
-      "lastAttemptAt": "2026-11-23T12:02:10.582986+00:00",
-      "lastSuccessAt": "2026-11-23T12:02:10.582986+00:00"
+      "lastAttemptAt": "2026-11-23T23:49:32.097363+00:00",
+      "lastSuccessAt": "2026-11-23T23:49:32.097363+00:00"
     },
     {
       "name": "OpenAI News",
@@ -35494,12 +35510,12 @@
       "url": "https://openai.com/news/rss.xml",
       "language": "en",
       "status": "ok",
-      "count": 19,
+      "count": 18,
       "receivedCount": 35,
-      "excludedCount": 16,
+      "excludedCount": 17,
       "error": null,
-      "lastAttemptAt": "2026-11-23T12:02:10.582986+00:00",
-      "lastSuccessAt": "2026-11-23T12:02:10.582986+00:00"
+      "lastAttemptAt": "2026-11-23T23:49:32.097363+00:00",
+      "lastSuccessAt": "2026-11-23T23:49:32.097363+00:00"
     },
     {
       "name": "MIT Technology Review",
@@ -35511,8 +35527,8 @@
       "receivedCount": 10,
       "excludedCount": 5,
       "error": null,
-      "lastAttemptAt": "2026-11-23T12:02:10.582986+00:00",
-      "lastSuccessAt": "2026-11-23T12:02:10.582986+00:00"
+      "lastAttemptAt": "2026-11-23T23:49:32.097363+00:00",
+      "lastSuccessAt": "2026-11-23T23:49:32.097363+00:00"
     },
     {
       "name": "BBC Mundo",
@@ -35524,8 +35540,8 @@
       "receivedCount": 34,
       "excludedCount": 31,
       "error": null,
-      "lastAttemptAt": "2026-11-23T12:02:10.582986+00:00",
-      "lastSuccessAt": "2026-11-23T12:02:10.582986+00:00"
+      "lastAttemptAt": "2026-11-23T23:49:32.097363+00:00",
+      "lastSuccessAt": "2026-11-23T23:49:32.097363+00:00"
     },
     {
       "name": "DW Español",
@@ -35533,24 +35549,22 @@
       "url": "https://rss.dw.com/rdf/rss-sp-all",
       "language": "es",
       "status": "ok",
-      "count": 2,
-      "receivedCount": 13,
-      "excludedCount": 11,
+      "count": 3,
+      "receivedCount": 19,
+      "excludedCount": 16,
       "error": null,
-      "lastAttemptAt": "2026-11-23T12:02:10.582986+00:00",
-      "lastSuccessAt": "2026-11-23T12:02:10.582986+00:00"
+      "lastAttemptAt": "2026-11-23T23:49:32.097363+00:00",
+      "lastSuccessAt": "2026-11-23T23:49:32.097363+00:00"
     },
     {
       "name": "INCIBE-CERT",
       "category": "Ciberseguridad",
       "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/feed",
       "language": "es",
-      "status": "ok",
-      "count": 10,
-      "receivedCount": 10,
-      "excludedCount": 0,
-      "error": null,
-      "lastAttemptAt": "2026-11-23T12:02:10.582986+00:00",
+      "status": "error",
+      "count": 0,
+      "error": "The read operation timed out",
+      "lastAttemptAt": "2026-11-23T23:49:32.097363+00:00",
       "lastSuccessAt": "2026-11-23T12:02:10.582986+00:00"
     },
     {
@@ -35559,12 +35573,12 @@
       "url": "https://www.xataka.com/tag/inteligencia-artificial/rss2.xml",
       "language": "es",
       "status": "ok",
-      "count": 7,
+      "count": 6,
       "receivedCount": 10,
-      "excludedCount": 3,
+      "excludedCount": 4,
       "error": null,
-      "lastAttemptAt": "2026-11-23T12:02:10.582986+00:00",
-      "lastSuccessAt": "2026-11-23T12:02:10.582986+00:00"
+      "lastAttemptAt": "2026-11-23T23:49:32.097363+00:00",
+      "lastSuccessAt": "2026-11-23T23:49:32.097363+00:00"
     },
     {
       "name": "Xataka Internet",
@@ -35576,8 +35590,8 @@
       "receivedCount": 10,
       "excludedCount": 2,
       "error": null,
-      "lastAttemptAt": "2026-11-23T12:02:10.582986+00:00",
-      "lastSuccessAt": "2026-11-23T12:02:10.582986+00:00"
+      "lastAttemptAt": "2026-11-23T23:49:32.097363+00:00",
+      "lastSuccessAt": "2026-11-23T23:49:32.097363+00:00"
     }
   ],
   "relatedGroups": [
@@ -35597,25 +35611,17 @@
         "c5bfeedc9f8814604d6b",
         "2e68c4969154600586c3"
       ]
-    },
-    {
-      "status": "suggested",
-      "method": "same_title_72h",
-      "articleIds": [
-        "2d86ce1b296f7373cf56",
-        "ce8e0e2de3ca2a5d11b9"
-      ]
     }
   ],
   "retentionDays": 30,
   "collection": {
-    "startedAt": "2026-11-23T12:02:10.582986+00:00",
-    "completedAt": "2026-11-23T12:02:43.532518+00:00",
-    "outcome": "ok",
-    "successfulSources": 15,
+    "startedAt": "2026-11-23T23:49:32.097363+00:00",
+    "completedAt": "2026-11-23T23:50:24.499622+00:00",
+    "outcome": "partial",
+    "successfulSources": 14,
     "totalSources": 15,
     "trigger": "schedule",
-    "runId": "45170469124",
+    "runId": "45292068442",
     "requestId": null
   },
   "scopeFilter": {

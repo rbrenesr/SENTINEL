@@ -1,15 +1,970 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-11-25T12:45:21.399589+00:00",
-  "lastAttemptAt": "2026-11-25T12:45:21.399589+00:00",
+  "updatedAt": "2026-11-25T22:04:04.559585+00:00",
+  "lastAttemptAt": "2026-11-25T22:04:04.559585+00:00",
   "items": [
+    {
+      "title": "North Korea expels Swiss diplomat in sanctions row",
+      "url": "https://www.bbc.co.uk/news/articles/cq0l34e4kkr5o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cq0l34e4kkr5o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "Conflictos",
+      "published": "2026-11-25T21:51:17+00:00",
+      "summary": "Swiss officials said relations would be kept through North Korea's embassy in Bern, and its own embassy in Beijing.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "sanctions"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "id": "9756bf661ceb259a44bb",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "KP",
+          "label": "Corea del Norte",
+          "relation": "mentioned",
+          "matchedAlias": "North Korea",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.bbc.co.uk/news/articles/cq0l34e4kkr5o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "US stocks fall further as fears over AI intensify",
+      "url": "https://www.bbc.co.uk/news/articles/cq0md8g14zryo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cq0md8g14zryo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "IA",
+      "published": "2026-11-25T21:43:18+00:00",
+      "summary": "All three main US indexes were down in early trading, with the tech-dominated Nasdaq down almost 4%.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "IA",
+        "reason": "title_topic",
+        "signals": [
+          "ai"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "id": "42b954009353f086b60c",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "Elecciones del 29N en España: migración, vivienda y un país partido en dos",
+      "url": "https://www.dw.com/es/elecciones-del-29n-en-españa-migración-vivienda-y-un-país-partido-en-dos/a-80052259?maca=spa-rss-sp-all-1122-rdf",
+      "canonicalUrl": "https://www.dw.com/es/elecciones-del-29n-en-españa-migración-vivienda-y-un-país-partido-en-dos/a-80052259?maca=spa-rss-sp-all-1122-rdf",
+      "source": "DW Español",
+      "category": "Conflictos",
+      "published": "2026-11-25T20:52:00+00:00",
+      "summary": "España vota este 29 de noviembre de 2026, tras una campaña de bloques y confrontación irreconciliable. ¿Qué cabe esperar?",
+      "language": "es",
+      "languageMethod": "entry_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "elecciones",
+          "migracion"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "id": "15543400cde311b12ddd",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "ES",
+          "label": "España",
+          "relation": "mentioned",
+          "matchedAlias": "España",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.dw.com/es/elecciones-del-29n-en-españa-migración-vivienda-y-un-país-partido-en-dos/a-80052259?maca=spa-rss-sp-all-1122-rdf"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "All hostages rescued after Colombian security forces storm supermarket, police say",
+      "url": "https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket",
+      "canonicalUrl": "https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket",
+      "source": "The Guardian World",
+      "category": "Conflictos",
+      "published": "2026-11-25T20:20:23+00:00",
+      "summary": "Unclear if ‘hostage-taker’ who was killed may have been a hostage as daylong siege in Cartagena shopping centre ends Colombian police have stormed a supermarket in one of the country’s most popular tourist cities, ending a daylong siege in which all the hostages were freed and one man police described as a hostage-taker was killed. Abelardo de la Espriella, the far-right president, travelled to the Caribbean port city of Cartagena to follow the final hours of negotiations and the tactical assault, in which special forces officers broke through blocked entrances and detonated stun grenades. Continue reading...",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "hostages"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "id": "d4cc56dec42331549cf0",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "Italy and Switzerland warn of autonomous AI-driven cyberattacks",
+      "url": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
+      "canonicalUrl": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/",
+      "source": "BleepingComputer",
+      "category": "Ciberseguridad",
+      "published": "2026-11-25T19:39:31+00:00",
+      "summary": "Swiss and Italian cybersecurity agencies are warning about automated cyberattacks powered by AI agents targeting organizations in the critical infrastructure sector. [...]",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Ciberseguridad",
+        "reason": "title_topic",
+        "signals": [
+          "cyberattacks"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "id": "bb8a3d866a040418bdfe",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "CH",
+          "label": "Suiza",
+          "relation": "mentioned",
+          "matchedAlias": "Switzerland",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/"
+        },
+        {
+          "countryCode": "IT",
+          "label": "Italia",
+          "relation": "mentioned",
+          "matchedAlias": "Italy",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.bleepingcomputer.com/news/security/italy-and-switzerland-warn-of-autonomous-ai-driven-cyberattacks/"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "Kilmar Ábrego García, target of Trump’s immigration crackdown, lands in Spain after ‘leaving happy’",
+      "url": "https://www.theguardian.com/us-news/2026/nov/25/kilmar-abrego-garcia-spain",
+      "canonicalUrl": "https://www.theguardian.com/us-news/2026/nov/25/kilmar-abrego-garcia-spain",
+      "source": "The Guardian World",
+      "category": "Conflictos",
+      "published": "2026-11-25T19:36:24+00:00",
+      "summary": "Ábrego García chooses to depart from US after previously being deported to El Salvador due to ‘administrative error’ US politics – live updates Kilmar Ábrego García, the Salvadorian national whose mistaken deportation turned him into a symbol of Donald Trump’s mass deportation efforts, has landed in Spain. Ábrego García arrived in Madrid on Wednesday after leaving the United States of his own volition . Continue reading...",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "immigration"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "id": "0ef9df2957b107373eeb",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "US",
+          "label": "Estados Unidos",
+          "relation": "mentioned",
+          "matchedAlias": "United States",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.theguardian.com/us-news/2026/nov/25/kilmar-abrego-garcia-spain"
+        },
+        {
+          "countryCode": "SV",
+          "label": "El Salvador",
+          "relation": "mentioned",
+          "matchedAlias": "El Salvador",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.theguardian.com/us-news/2026/nov/25/kilmar-abrego-garcia-spain"
+        },
+        {
+          "countryCode": "ES",
+          "label": "España",
+          "relation": "mentioned",
+          "matchedAlias": "Spain",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.theguardian.com/us-news/2026/nov/25/kilmar-abrego-garcia-spain"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "Could renewed strikes on Hodeidah port worsen Yemen’s humanitarian crisis?",
+      "url": "https://www.aljazeera.com/news/2026/11/25/could-renewed-strikes-on-hodeidah-port-worsen-yemens-humanitarian-crisis?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/news/2026/11/25/could-renewed-strikes-on-hodeidah-port-worsen-yemens-humanitarian-crisis",
+      "source": "Al Jazeera",
+      "category": "Conflictos",
+      "published": "2026-11-25T19:15:52+00:00",
+      "summary": "Disruptions at Yemen's largest seaport could exacerbate hardships for millions of Yemenis, aid experts warn.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "humanitarian crisis"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "id": "1f62158e1628ab031f77",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "YE",
+          "label": "Yemen",
+          "relation": "mentioned",
+          "matchedAlias": "Yemen",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.aljazeera.com/news/2026/11/25/could-renewed-strikes-on-hodeidah-port-worsen-yemens-humanitarian-crisis?traffic_source=rss"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "UK military ‘moving aircraft to hangars in case of drone attacks’",
+      "url": "https://www.aljazeera.com/news/2026/11/25/uk-military-moving-aircraft-to-hangars-in-case-of-drone-attacks?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/news/2026/11/25/uk-military-moving-aircraft-to-hangars-in-case-of-drone-attacks",
+      "source": "Al Jazeera",
+      "category": "Conflictos",
+      "published": "2026-11-25T19:15:01+00:00",
+      "summary": "Experts say the move is a 'logical response' if there is intelligence suggesting a likely drone threat.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "military"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "id": "ab2d9ee43811b30981b5",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "GB",
+          "label": "Reino Unido",
+          "relation": "mentioned",
+          "matchedAlias": "UK",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.aljazeera.com/news/2026/11/25/uk-military-moving-aircraft-to-hangars-in-case-of-drone-attacks?traffic_source=rss"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "US grants SpaceX approval for 1 million space data centres",
+      "url": "https://www.aljazeera.com/news/2026/11/25/us-grants-spacex-approval-for-1-million-space-data-centres?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/news/2026/11/25/us-grants-spacex-approval-for-1-million-space-data-centres",
+      "source": "Al Jazeera",
+      "category": "Internet",
+      "published": "2026-11-25T19:13:02+00:00",
+      "summary": "Elon Musk hails FCC's approval of SpaceX's Starmind project as 'a great asset to America and the world.'",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Internet",
+        "reason": "title_topic",
+        "signals": [
+          "data centres"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "id": "94b8395d382fb128db78",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "World reacts to Trump’s new tariffs as US stocks tumble",
+      "url": "https://www.aljazeera.com/economy/2026/11/25/world-reacts-to-trumps-new-tariffs-as-us-stocks-tumble?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/economy/2026/11/25/world-reacts-to-trumps-new-tariffs-as-us-stocks-tumble",
+      "source": "Al Jazeera",
+      "category": "Conflictos",
+      "published": "2026-11-25T18:59:26+00:00",
+      "summary": "The new levies come after an eight-month investigation launched by the United States Trade Representative.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "tariffs"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "id": "0e5301ce39de19881f18",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "US",
+          "label": "Estados Unidos",
+          "relation": "mentioned",
+          "matchedAlias": "United States",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.aljazeera.com/economy/2026/11/25/world-reacts-to-trumps-new-tariffs-as-us-stocks-tumble?traffic_source=rss"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "Por qué cada vez más indios se suman a la guerra entre Rusia y Ucrania",
+      "url": "https://www.dw.com/es/por-qué-cada-vez-más-indios-se-suman-a-la-guerra-entre-rusia-y-ucrania/a-80054056?maca=spa-rss-sp-all-1122-rdf",
+      "canonicalUrl": "https://www.dw.com/es/por-qué-cada-vez-más-indios-se-suman-a-la-guerra-entre-rusia-y-ucrania/a-80054056?maca=spa-rss-sp-all-1122-rdf",
+      "source": "DW Español",
+      "category": "Conflictos",
+      "published": "2026-11-25T18:46:00+00:00",
+      "summary": "Ya sea por engaño o por desesperación, los indios siguen viéndose arrastrados a la guerra de Rusia en Ucrania. ¿Qué puede hacer Nueva Delhi para evitar que sus ciudadanos acaben luchando en Ucrania?",
+      "language": "es",
+      "languageMethod": "entry_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "guerra"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "id": "f7d68f8e93fa8cf01823",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "UA",
+          "label": "Ucrania",
+          "relation": "mentioned",
+          "matchedAlias": "Ucrania",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.dw.com/es/por-qué-cada-vez-más-indios-se-suman-a-la-guerra-entre-rusia-y-ucrania/a-80054056?maca=spa-rss-sp-all-1122-rdf"
+        },
+        {
+          "countryCode": "RU",
+          "label": "Rusia",
+          "relation": "mentioned",
+          "matchedAlias": "Rusia",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.dw.com/es/por-qué-cada-vez-más-indios-se-suman-a-la-guerra-entre-rusia-y-ucrania/a-80054056?maca=spa-rss-sp-all-1122-rdf"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "Colombian police storm supermarket to free 76 held hostage for 17 hours",
+      "url": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "Conflictos",
+      "published": "2026-11-25T18:41:33+00:00",
+      "summary": "One gunman was killed after what the country's president described as a robbery of a cash-laden armoured car gone wrong.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "hostage"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "id": "86e9e9979fdc6f745644",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "La guerra entre Ucrania y Rusia abre nuevos frentes en el mar",
+      "url": "https://www.dw.com/es/la-guerra-entre-ucrania-y-rusia-abre-nuevos-frentes-en-el-mar/a-80052271?maca=spa-rss-sp-all-1122-rdf",
+      "canonicalUrl": "https://www.dw.com/es/la-guerra-entre-ucrania-y-rusia-abre-nuevos-frentes-en-el-mar/a-80052271?maca=spa-rss-sp-all-1122-rdf",
+      "source": "DW Español",
+      "category": "Conflictos",
+      "published": "2026-11-25T18:38:00+00:00",
+      "summary": "Los ataques contra buques rusos llegan ya hasta el Mediterráneo. Kiev presiona a Moscú a escala global, con posibles consecuencias para Europa y el comercio en los mares de todo el mundo.",
+      "language": "es",
+      "languageMethod": "entry_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "guerra"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "id": "e162119a27a3021304a7",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "UA",
+          "label": "Ucrania",
+          "relation": "mentioned",
+          "matchedAlias": "Ucrania",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.dw.com/es/la-guerra-entre-ucrania-y-rusia-abre-nuevos-frentes-en-el-mar/a-80052271?maca=spa-rss-sp-all-1122-rdf"
+        },
+        {
+          "countryCode": "RU",
+          "label": "Rusia",
+          "relation": "mentioned",
+          "matchedAlias": "Rusia",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.dw.com/es/la-guerra-entre-ucrania-y-rusia-abre-nuevos-frentes-en-el-mar/a-80052271?maca=spa-rss-sp-all-1122-rdf"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "Consultar el voto con la IA: lo que más pesa en la respuesta no es el programa electoral, eres tú",
+      "url": "https://www.xataka.com/robotica-e-ia/consultar-voto-ia-que-pesa-respuesta-no-programa-electoral-eres-tu",
+      "canonicalUrl": "https://www.xataka.com/robotica-e-ia/consultar-voto-ia-que-pesa-respuesta-no-programa-electoral-eres-tu",
+      "source": "Xataka IA",
+      "category": "IA",
+      "published": "2026-11-25T18:30:28+00:00",
+      "summary": "Parecía que no iban a llegar, pero ya casi están aquí: las elecciones del 29N son el próximo domingo. Los diferentes partidos han ido lanzando propuestas, todas reunidas en sus respectivos programas electorales. Como dichos programas son más densos que cambiar el Colacao por cemento, la IA se ha convertido en la herramienta ideal para consultarlos. Ahora bien: los chatbots no son tan imparciales como parecen. Los programas electorales . Los hay escuetos y los hay tan enrevesados como un BOE tras el Consejo de Ministros. ChatGPT y compañía son muy útiles para resumir esos documentos casi ilegibles, igual que para hacer comparaciones entre los ",
+      "language": "es",
+      "languageMethod": "source_configuration",
+      "relevance": {
+        "included": true,
+        "category": "IA",
+        "reason": "title_topic",
+        "signals": [
+          "ia"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "id": "14a46c8a3ed102f8b537",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "Ecuador and US review joint military operations, official says",
+      "url": "https://www.aljazeera.com/news/2026/11/25/ecuador-and-us-review-joint-military-operations-official-says?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/news/2026/11/25/ecuador-and-us-review-joint-military-operations-official-says",
+      "source": "Al Jazeera",
+      "category": "Conflictos",
+      "published": "2026-11-25T17:50:41+00:00",
+      "summary": "Joint military efforts have been paused as the US investigates a lethal operation carried out by Ecuador.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "military"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "id": "a88a9c469e8b118fed1c",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "EC",
+          "label": "Ecuador",
+          "relation": "mentioned",
+          "matchedAlias": "Ecuador",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.aljazeera.com/news/2026/11/25/ecuador-and-us-review-joint-military-operations-official-says?traffic_source=rss"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "Verifiable Social Reasoning for LLM Assistants",
+      "url": "https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/",
+      "canonicalUrl": "https://research.google/blog/verifiable-social-reasoning-for-llm-assistants/",
+      "source": "Google Research",
+      "category": "IA",
+      "published": "2026-11-25T17:10:27+00:00",
+      "summary": "Generative AI",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "IA",
+        "reason": "title_topic",
+        "signals": [
+          "llm"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "id": "c232ab95006f02e0b53c",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "publisher_post",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "How data centers are driving a US natural-gas boom",
+      "url": "https://www.technologyreview.com/2026/11/25/1149836/data-centers-gas-power-plants/",
+      "canonicalUrl": "https://www.technologyreview.com/2026/11/25/1149836/data-centers-gas-power-plants/",
+      "source": "MIT Technology Review",
+      "category": "Internet",
+      "published": "2026-11-25T17:00:00+00:00",
+      "summary": "In May 2025, my colleague David Rotman wrote a feature story describing how AI could keep us dependent on natural gas. Just 18 months later, I’ve lost count of how many times he’s already been proved right. Sure, it’s technically possible to meet the world’s rising electricity demand with other power sources, including renewables like…",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Internet",
+        "reason": "title_topic",
+        "signals": [
+          "data centers"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "id": "2657378cc9a01249adc5",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "Switzerland forced to close office in North Korea over sanctions feud",
+      "url": "https://www.aljazeera.com/news/2026/11/25/switzerland-regrets-closure-of-north-korea-office-over-sanctions-feud?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/news/2026/11/25/switzerland-regrets-closure-of-north-korea-office-over-sanctions-feud",
+      "source": "Al Jazeera",
+      "category": "Conflictos",
+      "published": "2026-11-25T16:58:49+00:00",
+      "summary": "The closure came after North Korea condemned Switzerland for adding a children’s camp to its sanctions list.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "sanctions"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "id": "f51016c6837e93c2d0ad",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "KP",
+          "label": "Corea del Norte",
+          "relation": "mentioned",
+          "matchedAlias": "North Korea",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.aljazeera.com/news/2026/11/25/switzerland-regrets-closure-of-north-korea-office-over-sanctions-feud?traffic_source=rss"
+        },
+        {
+          "countryCode": "CH",
+          "label": "Suiza",
+          "relation": "mentioned",
+          "matchedAlias": "Switzerland",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.aljazeera.com/news/2026/11/25/switzerland-regrets-closure-of-north-korea-office-over-sanctions-feud?traffic_source=rss"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "EE.UU. anuncia nuevos aranceles contra China, Japón y la Unión Europea",
+      "url": "https://www.dw.com/es/ee-uu-anuncia-nuevos-aranceles-contra-china-japón-y-la-unión-europea/a-80053336?maca=spa-rss-sp-all-1122-rdf",
+      "canonicalUrl": "https://www.dw.com/es/ee-uu-anuncia-nuevos-aranceles-contra-china-japón-y-la-unión-europea/a-80053336?maca=spa-rss-sp-all-1122-rdf",
+      "source": "DW Español",
+      "category": "Conflictos",
+      "published": "2026-11-25T16:56:00+00:00",
+      "summary": "Washington aseguró que con estos nuevos gravámenes busca castigar prácticas arancelarias injustas que perjudican a empresas estadounidenses.",
+      "language": "es",
+      "languageMethod": "entry_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "aranceles"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "id": "f741c291161eb39b33ff",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "CN",
+          "label": "China",
+          "relation": "mentioned",
+          "matchedAlias": "China",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.dw.com/es/ee-uu-anuncia-nuevos-aranceles-contra-china-japón-y-la-unión-europea/a-80053336?maca=spa-rss-sp-all-1122-rdf"
+        },
+        {
+          "countryCode": "JP",
+          "label": "Japón",
+          "relation": "mentioned",
+          "matchedAlias": "Japón",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.dw.com/es/ee-uu-anuncia-nuevos-aranceles-contra-china-japón-y-la-unión-europea/a-80053336?maca=spa-rss-sp-all-1122-rdf"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "Colombian forces rescue all hostages after supermarket siege",
+      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/25/colombian-forces-rescue-all-hostages-after-supermarket-siege?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/25/colombian-forces-rescue-all-hostages-after-supermarket-siege",
+      "source": "Al Jazeera",
+      "category": "Conflictos",
+      "published": "2026-11-25T16:44:22+00:00",
+      "summary": "All hostages have been rescued by Colombian forces after a 17-hour siege in Cartagena supermarket.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "hostages"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "id": "be7f3c91b1bf644d12f7",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "US announces new tariffs on host of countries including China",
+      "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "Conflictos",
+      "published": "2026-11-25T16:21:34+00:00",
+      "summary": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "tariffs"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "id": "be54e905a796b4cee0cd",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "CN",
+          "label": "China",
+          "relation": "mentioned",
+          "matchedAlias": "China",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "CISA warns of critical unpatched flaw in Danfoss refrigeration controllers",
+      "url": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
+      "canonicalUrl": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/",
+      "source": "BleepingComputer",
+      "category": "Ciberseguridad",
+      "published": "2026-11-25T16:13:40+00:00",
+      "summary": "The U.S. Cybersecurity and Infrastructure Security Agency (CISA) is warning about a critical vulnerability in Danfoss AK-SM 8xxA Series controllers used by food retailers to manage commercial refrigeration, HVAC, and lighting systems. [...]",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Ciberseguridad",
+        "reason": "summary_context",
+        "signals": [
+          "cybersecurity",
+          "vulnerability"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "id": "820a6be24763a5428c47",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "US",
+          "label": "Estados Unidos",
+          "relation": "mentioned",
+          "matchedAlias": "U.S.",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.bleepingcomputer.com/news/security/cisa-warns-of-critical-unpatched-flaw-in-danfoss-refrigeration-controllers/"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "More Pentests Without More Pentesters: Where AI Safely Helps",
+      "url": "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/",
+      "canonicalUrl": "https://www.bleepingcomputer.com/news/security/more-pentests-without-more-pentesters-where-ai-safely-helps/",
+      "source": "BleepingComputer",
+      "category": "IA",
+      "published": "2026-11-25T15:00:10+00:00",
+      "summary": "Penetration testers spend a significant portion of their engagements on documentation, reporting, and other tasks outside of testing. PentestPad explains how AI can reduce this workload, help teams handle more engagements, and keep sensitive client data within their own infrastructure. [...]",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "IA",
+        "reason": "title_topic",
+        "signals": [
+          "ai"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "id": "571e665497ad37fe12a4",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "InfraTrust warns of exploited supply chain flaws in network appliances",
+      "url": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
+      "canonicalUrl": "https://www.bleepingcomputer.com/news/security/infratrust-warns-of-exploited-supply-chain-flaws-in-network-appliances/",
+      "source": "BleepingComputer",
+      "category": "Ciberseguridad",
+      "published": "2026-11-25T15:00:00+00:00",
+      "summary": "Eclypsium's November InfraTrust report warns that most infrastructure security advisories addressing exploited vulnerabilities over the past month involve flaws in third-party software bundled into products rather than code developed by the vendors themselves. [...]",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Ciberseguridad",
+        "reason": "summary_context",
+        "signals": [
+          "vulnerabilities"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "id": "918f8236c2b641c6e4b6",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "Amazon está negociando con Meta abrirle la puerta a Muse: el verdadero problema es que una IA no se para a ver anuncios",
+      "url": "https://www.xataka.com/robotica-e-ia/amazon-esta-negociando-meta-abrirle-puerta-a-muse-verdadero-problema-que-ia-no-se-para-a-ver-anuncios",
+      "canonicalUrl": "https://www.xataka.com/robotica-e-ia/amazon-esta-negociando-meta-abrirle-puerta-a-muse-verdadero-problema-que-ia-no-se-para-a-ver-anuncios",
+      "source": "Xataka IA",
+      "category": "IA",
+      "published": "2026-11-25T14:49:32+00:00",
+      "summary": "A finales de septiembre, quien pedía a Muse que comprase algo en Amazon se encontraba con un muro que el agente no podía traspasar. Según el gigante del ecommerce, un agente de IA no autorizado incumplía las condiciones de uso de su tienda, que estaba reservada solo para los usuarios humanos. El agente de IA de Meta llevaba solo dos semanas en el mercado y ya tenía una puerta cerrada . No una puerta cualquiera. Ni más ni menos que la del principal vendedor minorista a nivel global. Según adelanta una exclusiva de Fortune , dos meses después, las dos compañías hablan de volver a abrirla. Para Meta, Amazon es un importante escaparate que su age",
+      "language": "es",
+      "languageMethod": "source_configuration",
+      "relevance": {
+        "included": true,
+        "category": "IA",
+        "reason": "title_topic",
+        "signals": [
+          "ia"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "id": "a69516edaeef73c47acd",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "Five Russian military jets hit in airfield strike, says Ukraine",
+      "url": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "Conflictos",
+      "published": "2026-11-25T14:46:41+00:00",
+      "summary": "The Savasleyka airfield hosts aircraft used by Russia to launch hypersonic missiles and glide bombs at Ukraine.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "military"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "id": "5d6d58571fb0b25a9d5d",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "UA",
+          "label": "Ucrania",
+          "relation": "mentioned",
+          "matchedAlias": "Ukraine",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "countryCode": "RU",
+          "label": "Rusia",
+          "relation": "mentioned",
+          "matchedAlias": "Russia",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.bbc.co.uk/news/articles/ck9q8xp5r5pgo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "locations": []
+    },
     {
       "title": "La presidenta del Bundestag pone de ejemplo a España por la lucha contra violencia machista",
       "url": "https://www.dw.com/es/la-presidenta-del-bundestag-pone-de-ejemplo-a-españa-por-la-lucha-contra-violencia-machista/a-80048069?maca=spa-rss-sp-all-1122-rdf",
       "canonicalUrl": "https://www.dw.com/es/la-presidenta-del-bundestag-pone-de-ejemplo-a-españa-por-la-lucha-contra-violencia-machista/a-80048069?maca=spa-rss-sp-all-1122-rdf",
       "source": "DW Español",
       "category": "Conflictos",
-      "published": "2026-11-25T12:23:00+00:00",
+      "published": "2026-11-25T14:28:00+00:00",
       "summary": "La presidenta del Parlamento alemán dijo que España es un ejemplo por su lucha contra la violencia machista y por alzar la voz contra los feminicidios en el país.",
       "language": "es",
       "languageMethod": "entry_declaration",
@@ -24,7 +979,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-25T12:45:21.399589+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "9718efc86ee44dd4445f",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -39,6 +994,139 @@
           "evidenceUrl": "https://www.dw.com/es/la-presidenta-del-bundestag-pone-de-ejemplo-a-españa-por-la-lucha-contra-violencia-machista/a-80048069?maca=spa-rss-sp-all-1122-rdf"
         }
       ],
+      "locations": []
+    },
+    {
+      "title": "Aidan is one of thousands of students forced to verbally defend his honours thesis as universities take on AI",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/25/australian-universities-tackle-ai-plagiarism-oral-assessment-honours-masters-phd",
+      "canonicalUrl": "https://www.theguardian.com/australia-news/2026/nov/25/australian-universities-tackle-ai-plagiarism-oral-assessment-honours-masters-phd",
+      "source": "The Guardian World",
+      "category": "IA",
+      "published": "2026-11-25T14:00:29+00:00",
+      "summary": "Honours students are increasingly being asked to sit oral assessments – but at the University of Sydney it’s become a requirement for all Get our breaking news email , free app or daily news podcast When Aidan Elwig Pollock signed up for an honours program at the University of Sydney, he did not expect his 20,000-word thesis to be accompanied by a spoken component. But, as AI increasingly makes written research an unreliable form of assessment, the university has demanded all students taking the one-year program defend their arguments in conversation with professors. Continue reading...",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "IA",
+        "reason": "title_topic",
+        "signals": [
+          "ai"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "id": "cb0e24754b95a4ee621d",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "Por qué vale la pena tener acceso a un modelo de IA ‘sin censura’: yo me reservo uno para las tareas más delicadas",
+      "url": "https://www.xataka.com/robotica-e-ia/que-vale-pena-tener-acceso-a-modelo-ia-censura-yo-me-reservo-uno-para-tareas-delicadas",
+      "canonicalUrl": "https://www.xataka.com/robotica-e-ia/que-vale-pena-tener-acceso-a-modelo-ia-censura-yo-me-reservo-uno-para-tareas-delicadas",
+      "source": "Xataka IA",
+      "category": "IA",
+      "published": "2026-11-25T13:30:23+00:00",
+      "summary": "Tener acceso a una IA no suele ser suficiente, por diversos motivos. Si eres como yo y utilizas los modelos para multitud de tareas, el uso se agota más rápido que las patatas fritas en un buffet libre. Además, no todas las herramientas sirven para lo mismo: combinar sus capacidades mejora los resultados. Y entre el abanico de modelos, siempre le hago hueco a un tipo específico: los que no tienen censura. Antes de empezar, aclararé las confusiones que puede generar el término: que un modelo de IA tenga la etiqueta “uncensored” no implica que esté capacitado para hacer cualquier cosa que le pidamos, solo indica que se le han quitado (o reducid",
+      "language": "es",
+      "languageMethod": "source_configuration",
+      "relevance": {
+        "included": true,
+        "category": "IA",
+        "reason": "title_topic",
+        "signals": [
+          "ia"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "id": "9a60d91a77151afdf273",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "\"500.000 muertos\": la filtración de datos que revela las abrumadoras cifras de soldados rusos fallecidos en la guerra de Ucrania",
+      "url": "https://www.bbc.com/mundo/articles/cq5y1lpz5pr8o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.com/mundo/articles/cq5y1lpz5pr8o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Mundo",
+      "category": "Ciberseguridad",
+      "published": "2026-11-25T13:17:56+00:00",
+      "summary": "Las cifras obtenidas por unos hackers muestran cómo la invasión a gran escala de Ucrania ha transformado significativamente los patrones de mortalidad en Rusia.",
+      "language": "es",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Ciberseguridad",
+        "reason": "title_topic",
+        "signals": [
+          "filtracion de datos"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "id": "b03999f0516526a3070d",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "UA",
+          "label": "Ucrania",
+          "relation": "mentioned",
+          "matchedAlias": "Ucrania",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.bbc.com/mundo/articles/cq5y1lpz5pr8o?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "countryCode": "RU",
+          "label": "Rusia",
+          "relation": "mentioned",
+          "matchedAlias": "Rusia",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.bbc.com/mundo/articles/cq5y1lpz5pr8o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "The Download: AI swamping open records, and firefighting for permafrost",
+      "url": "https://www.technologyreview.com/2026/11/25/1149808/the-download-ai-open-records-permafrost-fires/",
+      "canonicalUrl": "https://www.technologyreview.com/2026/11/25/1149808/the-download-ai-open-records-permafrost-fires/",
+      "source": "MIT Technology Review",
+      "category": "IA",
+      "published": "2026-11-25T13:10:00+00:00",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. AI is straining America’s open records systems AI has intensified investors’ interest in public records. Over the last few years, venture-backed startups have raised upwards of $100 million to collect data…",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "IA",
+        "reason": "title_topic",
+        "signals": [
+          "ai"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "id": "512602f4df32b71b5cc5",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
       "locations": []
     },
     {
@@ -62,7 +1150,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-25T12:45:21.399589+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "4980e212d8f2fd4177de",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -88,31 +1176,31 @@
       "locations": []
     },
     {
-      "title": "Colombian police storm supermarket to free 20 held hostage for 17 hours",
-      "url": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/news/articles/ckp80mjr9emyo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "category": "Conflictos",
-      "published": "2026-11-25T11:45:16+00:00",
-      "summary": "One gunman was killed in the operation to free around 20 shoppers and employees after a 17-hour hostage ordeal.",
+      "title": "CISA Adds 10 Known Exploited Vulnerabilities to Catalog",
+      "url": "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog",
+      "canonicalUrl": "https://www.cisa.gov/news-events/alerts/2026/11/25/cisa-adds-10-known-exploited-vulnerabilities-catalog",
+      "source": "CISA Alerts",
+      "category": "Ciberseguridad",
+      "published": "2026-11-25T12:00:00+00:00",
+      "summary": "CISA has added 10 new vulnerabilities to its Known Exploited Vulnerabilities (KEV) Catalog , based on evidence of active exploitation. CVE-2023-25914 Danfoss AK-SM 800A Series Path Traversal Vulnerability CVE-2023-25915 Danfoss AK-SM 800A Series Improper Input Validation Vulnerability CVE-2025-41450 Danfoss AK-SM 800A Series Improper Authentication Vulnerability CVE-2026-103406 Hewlett Packard Enterprise (HPE) Juniper Session Smart Conductor and Session Smart Router OS Command Injection Vulnerability CVE-2026-133275 Mitel MiCollab Unrestricted Upload of File with Dangerous Type Vulnerability CVE-2026-133303 Mitel MiCollab XML Injection Vulner",
       "language": "en",
       "languageMethod": "feed_declaration",
       "relevance": {
         "included": true,
-        "category": "Conflictos",
+        "category": "Ciberseguridad",
         "reason": "title_topic",
         "signals": [
-          "hostage"
+          "vulnerabilities"
         ],
         "method": "topic_rules",
         "version": 1
       },
-      "firstSeenAt": "2026-11-25T12:45:21.399589+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
-      "id": "86e9e9979fdc6f745644",
+      "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "id": "c0fdeca5bfd2c130fa49",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
-      "contentType": "news",
+      "contentType": "official_advisory",
       "countries": [],
       "locations": []
     },
@@ -137,7 +1225,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-25T12:45:21.399589+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "d0ac4b803feed6c6b2a3",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -250,37 +1338,8 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-25T12:45:21.399589+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "aa2815536f14a5a8498b",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [],
-      "locations": []
-    },
-    {
-      "title": "All hostages rescued after Colombian security forces storm supermarket, says president",
-      "url": "https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket",
-      "canonicalUrl": "https://www.theguardian.com/world/2026/nov/25/hostages-freed-colombia-security-forces-storm-cartagena-supermarket",
-      "source": "The Guardian World",
-      "category": "Conflictos",
-      "published": "2026-11-25T09:26:25+00:00",
-      "summary": "Operation in which one hostage-taker was killed ends daylong siege in Cartagena shopping centre, where 30 people were initially held Colombian security forces have stormed a supermarket in the Caribbean city of Cartagena, ending a daylong hostage siege, with the president saying all those held had been rescued and one hostage-taker killed. Several explosions were heard before security forces entered the building, where about 20 people were believed to be being held by armed men . Continue reading...",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "title_topic",
-        "signals": [
-          "hostages"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-25T12:45:21.399589+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
-      "id": "d4cc56dec42331549cf0",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
       "contentType": "news",
@@ -309,7 +1368,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-25T12:45:21.399589+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "29df4a0d48bee4cd9f8a",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -429,7 +1488,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-24T19:13:43.922032+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "75a3a86ed42c87797de4",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -551,7 +1610,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-25T12:45:21.399589+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "209b69b840618609dca2",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -602,44 +1661,6 @@
           "matchedAlias": "Colombia",
           "method": "dictionary",
           "evidenceUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/25/gunmen-hold-dozens-hostage-in-colombia-supermarket?traffic_source=rss"
-        }
-      ],
-      "locations": []
-    },
-    {
-      "title": "US preparing to unveil plan for new tariffs on global trading partners",
-      "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "category": "Conflictos",
-      "published": "2026-11-25T00:38:01+00:00",
-      "summary": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "title_topic",
-        "signals": [
-          "tariffs"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-25T12:45:21.399589+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
-      "id": "be54e905a796b4cee0cd",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [
-        {
-          "countryCode": "CN",
-          "label": "China",
-          "relation": "mentioned",
-          "matchedAlias": "China",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss"
         }
       ],
       "locations": []
@@ -742,7 +1763,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-25T12:45:21.399589+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "803932ad076bb2b61b1c",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -847,6 +1868,52 @@
           "matchedAlias": "Colombia",
           "method": "dictionary",
           "evidenceUrl": "https://www.bbc.com/mundo/articles/cmx2rny0dn17o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "Canada says it ‘does not report to the US’ after Pentagon criticizes military spending",
+      "url": "https://www.theguardian.com/world/2026/nov/24/canada-sovereign-nation-us-relations-defence-pentagon-memo",
+      "canonicalUrl": "https://www.theguardian.com/world/2026/nov/24/canada-sovereign-nation-us-relations-defence-pentagon-memo",
+      "source": "The Guardian World",
+      "category": "Conflictos",
+      "published": "2026-11-24T22:02:13+00:00",
+      "summary": "Scathing US document memo supposedly ‘atrophied’ defence capabilities of its northern neighbour Canada is a “sovereign nation” that does not “report” to the United States, the country’s defense minister said after the Pentagon released a scathing memo that criticized the supposedly “atrophied” defence capabilities of its northern neighbour. The document , released on Tuesday, said Canada had “yet to make the hard decisions and tradeoffs” necessary to meet previous defence spending pledges and become a “credible partner in the defense of our shared continent”. Continue reading...",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "military"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
+      "id": "43762f8766423fb44723",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "US",
+          "label": "Estados Unidos",
+          "relation": "mentioned",
+          "matchedAlias": "United States",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.theguardian.com/world/2026/nov/24/canada-sovereign-nation-us-relations-defence-pentagon-memo"
+        },
+        {
+          "countryCode": "CA",
+          "label": "Canadá",
+          "relation": "mentioned",
+          "matchedAlias": "Canada",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.theguardian.com/world/2026/nov/24/canada-sovereign-nation-us-relations-defence-pentagon-memo"
         }
       ],
       "locations": []
@@ -1063,7 +2130,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-24T19:13:43.922032+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "6c5bc98dced3225cd102",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1138,7 +2205,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-24T19:13:43.922032+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "a251bdbac4c3ddf91ec7",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1363,7 +2430,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-24T19:13:43.922032+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "15f26b75f2f5d158a3c8",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1393,7 +2460,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-24T19:13:43.922032+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "7491f5c45d84e077375d",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1441,7 +2508,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-24T19:13:43.922032+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "4f7c1e2469dadc12a595",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1653,7 +2720,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-24T19:13:43.922032+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "fc9f5f3ecf5b5081fd34",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1711,7 +2778,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-24T19:13:43.922032+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "778faa8b7dd6f27443f0",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1740,7 +2807,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-24T19:13:43.922032+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "97c06055604e20bd41dd",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1807,7 +2874,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-24T19:13:43.922032+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "7b6115f8e21f6eecb0f9",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1838,7 +2905,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-24T19:13:43.922032+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "3a8ad132bbb8c2a03e0e",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1877,7 +2944,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-24T19:13:43.922032+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "3ed1970e74313c87defd",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1906,7 +2973,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-25T03:06:14.683201+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "165729c3cbfbb2e3eb18",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1935,7 +3002,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-24T19:13:43.922032+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "591dfd12d52569eac41f",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1964,7 +3031,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-24T19:13:43.922032+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "78e940146b5190752dea",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2022,7 +3089,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-24T19:13:43.922032+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "c39cb76d54051a56d078",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2118,7 +3185,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-24T19:13:43.922032+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "e3786350c1a3934d8e18",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2521,7 +3588,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-25T03:06:14.683201+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "a3c9028eefd69cfd15ff",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2636,7 +3703,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-24T19:13:43.922032+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "e59536d8a8f40ea578d2",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2683,7 +3750,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-23T23:49:32.097363+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "99769fa41bf95b1a7640",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2767,7 +3834,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-23T23:49:32.097363+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "b0689cf87ab570a441c8",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3327,7 +4394,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-23T23:49:32.097363+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "6c9e35ea9179d576f37e",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3414,7 +4481,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-23T23:49:32.097363+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "74abad025fa947f70baf",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3472,7 +4539,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-23T23:49:32.097363+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "75ea09ea3e752e0248bf",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3501,7 +4568,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-23T12:02:10.582986+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "2ccb499c142671a2bcaf",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3811,7 +4878,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-23T23:49:32.097363+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "10878202550bbbf922d1",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -6105,7 +7172,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-21T00:47:22.607715+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "c851a250df92def96949",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -6134,7 +7201,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-21T00:47:22.607715+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "dee94a929dea9fb9f0b9",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -6238,7 +7305,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-20T19:05:08.356384+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "001e6b6e613bbaaf52f6",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -6655,7 +7722,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-20T19:05:08.356384+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "b22eec5809ce5c9c44d6",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -7259,7 +8326,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-20T02:54:11.880371+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "17fab3637860c9a7ef34",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -7476,7 +8543,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-21T00:47:22.607715+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "c1a2af93db54bfcf7c21",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -7703,7 +8770,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-19T21:55:57.292566+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "4b4814a2002c45d7fe16",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -8174,7 +9241,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-19T21:55:57.292566+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "32c1e05692d04a88fbfb",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -8387,7 +9454,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-19T21:55:57.292566+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "31c4bb63cffd59f4c698",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -8419,7 +9486,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-19T21:55:57.292566+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "bf2611689a6fa7cb9958",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -8459,7 +9526,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-19T21:55:57.292566+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "ad267eaa2b1154828ea1",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -8915,7 +9982,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-19T21:55:57.292566+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "9342dbf934e428aa00c1",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -9437,7 +10504,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-19T00:14:56.641625+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "c9098ac47ad213215e81",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -9970,7 +11037,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-18T17:56:55.183161+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "a0792ea92321f1439be1",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -10246,7 +11313,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-19T00:14:56.641625+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "2bf6e3b53184cd104c37",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -10363,7 +11430,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-19T00:14:56.641625+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "184d931227f2504de1a3",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -10468,7 +11535,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-19T00:14:56.641625+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "58da586369f33999eb92",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -10497,7 +11564,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-19T00:14:56.641625+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "53d809d7420a3923e8ba",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -10564,7 +11631,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-19T00:14:56.641625+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "99be0c0a7e074380d1a5",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -10871,7 +11938,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-18T17:56:55.183161+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "a1de396d3910fa2e0f79",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -10900,7 +11967,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-18T17:56:55.183161+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "68ddb817fe4001c0fc7b",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -12057,7 +13124,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T18:28:22.767917+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "f61efca8f592b87c7c09",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -12087,7 +13154,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T18:28:22.767917+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "639fac0f8727e01aec6e",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -12117,7 +13184,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T18:28:22.767917+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "fae4ec42780a6b53cc83",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -12147,7 +13214,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T18:28:22.767917+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "1e3a8a0a7e3cd062f91c",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -12177,7 +13244,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T18:28:22.767917+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "b408794a3196e1df425e",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -12207,7 +13274,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T18:28:22.767917+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "986d782997068f3c61b8",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -12238,7 +13305,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T18:28:22.767917+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "91475641f52fb30dbb22",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -12269,7 +13336,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T18:28:22.767917+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "3b573666de1648f8a362",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -12299,7 +13366,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T18:28:22.767917+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "5b5cf4f017dbab0ebb96",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -12329,7 +13396,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T18:28:22.767917+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "4a756643b0596f8c2c40",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -12359,7 +13426,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T18:28:22.767917+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "3989b95c68b62c6d091e",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -12388,7 +13455,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-18T01:14:30.685160+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "2b90ef71fb0880376bf8",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -12417,7 +13484,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-18T01:14:30.685160+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "37902359fb183e156991",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -12722,7 +13789,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-18T01:14:30.685160+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "3047d7657748ea760feb",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -13087,7 +14154,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T09:03:52.182620+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "0e7f690aa4ff229bd2e8",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -13116,7 +14183,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T18:28:22.767917+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "3b3be741a87f5e2153e6",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -13751,7 +14818,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T01:01:37.271227+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "2d7a5d6b20fff3cd431e",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -14161,7 +15228,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T01:01:37.271227+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "d91fd06de7b8771ee8ad",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -14333,7 +15400,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-16T17:22:53.141442+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "ff7833693fa2a06713dc",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -16464,7 +17531,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-13T21:55:15.798699+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "a009bbdbfbe6de47102d",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -17071,7 +18138,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-13T21:55:15.798699+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "7b5dacba886b8db54898",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -18783,7 +19850,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-12T18:48:55.334168+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "f45d3069b40c902e6997",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -18814,7 +19881,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-12T18:48:55.334168+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "057c02b04cc39ce1e69c",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -18845,7 +19912,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-12T18:48:55.334168+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "652c8f30b0994d6c4046",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -18876,7 +19943,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-12T18:48:55.334168+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "89146ff5418730c287f6",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -30034,7 +31101,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "09c40cbdb75966e0dccf",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -32572,7 +33639,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T17:43:25.925049+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-25T22:04:04.559585+00:00",
       "id": "e581154108f523de51d2",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -34345,1054 +35412,6 @@
       "contentType": "news",
       "countries": [],
       "locations": []
-    },
-    {
-      "title": "Cómo le está yendo realmente a la economía de EE.UU. bajo la presidencia de Trump",
-      "url": "https://www.bbc.com/mundo/watch/cw33x0zz1pj3o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.com/mundo/watch/cw33x0zz1pj3o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Mundo",
-      "category": "Conflictos",
-      "published": "2026-11-02T18:18:32+00:00",
-      "summary": "Donald Trump asegura que la economía del país atraviesa uno de sus mejores momentos.",
-      "language": "es",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "title_topic",
-        "signals": [
-          "presidencia"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "lastSeenAt": "2026-11-04T11:29:55.548871+00:00",
-      "id": "ed6cdda820c7ffae5b85",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [],
-      "locations": []
-    },
-    {
-      "title": "Google disrupts million-device XCPE Android malware botnet, bans TV box maker",
-      "url": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
-      "canonicalUrl": "https://www.bleepingcomputer.com/news/security/google-disrupts-million-device-xcpe-android-malware-botnet-bans-tv-box-maker/",
-      "source": "BleepingComputer",
-      "category": "Ciberseguridad",
-      "published": "2026-11-02T18:16:34+00:00",
-      "summary": "Google and industry partners have dismantled the XCPE malware botnet consisting of more than 1.3 million Android TV streaming TV boxes that Google says its manufacturer intentionally infected with malware to generate revenue through cybercrime activities. [...]",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Ciberseguridad",
-        "reason": "title_topic",
-        "signals": [
-          "botnet",
-          "malware"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "lastSeenAt": "2026-11-04T11:29:55.548871+00:00",
-      "id": "540fcda8052543e00f62",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [],
-      "locations": []
-    },
-    {
-      "title": "OpenAI combinará Chat y Work y hará realidad lo que muchos temían: ChatGPT y Codex compartirán los límites de uso",
-      "url": "https://www.xataka.com/robotica-e-ia/openai-combinara-chat-work-hara-realidad-que-muchos-temian-chatgpt-codex-compartiran-limites-uso",
-      "canonicalUrl": "https://www.xataka.com/robotica-e-ia/openai-combinara-chat-work-hara-realidad-que-muchos-temian-chatgpt-codex-compartiran-limites-uso",
-      "source": "Xataka IA",
-      "category": "IA",
-      "published": "2026-11-02T18:00:00+00:00",
-      "summary": "Durante mucho tiempo, nuestra principal preocupación al abrir ChatGPT era conseguir una buena respuesta. Ahora hay otra pregunta que empieza a acompañar a quienes lo utilizan para algo más que conversar: cuánto margen queda antes de encontrarse con un límite . Y no porque todos los usuarios estén agotando sus cuotas, sino porque este tipo de herramientas han dejado de ser simples espacios para hacer preguntas y se han convertido en plataformas para analizar, crear y ejecutar trabajos completos. Hemos ganado posibilidades, sí, pero también hemos tenido que aprender un lenguaje de tokens y asignaciones que antes quedaba lejos de nuestras conver",
-      "language": "es",
-      "languageMethod": "source_configuration",
-      "relevance": {
-        "included": true,
-        "category": "IA",
-        "reason": "title_topic",
-        "signals": [
-          "chatgpt",
-          "openai"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "lastSeenAt": "2026-11-05T07:18:40.922786+00:00",
-      "id": "e3c74ff874965e2c0278",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [],
-      "locations": []
-    },
-    {
-      "title": "Preparing our next security sprint to harden OpenAI",
-      "url": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
-      "canonicalUrl": "https://openai.com/index/preparing-our-next-security-sprint-to-harden-openai",
-      "source": "OpenAI News",
-      "category": "IA",
-      "published": "2026-11-02T18:00:00+00:00",
-      "summary": "OpenAI is preparing its next internal security sprint with Cathedral Systems to test and strengthen its defenses using AI.",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "IA",
-        "reason": "title_topic",
-        "signals": [
-          "openai"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-03T10:02:03.608468+00:00",
-      "lastSeenAt": "2026-11-12T02:51:19.579482+00:00",
-      "id": "0d297090385ad5a72451",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "publisher_post",
-      "countries": [],
-      "locations": []
-    },
-    {
-      "title": "Fighting returns to Kherson region after longest Ukraine war ceasefire",
-      "url": "https://www.bbc.co.uk/news/articles/ckg5jlyp66jzo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/news/articles/ckg5jlyp66jzo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "category": "Conflictos",
-      "published": "2026-11-02T17:33:19+00:00",
-      "summary": "Though unprecedented, the six-day truce has done little to alter the wider trajectory of a war that continues to grinds on.",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "title_topic",
-        "signals": [
-          "ceasefire",
-          "fighting",
-          "war"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "lastSeenAt": "2026-11-04T03:10:46.427236+00:00",
-      "id": "6b62f0830533dc7de35d",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [
-        {
-          "countryCode": "UA",
-          "label": "Ucrania",
-          "relation": "mentioned",
-          "matchedAlias": "Ukraine",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.bbc.co.uk/news/articles/ckg5jlyp66jzo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "locations": []
-    },
-    {
-      "title": "Oil price falls amid hope of a breakthrough to end Iran war",
-      "url": "https://www.theguardian.com/business/2026/nov/02/oil-price-falls-amid-hope-of-a-breakthrough-to-end-iran-war",
-      "canonicalUrl": "https://www.theguardian.com/business/2026/nov/02/oil-price-falls-amid-hope-of-a-breakthrough-to-end-iran-war",
-      "source": "The Guardian World",
-      "category": "Conflictos",
-      "published": "2026-11-02T17:14:23+00:00",
-      "summary": "Brent crude drops by more than 6% to $105.55 a barrel, the lowest level in more than two weeks The oil price has fallen to its lowest level in more two weeks amid new hopes of a breakthrough to end the Iran war. Brent crude, the international benchmark, dropped by more than 6.5% to as low as $105.55 a barrel on Monday, the lowest since 16 October, sending shares in airline companies higher and pushing down government borrowing costs. Continue reading...",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "title_topic",
-        "signals": [
-          "war"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
-      "id": "b9ac585d42a76d26af69",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [
-        {
-          "countryCode": "IR",
-          "label": "Irán",
-          "relation": "mentioned",
-          "matchedAlias": "Iran",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.theguardian.com/business/2026/nov/02/oil-price-falls-amid-hope-of-a-breakthrough-to-end-iran-war"
-        }
-      ],
-      "locations": []
-    },
-    {
-      "title": "Trump, Vance and candidates campaign on last day before US midterms",
-      "url": "https://www.aljazeera.com/news/2026/11/2/trump-vance-and-candidates-make-final-push-before-us-midterms?traffic_source=rss",
-      "canonicalUrl": "https://www.aljazeera.com/news/2026/11/2/trump-vance-and-candidates-make-final-push-before-us-midterms",
-      "source": "Al Jazeera",
-      "category": "Conflictos",
-      "published": "2026-11-02T17:07:14+00:00",
-      "summary": "Republicans and Democrats hold last rallies around the United States as polls point to a tight congressional race.",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "title_topic",
-        "signals": [
-          "midterms"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "lastSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "id": "8bf68ae59d822dfc0d1f",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [
-        {
-          "countryCode": "US",
-          "label": "Estados Unidos",
-          "relation": "mentioned",
-          "matchedAlias": "United States",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.aljazeera.com/news/2026/11/2/trump-vance-and-candidates-make-final-push-before-us-midterms?traffic_source=rss"
-        }
-      ],
-      "locations": []
-    },
-    {
-      "title": "La paz como bandera: así ganó Iliana Yotova la elección en Bulgaria",
-      "url": "https://www.dw.com/es/la-paz-como-bandera-así-ganó-iliana-yotova-la-elección-en-bulgaria/a-79832285?maca=spa-rss-sp-all-1122-rdf",
-      "canonicalUrl": "https://www.dw.com/es/la-paz-como-bandera-así-ganó-iliana-yotova-la-elección-en-bulgaria/a-79832285?maca=spa-rss-sp-all-1122-rdf",
-      "source": "DW Español",
-      "category": "Conflictos",
-      "published": "2026-11-02T16:51:00+00:00",
-      "summary": "Iliana Yotova ganó las elecciones presidenciales en Bulgaria con la promesa de ser una \"presidenta de la paz\". Pero la campaña dejó en evidencia la profunda división de los búlgaros frente a la guerra en Ucrania.",
-      "language": "es",
-      "languageMethod": "entry_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "summary_context",
-        "signals": [
-          "elecciones",
-          "guerra",
-          "presidenta"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "lastSeenAt": "2026-11-03T02:36:31.828730+00:00",
-      "id": "d10d04bccfe4829a33cf",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [
-        {
-          "countryCode": "BG",
-          "label": "Bulgaria",
-          "relation": "mentioned",
-          "matchedAlias": "Bulgaria",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.dw.com/es/la-paz-como-bandera-así-ganó-iliana-yotova-la-elección-en-bulgaria/a-79832285?maca=spa-rss-sp-all-1122-rdf"
-        },
-        {
-          "countryCode": "UA",
-          "label": "Ucrania",
-          "relation": "mentioned",
-          "matchedAlias": "Ucrania",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.dw.com/es/la-paz-como-bandera-así-ganó-iliana-yotova-la-elección-en-bulgaria/a-79832285?maca=spa-rss-sp-all-1122-rdf"
-        }
-      ],
-      "locations": []
-    },
-    {
-      "title": "Google por fin te da la respuesta que buscas a la primera. Y ese es exactamente el origen de sus problemas",
-      "url": "https://www.xataka.com/robotica-e-ia/google-ha-mejorado-su-buscador-ia-que-se-ha-encontrado-problema-necesita-empeorarlo-para-ganar-dinero",
-      "canonicalUrl": "https://www.xataka.com/robotica-e-ia/google-ha-mejorado-su-buscador-ia-que-se-ha-encontrado-problema-necesita-empeorarlo-para-ganar-dinero",
-      "source": "Xataka IA",
-      "category": "IA",
-      "published": "2026-11-02T16:30:00+00:00",
-      "summary": "Que todas las empresas se han volcado en la IA no es algo que a estas alturas nos sorprenda, ya que basta con abrir casi cualquier app, servicio o plataforma para ver que está ahí. Los chatbots son omnipresentes, las herramientas generativas también. Y pocas empresas la han abrazado de manera tan intensa como Google, que ha llevado la IA a la mayor parte de su catálogo . Con resultados dispares. La empresa que domina, dominada . Google es un peso pesado de la inteligencia artificial. Lo es por la importancia que siempre le dio a lo largo del tiempo y porque gran parte de las mecánicas de entrenamiento e inferencia fueron planteadas por Alphab",
-      "language": "es",
-      "languageMethod": "source_configuration",
-      "relevance": {
-        "included": true,
-        "category": "IA",
-        "reason": "summary_context",
-        "signals": [
-          "ia",
-          "inteligencia artificial"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "lastSeenAt": "2026-11-05T00:18:22.753847+00:00",
-      "id": "c07f1801efd628ae25f5",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [],
-      "locations": []
-    },
-    {
-      "title": "Ikea among shops affected by fridge cyber-hacks – Europe live",
-      "url": "https://www.theguardian.com/world/live/2026/nov/02/ukraine-russia-emergency-warning-systems-hack-zelenskyy-streeting-eu-latest-news-updates",
-      "canonicalUrl": "https://www.theguardian.com/world/live/2026/nov/02/ukraine-russia-emergency-warning-systems-hack-zelenskyy-streeting-eu-latest-news-updates",
-      "source": "The Guardian World",
-      "category": "Conflictos",
-      "published": "2026-11-02T16:17:14+00:00",
-      "summary": "Supermarkets across Europe have experienced temperature-control meddling The fake nuclear threats to Ukraine came as Russia resumed its attacks on the southern city of Kherson , just hours after the end of a ceasefire during which hundreds of people were evacuated from the nearby Kremlin-controlled town of Oleshky. Kherson’s military administration said a Russian drone hit a hospital at 7.40am. Video footage showed wrecked rooms, with windows blown out, doors broken, and debris on the street. Nobody was hurt, officials said. Continue reading...",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "summary_context",
-        "signals": [
-          "ceasefire",
-          "military"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "lastSeenAt": "2026-11-03T02:36:31.828730+00:00",
-      "id": "fa03063f43c9d75e5632",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [
-        {
-          "countryCode": "UA",
-          "label": "Ucrania",
-          "relation": "mentioned",
-          "matchedAlias": "Ukraine",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.theguardian.com/world/live/2026/nov/02/ukraine-russia-emergency-warning-systems-hack-zelenskyy-streeting-eu-latest-news-updates"
-        },
-        {
-          "countryCode": "RU",
-          "label": "Rusia",
-          "relation": "mentioned",
-          "matchedAlias": "Russia",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.theguardian.com/world/live/2026/nov/02/ukraine-russia-emergency-warning-systems-hack-zelenskyy-streeting-eu-latest-news-updates"
-        }
-      ],
-      "locations": []
-    },
-    {
-      "title": "China steps up Middle East diplomacy with Iran and Oman meetings",
-      "url": "https://www.aljazeera.com/news/2026/11/2/china-steps-up-middle-east-diplomacy-with-iran-and-oman-meetings?traffic_source=rss",
-      "canonicalUrl": "https://www.aljazeera.com/news/2026/11/2/china-steps-up-middle-east-diplomacy-with-iran-and-oman-meetings",
-      "source": "Al Jazeera",
-      "category": "Conflictos",
-      "published": "2026-11-02T16:03:52+00:00",
-      "summary": "Beijing urges dialogue on US-Iran war, sends envoy to Gulf as Xi hosts first Omani head of state visit since 1978.",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "title_topic",
-        "signals": [
-          "diplomacy"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "lastSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "id": "9f2c0d6e838bdb158348",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [
-        {
-          "countryCode": "CN",
-          "label": "China",
-          "relation": "mentioned",
-          "matchedAlias": "China",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.aljazeera.com/news/2026/11/2/china-steps-up-middle-east-diplomacy-with-iran-and-oman-meetings?traffic_source=rss"
-        },
-        {
-          "countryCode": "OM",
-          "label": "Omán",
-          "relation": "mentioned",
-          "matchedAlias": "Oman",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.aljazeera.com/news/2026/11/2/china-steps-up-middle-east-diplomacy-with-iran-and-oman-meetings?traffic_source=rss"
-        },
-        {
-          "countryCode": "IR",
-          "label": "Irán",
-          "relation": "mentioned",
-          "matchedAlias": "Iran",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.aljazeera.com/news/2026/11/2/china-steps-up-middle-east-diplomacy-with-iran-and-oman-meetings?traffic_source=rss"
-        }
-      ],
-      "locations": []
-    },
-    {
-      "title": "Violence in northern Ethiopia pushing health system towards collapse: WHO",
-      "url": "https://www.aljazeera.com/news/2026/11/2/violence-in-northern-ethiopia-pushing-health-system-towards-collapse-who?traffic_source=rss",
-      "canonicalUrl": "https://www.aljazeera.com/news/2026/11/2/violence-in-northern-ethiopia-pushing-health-system-towards-collapse-who",
-      "source": "Al Jazeera",
-      "category": "Conflictos",
-      "published": "2026-11-02T16:03:40+00:00",
-      "summary": "Renewed fighting between rebels from northern Tigray and ​the government in Addis Ababa has shattered 2022 peace deal.",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "summary_context",
-        "signals": [
-          "fighting"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "lastSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "id": "77dac59c546e7783d5fb",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [
-        {
-          "countryCode": "ET",
-          "label": "Etiopía",
-          "relation": "mentioned",
-          "matchedAlias": "Ethiopia",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.aljazeera.com/news/2026/11/2/violence-in-northern-ethiopia-pushing-health-system-towards-collapse-who?traffic_source=rss"
-        }
-      ],
-      "locations": []
-    },
-    {
-      "title": "Lobster industry caught in Maine’s political headwinds before US midterms",
-      "url": "https://www.aljazeera.com/economy/2026/11/2/lobster-industry-caught-in-maines-political-headwinds-before-midterms?traffic_source=rss",
-      "canonicalUrl": "https://www.aljazeera.com/economy/2026/11/2/lobster-industry-caught-in-maines-political-headwinds-before-midterms",
-      "source": "Al Jazeera",
-      "category": "Conflictos",
-      "published": "2026-11-02T15:54:53+00:00",
-      "summary": "Senator Susan Collins and Democratic challenger Troy Jackson clash over tariffs and their impact on Maine's economy.",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "title_topic",
-        "signals": [
-          "midterms"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "lastSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "id": "6793cbd541cce42c9bd7",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [],
-      "locations": []
-    },
-    {
-      "title": "Investigan un posible ciberataque que afecta los refrigeradores de supermercados en 7 países europeos y causa pérdidas millonarias",
-      "url": "https://www.bbc.com/mundo/articles/cw1l31v5rnrpo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.com/mundo/articles/cw1l31v5rnrpo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Mundo",
-      "category": "Ciberseguridad",
-      "published": "2026-11-02T15:39:51+00:00",
-      "summary": "Según los informes, la temperatura de los congeladores en varias tiendas de toda Europa llegó a alcanzar los 50°C.",
-      "language": "es",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Ciberseguridad",
-        "reason": "title_topic",
-        "signals": [
-          "ciberataque"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "lastSeenAt": "2026-11-09T09:38:15.461032+00:00",
-      "id": "586d98240857daa85781",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [],
-      "locations": []
-    },
-    {
-      "title": "Scaling Git at OpenAI",
-      "url": "https://openai.com/index/scaling-git-at-openai",
-      "canonicalUrl": "https://openai.com/index/scaling-git-at-openai",
-      "source": "OpenAI News",
-      "category": "IA",
-      "published": "2026-11-02T15:30:00+00:00",
-      "summary": "How OpenAI built Pando, a Git-compatible backend designed for the scale of development that Codex makes possible.",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "IA",
-        "reason": "title_topic",
-        "signals": [
-          "openai"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-03T02:36:31.828730+00:00",
-      "lastSeenAt": "2026-11-12T18:48:55.334168+00:00",
-      "id": "277870ffc8d71544c046",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "publisher_post",
-      "countries": [],
-      "locations": []
-    },
-    {
-      "title": "El nuevo cuello de botella de la IA no son los chips ni la energía: es el dinero barato",
-      "url": "https://www.xataka.com/empresas-y-economia/nuevo-cuello-botella-ia-no-chips-energia-dinero-barato",
-      "canonicalUrl": "https://www.xataka.com/empresas-y-economia/nuevo-cuello-botella-ia-no-chips-energia-dinero-barato",
-      "source": "Xataka IA",
-      "category": "IA",
-      "published": "2026-11-02T15:01:27+00:00",
-      "summary": "Los inversores se han vuelto mucho más exigentes a la hora de prestar dinero a la IA , según el WSJ . Las más afectadas son empresas como CoreWeave, Nebius y Nscale, que se endeudan para construir centros de datos y alquilar su potencia de cálculo. Llevan varias semanas casi sin poder vender bonos, una de sus grandes vías para conseguir dinero. El contraste . Dos casos enseñan lo rápido que ha cambiado todo: QTS . Este operador de centros de datos estudiaba hace seis meses pedir 800 millones de dólares. Ahora busca casi el mismo préstamo, pero le costará entre 4 y 6 millones más de intereses al año. CoreWeave . A principios de año logró vende",
-      "language": "es",
-      "languageMethod": "source_configuration",
-      "relevance": {
-        "included": true,
-        "category": "IA",
-        "reason": "title_topic",
-        "signals": [
-          "ia"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "lastSeenAt": "2026-11-04T18:50:15.798787+00:00",
-      "id": "7359927daa129fb04f1f",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [],
-      "locations": []
-    },
-    {
-      "title": "Arab parties back Eisenkot: What’s the latest in Israel’s coalition talks?",
-      "url": "https://www.aljazeera.com/news/2026/11/2/arab-parties-back-eisenkot-whats-the-latest-in-israels-coalition-talks?traffic_source=rss",
-      "canonicalUrl": "https://www.aljazeera.com/news/2026/11/2/arab-parties-back-eisenkot-whats-the-latest-in-israels-coalition-talks",
-      "source": "Al Jazeera",
-      "category": "Conflictos",
-      "published": "2026-11-02T15:00:08+00:00",
-      "summary": "Political wrangling is still ongoing as all blocs weigh potential paths to power.",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "title_topic",
-        "signals": [
-          "coalition"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "lastSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "id": "09e6cbe3b40f5f0bbf11",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [
-        {
-          "countryCode": "IL",
-          "label": "Israel",
-          "relation": "mentioned",
-          "matchedAlias": "Israel",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.aljazeera.com/news/2026/11/2/arab-parties-back-eisenkot-whats-the-latest-in-israels-coalition-talks?traffic_source=rss"
-        }
-      ],
-      "locations": []
-    },
-    {
-      "title": "Hackers disrupt refrigeration systems at European supermarkets",
-      "url": "https://www.bleepingcomputer.com/news/security/hackers-disrupt-refrigeration-systems-at-european-supermarkets/",
-      "canonicalUrl": "https://www.bleepingcomputer.com/news/security/hackers-disrupt-refrigeration-systems-at-european-supermarkets/",
-      "source": "BleepingComputer",
-      "category": "Ciberseguridad",
-      "published": "2026-11-02T14:28:39+00:00",
-      "summary": "A cyberattack on refrigeration systems has disrupted stores run by multiple supermarket chains across several European countries after hackers remotely changed temperature settings on freezers and cooling systems. [...]",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Ciberseguridad",
-        "reason": "summary_context",
-        "signals": [
-          "cyberattack"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "lastSeenAt": "2026-11-03T17:43:25.925049+00:00",
-      "id": "53069937df157c21fb73",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [],
-      "locations": []
-    },
-    {
-      "title": "How we halved DNS build delay and cut memory use by 85%",
-      "url": "https://blog.cloudflare.com/dns-targeted-zone-builds/",
-      "canonicalUrl": "https://blog.cloudflare.com/dns-targeted-zone-builds/",
-      "source": "Cloudflare Blog",
-      "category": "Internet",
-      "published": "2026-11-02T14:00:00+00:00",
-      "summary": "Zone setting changes used to rebuild entire DNS zones, even ones with tens of millions of records. Here is how we built a planner that picks the smallest safe build, cutting full builds by 40%, peak memory by 85%, and halving build delay.",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Internet",
-        "reason": "title_topic",
-        "signals": [
-          "dns"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "lastSeenAt": "2026-11-25T12:45:21.399589+00:00",
-      "id": "3017d51cc49fa391b080",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "publisher_post",
-      "countries": [],
-      "locations": []
-    },
-    {
-      "title": "Over 1,000 GitLab servers vulnerable to ongoing RCE attacks",
-      "url": "https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks/",
-      "canonicalUrl": "https://www.bleepingcomputer.com/news/security/over-1-000-gitlab-servers-vulnerable-to-code-execution-attacks/",
-      "source": "BleepingComputer",
-      "category": "Ciberseguridad",
-      "published": "2026-11-02T12:47:00+00:00",
-      "summary": "Over 1,000 Internet-exposed GitLab servers are still unpatched against a maximum-severity flaw actively exploited in remote code execution attacks. [...]",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Ciberseguridad",
-        "reason": "summary_context",
-        "signals": [
-          "remote code execution"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "lastSeenAt": "2026-11-03T17:43:25.925049+00:00",
-      "id": "ce0102be3fc9459f4890",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [],
-      "locations": []
-    },
-    {
-      "title": "Nuevo ciberataque a supermercados europeos: hackers manipulan sistemas de refrigeración en Bélgica, Suecia, Estonia, Irlanda y Luxemburgo",
-      "url": "https://www.dw.com/es/nuevo-ciberataque-a-supermercados-europeos-hackers-manipulan-sistemas-de-refrigeración-en-bélgica-suecia-estonia-irlanda-y-luxemburgo/a-79829998?maca=spa-rss-sp-all-1122-rdf",
-      "canonicalUrl": "https://www.dw.com/es/nuevo-ciberataque-a-supermercados-europeos-hackers-manipulan-sistemas-de-refrigeración-en-bélgica-suecia-estonia-irlanda-y-luxemburgo/a-79829998?maca=spa-rss-sp-all-1122-rdf",
-      "source": "DW Español",
-      "category": "Ciberseguridad",
-      "published": "2026-11-02T12:41:00+00:00",
-      "summary": "Supermercados en Bélgica, Luxemburgo, Suecia, Irlanda y Estonia registraron fallos en sus sistemas de refrigeración y congelación, que obligaron a desechar alimentos y activar medidas de emergencia.",
-      "language": "es",
-      "languageMethod": "entry_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Ciberseguridad",
-        "reason": "title_topic",
-        "signals": [
-          "ciberataque"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "lastSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "id": "42db360968b42b57e789",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [
-        {
-          "countryCode": "LU",
-          "label": "Luxemburgo",
-          "relation": "mentioned",
-          "matchedAlias": "Luxemburgo",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.dw.com/es/nuevo-ciberataque-a-supermercados-europeos-hackers-manipulan-sistemas-de-refrigeración-en-bélgica-suecia-estonia-irlanda-y-luxemburgo/a-79829998?maca=spa-rss-sp-all-1122-rdf"
-        },
-        {
-          "countryCode": "EE",
-          "label": "Estonia",
-          "relation": "mentioned",
-          "matchedAlias": "Estonia",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.dw.com/es/nuevo-ciberataque-a-supermercados-europeos-hackers-manipulan-sistemas-de-refrigeración-en-bélgica-suecia-estonia-irlanda-y-luxemburgo/a-79829998?maca=spa-rss-sp-all-1122-rdf"
-        },
-        {
-          "countryCode": "BE",
-          "label": "Bélgica",
-          "relation": "mentioned",
-          "matchedAlias": "Bélgica",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.dw.com/es/nuevo-ciberataque-a-supermercados-europeos-hackers-manipulan-sistemas-de-refrigeración-en-bélgica-suecia-estonia-irlanda-y-luxemburgo/a-79829998?maca=spa-rss-sp-all-1122-rdf"
-        },
-        {
-          "countryCode": "IE",
-          "label": "Irlanda",
-          "relation": "mentioned",
-          "matchedAlias": "Irlanda",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.dw.com/es/nuevo-ciberataque-a-supermercados-europeos-hackers-manipulan-sistemas-de-refrigeración-en-bélgica-suecia-estonia-irlanda-y-luxemburgo/a-79829998?maca=spa-rss-sp-all-1122-rdf"
-        },
-        {
-          "countryCode": "SE",
-          "label": "Suecia",
-          "relation": "mentioned",
-          "matchedAlias": "Suecia",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.dw.com/es/nuevo-ciberataque-a-supermercados-europeos-hackers-manipulan-sistemas-de-refrigeración-en-bélgica-suecia-estonia-irlanda-y-luxemburgo/a-79829998?maca=spa-rss-sp-all-1122-rdf"
-        }
-      ],
-      "locations": []
-    },
-    {
-      "title": "Sam Altman, CEO de ChatGPT: \"Es bastante terrible que la gente tenga memoria RAM en su PC utilizándose sólo el 5 % del tiempo\"",
-      "url": "https://www.xataka.com/robotica-e-ia/sam-altman-ceo-chatgpt-bastante-terrible-que-gente-tenga-memoria-ram-su-pc-utilizandose-solo-5-tiempo",
-      "canonicalUrl": "https://www.xataka.com/robotica-e-ia/sam-altman-ceo-chatgpt-bastante-terrible-que-gente-tenga-memoria-ram-su-pc-utilizandose-solo-5-tiempo",
-      "source": "Xataka IA",
-      "category": "IA",
-      "published": "2026-11-02T12:31:30+00:00",
-      "summary": "John Collison es el cofundador de la plataforma Stripe y tiene un podcast llamado Cheeky Pint en el que altos mandos de empresas tecnológicas pasan a hablar de sus cosas. Un ejemplo reciente es el de Susan Li, CFO de Meta . Sam Altman, por su parte, no necesita presentación, y hace unos días pasó por el programa de Collison para hablar de varios temas. Entre ellos, uno que parece quitarle el sueño: que cada usuario pueda montar una IA local. Apunta a un desperdicio de recursos, pero de fondo está el meme de \"que me quedo sin comer\". En corto . En el podcast hablaron de varios temas, pero lo que no ha pasado desapercibido en las redes es el co",
-      "language": "es",
-      "languageMethod": "source_configuration",
-      "relevance": {
-        "included": true,
-        "category": "IA",
-        "reason": "title_topic",
-        "signals": [
-          "chatgpt"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "lastSeenAt": "2026-11-04T11:29:55.548871+00:00",
-      "id": "6ef0ec4095dd8fad05cf",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [],
-      "locations": []
-    },
-    {
-      "title": "Uganda begins withdrawing troops from Somalia after 20 years",
-      "url": "https://www.bbc.co.uk/news/articles/c8zxlqxwed4do?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/news/articles/c8zxlqxwed4do?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "category": "Conflictos",
-      "published": "2026-11-02T12:05:34+00:00",
-      "summary": "Uganda has been helping Somalia battle an insurgency led by the al-Shabab militant group since 2007.",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "title_topic",
-        "signals": [
-          "troops"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "lastSeenAt": "2026-11-03T02:36:31.828730+00:00",
-      "id": "8926691970afb98aa80d",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [
-        {
-          "countryCode": "SO",
-          "label": "Somalia",
-          "relation": "mentioned",
-          "matchedAlias": "Somalia",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.bbc.co.uk/news/articles/c8zxlqxwed4do?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "countryCode": "UG",
-          "label": "Uganda",
-          "relation": "mentioned",
-          "matchedAlias": "Uganda",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.bbc.co.uk/news/articles/c8zxlqxwed4do?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "locations": []
-    },
-    {
-      "title": "Tener tu propia IA en casa se está volviendo un lujo. Y a OpenAI no le viene nada mal",
-      "url": "https://www.xataka.com/robotica-e-ia/sam-altman-no-quiere-que-ejecutes-ia-tu-pc-subida-graficas-que-provoca-su-propia-industria-se-esta-poniendo-facil",
-      "canonicalUrl": "https://www.xataka.com/robotica-e-ia/sam-altman-no-quiere-que-ejecutes-ia-tu-pc-subida-graficas-que-provoca-su-propia-industria-se-esta-poniendo-facil",
-      "source": "Xataka IA",
-      "category": "IA",
-      "published": "2026-11-02T11:45:00+00:00",
-      "summary": "Llevo bastante tiempo detrás de una tarjeta gráfica potente no solo para subir de calidad mis juegos en el PC, también para tener un banco de pruebas para IA local. Y es imposible. Se me antojó una RTX 5090 , después fui rebajando expectativas hasta conformarme con modelos mucho más antiguos (tengo un PC con una \"modesta\" RTX 4060 ). Pero nada, no tengo presupuesto para conseguir un equipo decente. Todo por la crisis de componentes provocada por la propia IA. Los números . Que el hardware haya subido es algo que todos los que observamos el mercado de PC ya sabemos. Y se le pueden poner números a esa subida: la RTX 5090, concretamente, ha dobl",
-      "language": "es",
-      "languageMethod": "source_configuration",
-      "relevance": {
-        "included": true,
-        "category": "IA",
-        "reason": "title_topic",
-        "signals": [
-          "ia",
-          "openai"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "lastSeenAt": "2026-11-04T03:10:46.427236+00:00",
-      "id": "567cfd0b20f428dddd22",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [],
-      "locations": []
-    },
-    {
-      "title": "Synology warns of C3RB3R ransomware attacks targeting NAS devices",
-      "url": "https://www.bleepingcomputer.com/news/security/synology-warns-customers-of-ongoing-c3rb3r-ransomware-attacks/",
-      "canonicalUrl": "https://www.bleepingcomputer.com/news/security/synology-warns-customers-of-ongoing-c3rb3r-ransomware-attacks/",
-      "source": "BleepingComputer",
-      "category": "Ciberseguridad",
-      "published": "2026-11-02T11:28:42+00:00",
-      "summary": "Taiwanese network-attached storage (NAS) appliance maker Synology warned customers to update their devices immediately due to a surge in C3RB3r ransomware attacks. [...]",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Ciberseguridad",
-        "reason": "title_topic",
-        "signals": [
-          "ransomware"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "lastSeenAt": "2026-11-03T17:43:25.925049+00:00",
-      "id": "0f81648bf5c6b7071f31",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [],
-      "locations": []
-    },
-    {
-      "title": "What are Americans voting for in this election?",
-      "url": "https://www.bbc.co.uk/news/videos/cjly0p753dxxo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/news/videos/cjly0p753dxxo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "category": "Conflictos",
-      "published": "2026-11-02T09:22:55+00:00",
-      "summary": "The BBC's Maddie Gerber explains what's on the ballot in the 2026 midterm elections in the United States.",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "summary_context",
-        "signals": [
-          "elections",
-          "midterm"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "lastSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "id": "1d5f6f34bdfd774751cb",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [
-        {
-          "countryCode": "US",
-          "label": "Estados Unidos",
-          "relation": "mentioned",
-          "matchedAlias": "United States",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.bbc.co.uk/news/videos/cjly0p753dxxo?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "locations": []
-    },
-    {
-      "title": "Ciberataques lanzan falsas alertas nucleares en Rusia y Ucrania",
-      "url": "https://www.dw.com/es/ciberataques-lanzan-falsas-alertas-nucleares-en-rusia-y-ucrania/a-79826261?maca=spa-rss-sp-all-1122-rdf",
-      "canonicalUrl": "https://www.dw.com/es/ciberataques-lanzan-falsas-alertas-nucleares-en-rusia-y-ucrania/a-79826261?maca=spa-rss-sp-all-1122-rdf",
-      "source": "DW Español",
-      "category": "Ciberseguridad",
-      "published": "2026-11-02T08:42:00+00:00",
-      "summary": "Rusia y Ucrania perpetraron esta noche ataques mutuos de hackers contra sus respectivos sistemas de alerta a la población, según informaron este lunes medios de prensa y redes sociales de ambos países.",
-      "language": "es",
-      "languageMethod": "entry_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Ciberseguridad",
-        "reason": "title_topic",
-        "signals": [
-          "ciberataques"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-02T09:53:49.912378+00:00",
-      "lastSeenAt": "2026-11-02T20:15:41.152619+00:00",
-      "id": "95e74ac0879e931f9874",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [
-        {
-          "countryCode": "UA",
-          "label": "Ucrania",
-          "relation": "mentioned",
-          "matchedAlias": "Ucrania",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.dw.com/es/ciberataques-lanzan-falsas-alertas-nucleares-en-rusia-y-ucrania/a-79826261?maca=spa-rss-sp-all-1122-rdf"
-        },
-        {
-          "countryCode": "RU",
-          "label": "Rusia",
-          "relation": "mentioned",
-          "matchedAlias": "Rusia",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.dw.com/es/ciberataques-lanzan-falsas-alertas-nucleares-en-rusia-y-ucrania/a-79826261?maca=spa-rss-sp-all-1122-rdf"
-        }
-      ],
-      "locations": []
-    },
-    {
-      "title": "Bulgaria elige a su primera presidenta: la socialista prorrusa Iliana Yotova arrasa con el 57,7 % de los votos",
-      "url": "https://www.dw.com/es/bulgaria-elige-a-su-primera-presidenta-la-socialista-prorrusa-iliana-yotova-arrasa-con-el-57-7-de-los-votos/a-79825918?maca=spa-rss-sp-all-1122-rdf",
-      "canonicalUrl": "https://www.dw.com/es/bulgaria-elige-a-su-primera-presidenta-la-socialista-prorrusa-iliana-yotova-arrasa-con-el-57-7-de-los-votos/a-79825918?maca=spa-rss-sp-all-1122-rdf",
-      "source": "DW Español",
-      "category": "Conflictos",
-      "published": "2026-11-02T08:06:00+00:00",
-      "summary": "La candidata prorrusa y presidenta en funciones de Bulgaria, Iliana Yotova, se impuso en segunda vuelta de las elecciones presidenciales con 57,7 % de los votos, frente al 39,4 % de su rival, el europeísta Andrey Gyurov.",
-      "language": "es",
-      "languageMethod": "entry_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "title_topic",
-        "signals": [
-          "presidenta"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-02T09:53:49.912378+00:00",
-      "lastSeenAt": "2026-11-02T09:53:49.912378+00:00",
-      "id": "9f940f1f8f377aca0e5b",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [
-        {
-          "countryCode": "BG",
-          "label": "Bulgaria",
-          "relation": "mentioned",
-          "matchedAlias": "Bulgaria",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.dw.com/es/bulgaria-elige-a-su-primera-presidenta-la-socialista-prorrusa-iliana-yotova-arrasa-con-el-57-7-de-los-votos/a-79825918?maca=spa-rss-sp-all-1122-rdf"
-        }
-      ],
-      "locations": []
-    },
-    {
-      "title": "How the president’s party has fared in every US midterm election since 1946",
-      "url": "https://www.aljazeera.com/news/2026/11/2/how-the-presidents-party-has-fared-in-every-us-midterm-election-since-1946?traffic_source=rss",
-      "canonicalUrl": "https://www.aljazeera.com/news/2026/11/2/how-the-presidents-party-has-fared-in-every-us-midterm-election-since-1946",
-      "source": "Al Jazeera",
-      "category": "Conflictos",
-      "published": "2026-11-02T08:05:03+00:00",
-      "summary": "Only twice in the past 20 midterms has the president’s party gained House seats. Polls suggest 2026 won’t be the third.",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "title_topic",
-        "signals": [
-          "midterm"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-02T09:53:49.912378+00:00",
-      "lastSeenAt": "2026-11-02T09:53:49.912378+00:00",
-      "id": "4aa9d6c80758dc032628",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [],
-      "locations": []
     }
   ],
   "sources": [
@@ -35402,12 +35421,12 @@
       "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
       "language": "en",
       "status": "ok",
-      "count": 7,
-      "receivedCount": 30,
+      "count": 9,
+      "receivedCount": 32,
       "excludedCount": 23,
       "error": null,
-      "lastAttemptAt": "2026-11-25T12:45:21.399589+00:00",
-      "lastSuccessAt": "2026-11-25T12:45:21.399589+00:00"
+      "lastAttemptAt": "2026-11-25T22:04:04.559585+00:00",
+      "lastSuccessAt": "2026-11-25T22:04:04.559585+00:00"
     },
     {
       "name": "Al Jazeera",
@@ -35415,12 +35434,12 @@
       "url": "https://www.aljazeera.com/xml/rss/all.xml",
       "language": "en",
       "status": "ok",
-      "count": 3,
+      "count": 7,
       "receivedCount": 25,
-      "excludedCount": 22,
+      "excludedCount": 18,
       "error": null,
-      "lastAttemptAt": "2026-11-25T12:45:21.399589+00:00",
-      "lastSuccessAt": "2026-11-25T12:45:21.399589+00:00"
+      "lastAttemptAt": "2026-11-25T22:04:04.559585+00:00",
+      "lastSuccessAt": "2026-11-25T22:04:04.559585+00:00"
     },
     {
       "name": "The Guardian World",
@@ -35428,12 +35447,12 @@
       "url": "https://www.theguardian.com/world/rss",
       "language": "en",
       "status": "ok",
-      "count": 4,
+      "count": 6,
       "receivedCount": 35,
-      "excludedCount": 31,
+      "excludedCount": 29,
       "error": null,
-      "lastAttemptAt": "2026-11-25T12:45:21.399589+00:00",
-      "lastSuccessAt": "2026-11-25T12:45:21.399589+00:00"
+      "lastAttemptAt": "2026-11-25T22:04:04.559585+00:00",
+      "lastSuccessAt": "2026-11-25T22:04:04.559585+00:00"
     },
     {
       "name": "CISA Alerts",
@@ -35445,8 +35464,8 @@
       "receivedCount": 30,
       "excludedCount": 1,
       "error": null,
-      "lastAttemptAt": "2026-11-25T12:45:21.399589+00:00",
-      "lastSuccessAt": "2026-11-25T12:45:21.399589+00:00"
+      "lastAttemptAt": "2026-11-25T22:04:04.559585+00:00",
+      "lastSuccessAt": "2026-11-25T22:04:04.559585+00:00"
     },
     {
       "name": "BleepingComputer",
@@ -35454,12 +35473,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "language": "en",
       "status": "ok",
-      "count": 6,
+      "count": 7,
       "receivedCount": 15,
-      "excludedCount": 9,
+      "excludedCount": 8,
       "error": null,
-      "lastAttemptAt": "2026-11-25T12:45:21.399589+00:00",
-      "lastSuccessAt": "2026-11-25T12:45:21.399589+00:00"
+      "lastAttemptAt": "2026-11-25T22:04:04.559585+00:00",
+      "lastSuccessAt": "2026-11-25T22:04:04.559585+00:00"
     },
     {
       "name": "Cloudflare Blog",
@@ -35471,8 +35490,8 @@
       "receivedCount": 20,
       "excludedCount": 10,
       "error": null,
-      "lastAttemptAt": "2026-11-25T12:45:21.399589+00:00",
-      "lastSuccessAt": "2026-11-25T12:45:21.399589+00:00"
+      "lastAttemptAt": "2026-11-25T22:04:04.559585+00:00",
+      "lastSuccessAt": "2026-11-25T22:04:04.559585+00:00"
     },
     {
       "name": "Internet Society",
@@ -35484,8 +35503,8 @@
       "receivedCount": 20,
       "excludedCount": 16,
       "error": null,
-      "lastAttemptAt": "2026-11-25T12:45:21.399589+00:00",
-      "lastSuccessAt": "2026-11-25T12:45:21.399589+00:00"
+      "lastAttemptAt": "2026-11-25T22:04:04.559585+00:00",
+      "lastSuccessAt": "2026-11-25T22:04:04.559585+00:00"
     },
     {
       "name": "Google Research",
@@ -35493,12 +35512,12 @@
       "url": "https://research.google/blog/rss/",
       "language": "en",
       "status": "ok",
-      "count": 12,
+      "count": 13,
       "receivedCount": 35,
-      "excludedCount": 23,
+      "excludedCount": 22,
       "error": null,
-      "lastAttemptAt": "2026-11-25T12:45:21.399589+00:00",
-      "lastSuccessAt": "2026-11-25T12:45:21.399589+00:00"
+      "lastAttemptAt": "2026-11-25T22:04:04.559585+00:00",
+      "lastSuccessAt": "2026-11-25T22:04:04.559585+00:00"
     },
     {
       "name": "OpenAI News",
@@ -35510,8 +35529,8 @@
       "receivedCount": 35,
       "excludedCount": 18,
       "error": null,
-      "lastAttemptAt": "2026-11-25T12:45:21.399589+00:00",
-      "lastSuccessAt": "2026-11-25T12:45:21.399589+00:00"
+      "lastAttemptAt": "2026-11-25T22:04:04.559585+00:00",
+      "lastSuccessAt": "2026-11-25T22:04:04.559585+00:00"
     },
     {
       "name": "MIT Technology Review",
@@ -35519,12 +35538,12 @@
       "url": "https://www.technologyreview.com/feed/",
       "language": "en",
       "status": "ok",
-      "count": 6,
+      "count": 7,
       "receivedCount": 10,
-      "excludedCount": 4,
+      "excludedCount": 3,
       "error": null,
-      "lastAttemptAt": "2026-11-25T12:45:21.399589+00:00",
-      "lastSuccessAt": "2026-11-25T12:45:21.399589+00:00"
+      "lastAttemptAt": "2026-11-25T22:04:04.559585+00:00",
+      "lastSuccessAt": "2026-11-25T22:04:04.559585+00:00"
     },
     {
       "name": "BBC Mundo",
@@ -35532,12 +35551,12 @@
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "language": "es",
       "status": "ok",
-      "count": 3,
+      "count": 4,
       "receivedCount": 34,
-      "excludedCount": 31,
+      "excludedCount": 30,
       "error": null,
-      "lastAttemptAt": "2026-11-25T12:45:21.399589+00:00",
-      "lastSuccessAt": "2026-11-25T12:45:21.399589+00:00"
+      "lastAttemptAt": "2026-11-25T22:04:04.559585+00:00",
+      "lastSuccessAt": "2026-11-25T22:04:04.559585+00:00"
     },
     {
       "name": "DW Español",
@@ -35545,12 +35564,12 @@
       "url": "https://rss.dw.com/rdf/rss-sp-all",
       "language": "es",
       "status": "ok",
-      "count": 4,
-      "receivedCount": 25,
-      "excludedCount": 21,
+      "count": 6,
+      "receivedCount": 29,
+      "excludedCount": 23,
       "error": null,
-      "lastAttemptAt": "2026-11-25T12:45:21.399589+00:00",
-      "lastSuccessAt": "2026-11-25T12:45:21.399589+00:00"
+      "lastAttemptAt": "2026-11-25T22:04:04.559585+00:00",
+      "lastSuccessAt": "2026-11-25T22:04:04.559585+00:00"
     },
     {
       "name": "INCIBE-CERT",
@@ -35560,7 +35579,7 @@
       "status": "error",
       "count": 0,
       "error": "The read operation timed out",
-      "lastAttemptAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastAttemptAt": "2026-11-25T22:04:04.559585+00:00",
       "lastSuccessAt": "2026-11-25T03:06:14.683201+00:00"
     },
     {
@@ -35569,12 +35588,12 @@
       "url": "https://www.xataka.com/tag/inteligencia-artificial/rss2.xml",
       "language": "es",
       "status": "ok",
-      "count": 8,
+      "count": 9,
       "receivedCount": 10,
-      "excludedCount": 2,
+      "excludedCount": 1,
       "error": null,
-      "lastAttemptAt": "2026-11-25T12:45:21.399589+00:00",
-      "lastSuccessAt": "2026-11-25T12:45:21.399589+00:00"
+      "lastAttemptAt": "2026-11-25T22:04:04.559585+00:00",
+      "lastSuccessAt": "2026-11-25T22:04:04.559585+00:00"
     },
     {
       "name": "Xataka Internet",
@@ -35586,8 +35605,8 @@
       "receivedCount": 10,
       "excludedCount": 2,
       "error": null,
-      "lastAttemptAt": "2026-11-25T12:45:21.399589+00:00",
-      "lastSuccessAt": "2026-11-25T12:45:21.399589+00:00"
+      "lastAttemptAt": "2026-11-25T22:04:04.559585+00:00",
+      "lastSuccessAt": "2026-11-25T22:04:04.559585+00:00"
     }
   ],
   "relatedGroups": [
@@ -35611,13 +35630,13 @@
   ],
   "retentionDays": 30,
   "collection": {
-    "startedAt": "2026-11-25T12:45:21.399589+00:00",
-    "completedAt": "2026-11-25T12:46:03.032694+00:00",
+    "startedAt": "2026-11-25T22:04:04.559585+00:00",
+    "completedAt": "2026-11-25T22:04:39.618125+00:00",
     "outcome": "partial",
     "successfulSources": 14,
     "totalSources": 15,
     "trigger": "schedule",
-    "runId": "45616792622",
+    "runId": "45709968281",
     "requestId": null
   },
   "scopeFilter": {

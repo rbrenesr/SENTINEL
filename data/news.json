@@ -1,8 +1,595 @@
 {
   "schemaVersion": 2,
-  "updatedAt": "2026-11-26T04:08:16.864359+00:00",
-  "lastAttemptAt": "2026-11-26T04:08:16.864359+00:00",
+  "updatedAt": "2026-11-26T13:52:59.295797+00:00",
+  "lastAttemptAt": "2026-11-26T13:52:59.295797+00:00",
   "items": [
+    {
+      "title": "Inés Gómez Mont, la exestrella de TV acusada de delincuencia organizada que causa un roce diplomático entre México y EE.UU.",
+      "url": "https://www.bbc.com/mundo/articles/crjeqy9ynvnyo?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.com/mundo/articles/crjeqy9ynvnyo?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Mundo",
+      "category": "Conflictos",
+      "published": "2026-11-26T13:31:03+00:00",
+      "summary": "La presentadora aceptó salir de forma voluntaria de EE.UU. y fue enviada a España. México pidió su extradición en 2025.",
+      "language": "es",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "diplomatico"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-26T13:52:59.295797+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
+      "id": "a0fbe8398564906f40da",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "MX",
+          "label": "México",
+          "relation": "mentioned",
+          "matchedAlias": "Mexico",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.bbc.com/mundo/articles/crjeqy9ynvnyo?at_medium=RSS&at_campaign=rss"
+        },
+        {
+          "countryCode": "ES",
+          "label": "España",
+          "relation": "mentioned",
+          "matchedAlias": "España",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.bbc.com/mundo/articles/crjeqy9ynvnyo?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "The Download: Better bionic hands and AI’s natural-gas boom",
+      "url": "https://www.technologyreview.com/2026/11/26/1149934/the-download-better-bionic-hands-ai-natural-gas-boom/",
+      "canonicalUrl": "https://www.technologyreview.com/2026/11/26/1149934/the-download-better-bionic-hands-ai-natural-gas-boom/",
+      "source": "MIT Technology Review",
+      "category": "IA",
+      "published": "2026-11-26T13:10:00+00:00",
+      "summary": "This is today’s edition of The Download, our weekday newsletter that provides a daily dose of what’s going on in the world of technology. The next generation of bionic hands is here—and they can feel Avi Davidson lost his left hand as a teenager. Since then, he’s cycled through a few prosthetics. But his latest…",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "IA",
+        "reason": "title_topic",
+        "signals": [
+          "ai"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-26T13:52:59.295797+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
+      "id": "feeb9fd3109e665aabdc",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "Is UBI the solution to mass unemployment in an AI economy?",
+      "url": "https://www.aljazeera.com/economy/2026/11/26/is-ubi-the-solution-to-mass-unemployment-in-an-ai-economy?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/economy/2026/11/26/is-ubi-the-solution-to-mass-unemployment-in-an-ai-economy",
+      "source": "Al Jazeera",
+      "category": "IA",
+      "published": "2026-11-26T13:04:51+00:00",
+      "summary": "AI's rapid advance has led to calls for universal payments to prevent poverty and wealth inequality.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "IA",
+        "reason": "title_topic",
+        "signals": [
+          "ai"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-26T13:52:59.295797+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
+      "id": "fb6ab9f6944cc37dec7e",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "FIFA says personal and business information stolen in cyberattack",
+      "url": "https://www.aljazeera.com/sports/2026/11/26/fifa-says-personal-and-business-information-stolen-in-cyberattack?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/sports/2026/11/26/fifa-says-personal-and-business-information-stolen-in-cyberattack",
+      "source": "Al Jazeera",
+      "category": "Ciberseguridad",
+      "published": "2026-11-26T12:31:46+00:00",
+      "summary": "No files from the abandoned FIFA Forward Enterprise project were accessed, according to media reports.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Ciberseguridad",
+        "reason": "title_topic",
+        "signals": [
+          "cyberattack"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-26T13:52:59.295797+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
+      "id": "33e92f764e36798b60ab",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "With the rise of AI, are we close to having universal basic income",
+      "url": "https://www.aljazeera.com/video/money-works/2026/11/26/with-the-rise-of-ai-are-we-close-to-having-universal-basic-income?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/video/money-works/2026/11/26/with-the-rise-of-ai-are-we-close-to-having-universal-basic-income",
+      "source": "Al Jazeera",
+      "category": "IA",
+      "published": "2026-11-26T12:12:45+00:00",
+      "summary": "Is UBI the solution to mass unemployment in an AI economy?",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "IA",
+        "reason": "title_topic",
+        "signals": [
+          "ai"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-26T13:52:59.295797+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
+      "id": "a613fc5983df61204b14",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "China reserves right to take ‘necessary measures’ after Trump’s new tariff proposals",
+      "url": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat",
+      "canonicalUrl": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat",
+      "source": "The Guardian World",
+      "category": "Conflictos",
+      "published": "2026-11-26T12:00:22+00:00",
+      "summary": "Beijing says new levies amount to ‘political manipulation’, while Brazil ‘will not yield to this type of threat’ Trump proposing new tariffs on 14 partners including China and EU Beijing has said it reserves the right to take “necessary measures” after Donald Trump’s administration proposed new tariffs on goods from China and other major trading partners, triggering a global backlash. Among the suggested levies on 14 major trading partners announced on Wednesday, China is potentially facing one of the biggest hits. It would face the highest capped rate of 20%, which in some cases will be stacked on top of other import taxes for a total rate o",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "tariff"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
+      "id": "a77b5085c9245e54e54e",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "BR",
+          "label": "Brasil",
+          "relation": "mentioned",
+          "matchedAlias": "Brazil",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat"
+        },
+        {
+          "countryCode": "CN",
+          "label": "China",
+          "relation": "mentioned",
+          "matchedAlias": "China",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "Hace un año instalé OpenClaw y he matado más agentes que Tamagotchis. Sigo convencido de que cambió la IA",
+      "url": "https://www.xataka.com/robotica-e-ia/hace-ano-instale-openclaw-he-matado-agentes-que-tamagotchis-sigo-convencido-que-cambio-ia",
+      "canonicalUrl": "https://www.xataka.com/robotica-e-ia/hace-ano-instale-openclaw-he-matado-agentes-que-tamagotchis-sigo-convencido-que-cambio-ia",
+      "source": "Xataka IA",
+      "category": "IA",
+      "published": "2026-11-26T12:00:22+00:00",
+      "summary": "Pocos cambios han sido tan bruscos, y a la vez tan progresivos, como el que ha traído la IA. Darle conversación a ChatGPT se ha vuelto una rutina, igual que generar una imagen sintética o crear una aplicación sin saber programar. Son tareas que no podíamos ejecutar hace cuatro o cinco años . Y creo que hay un elemento que va camino de redondear ese extra de capacidades que hemos ganado: el agente de IA autónomo . Soy un firme defensor de los agentes locales, aquellos que viven en el ordenador del usuario. Por eso me instalé OpenClaw cuando salió hace un año (por aquel entonces aún se llamaba Clawdbot). Estaba armando mucho revuelo en mi círcu",
+      "language": "es",
+      "languageMethod": "source_configuration",
+      "relevance": {
+        "included": true,
+        "category": "IA",
+        "reason": "title_topic",
+        "signals": [
+          "ia"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-26T13:52:59.295797+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
+      "id": "90e314aaee40c5253ad9",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "SYS010 malware abuses browser management to spy on Gmail, Outlook",
+      "url": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
+      "canonicalUrl": "https://www.bleepingcomputer.com/news/security/sys010-malware-abuses-browser-management-to-spy-on-gmail-outlook/",
+      "source": "BleepingComputer",
+      "category": "Ciberseguridad",
+      "published": "2026-11-26T11:50:17+00:00",
+      "summary": "A new version of the SYS01 infostealer malware delivered through Meta ads is enrolling browsers into enterprise-style management to force the installation of an extension that steals sensitive data, including Gmail and Outlook emails. [...]",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Ciberseguridad",
+        "reason": "title_topic",
+        "signals": [
+          "malware"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-26T13:52:59.295797+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
+      "id": "34599e7b6c56f4b30a76",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "Are Trump’s tariffs aimed at securing US-friendly trade deals?",
+      "url": "https://www.aljazeera.com/news/2026/11/26/are-trumps-tariffs-aimed-at-securing-us-friendly-trade-deals?traffic_source=rss",
+      "canonicalUrl": "https://www.aljazeera.com/news/2026/11/26/are-trumps-tariffs-aimed-at-securing-us-friendly-trade-deals",
+      "source": "Al Jazeera",
+      "category": "Conflictos",
+      "published": "2026-11-26T11:07:30+00:00",
+      "summary": "New US policy threatens further tariff hikes on China, India, Vietnam if trade negotiations fall through.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "tariffs",
+          "trade deals"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-26T13:52:59.295797+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
+      "id": "3954a94ccff84d93c93d",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "VN",
+          "label": "Vietnam",
+          "relation": "mentioned",
+          "matchedAlias": "Vietnam",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.aljazeera.com/news/2026/11/26/are-trumps-tariffs-aimed-at-securing-us-friendly-trade-deals?traffic_source=rss"
+        },
+        {
+          "countryCode": "IN",
+          "label": "India",
+          "relation": "mentioned",
+          "matchedAlias": "India",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.aljazeera.com/news/2026/11/26/are-trumps-tariffs-aimed-at-securing-us-friendly-trade-deals?traffic_source=rss"
+        },
+        {
+          "countryCode": "CN",
+          "label": "China",
+          "relation": "mentioned",
+          "matchedAlias": "China",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.aljazeera.com/news/2026/11/26/are-trumps-tariffs-aimed-at-securing-us-friendly-trade-deals?traffic_source=rss"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "Israel ‘officially sanctions’ torture of Palestinian prisoners to extract confessions, report concludes",
+      "url": "https://www.theguardian.com/world/2026/nov/26/israel-officially-sanctions-torture-palestinian-prisoners-confessions-report",
+      "canonicalUrl": "https://www.theguardian.com/world/2026/nov/26/israel-officially-sanctions-torture-palestinian-prisoners-confessions-report",
+      "source": "The Guardian World",
+      "category": "Conflictos",
+      "published": "2026-11-26T10:00:52+00:00",
+      "summary": "Public Committee Against Torture in Israel examined 42 complaints against Shin Bet interrogators over past decade Israel has institutionalised the use of torture to extract confessions from Palestinian prisoners, sometimes documenting abuse in official records or granting advanced approval for “special measures” in interrogation, according to a report from the Public Committee Against Torture in Israel (PCATI). This dangerous practice risked leading to irreversible miscarriages of justice, as Israel moved to implement a racist new death penalty law that targets Palestinians, the report said. Continue reading...",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "sanctions"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-26T13:52:59.295797+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
+      "id": "1339e65df707c6f7f206",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "IL",
+          "label": "Israel",
+          "relation": "mentioned",
+          "matchedAlias": "Israel",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.theguardian.com/world/2026/nov/26/israel-officially-sanctions-torture-palestinian-prisoners-confessions-report"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "Hay un modelo de IA local que está causando furor. Se llama Inkling 2 Mini y tenemos sorpresa: no es chino",
+      "url": "https://www.xataka.com/robotica-e-ia/hay-modelo-ia-local-que-esta-causando-furor-se-llama-inkling-2-mini-tenemos-sorpresa-no-chino",
+      "canonicalUrl": "https://www.xataka.com/robotica-e-ia/hay-modelo-ia-local-que-esta-causando-furor-se-llama-inkling-2-mini-tenemos-sorpresa-no-chino",
+      "source": "Xataka IA",
+      "category": "IA",
+      "published": "2026-11-26T08:15:38+00:00",
+      "summary": "El pasado 5 de noviembre Thinking Machines Lab , la startup de Mira Murati, presentaba su modelo Inkling 2 Mini sin demasiada fanfarria. En tan solo tres semanas el modelo se ha convertido en una de las sensaciones de los expertos en IA, y hay buenas razones para ello. Es bueno, es bonito, es barato, y además es muy, pero que muy local. Sorpresa . Cuando aparecieron en escena las startups de Ilya Sutskever (Safe Superintelligence) y Mira Murati (Thinking Machines Lab) en la primavera de 2025, no muchos parecían confiar en que esos proyectos llegaran a buen puerto. La visión de Sutskever de momento no está ta clara, pero en Thinking Machines L",
+      "language": "es",
+      "languageMethod": "source_configuration",
+      "relevance": {
+        "included": true,
+        "category": "IA",
+        "reason": "title_topic",
+        "signals": [
+          "ia"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-26T13:52:59.295797+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
+      "id": "bdba018ad4c92b05c5e9",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "Coalition to privatise Melbourne sewage plants and sell state land and renewables if it wins election",
+      "url": "https://www.theguardian.com/australia-news/2026/nov/26/liberal-nationals-victoria-election-policy-costings-revealed-sewage-land-energy",
+      "canonicalUrl": "https://www.theguardian.com/australia-news/2026/nov/26/liberal-nationals-victoria-election-policy-costings-revealed-sewage-land-energy",
+      "source": "The Guardian World",
+      "category": "Conflictos",
+      "published": "2026-11-26T08:07:24+00:00",
+      "summary": "Liberal and Nationals’ policy costings also reveal ‘air rights’ between Richmond train station and MCG would be sold Victorian election 2026 guide: what you need to know Confused about who to vote for? Check the parties’ key promises and policies Get our daily political email , free app or daily news podcast A Victorian Coalition government would privatise two sewage plants and sell off state-owned land, renewable energy assets and the “air rights” between Richmond train station and the Melbourne Cricket Ground if elected. The opposition leader, Jess Wilson, released the Liberal and Nationals’ pre-election policy costings on Thursday, just tw",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "coalition"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
+      "id": "5fdffbfcba174b08c5db",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [],
+      "locations": []
+    },
+    {
+      "title": "La España de los (casi) 50 millones: cómo la inmigración ha transformado el país en la última década y se ha convertido en tema clave de las elecciones",
+      "url": "https://www.bbc.com/mundo/articles/ckq5vgpwwq76o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.com/mundo/articles/ckq5vgpwwq76o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC Mundo",
+      "category": "Conflictos",
+      "published": "2026-11-26T04:52:47+00:00",
+      "summary": "Con casi 50 millones de habitantes y más muertes que nacimientos, España llega a las elecciones del 29 de noviembre en pleno debate sobre cómo gestionar la inmigración.",
+      "language": "es",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "elecciones",
+          "inmigracion"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-26T13:52:59.295797+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
+      "id": "ac61cb3a03e734967788",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "ES",
+          "label": "España",
+          "relation": "mentioned",
+          "matchedAlias": "España",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.bbc.com/mundo/articles/ckq5vgpwwq76o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "EE.UU. y la OTAN instan a Rusia a abstenerse de “expandir la guerra” en Ucrania y a obtener una solución pacífica",
+      "url": "https://www.dw.com/es/ee-uu-y-la-otan-instan-a-rusia-a-abstenerse-de-expandir-la-guerra-en-ucrania-y-a-obtener-una-solución-pacífica/a-80056210?maca=spa-rss-sp-all-1122-rdf",
+      "canonicalUrl": "https://www.dw.com/es/ee-uu-y-la-otan-instan-a-rusia-a-abstenerse-de-expandir-la-guerra-en-ucrania-y-a-obtener-una-solución-pacífica/a-80056210?maca=spa-rss-sp-all-1122-rdf",
+      "source": "DW Español",
+      "category": "Conflictos",
+      "published": "2026-11-26T04:45:00+00:00",
+      "summary": "El presidente estadounidense, Donald Trump, y el jefe de la OTAN, Mark Rutte sostuvieron un encuentro en la residencia del presidente norteamericano en Florida.",
+      "language": "es",
+      "languageMethod": "entry_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "guerra",
+          "otan"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-26T13:52:59.295797+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
+      "id": "5c07e72f028947e28623",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "UA",
+          "label": "Ucrania",
+          "relation": "mentioned",
+          "matchedAlias": "Ucrania",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.dw.com/es/ee-uu-y-la-otan-instan-a-rusia-a-abstenerse-de-expandir-la-guerra-en-ucrania-y-a-obtener-una-solución-pacífica/a-80056210?maca=spa-rss-sp-all-1122-rdf"
+        },
+        {
+          "countryCode": "RU",
+          "label": "Rusia",
+          "relation": "mentioned",
+          "matchedAlias": "Rusia",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.dw.com/es/ee-uu-y-la-otan-instan-a-rusia-a-abstenerse-de-expandir-la-guerra-en-ucrania-y-a-obtener-una-solución-pacífica/a-80056210?maca=spa-rss-sp-all-1122-rdf"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "Arabia Saudita derriba más misiles hutíes dirigidos a su capital tras ataques en Yemen",
+      "url": "https://www.dw.com/es/arabia-saudita-derriba-más-misiles-hutíes-dirigidos-a-su-capital-tras-ataques-en-yemen/a-80056045?maca=spa-rss-sp-all-1122-rdf",
+      "canonicalUrl": "https://www.dw.com/es/arabia-saudita-derriba-más-misiles-hutíes-dirigidos-a-su-capital-tras-ataques-en-yemen/a-80056045?maca=spa-rss-sp-all-1122-rdf",
+      "source": "DW Español",
+      "category": "Conflictos",
+      "published": "2026-11-26T04:19:00+00:00",
+      "summary": "Antes, los hutíes reivindicaron ataques contra dos puertos saudíes en el mar Rojo, y contra el Centro Financiero Rey Abdullah de Riad y la refinería de Ras Tanura.",
+      "language": "es",
+      "languageMethod": "entry_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "misiles"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-26T13:52:59.295797+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
+      "id": "31ca1a7bfe4d6a566dca",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "SA",
+          "label": "Arabia Saudita",
+          "relation": "mentioned",
+          "matchedAlias": "Arabia Saudita",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.dw.com/es/arabia-saudita-derriba-más-misiles-hutíes-dirigidos-a-su-capital-tras-ataques-en-yemen/a-80056045?maca=spa-rss-sp-all-1122-rdf"
+        },
+        {
+          "countryCode": "YE",
+          "label": "Yemen",
+          "relation": "mentioned",
+          "matchedAlias": "Yemen",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.dw.com/es/arabia-saudita-derriba-más-misiles-hutíes-dirigidos-a-su-capital-tras-ataques-en-yemen/a-80056045?maca=spa-rss-sp-all-1122-rdf"
+        }
+      ],
+      "locations": []
+    },
+    {
+      "title": "US announces new tariffs on host of countries including China",
+      "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+      "canonicalUrl": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
+      "source": "BBC World",
+      "category": "Conflictos",
+      "published": "2026-11-26T04:10:58+00:00",
+      "summary": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
+      "language": "en",
+      "languageMethod": "feed_declaration",
+      "relevance": {
+        "included": true,
+        "category": "Conflictos",
+        "reason": "title_topic",
+        "signals": [
+          "tariffs"
+        ],
+        "method": "topic_rules",
+        "version": 1
+      },
+      "firstSeenAt": "2026-11-25T12:45:21.399589+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
+      "id": "be54e905a796b4cee0cd",
+      "categoryMethod": "scope_topic_rules",
+      "verification": "not_independently_verified",
+      "contentType": "news",
+      "countries": [
+        {
+          "countryCode": "CN",
+          "label": "China",
+          "relation": "mentioned",
+          "matchedAlias": "China",
+          "method": "dictionary",
+          "evidenceUrl": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss"
+        }
+      ],
+      "locations": []
+    },
     {
       "title": "Australian politics live: Liberals ‘tossing up whether to leave or remain’, Albanese says; Coalition warns energy prices to cause Christmas ‘pain’",
       "url": "https://www.theguardian.com/australia-news/live/2026/nov/26/labor-anthony-albanese-pauline-hanson-one-nation-angus-taylor-coalition-ntwnfb",
@@ -30,52 +617,6 @@
       "verification": "not_independently_verified",
       "contentType": "news",
       "countries": [],
-      "locations": []
-    },
-    {
-      "title": "Trump tariff threat ‘unacceptable’, says Brazil, as China denounces levies as baseless",
-      "url": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat",
-      "canonicalUrl": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat",
-      "source": "The Guardian World",
-      "category": "Conflictos",
-      "published": "2026-11-26T03:54:24+00:00",
-      "summary": "Brazil indignant about proposed tariffs on sugar and aircraft, while Beijing says new levies amount to ‘political manipulation’ Trump proposing new tariffs on 14 partners including China and EU Brazil has said it will not bend to the new US tariff “threat” and China accused Washington of “political manipulation” in the wake of Donald Trump’s latest economic salvo against 14 major trading partners. Brazil’s government said on Wednesday: “Brazil will not yield to this type of threat”, adding in its statement that the “unilateral decision constitutes an unacceptable action within the framework of the ongoing bilateral negotiating process”. Conti",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "title_topic",
-        "signals": [
-          "tariff"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-26T04:08:16.864359+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
-      "id": "a77b5085c9245e54e54e",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [
-        {
-          "countryCode": "BR",
-          "label": "Brasil",
-          "relation": "mentioned",
-          "matchedAlias": "Brazil",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat"
-        },
-        {
-          "countryCode": "CN",
-          "label": "China",
-          "relation": "mentioned",
-          "matchedAlias": "China",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.theguardian.com/us-news/2026/nov/26/brazil-china-react-to-new-trump-tariffs-threat"
-        }
-      ],
       "locations": []
     },
     {
@@ -146,44 +687,6 @@
       "locations": []
     },
     {
-      "title": "US announces new tariffs on host of countries including China",
-      "url": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "category": "Conflictos",
-      "published": "2026-11-26T03:01:40+00:00",
-      "summary": "The new levies would hit many of America's biggest trading partners, including China and the EU.",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "title_topic",
-        "signals": [
-          "tariffs"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-25T12:45:21.399589+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
-      "id": "be54e905a796b4cee0cd",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [
-        {
-          "countryCode": "CN",
-          "label": "China",
-          "relation": "mentioned",
-          "matchedAlias": "China",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.bbc.co.uk/news/articles/c893r9ke5p97o?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "locations": []
-    },
-    {
       "title": "Spain’s election: the end of a leftwing icon? - podcast",
       "url": "https://www.theguardian.com/news/audio/2026/nov/26/spains-election-the-end-of-a-leftwing-icon-podcast",
       "canonicalUrl": "https://www.theguardian.com/news/audio/2026/nov/26/spains-election-the-end-of-a-leftwing-icon-podcast",
@@ -218,44 +721,6 @@
           "matchedAlias": "Spain",
           "method": "dictionary",
           "evidenceUrl": "https://www.theguardian.com/news/audio/2026/nov/26/spains-election-the-end-of-a-leftwing-icon-podcast"
-        }
-      ],
-      "locations": []
-    },
-    {
-      "title": "Coalition would privatise Melbourne’s sewage treatment while selling state-owned land and renewables to fund Victorian election promises",
-      "url": "https://www.theguardian.com/australia-news/2026/nov/26/liberal-nationals-victoria-election-policy-costings-revealed-sewage-land-energy",
-      "canonicalUrl": "https://www.theguardian.com/australia-news/2026/nov/26/liberal-nationals-victoria-election-policy-costings-revealed-sewage-land-energy",
-      "source": "The Guardian World",
-      "category": "Conflictos",
-      "published": "2026-11-26T02:35:09+00:00",
-      "summary": "Liberal and Nationals’ pre-election policy costings also reveal that ‘air rights’ between Richmond train station and the MCG would be sold Follow our Australia politics live blog for latest updates Victorian election 2026 guide: what you need to know Confused about who to vote for? Check the parties’ key promises and policies Get our daily political email , free app or daily news podcast A Victorian Coalition government would privatise two sewage plants and sell off state-owned land, renewable energy assets and the “air rights” between Richmond train station and the Melbourne Cricket Ground if elected. The opposition leader, Jess Wilson, anno",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "title_topic",
-        "signals": [
-          "coalition"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-26T04:08:16.864359+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
-      "id": "5fdffbfcba174b08c5db",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [
-        {
-          "countryCode": "AU",
-          "label": "Australia",
-          "relation": "mentioned",
-          "matchedAlias": "Australia",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.theguardian.com/australia-news/2026/nov/26/liberal-nationals-victoria-election-policy-costings-revealed-sewage-land-energy"
         }
       ],
       "locations": []
@@ -441,7 +906,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-26T04:08:16.864359+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "9035963a629573df0906",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -509,7 +974,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-26T04:08:16.864359+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "c8645ddcc9b7a70dc7dc",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -547,7 +1012,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-26T04:08:16.864359+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "85d71203b57ce129093e",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -576,7 +1041,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "9756bf661ceb259a44bb",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -682,7 +1147,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-25T12:45:21.399589+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "d4cc56dec42331549cf0",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -711,7 +1176,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "bb8a3d866a040418bdfe",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -757,7 +1222,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-26T04:08:16.864359+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "bc108d345915abe27fa6",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1093,12 +1558,12 @@
       "locations": []
     },
     {
-      "title": "Consultar el voto con la IA: lo que más pesa en la respuesta no es el programa electoral, eres tú",
+      "title": "Dos amigos hacen la misma pregunta electoral a una IA. La diferencia puede estar en lo que le contaron antes.",
       "url": "https://www.xataka.com/robotica-e-ia/consultar-voto-ia-que-pesa-respuesta-no-programa-electoral-eres-tu",
       "canonicalUrl": "https://www.xataka.com/robotica-e-ia/consultar-voto-ia-que-pesa-respuesta-no-programa-electoral-eres-tu",
       "source": "Xataka IA",
       "category": "IA",
-      "published": "2026-11-25T18:30:28+00:00",
+      "published": "2026-11-25T18:30:00+00:00",
       "summary": "Parecía que no iban a llegar, pero ya casi están aquí: las elecciones del 29N son el próximo domingo. Los diferentes partidos han ido lanzando propuestas, todas reunidas en sus respectivos programas electorales. Como dichos programas son más densos que cambiar el Colacao por cemento, la IA se ha convertido en la herramienta ideal para consultarlos. Ahora bien: los chatbots no son tan imparciales como parecen. Los programas electorales . Los hay escuetos y los hay tan enrevesados como un BOE tras el Consejo de Ministros. ChatGPT y compañía son muy útiles para resumir esos documentos casi ilegibles, igual que para hacer comparaciones entre los ",
       "language": "es",
       "languageMethod": "source_configuration",
@@ -1113,7 +1578,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "14a46c8a3ed102f8b537",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1180,7 +1645,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "c232ab95006f02e0b53c",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1209,7 +1674,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "2657378cc9a01249adc5",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1284,7 +1749,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "f741c291161eb39b33ff",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1360,7 +1825,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "820a6be24763a5428c47",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1398,7 +1863,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "571e665497ad37fe12a4",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1427,7 +1892,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "918f8236c2b641c6e4b6",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1456,7 +1921,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "a69516edaeef73c47acd",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1485,7 +1950,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "5d6d58571fb0b25a9d5d",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1578,12 +2043,12 @@
       "locations": []
     },
     {
-      "title": "Por qué vale la pena tener acceso a un modelo de IA ‘sin censura’: yo me reservo uno para las tareas más delicadas",
+      "title": "Cuando ChatGPT ve un problema donde no lo hay, pido una segunda opinión. La IA 'sin censura' viene al rescate",
       "url": "https://www.xataka.com/robotica-e-ia/que-vale-pena-tener-acceso-a-modelo-ia-censura-yo-me-reservo-uno-para-tareas-delicadas",
       "canonicalUrl": "https://www.xataka.com/robotica-e-ia/que-vale-pena-tener-acceso-a-modelo-ia-censura-yo-me-reservo-uno-para-tareas-delicadas",
       "source": "Xataka IA",
       "category": "IA",
-      "published": "2026-11-25T13:30:23+00:00",
+      "published": "2026-11-25T13:30:00+00:00",
       "summary": "Tener acceso a una IA no suele ser suficiente, por diversos motivos. Si eres como yo y utilizas los modelos para multitud de tareas, el uso se agota más rápido que las patatas fritas en un buffet libre. Además, no todas las herramientas sirven para lo mismo: combinar sus capacidades mejora los resultados. Y entre el abanico de modelos, siempre le hago hueco a un tipo específico: los que no tienen censura. Antes de empezar, aclararé las confusiones que puede generar el término: que un modelo de IA tenga la etiqueta “uncensored” no implica que esté capacitado para hacer cualquier cosa que le pidamos, solo indica que se le han quitado (o reducid",
       "language": "es",
       "languageMethod": "source_configuration",
@@ -1592,13 +2057,14 @@
         "category": "IA",
         "reason": "title_topic",
         "signals": [
+          "chatgpt",
           "ia"
         ],
         "method": "topic_rules",
         "version": 1
       },
       "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "9a60d91a77151afdf273",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1627,7 +2093,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "b03999f0516526a3070d",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1673,7 +2139,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "512602f4df32b71b5cc5",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1748,7 +2214,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "c0fdeca5bfd2c130fa49",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1777,7 +2243,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-25T12:45:21.399589+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "d0ac4b803feed6c6b2a3",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1890,7 +2356,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-25T12:45:21.399589+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "aa2815536f14a5a8498b",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -1949,7 +2415,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-25T12:45:21.399589+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "29df4a0d48bee4cd9f8a",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2156,7 +2622,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-24T19:13:43.922032+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "75a3a86ed42c87797de4",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2561,7 +3027,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-25T22:04:04.559585+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "43762f8766423fb44723",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2798,7 +3264,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-24T19:13:43.922032+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "6c5bc98dced3225cd102",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -2873,7 +3339,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-24T19:13:43.922032+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "a251bdbac4c3ddf91ec7",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3098,7 +3564,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-24T19:13:43.922032+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "15f26b75f2f5d158a3c8",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3128,7 +3594,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-24T19:13:43.922032+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "7491f5c45d84e077375d",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3154,12 +3620,12 @@
       "locations": []
     },
     {
-      "title": "China se hizo un hueco regalando sus modelos de IA. Para competir con OpenAI y Anthropic, Z.ai lanza GLM-5.4 primero de pago",
+      "title": "Te regalan el primer capítulo de una IA y te cobran el siguiente: Z.ai se acerca a los laboratorios de Estados Unidos con GLM-5.4",
       "url": "https://www.xataka.com/robotica-e-ia/china-se-hizo-hueco-regalando-sus-modelos-ia-para-competir-openai-anthropic-z-ai-lanza-glm-5-4-primero-pago",
       "canonicalUrl": "https://www.xataka.com/robotica-e-ia/china-se-hizo-hueco-regalando-sus-modelos-ia-para-competir-openai-anthropic-z-ai-lanza-glm-5-4-primero-pago",
       "source": "Xataka IA",
       "category": "IA",
-      "published": "2026-11-24T15:30:59+00:00",
+      "published": "2026-11-24T15:30:00+00:00",
       "summary": "En cuestión de laboratorios de IA, hay actualmente dos estilos principales: los que acostumbran a liberar los pesos y aquellos que prefieren mantenerlos cerrados y cobrar por usarlos. La tendencia había colocado a los laboratorios chinos del lado abierto y a los estadounidenses en la acera contraria, aunque poco a poco las líneas se juntan. Z.ai es la prueba. Nuevo modelo insignia: GLM-5.4 . Si el anterior ya era bueno en tareas como la programación, la empresa ajusta esas capacidades con un cambio de arquitectura que apunta a la eficiencia. Según Z.ai, GLM-5.4 es su primer modelo insignia con arquitectura Loop Transformer. Según la empresa, ",
       "language": "es",
       "languageMethod": "source_configuration",
@@ -3169,24 +3635,23 @@
         "reason": "title_topic",
         "signals": [
           "ai",
-          "ia",
-          "openai"
+          "ia"
         ],
         "method": "topic_rules",
         "version": 1
       },
       "firstSeenAt": "2026-11-24T19:13:43.922032+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "4f7c1e2469dadc12a595",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
       "contentType": "news",
       "countries": [
         {
-          "countryCode": "CN",
-          "label": "China",
+          "countryCode": "US",
+          "label": "Estados Unidos",
           "relation": "mentioned",
-          "matchedAlias": "China",
+          "matchedAlias": "Estados Unidos",
           "method": "dictionary",
           "evidenceUrl": "https://www.xataka.com/robotica-e-ia/china-se-hizo-hueco-regalando-sus-modelos-ia-para-competir-openai-anthropic-z-ai-lanza-glm-5-4-primero-pago"
         }
@@ -3388,7 +3853,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-24T19:13:43.922032+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "fc9f5f3ecf5b5081fd34",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3446,7 +3911,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-24T19:13:43.922032+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "778faa8b7dd6f27443f0",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3475,7 +3940,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-24T19:13:43.922032+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "97c06055604e20bd41dd",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3542,7 +4007,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-24T19:13:43.922032+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "7b6115f8e21f6eecb0f9",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3573,7 +4038,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-24T19:13:43.922032+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "3a8ad132bbb8c2a03e0e",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3612,7 +4077,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-24T19:13:43.922032+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "3ed1970e74313c87defd",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3641,7 +4106,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-25T03:06:14.683201+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "165729c3cbfbb2e3eb18",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3757,7 +4222,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-24T19:13:43.922032+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "c39cb76d54051a56d078",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -3853,7 +4318,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-24T19:13:43.922032+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "e3786350c1a3934d8e18",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -4256,7 +4721,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-25T03:06:14.683201+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "a3c9028eefd69cfd15ff",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -4418,7 +4883,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-23T23:49:32.097363+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "99769fa41bf95b1a7640",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -4502,7 +4967,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-23T23:49:32.097363+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "b0689cf87ab570a441c8",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -5062,7 +5527,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-23T23:49:32.097363+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "6c9e35ea9179d576f37e",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -5149,7 +5614,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-23T23:49:32.097363+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "74abad025fa947f70baf",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -5207,7 +5672,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-23T23:49:32.097363+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "75ea09ea3e752e0248bf",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -5236,7 +5701,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-23T12:02:10.582986+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "2ccb499c142671a2bcaf",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -5546,7 +6011,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-23T23:49:32.097363+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "10878202550bbbf922d1",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -7840,7 +8305,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-21T00:47:22.607715+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "c851a250df92def96949",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -7869,7 +8334,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-21T00:47:22.607715+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "dee94a929dea9fb9f0b9",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -8390,7 +8855,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-20T19:05:08.356384+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "b22eec5809ce5c9c44d6",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -8994,7 +9459,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-20T02:54:11.880371+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "17fab3637860c9a7ef34",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -9211,7 +9676,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-21T00:47:22.607715+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "c1a2af93db54bfcf7c21",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -9438,7 +9903,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-19T21:55:57.292566+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "4b4814a2002c45d7fe16",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -9909,7 +10374,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-19T21:55:57.292566+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "32c1e05692d04a88fbfb",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -10122,7 +10587,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-19T21:55:57.292566+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "31c4bb63cffd59f4c698",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -10154,7 +10619,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-19T21:55:57.292566+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "bf2611689a6fa7cb9958",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -10194,7 +10659,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-19T21:55:57.292566+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "ad267eaa2b1154828ea1",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -10650,7 +11115,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-19T21:55:57.292566+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "9342dbf934e428aa00c1",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -11172,7 +11637,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-19T00:14:56.641625+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "c9098ac47ad213215e81",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -11705,7 +12170,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-18T17:56:55.183161+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "a0792ea92321f1439be1",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -11981,7 +12446,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-19T00:14:56.641625+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "2bf6e3b53184cd104c37",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -12098,7 +12563,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-19T00:14:56.641625+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "184d931227f2504de1a3",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -12203,7 +12668,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-19T00:14:56.641625+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "58da586369f33999eb92",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -12232,7 +12697,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-19T00:14:56.641625+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "53d809d7420a3923e8ba",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -12299,7 +12764,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-19T00:14:56.641625+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "99be0c0a7e074380d1a5",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -12606,7 +13071,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-18T17:56:55.183161+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "a1de396d3910fa2e0f79",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -12635,7 +13100,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-18T17:56:55.183161+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "68ddb817fe4001c0fc7b",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -13792,7 +14257,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T18:28:22.767917+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "f61efca8f592b87c7c09",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -13822,7 +14287,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T18:28:22.767917+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "639fac0f8727e01aec6e",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -13852,7 +14317,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T18:28:22.767917+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "fae4ec42780a6b53cc83",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -13882,7 +14347,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T18:28:22.767917+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "1e3a8a0a7e3cd062f91c",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -13912,7 +14377,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T18:28:22.767917+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "b408794a3196e1df425e",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -13942,7 +14407,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T18:28:22.767917+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "986d782997068f3c61b8",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -13973,7 +14438,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T18:28:22.767917+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "91475641f52fb30dbb22",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -14004,7 +14469,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T18:28:22.767917+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "3b573666de1648f8a362",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -14034,7 +14499,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T18:28:22.767917+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "5b5cf4f017dbab0ebb96",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -14064,7 +14529,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T18:28:22.767917+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "4a756643b0596f8c2c40",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -14094,7 +14559,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T18:28:22.767917+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "3989b95c68b62c6d091e",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -14123,7 +14588,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-18T01:14:30.685160+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "2b90ef71fb0880376bf8",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -14152,7 +14617,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-18T01:14:30.685160+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "37902359fb183e156991",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -14457,7 +14922,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-18T01:14:30.685160+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "3047d7657748ea760feb",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -14822,7 +15287,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T09:03:52.182620+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "0e7f690aa4ff229bd2e8",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -14851,7 +15316,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T18:28:22.767917+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "3b3be741a87f5e2153e6",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -15486,7 +15951,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T01:01:37.271227+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "2d7a5d6b20fff3cd431e",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -15896,7 +16361,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-17T01:01:37.271227+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "d91fd06de7b8771ee8ad",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -16068,7 +16533,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-16T17:22:53.141442+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "ff7833693fa2a06713dc",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -18199,7 +18664,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-13T21:55:15.798699+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "a009bbdbfbe6de47102d",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -18806,7 +19271,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-13T21:55:15.798699+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "7b5dacba886b8db54898",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -20518,7 +20983,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-12T18:48:55.334168+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "f45d3069b40c902e6997",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -20549,7 +21014,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-12T18:48:55.334168+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "057c02b04cc39ce1e69c",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -20580,7 +21045,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-12T18:48:55.334168+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "652c8f30b0994d6c4046",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -20611,7 +21076,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-12T18:48:55.334168+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "89146ff5418730c287f6",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -31769,7 +32234,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-04T18:50:15.798787+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "09c40cbdb75966e0dccf",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -34307,7 +34772,7 @@
         "version": 1
       },
       "firstSeenAt": "2026-11-03T17:43:25.925049+00:00",
-      "lastSeenAt": "2026-11-26T04:08:16.864359+00:00",
+      "lastSeenAt": "2026-11-26T13:52:59.295797+00:00",
       "id": "e581154108f523de51d2",
       "categoryMethod": "scope_topic_rules",
       "verification": "not_independently_verified",
@@ -34993,477 +35458,6 @@
       "contentType": "publisher_post",
       "countries": [],
       "locations": []
-    },
-    {
-      "title": "EE.UU. lanza \"ataques defensivos\" contra Irán antes de las elecciones de medio mandato",
-      "url": "https://www.bbc.com/mundo/articles/cvp8gx0p2elno?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.com/mundo/articles/cvp8gx0p2elno?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Mundo",
-      "category": "Conflictos",
-      "published": "2026-11-03T07:47:39+00:00",
-      "summary": "Funcionarios estadounidenses describieron los ataques en la isla de Qeshm como limitados y defensivos, según la CBS, socio de la BBC en Estados Unidos.",
-      "language": "es",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "title_topic",
-        "signals": [
-          "elecciones"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-03T10:02:03.608468+00:00",
-      "lastSeenAt": "2026-11-04T11:29:55.548871+00:00",
-      "id": "7b115d933dcef988a649",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [
-        {
-          "countryCode": "US",
-          "label": "Estados Unidos",
-          "relation": "mentioned",
-          "matchedAlias": "Estados Unidos",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.bbc.com/mundo/articles/cvp8gx0p2elno?at_medium=RSS&at_campaign=rss"
-        },
-        {
-          "countryCode": "IR",
-          "label": "Irán",
-          "relation": "mentioned",
-          "matchedAlias": "Iran",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.bbc.com/mundo/articles/cvp8gx0p2elno?at_medium=RSS&at_campaign=rss"
-        }
-      ],
-      "locations": []
-    },
-    {
-      "title": "The US midterms will test the limits of Trump’s power",
-      "url": "https://www.aljazeera.com/opinions/2026/11/3/the-us-midterms-will-test-the-limits-of-trumps-power?traffic_source=rss",
-      "canonicalUrl": "https://www.aljazeera.com/opinions/2026/11/3/the-us-midterms-will-test-the-limits-of-trumps-power",
-      "source": "Al Jazeera",
-      "category": "Conflictos",
-      "published": "2026-11-03T07:46:30+00:00",
-      "summary": "Control of Congress is at stake, but so is the ability of American institutions to withstand presidential pressure.",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "title_topic",
-        "signals": [
-          "midterms"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-03T10:02:03.608468+00:00",
-      "lastSeenAt": "2026-11-03T10:02:03.608468+00:00",
-      "id": "ecd03552defd9de227b4",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [],
-      "locations": []
-    },
-    {
-      "title": "When will we know the US midterm election results?",
-      "url": "https://www.aljazeera.com/news/2026/11/3/when-will-we-know-the-us-midterm-election-results?traffic_source=rss",
-      "canonicalUrl": "https://www.aljazeera.com/news/2026/11/3/when-will-we-know-the-us-midterm-election-results",
-      "source": "Al Jazeera",
-      "category": "Conflictos",
-      "published": "2026-11-03T07:27:21+00:00",
-      "summary": "The first results are expected on Tuesday as polls begin to close at 23:00 GMT. But final results might take days.",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "title_topic",
-        "signals": [
-          "midterm"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-03T10:02:03.608468+00:00",
-      "lastSeenAt": "2026-11-03T10:02:03.608468+00:00",
-      "id": "29802f06638f3e0ed07d",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [],
-      "locations": []
-    },
-    {
-      "title": "California’s Bay Area debates data centres ahead of US midterm elections",
-      "url": "https://www.aljazeera.com/news/2026/11/3/californias-bay-area-debates-data-centres-ahead-of-us-midterm-elections?traffic_source=rss",
-      "canonicalUrl": "https://www.aljazeera.com/news/2026/11/3/californias-bay-area-debates-data-centres-ahead-of-us-midterm-elections",
-      "source": "Al Jazeera",
-      "category": "Conflictos",
-      "published": "2026-11-03T05:13:42+00:00",
-      "summary": "At least seven Bay Area cities have passed data centre moratoriums, despite the region's reputation as an AI hub.",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "title_topic",
-        "signals": [
-          "elections",
-          "midterm"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-03T10:02:03.608468+00:00",
-      "lastSeenAt": "2026-11-03T10:02:03.608468+00:00",
-      "id": "37c95aa755c5e322a63c",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [],
-      "locations": []
-    },
-    {
-      "title": "What time do polls open and close in the US midterm elections 2026?",
-      "url": "https://www.aljazeera.com/news/2026/11/3/what-time-do-polls-open-and-close-in-the-us-midterm-elections-2026?traffic_source=rss",
-      "canonicalUrl": "https://www.aljazeera.com/news/2026/11/3/what-time-do-polls-open-and-close-in-the-us-midterm-elections-2026",
-      "source": "Al Jazeera",
-      "category": "Conflictos",
-      "published": "2026-11-03T04:52:08+00:00",
-      "summary": "The first polls are set to open in Vermont at 5am (10:00 GMT).",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "title_topic",
-        "signals": [
-          "elections",
-          "midterm"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-03T10:02:03.608468+00:00",
-      "lastSeenAt": "2026-11-03T10:02:03.608468+00:00",
-      "id": "0695a8633894a6670a7e",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [],
-      "locations": []
-    },
-    {
-      "title": "8 gráficos que muestran por qué las elecciones de medio mandato llegan en mal momento para Trump y qué hay en juego",
-      "url": "https://www.bbc.com/mundo/articles/cq5ynzzkxeymo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.com/mundo/articles/cq5ynzzkxeymo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Mundo",
-      "category": "Conflictos",
-      "published": "2026-11-03T04:41:52+00:00",
-      "summary": "Este es un análisis exhaustivo de las encuestas clave, las contiendas electorales más disputadas y los temas más importantes de cara a unos comicios que definirán los dos últimos años de Trump como presidente.",
-      "language": "es",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "title_topic",
-        "signals": [
-          "elecciones"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-03T10:02:03.608468+00:00",
-      "lastSeenAt": "2026-11-04T03:10:46.427236+00:00",
-      "id": "1c51b66e4c9699699a2c",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [],
-      "locations": []
-    },
-    {
-      "title": "US midterms present a test for Republican redistricting in Texas and beyond",
-      "url": "https://www.aljazeera.com/news/2026/11/3/us-midterms-present-a-test-for-republican-redistricting-in-texas-and-beyond?traffic_source=rss",
-      "canonicalUrl": "https://www.aljazeera.com/news/2026/11/3/us-midterms-present-a-test-for-republican-redistricting-in-texas-and-beyond",
-      "source": "Al Jazeera",
-      "category": "Conflictos",
-      "published": "2026-11-03T04:39:59+00:00",
-      "summary": "Partisan redistricting has transformed elections for Black voters in Houston as Democrats seek new pathways to victory.",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "title_topic",
-        "signals": [
-          "midterms"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-03T10:02:03.608468+00:00",
-      "lastSeenAt": "2026-11-03T10:02:03.608468+00:00",
-      "id": "17f529e8ed06ecd6cfd1",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [],
-      "locations": []
-    },
-    {
-      "title": "Here’s who is falling in line for Trump’s “Super Intelligence” loyalty test",
-      "url": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/",
-      "canonicalUrl": "https://www.technologyreview.com/2026/11/02/1147932/heres-who-is-falling-in-line-for-trumps-super-intelligence-loyalty-test/",
-      "source": "MIT Technology Review",
-      "category": "IA",
-      "published": "2026-11-03T04:18:47+00:00",
-      "summary": "This story originally appeared in The Algorithm, our weekly newsletter on AI. To get stories like this in your inbox first, sign up here. At the end of September, President Trump signed an executive order that contained just one directive, ordering government agencies to rebrand what they had been calling artificial intelligence as “Super Intelligence.” That…",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "IA",
-        "reason": "summary_context",
-        "signals": [
-          "ai",
-          "artificial intelligence"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-03T10:02:03.608468+00:00",
-      "lastSeenAt": "2026-11-06T09:47:27.461615+00:00",
-      "id": "b7492bd5cea1d25b7540",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [],
-      "locations": []
-    },
-    {
-      "title": "Ciberataque a refrigeradores afecta a supermercados de nueve países de Europa",
-      "url": "https://www.dw.com/es/ciberataque-a-refrigeradores-afecta-a-supermercados-de-nueve-países-de-europa/a-79835074?maca=spa-rss-sp-all-1122-rdf",
-      "canonicalUrl": "https://www.dw.com/es/ciberataque-a-refrigeradores-afecta-a-supermercados-de-nueve-países-de-europa/a-79835074?maca=spa-rss-sp-all-1122-rdf",
-      "source": "DW Español",
-      "category": "Ciberseguridad",
-      "published": "2026-11-03T04:01:00+00:00",
-      "summary": "Tiendas en Bélgica, Estonia, Finlandia, Irlanda, Italia, Luxemburgo, Países Bajos, Portugal y Suecia reportaron problemas de refrigeración que obligaron a algunos minoristas a desechar alimentos.",
-      "language": "es",
-      "languageMethod": "entry_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Ciberseguridad",
-        "reason": "title_topic",
-        "signals": [
-          "ciberataque"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-03T10:02:03.608468+00:00",
-      "lastSeenAt": "2026-11-03T17:43:25.925049+00:00",
-      "id": "36fecbcfbe0467daa068",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [
-        {
-          "countryCode": "NL",
-          "label": "Países Bajos",
-          "relation": "mentioned",
-          "matchedAlias": "Países Bajos",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.dw.com/es/ciberataque-a-refrigeradores-afecta-a-supermercados-de-nueve-países-de-europa/a-79835074?maca=spa-rss-sp-all-1122-rdf"
-        },
-        {
-          "countryCode": "LU",
-          "label": "Luxemburgo",
-          "relation": "mentioned",
-          "matchedAlias": "Luxemburgo",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.dw.com/es/ciberataque-a-refrigeradores-afecta-a-supermercados-de-nueve-países-de-europa/a-79835074?maca=spa-rss-sp-all-1122-rdf"
-        },
-        {
-          "countryCode": "FI",
-          "label": "Finlandia",
-          "relation": "mentioned",
-          "matchedAlias": "Finlandia",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.dw.com/es/ciberataque-a-refrigeradores-afecta-a-supermercados-de-nueve-países-de-europa/a-79835074?maca=spa-rss-sp-all-1122-rdf"
-        },
-        {
-          "countryCode": "PT",
-          "label": "Portugal",
-          "relation": "mentioned",
-          "matchedAlias": "Portugal",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.dw.com/es/ciberataque-a-refrigeradores-afecta-a-supermercados-de-nueve-países-de-europa/a-79835074?maca=spa-rss-sp-all-1122-rdf"
-        },
-        {
-          "countryCode": "EE",
-          "label": "Estonia",
-          "relation": "mentioned",
-          "matchedAlias": "Estonia",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.dw.com/es/ciberataque-a-refrigeradores-afecta-a-supermercados-de-nueve-países-de-europa/a-79835074?maca=spa-rss-sp-all-1122-rdf"
-        },
-        {
-          "countryCode": "BE",
-          "label": "Bélgica",
-          "relation": "mentioned",
-          "matchedAlias": "Bélgica",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.dw.com/es/ciberataque-a-refrigeradores-afecta-a-supermercados-de-nueve-países-de-europa/a-79835074?maca=spa-rss-sp-all-1122-rdf"
-        },
-        {
-          "countryCode": "IE",
-          "label": "Irlanda",
-          "relation": "mentioned",
-          "matchedAlias": "Irlanda",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.dw.com/es/ciberataque-a-refrigeradores-afecta-a-supermercados-de-nueve-países-de-europa/a-79835074?maca=spa-rss-sp-all-1122-rdf"
-        },
-        {
-          "countryCode": "SE",
-          "label": "Suecia",
-          "relation": "mentioned",
-          "matchedAlias": "Suecia",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.dw.com/es/ciberataque-a-refrigeradores-afecta-a-supermercados-de-nueve-países-de-europa/a-79835074?maca=spa-rss-sp-all-1122-rdf"
-        },
-        {
-          "countryCode": "IT",
-          "label": "Italia",
-          "relation": "mentioned",
-          "matchedAlias": "Italia",
-          "method": "dictionary",
-          "evidenceUrl": "https://www.dw.com/es/ciberataque-a-refrigeradores-afecta-a-supermercados-de-nueve-países-de-europa/a-79835074?maca=spa-rss-sp-all-1122-rdf"
-        }
-      ],
-      "locations": []
-    },
-    {
-      "title": "Supreme Court rejects Trump's request to stop California counting disputed votes",
-      "url": "https://www.bbc.co.uk/news/articles/cm5ynekkn5qko?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/news/articles/cm5ynekkn5qko?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "category": "Conflictos",
-      "published": "2026-11-03T03:32:36+00:00",
-      "summary": "The ruling, which comes on the eve of the midterm elections, essentially ends the Trump administration's bid to disqualify the ballots in the state.",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "summary_context",
-        "signals": [
-          "elections",
-          "midterm"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-03T10:02:03.608468+00:00",
-      "lastSeenAt": "2026-11-04T03:10:46.427236+00:00",
-      "id": "e28f5ace93252c77d8f0",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [],
-      "locations": []
-    },
-    {
-      "title": "\"Era como si cayera un misil\": 9 muertos al estrellarse un avión privado en un vecindario de Florida",
-      "url": "https://www.bbc.com/mundo/articles/c61m4yyjyrrxo?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.com/mundo/articles/c61m4yyjyrrxo?at_medium=RSS&at_campaign=rss",
-      "source": "BBC Mundo",
-      "category": "Conflictos",
-      "published": "2026-11-03T01:52:36+00:00",
-      "summary": "La aeronave privada se estrelló en el condado de Palm Beach, Florida. Imágenes captadas por los residentes mostraban al jet cayendo a gran velocidad antes de estrellarse.",
-      "language": "es",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "title_topic",
-        "signals": [
-          "misil"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-02T02:22:23.608978+00:00",
-      "lastSeenAt": "2026-11-04T03:10:46.427236+00:00",
-      "id": "3d0342dff04898935dc2",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [],
-      "locations": []
-    },
-    {
-      "title": "Trump makes final midterms pitch at Lincoln Memorial Reflecting Pool",
-      "url": "https://www.aljazeera.com/video/newsfeed/2026/11/3/trump-makes-final-midterms-pitch-at-lincoln-memorial-reflecting-pool?traffic_source=rss",
-      "canonicalUrl": "https://www.aljazeera.com/video/newsfeed/2026/11/3/trump-makes-final-midterms-pitch-at-lincoln-memorial-reflecting-pool",
-      "source": "Al Jazeera",
-      "category": "Conflictos",
-      "published": "2026-11-03T01:01:16+00:00",
-      "summary": "US President Donald Trump urged supporters to turn out ahead of Election Day",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "Conflictos",
-        "reason": "title_topic",
-        "signals": [
-          "midterms"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-03T02:36:31.828730+00:00",
-      "lastSeenAt": "2026-11-03T02:36:31.828730+00:00",
-      "id": "1ec40f9a046e54a0165f",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [],
-      "locations": []
-    },
-    {
-      "title": "Film star Ranbir Kapoor on AI, movies and fatherhood",
-      "url": "https://www.bbc.co.uk/news/videos/cmvg9w5w2p1no?at_medium=RSS&at_campaign=rss",
-      "canonicalUrl": "https://www.bbc.co.uk/news/videos/cmvg9w5w2p1no?at_medium=RSS&at_campaign=rss",
-      "source": "BBC World",
-      "category": "IA",
-      "published": "2026-11-03T00:09:13+00:00",
-      "summary": "The film star plays the leading role in a major new adaptation of the Indian epic Ramayana.",
-      "language": "en",
-      "languageMethod": "feed_declaration",
-      "relevance": {
-        "included": true,
-        "category": "IA",
-        "reason": "title_topic",
-        "signals": [
-          "ai"
-        ],
-        "method": "topic_rules",
-        "version": 1
-      },
-      "firstSeenAt": "2026-11-03T02:36:31.828730+00:00",
-      "lastSeenAt": "2026-11-06T02:15:14.658649+00:00",
-      "id": "44063326be3c72f60977",
-      "categoryMethod": "scope_topic_rules",
-      "verification": "not_independently_verified",
-      "contentType": "news",
-      "countries": [],
-      "locations": []
     }
   ],
   "sources": [
@@ -35473,12 +35467,12 @@
       "url": "https://feeds.bbci.co.uk/news/world/rss.xml",
       "language": "en",
       "status": "ok",
-      "count": 11,
-      "receivedCount": 30,
-      "excludedCount": 19,
+      "count": 6,
+      "receivedCount": 35,
+      "excludedCount": 29,
       "error": null,
-      "lastAttemptAt": "2026-11-26T04:08:16.864359+00:00",
-      "lastSuccessAt": "2026-11-26T04:08:16.864359+00:00"
+      "lastAttemptAt": "2026-11-26T13:52:59.295797+00:00",
+      "lastSuccessAt": "2026-11-26T13:52:59.295797+00:00"
     },
     {
       "name": "Al Jazeera",
@@ -35490,8 +35484,8 @@
       "receivedCount": 25,
       "excludedCount": 21,
       "error": null,
-      "lastAttemptAt": "2026-11-26T04:08:16.864359+00:00",
-      "lastSuccessAt": "2026-11-26T04:08:16.864359+00:00"
+      "lastAttemptAt": "2026-11-26T13:52:59.295797+00:00",
+      "lastSuccessAt": "2026-11-26T13:52:59.295797+00:00"
     },
     {
       "name": "The Guardian World",
@@ -35499,12 +35493,12 @@
       "url": "https://www.theguardian.com/world/rss",
       "language": "en",
       "status": "ok",
-      "count": 10,
+      "count": 7,
       "receivedCount": 35,
-      "excludedCount": 25,
+      "excludedCount": 28,
       "error": null,
-      "lastAttemptAt": "2026-11-26T04:08:16.864359+00:00",
-      "lastSuccessAt": "2026-11-26T04:08:16.864359+00:00"
+      "lastAttemptAt": "2026-11-26T13:52:59.295797+00:00",
+      "lastSuccessAt": "2026-11-26T13:52:59.295797+00:00"
     },
     {
       "name": "CISA Alerts",
@@ -35516,8 +35510,8 @@
       "receivedCount": 30,
       "excludedCount": 1,
       "error": null,
-      "lastAttemptAt": "2026-11-26T04:08:16.864359+00:00",
-      "lastSuccessAt": "2026-11-26T04:08:16.864359+00:00"
+      "lastAttemptAt": "2026-11-26T13:52:59.295797+00:00",
+      "lastSuccessAt": "2026-11-26T13:52:59.295797+00:00"
     },
     {
       "name": "BleepingComputer",
@@ -35525,12 +35519,12 @@
       "url": "https://www.bleepingcomputer.com/feed/",
       "language": "en",
       "status": "ok",
-      "count": 8,
+      "count": 9,
       "receivedCount": 15,
-      "excludedCount": 7,
+      "excludedCount": 6,
       "error": null,
-      "lastAttemptAt": "2026-11-26T04:08:16.864359+00:00",
-      "lastSuccessAt": "2026-11-26T04:08:16.864359+00:00"
+      "lastAttemptAt": "2026-11-26T13:52:59.295797+00:00",
+      "lastSuccessAt": "2026-11-26T13:52:59.295797+00:00"
     },
     {
       "name": "Cloudflare Blog",
@@ -35542,8 +35536,8 @@
       "receivedCount": 20,
       "excludedCount": 10,
       "error": null,
-      "lastAttemptAt": "2026-11-26T04:08:16.864359+00:00",
-      "lastSuccessAt": "2026-11-26T04:08:16.864359+00:00"
+      "lastAttemptAt": "2026-11-26T13:52:59.295797+00:00",
+      "lastSuccessAt": "2026-11-26T13:52:59.295797+00:00"
     },
     {
       "name": "Internet Society",
@@ -35555,8 +35549,8 @@
       "receivedCount": 20,
       "excludedCount": 16,
       "error": null,
-      "lastAttemptAt": "2026-11-26T04:08:16.864359+00:00",
-      "lastSuccessAt": "2026-11-26T04:08:16.864359+00:00"
+      "lastAttemptAt": "2026-11-26T13:52:59.295797+00:00",
+      "lastSuccessAt": "2026-11-26T13:52:59.295797+00:00"
     },
     {
       "name": "Google Research",
@@ -35568,8 +35562,8 @@
       "receivedCount": 35,
       "excludedCount": 22,
       "error": null,
-      "lastAttemptAt": "2026-11-26T04:08:16.864359+00:00",
-      "lastSuccessAt": "2026-11-26T04:08:16.864359+00:00"
+      "lastAttemptAt": "2026-11-26T13:52:59.295797+00:00",
+      "lastSuccessAt": "2026-11-26T13:52:59.295797+00:00"
     },
     {
       "name": "OpenAI News",
@@ -35581,8 +35575,8 @@
       "receivedCount": 35,
       "excludedCount": 18,
       "error": null,
-      "lastAttemptAt": "2026-11-26T04:08:16.864359+00:00",
-      "lastSuccessAt": "2026-11-26T04:08:16.864359+00:00"
+      "lastAttemptAt": "2026-11-26T13:52:59.295797+00:00",
+      "lastSuccessAt": "2026-11-26T13:52:59.295797+00:00"
     },
     {
       "name": "MIT Technology Review",
@@ -35594,8 +35588,8 @@
       "receivedCount": 10,
       "excludedCount": 3,
       "error": null,
-      "lastAttemptAt": "2026-11-26T04:08:16.864359+00:00",
-      "lastSuccessAt": "2026-11-26T04:08:16.864359+00:00"
+      "lastAttemptAt": "2026-11-26T13:52:59.295797+00:00",
+      "lastSuccessAt": "2026-11-26T13:52:59.295797+00:00"
     },
     {
       "name": "BBC Mundo",
@@ -35603,12 +35597,12 @@
       "url": "https://feeds.bbci.co.uk/mundo/rss.xml",
       "language": "es",
       "status": "ok",
-      "count": 4,
+      "count": 6,
       "receivedCount": 34,
-      "excludedCount": 30,
+      "excludedCount": 28,
       "error": null,
-      "lastAttemptAt": "2026-11-26T04:08:16.864359+00:00",
-      "lastSuccessAt": "2026-11-26T04:08:16.864359+00:00"
+      "lastAttemptAt": "2026-11-26T13:52:59.295797+00:00",
+      "lastSuccessAt": "2026-11-26T13:52:59.295797+00:00"
     },
     {
       "name": "DW Español",
@@ -35616,24 +35610,22 @@
       "url": "https://rss.dw.com/rdf/rss-sp-all",
       "language": "es",
       "status": "ok",
-      "count": 6,
+      "count": 4,
       "receivedCount": 24,
-      "excludedCount": 18,
+      "excludedCount": 20,
       "error": null,
-      "lastAttemptAt": "2026-11-26T04:08:16.864359+00:00",
-      "lastSuccessAt": "2026-11-26T04:08:16.864359+00:00"
+      "lastAttemptAt": "2026-11-26T13:52:59.295797+00:00",
+      "lastSuccessAt": "2026-11-26T13:52:59.295797+00:00"
     },
     {
       "name": "INCIBE-CERT",
       "category": "Ciberseguridad",
       "url": "https://www.incibe.es/incibe-cert/alerta-temprana/avisos/feed",
       "language": "es",
-      "status": "ok",
-      "count": 9,
-      "receivedCount": 10,
-      "excludedCount": 1,
-      "error": null,
-      "lastAttemptAt": "2026-11-26T04:08:16.864359+00:00",
+      "status": "error",
+      "count": 0,
+      "error": "The read operation timed out",
+      "lastAttemptAt": "2026-11-26T13:52:59.295797+00:00",
       "lastSuccessAt": "2026-11-26T04:08:16.864359+00:00"
     },
     {
@@ -35646,8 +35638,8 @@
       "receivedCount": 10,
       "excludedCount": 1,
       "error": null,
-      "lastAttemptAt": "2026-11-26T04:08:16.864359+00:00",
-      "lastSuccessAt": "2026-11-26T04:08:16.864359+00:00"
+      "lastAttemptAt": "2026-11-26T13:52:59.295797+00:00",
+      "lastSuccessAt": "2026-11-26T13:52:59.295797+00:00"
     },
     {
       "name": "Xataka Internet",
@@ -35659,8 +35651,8 @@
       "receivedCount": 10,
       "excludedCount": 2,
       "error": null,
-      "lastAttemptAt": "2026-11-26T04:08:16.864359+00:00",
-      "lastSuccessAt": "2026-11-26T04:08:16.864359+00:00"
+      "lastAttemptAt": "2026-11-26T13:52:59.295797+00:00",
+      "lastSuccessAt": "2026-11-26T13:52:59.295797+00:00"
     }
   ],
   "relatedGroups": [
@@ -35684,13 +35676,13 @@
   ],
   "retentionDays": 30,
   "collection": {
-    "startedAt": "2026-11-26T04:08:16.864359+00:00",
-    "completedAt": "2026-11-26T04:08:24.789562+00:00",
-    "outcome": "ok",
-    "successfulSources": 15,
+    "startedAt": "2026-11-26T13:52:59.295797+00:00",
+    "completedAt": "2026-11-26T13:53:56.385555+00:00",
+    "outcome": "partial",
+    "successfulSources": 14,
     "totalSources": 15,
     "trigger": "schedule",
-    "runId": "45753267592",
+    "runId": "45833424687",
     "requestId": null
   },
   "scopeFilter": {
